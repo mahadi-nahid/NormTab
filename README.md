@@ -2,7 +2,7 @@
 
 ## Method Overview 
 
-<image src="/normtab.jpg"/>
+<image src="/NormTab.jpg"/>
 
 
 ## Abstract
