@@ -1,4 +1,4 @@
-# NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization
+# NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization [EMNLP 2024]
 
 ## Method Overview 
 
