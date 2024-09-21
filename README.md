@@ -14,3 +14,17 @@ reasoning performance of LLMs by normalizing web tables. We study table normaliz
 ## Code 
 
 Coming soon.
+
+## Citation
+
+If you want to cite our papers, please use:
+
+```bibtex
+@article{nahid2024normtab,
+  title={NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization},
+  author={Nahid, Md Mahadi Hasan and Rafiei, Davood},
+  journal={arXiv preprint arXiv:2406.17961},
+  year={2024}
+  url={https://arxiv.org/pdf/2406.17961}
+}
+```
