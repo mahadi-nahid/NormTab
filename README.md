@@ -23,7 +23,7 @@ If you want to cite our papers, please use:
 @inproceedings{
 nahid2024normtab,
 title={NormTab: Improving Symbolic Reasoning in {LLM}s Through Tabular Data Normalization},
-author={Anonymous},
+author={Md Mahadi Hasan Nahid and Davood Rafiei},
 booktitle={The 2024 Conference on Empirical Methods in Natural Language Processing},
 year={2024},
 url={https://openreview.net/forum?id=qwWTmgorEL}
