@@ -21,7 +21,7 @@ If you want to cite our papers, please use:
 
 ```bibtex
 @inproceedings{
-anonymous2024normtab,
+nahid2024normtab,
 title={NormTab: Improving Symbolic Reasoning in {LLM}s Through Tabular Data Normalization},
 author={Anonymous},
 booktitle={The 2024 Conference on Empirical Methods in Natural Language Processing},
