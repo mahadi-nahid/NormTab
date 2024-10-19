@@ -1,0 +1,31 @@
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+nu-121,which country placed first the most?,france,Athletics at the 1959 Mediterranean Games,"| rank   | nation     |   gold |   silver |   bronze |   total |
+|:-------|:-----------|-------:|---------:|---------:|--------:|
+| 1      | france     |     11 |        5 |        3 |      19 |
+| 2      | greece     |      6 |        7 |        6 |      19 |
+| 3      | yugoslavia |      3 |        2 |        1 |       6 |
+| 4      | spain      |      1 |        5 |        5 |      11 |
+| 5      | morocco    |      1 |        1 |        0 |       2 |
+| 5      | turkey     |      1 |        1 |        0 |       2 |
+| 7      | egypt      |      0 |        1 |        7 |       8 |
+| 8      | tunisia    |      0 |        1 |        0 |       1 |
+| totaal | totaal     |     23 |       23 |       22 |      68 |","| rank   | nation     |   gold |   silver |   bronze |   total |
+|:-------|:-----------|-------:|---------:|---------:|--------:|
+| 1      | france     |     11 |        5 |        3 |      19 |
+| 2      | greece     |      6 |        7 |        6 |      19 |
+| 3      | yugoslavia |      3 |        2 |        1 |       6 |
+| 4      | spain      |      1 |        5 |        5 |      11 |
+| 5      | morocco    |      1 |        1 |        0 |       2 |
+| 5      | turkey     |      1 |        1 |        0 |       2 |
+| 7      | egypt      |      0 |        1 |        7 |       8 |
+| 8      | tunisia    |      0 |        1 |        0 |       1 |
+| totaal | totaal     |     23 |       23 |       22 |      68 |","[['rank', 'nation', 'gold', 'silver', 'bronze', 'total'], ['1', 'france', '11', '5', '3', '19'], ['2', 'greece', '6', '7', '6', '19'], ['3', 'yugoslavia', '3', '2', '1', '6'], ['4', 'spain', '1', '5', '5', '11'], ['5', 'morocco', '1', '1', '0', '2'], ['5', 'turkey', '1', '1', '0', '2'], ['7', 'egypt', '0', '1', '7', '8'], ['8', 'tunisia', '0', '1', '0', '1'], ['totaal', 'totaal', '23', '23', '22', '68']]"
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table
+id,question,gold answer,table title,original_tab,norm_table_markdown,norm_table

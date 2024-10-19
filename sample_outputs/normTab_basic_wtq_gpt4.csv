@@ -1,0 +1,29 @@
+id,table title,original_tab,norm_table_markdown,norm_table
+nu-1,World War II casualties of Poland,"| description_losses                | 1939_40   | 1940_41   | 1941_42   | 1942_43   | 1943_44   | 1944_45   | total     |
+|:----------------------------------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+| direct war losses                 | 360,000   |           |           |           |           | 183,000   | 543,000   |
+| murdered                          | 75,000    | 100,000   | 116,000   | 133,000   | 82,000    |           | 506,000   |
+| deaths in prisons & camps         | 69,000    | 210,000   | 220,000   | 266,000   | 381,000   |           | 1,146,000 |
+| deaths outside of prisons & camps |           | 42,000    | 71,000    | 142,000   | 218,000   |           | 473,000   |
+| murdered in eastern regions       |           |           |           |           |           | 100,000   | 100,000   |
+| deaths other countries            |           |           |           |           |           |           | 2,000     |
+| total                             | 504,000   | 352,000   | 407,000   | 541,000   | 681,000   | 270,000   | 2,770,000 |","| description_losses                | year    |   casualties |
+|:----------------------------------|:--------|-------------:|
+| direct war losses                 | 1939_40 |       360000 |
+| direct war losses                 | 1944_45 |       183000 |
+| murdered                          | 1939_40 |        75000 |
+| murdered                          | 1940_41 |       100000 |
+| murdered                          | 1941_42 |       116000 |
+| murdered                          | 1942_43 |       133000 |
+| murdered                          | 1943_44 |        82000 |
+| deaths in prisons & camps         | 1939_40 |        69000 |
+| deaths in prisons & camps         | 1940_41 |       210000 |
+| deaths in prisons & camps         | 1941_42 |       220000 |
+| deaths in prisons & camps         | 1942_43 |       266000 |
+| deaths in prisons & camps         | 1943_44 |       381000 |
+| deaths outside of prisons & camps | 1940_41 |        42000 |
+| deaths outside of prisons & camps | 1941_42 |        71000 |
+| deaths outside of prisons & camps | 1942_43 |       142000 |
+| deaths outside of prisons & camps | 1943_44 |       218000 |
+| murdered in eastern regions       | 1944_45 |       100000 |
+| deaths other countries            | total   |         2000 |","[['description_losses', 'year', 'casualties'], ['direct war losses', '1939_40', '360000'], ['direct war losses', '1944_45', '183000'], ['murdered', '1939_40', '75000'], ['murdered', '1940_41', '100000'], ['murdered', '1941_42', '116000'], ['murdered', '1942_43', '133000'], ['murdered', '1943_44', '82000'], ['deaths in prisons & camps', '1939_40', '69000'], ['deaths in prisons & camps', '1940_41', '210000'], ['deaths in prisons & camps', '1941_42', '220000'], ['deaths in prisons & camps', '1942_43', '266000'], ['deaths in prisons & camps', '1943_44', '381000'], ['deaths outside of prisons & camps', '1940_41', '42000'], ['deaths outside of prisons & camps', '1941_42', '71000'], ['deaths outside of prisons & camps', '1942_43', '142000'], ['deaths outside of prisons & camps', '1943_44', '218000'], ['murdered in eastern regions', '1944_45', '100000'], ['deaths other countries', 'total', '2000']]"

@@ -1,0 +1,1277 @@
+/Users/mnahid/Documents/NormTab/bin/python /Users/mnahid/Documents/Project/NormTab/normTab_col_wtq.py
+/Users/mnahid/Documents/NormTab/lib/python3.10/site-packages/fuzzywuzzy/fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+
+
+id:  nu-0  Q:  which country had the most cyclists finish within the top 10?  ans:  italy
+
+Three Rows:
+ rank | cyclist | team | time | uci_protour_points
+1 | alejandro valverde (esp) | caisse d'epargne | 5h 29' 10" | 40
+2 | alexandr kolobnev (rus) | team csc saxo bank | s.t. | 30
+3 | davide rebellin (ita) | gerolsteiner | s.t. | 25
+
+Table Columns:  rank, cyclist, team, time, uci_protour_points
+
+response:
+ normalize_coll = [cyclist, time]
+
+
+id:  nu-1  Q:  how many people were murdered in 1940/41?  ans:  100,000
+
+Three Rows:
+ description_losses | 1939_40 | 1940_41 | 1941_42 | 1942_43 | 1943_44 | 1944_45 | total
+direct war losses | 360,000 |  |  |  |  | 183,000 | 543,000
+murdered | 75,000 | 100,000 | 116,000 | 133,000 | 82,000 |  | 506,000
+deaths in prisons & camps | 69,000 | 210,000 | 220,000 | 266,000 | 381,000 |  | 1,146,000
+
+Table Columns:  description_losses, 1939_40, 1940_41, 1941_42, 1942_43, 1943_44, 1944_45, total
+
+response:
+ normalize_coll = [1939_40, 1940_41, 1941_42, 1942_43, 1943_44, 1944_45]
+
+
+id:  nu-2  Q:  how long did it take for the new york americans to win the national cup after 1936?  ans:  17 years
+
+Three Rows:
+ year | division | league | reg_season | playoffs | national_cup
+1931 | 1 | asl | 6th (fall) | no playoff | n/a
+spring 1932 | 1 | asl | 5th? | no playoff | 1st round
+fall 1932 | 1 | asl | 3rd | no playoff | n/a
+
+Table Columns:  year, division, league, reg_season, playoffs, national_cup
+
+response:
+ normalize_coll = [reg_season, national_cup]
+
+
+id:  nu-3  Q:  alfie's birthday party aired on january 19. what was the airdate of the next episode?  ans:  january 26, 1995
+
+Three Rows:
+ series__ | season__ | title | notes | original_air_date
+1 | 1 | "the charity" | alfie, dee dee, and melanie are supposed to be helping their parents at a carnival by working the dunking booth. when goo arrives and announces their favorite basketball player, kendall gill, is at the comic book store signing autographs, the boys decide to ditch the carnival. this leaves melanie and jennifer to work the booth and both end up soaked. but the comic book store is packed and much to alfie and dee dee's surprise their father has to interview kendall gill. goo comes up with a plan to get alfie and dee dee, gill's signature before getting them back at the local carnival, but are caught by roger. all ends well for everyone except alfie and goo, who must endure being soaked at the dunking booth. | october 15, 1994
+2 | 1 | "the practical joke war" | alfie and goo unleash harsh practical jokes on dee dee and his friends. dee dee, harry and donnel retaliate by pulling a practical joke on alfie with the trick gum. after alfie and goo get even with dee dee and his friends, melanie and deonne help them get even. soon, alfie and goo declare a practical joke war on melanie, dee dee and their friends. this eventually stops when roger and jennifer end up on the wrong end of the practical joke war after being announced as the winner of a magazine contest for best family of the year. they set their children straight for their behavior and will have a talk with their friends' parents as well. | october 22, 1994
+3 | 1 | "the weekend aunt helen came" | the boy's mother, jennifer, leaves for the weekend and she leaves the father, roger, in charge. however, he lets the kids run wild. alfie and dee dee's aunt helen then comes to oversee the house until jennifer gets back. meanwhile, alfie throws a basketball at goo, which hits him in the head, giving him temporary amnesia. in this case of memory loss, goo acts like a nerd, does homework on a weekend, wants to be called milton instead of goo, and he even calls alfie alfred. he is much nicer to deonne and dee dee, but is somewhat rude to melanie. the only thing that will reverse this is another hit in the head. | november 1, 1994
+
+Table Columns:  series__, season__, title, notes, original_air_date
+
+response:
+ normalize_coll = [title, notes]
+
+
+id:  nu-4  Q:  what is the number of 1st place finishes across all events?  ans:  17
+
+Three Rows:
+ date | competition | location | country | event | placing | rider | nationality
+31 october 2008 | 2008–09 world cup | manchester | united kingdom | sprint | 1 | victoria pendleton | gbr
+31 october 2008 | 2008–09 world cup | manchester | united kingdom | keirin | 2 | jason kenny | gbr
+1 november 2008 | 2008–09 world cup | manchester | united kingdom | sprint | 1 | jason kenny | gbr
+
+Table Columns:  date, competition, location, country, event, placing, rider, nationality
+
+response:
+ normalize_coll = [date, competition]
+
+
+id:  nu-5  Q:  in which competition did hopley finish fist?  ans:  world junior championships
+
+Three Rows:
+ year | competition | venue | position | event | notes
+2000 | world junior championships | santiago, chile | 1st | discus throw | 59.51 m
+2003 | all-africa games | abuja, nigeria | 5th | shot put | 17.76 m
+2003 | all-africa games | abuja, nigeria | 2nd | discus throw | 62.86 m
+
+Table Columns:  year, competition, venue, position, event, notes
+
+response:
+ normalize_coll = [notes]
+
+
+id:  nu-6  Q:  what is the total number of films with the language of kannada listed?  ans:  15
+
+Three Rows:
+ year | film | role | language | notes
+2008 | moggina manasu | chanchala | kannada | filmfare award for best actress - kannada\nkarnataka state film award for best actress
+2009 | olave jeevana lekkachaara | rukmini | kannada | innovative film award for best actress
+2009 | love guru | kushi | kannada | filmfare award for best actress - kannada
+
+Table Columns:  year, film, role, language, notes
+
+response:
+ normalize_coll = [notes]
+
+
+id:  nu-7  Q:  what was the number of people attending the toros mexico vs. monterrey flash game?  ans:  363
+
+Three Rows:
+ game | day | date | kickoff | opponent | results_score | results_record | location | attendance
+1 | sunday | november 10 | 3:05pm | at las vegas legends | l 3–7 | 0–1 | orleans arena | 1,836
+2 | sunday | november 17 | 1:05pm | monterrey flash | l 6–10 | 0–2 | unisantos park | 363
+3 | saturday | november 23 | 7:05pm | at bay area rosal | w 10–7 | 1–2 | cabernet indoor sports | 652
+
+Table Columns:  game, day, date, kickoff, opponent, results_score, results_record, location, attendance
+
+response:
+ normalize_coll = [results_score, results_record]
+
+
+id:  nu-8  Q:  what time period had no shirt sponsor?  ans:  1982-1985
+
+Three Rows:
+ year | kit_manufacturer | shirt_sponsor | back_of_shirt_sponsor | short_sponsor
+1977–1978 |  | national express |  |
+1982–1985 | umbro |  |  |
+1985–1986 | umbro | whitbread |  |
+
+Table Columns:  year, kit_manufacturer, shirt_sponsor, back_of_shirt_sponsor, short_sponsor
+
+response:
+ normalize_coll = [year, kit_manufacturer, shirt_sponsor, back_of_shirt_sponsor, short_sponsor]
+
+
+id:  nu-9  Q:  when was his first 1st place record?  ans:  2000
+
+Three Rows:
+ year | competition | venue | position | event | notes
+1999 | european junior championships | riga, latvia | 4th | 400 m hurdles | 52.17
+2000 | world junior championships | santiago, chile | 1st | 400 m hurdles | 49.23
+2001 | world championships | edmonton, canada | 18th (sf) | 400 m hurdles | 49.80
+
+Table Columns:  year, competition, venue, position, event, notes
+
+response:
+ normalize_coll = [position, notes]
+
+
+id:  nu-10  Q:  in which three consecutive years was the record the same?  ans:  2004,2005,2006
+
+Three Rows:
+ season | team | record | head_coach | quarterback | leading_rusher | leading_receiver | all_pros | runner_up
+1970 | dallas cowboys | 10–4 | tom landry* | craig morton | duane thomas | bob hayes* | howley | san francisco 49ers
+1971 | dallas cowboys† | 11–3 | tom landry* | roger staubach* | duane thomas | bob hayes* | lilly*, niland, wright* | san francisco 49ers
+1972 | washington redskins | 11–3 | george allen* | billy kilmer | larry brown | charley taylor* | brown, hanburger* | dallas cowboys
+
+Table Columns:  season, team, record, head_coach, quarterback, leading_rusher, leading_receiver, all_pros, runner_up
+
+response:
+ normalize_coll = [record, all_pros]
+
+
+id:  nu-11  Q:  does pat or john have the highest total?  ans:  john
+
+Three Rows:
+ name | league | fa_cup | league_cup | jp_trophy | total
+scot bennett | 5 | 0 | 0 | 0 | 5
+danny coles | 3 | 0 | 0 | 0 | 3
+liam sercombe | 1 | 0 | 0 | 0 | 1
+
+Table Columns:  name, league, fa_cup, league_cup, jp_trophy, total
+
+response:
+ normalize_coll = []
+
+
+id:  nu-12  Q:  what is the combined score of year end rankings before 2009?  ans:  440
+
+Three Rows:
+ tournament | _2004 | _2005 | _2006 | _2007 | _2008 | _2009 | _2010 | _2011 | _2012 | _2013 | _2014 | w–l
+australian open | a | 2r | 2r | 2r | 3r | 2r | 1r | 3r | 1r | 1r | 2r | 9–10
+french open | 2r | 1r | 1r | 2r | 2r | 1r | 2r | 3r | 1r | 1r |  | 6–10
+wimbledon | a | 2r | 2r | 1r | 3r | 2r | 1r | 2r | 2r | 1r |  | 7–9
+
+Table Columns:  tournament, _2004, _2005, _2006, _2007, _2008, _2009, _2010, _2011, _2012, _2013, _2014, w–l
+
+response:
+ normalize_coll = [_2004, _2005, _2006, _2007, _2008, _2009, _2010, _2011, _2012, _2013, _2014]
+
+
+id:  nu-13  Q:  how many more ships were wrecked in lake huron than in erie?  ans:  7
+
+Three Rows:
+ ship | type_of_vessel | lake | location | lives_lost
+argus | steamer | lake huron | 25 miles off kincardine, ontario | 25 lost
+james carruthers | steamer | lake huron | near kincardine | 18 lost
+hydrus | steamer | lake huron | near lexington, michigan | 28 lost
+
+Table Columns:  ship, type_of_vessel, lake, location, lives_lost
+
+response:
+ normalize_coll = [location]
+
+
+id:  nu-14  Q:  what is the only character with a blank c string?  ans:  space
+
+Three Rows:
+ name | glyph | c_string | unicode | unicode_name
+nul |  | \\0 | u+0000 | null (nul)
+alert |  | \\a | u+0007 | bell (bel)
+backspace |  | \\b | u+0008 | backspace (bs)
+
+Table Columns:  name, glyph, c_string, unicode, unicode_name
+
+response:
+ normalize_coll = []
+
+
+id:  nu-15  Q:  what was the total number of points scored by the tide in the last 3 games combined.  ans:  68
+
+Three Rows:
+ date | opponent_ | rank_ | site | tv | result | attendance
+september 3 | tennessee–chattanooga* | #11 | legion field • birmingham, al |  | w 42–13 | 82,109
+september 10 | vanderbilt | #11 | bryant–denny stadium • tuscaloosa, al | jps | w 17–7 | 70,123
+september 17 | at arkansas | #12 | razorback stadium • fayetteville, ar | abc | w 13–6 | 52,089
+
+Table Columns:  date, opponent_, rank_, site, tv, result, attendance
+
+response:
+ normalize_coll = [opponent_, site, tv, result, attendance]
+
+
+id:  nu-16  Q:  who came immediately after sebastian porto in the race?  ans:  tomomi manako
+
+Three Rows:
+ pos | rider | manufacturer | time_retired | points
+1 | loris capirossi | honda | 38:04.730 | 25
+2 | valentino rossi | aprilia | +0.180 | 20
+3 | jeremy mcwilliams | aprilia | +0.534 | 16
+
+Table Columns:  pos, rider, manufacturer, time_retired, points
+
+response:
+ normalize_coll = [time_retired]
+
+
+id:  nu-17  Q:  what's the total number of festivals that occurred in october?  ans:  5
+
+Three Rows:
+ date | festival | location | awards | link
+feb 2–5, feb 11 | santa barbara international film festival | santa barbara, california  usa | top 11 "best of the fest" selection | sbiff.org
+may 21–22, jun 11 | seattle international film festival | seattle, washington  usa |  | siff.net
+jul 18, jul 25 | fantasia festival | montreal, quebec  canada | special mention\n"for the resourcefulness and unwavering determination by a director to realize his unique vision" | fantasia
+
+Table Columns:  date, festival, location, awards, link
+
+response:
+ normalize_coll = [date]
+
+
+id:  nu-18  Q:  what is the only hospital to have 6 hospital beds?  ans:  vidant bertie hospital
+
+Three Rows:
+ name | city | hospital_beds | operating_rooms | total | trauma_designation | affiliation | notes
+alamance regional medical center | burlington | 238 | 15 | 253 | - | cone | -
+albemarle hospital | elizabeth city | 182 | 13 | 195 | - | vidant | -
+alexander hospital | hickory | 25 | 3 | 28 | - | - | -
+
+Table Columns:  name, city, hospital_beds, operating_rooms, total, trauma_designation, affiliation, notes
+
+response:
+ normalize_coll = []
+
+
+id:  nu-19  Q:  what is the total number of skoda cars sold in the year 2005?  ans:  492,111
+
+Three Rows:
+ model | _1991 | _1995 | _1996 | _1997 | _1998 | _1999 | _2000 | _2001 | _2002 | _2003 | _2004 | _2005 | _2006 | _2007 | _2008 | _2009 | _2010 | _2011 | _2012 | _2013
+škoda felicia | 172,000 | 210,000 |  | 288,458 | 261,127 | 241,256 | 148,028 | 44,963 | − | − | − | − | − | − | − | − | − | − | − | −
+škoda octavia | − | − |  | 47,876 | 102,373 | 143,251 | 158,503 | 164,134 | 164,017 | 165,635 | 181,683 | 233,322 | 270,274 | 309,951 | 344,857 | 317,335 | 349,746 | 387,200 | 409,360 | 359,600
+škoda fabia | − | − | − | − | − | 823 | 128,872 | 250,978 | 264,641 | 260,988 | 247,600 | 236,698 | 243,982 | 232,890 | 246,561 | 264,173 | 229,045 | 266,800 | 255,025 | 202,000
+
+Table Columns:  model, _1991, _1995, _1996, _1997, _1998, _1999, _2000, _2001, _2002, _2003, _2004, _2005, _2006, _2007, _2008, _2009, _2010, _2011, _2012, _2013
+
+response:
+ normalize_coll = [_1991, _1995, _1996, _1997, _1998, _1999, _2000, _2001, _2002, _2003, _2004, _2005, _2006, _2007, _2008, _2009, _2010, _2011, _2012, _2013]
+
+
+id:  nu-20  Q:  what was the number of times won on grass?  ans:  1
+
+Three Rows:
+ outcome | no | date | championship | surface | opponent_in_the_final | score_in_the_final
+runner-up | 1. | february 15, 1993 | memphis, tennessee, usa | hard (i) | jim courier | 7–5, 6–7(4–7), 6–7(4–7)
+winner | 1. | may 17, 1993 | coral springs, florida, usa | clay | david wheaton | 6–3, 6–4
+runner-up | 2. | july 26, 1993 | washington d.c., usa | hard | amos mansdorf | 6–7(3–7), 5–7
+
+Table Columns:  outcome, no, date, championship, surface, opponent_in_the_final, score_in_the_final
+
+response:
+ normalize_coll = [date, score_in_the_final]
+
+
+id:  nu-21  Q:  who won the most gold medals?  ans:  brazil
+
+Three Rows:
+ rank | nation | gold | silver | bronze | total
+1 | brazil | 7 | 5 | 3 | 15
+2 | venezuela | 3 | 2 | 8 | 13
+3 | colombia | 2 | 3 | 4 | 9
+
+Table Columns:  rank, nation, gold, silver, bronze, total
+
+response:
+ normalize_coll = []
+
+
+id:  nu-22  Q:  total wins by belgian riders  ans:  7
+
+Three Rows:
+ place | rider | country | team | points | wins
+1 | sylvain geboers | belgium | suzuki | 3066 | 3
+2 | adolf weil | germany | maico | 2331 | 2
+3 | torlief hansen | sweden | husqvarna | 2052 | 0
+
+Table Columns:  place, rider, country, team, points, wins
+
+response:
+ normalize_coll = []
+
+
+id:  nu-23  Q:  what yacht had the next best time (smaller time is better) than ausmaid?  ans:  brindabella
+
+Three Rows:
+ position | sail_number | yacht | state_country | yacht_type | loa_metres | skipper | elapsed_time_d_hh_mm_ss
+1 | us17 | sayonara | usa | farr ilc maxi | 24.13 | larry ellison | 2:19:03:32
+2 | c1 | brindabella | nsw | jutson 79 | 24.07 | george snow | 2:21:55:06
+3 | yc1000 | ausmaid | sa | farr 47 | 14.24 | kevan pearce | 3:06:02:29
+
+Table Columns:  position, sail_number, yacht, state_country, yacht_type, loa_metres, skipper, elapsed_time_d_hh_mm_ss
+
+response:
+ normalize_coll = [elapsed_time_d_hh_mm_ss]
+
+
+id:  nu-24  Q:  what match comes after gl-b-5?  ans:  gl-b-6
+
+Three Rows:
+ match | date | venue | opponents | score
+gl-b-1 | 2008.. | [[]] | [[]] | -
+gl-b-2 | 2008.. | [[]] | [[]] | -
+gl-b-3 | 2008.. | [[]] | [[]] | -
+
+Table Columns:  match, date, venue, opponents, score
+
+response:
+ normalize_coll = [date]
+
+
+id:  nu-25  Q:  how many times was amanda on the judging panel?  ans:  3
+
+Three Rows:
+ series | premiere | finale | winner | runner_up | third_place | hosts | judging_panel | guest_judges
+one | 9 june 2007 | 17 june 2007 | paul potts | damon scott | connie talbot | ant & dec | simon cowell\namanda holden\npiers morgan | n/a
+two | 12 april 2008 | 31 may 2008 | george sampson | signature | andrew johnston | ant & dec | simon cowell\namanda holden\npiers morgan | n/a
+three | 11 april 2009 | 30 may 2009 | diversity | susan boyle | julian smith | ant & dec | simon cowell\namanda holden\npiers morgan | kelly brook
+
+Table Columns:  series, premiere, finale, winner, runner_up, third_place, hosts, judging_panel, guest_judges
+
+response:
+ normalize_coll = [judging_panel, guest_judges]
+
+
+id:  nu-26  Q:  how many awards has leona lewis won?  ans:  20
+
+Three Rows:
+ year | award | nominated_work | category | result
+2007 | cosmopolitan ultimate woman of the year | leona lewis | newcomer of the year | won
+2007 | the record of the year | "bleeding love" | the record of the year | won
+2008 | capital awards | leona lewis | favourite uk female artist | won
+
+Table Columns:  year, award, nominated_work, category, result
+
+response:
+ normalize_coll = []
+
+
+id:  nu-27  Q:  who was the top scorer in the last season?  ans:  simon makienok christoffersen
+
+Three Rows:
+ season | league_pos | league_competition | league_top_scorer | danish_cup | europe | others
+1981-82 | 4 | 1982 1st division | michael laudrup (15) | 4th round |  |
+1982-83 | 4 | 1983 1st division | brian chrøis (12) | 4th round |  |
+1983-84 | 4 | 1984 1st division | jens kolding (11) | 3rd round |  |
+
+Table Columns:  season, league_pos, league_competition, league_top_scorer, danish_cup, europe, others
+
+response:
+ normalize_coll = [season, league_top_scorer]
+
+
+id:  nu-28  Q:  how many jury members were there?  ans:  9
+
+Three Rows:
+ contestant | original_tribe | switched_tribe | merged_tribe | finish | total_votes
+yelena kondulaynen\n44.the actress | pelicans |  |  | 1st voted out\nday 3 | 5
+kris kelmi\n47.the singer | barracudas |  |  | 2nd voted out\nday 6 | 1
+aleksandr pashutin\n60.the actor | barracudas |  |  | 3rd voted out\nday 9 | 7
+
+Table Columns:  contestant, original_tribe, switched_tribe, merged_tribe, finish, total_votes
+
+response:
+ normalize_coll = [contestant, finish]
+
+
+id:  nu-29  Q:  how many times was the val d'lsere, france location used?  ans:  1
+
+Three Rows:
+ season | age | overall | slalom | giant_slalom | super_g | downhill | combined
+2007 | 20 | 130 | – | 40 | – | – | —
+2008 | 21 | 64 | – | 28 | 46 | 46 | 31
+2009 | 22 | 7 | – | 6 | 16 | 16 | 1
+
+Table Columns:  season, age, overall, slalom, giant_slalom, super_g, downhill, combined
+
+response:
+ normalize_coll = [slalom, giant_slalom, super_g, downhill, combined]
+
+
+id:  nu-30  Q:  what is the name listed before mount pleasant line?  ans:  pennsylvania avenue metro extra line
+
+Three Rows:
+ route | name | fare_type | terminals | terminals1 | major_streets | notes | history
+31 | wisconsin avenue line | local | friendship heights station | potomac park (virginia av & 21st st nw) | wisconsin avenue nw |  | 31 replaces the wisconsin avenue portion of the old 30 (see pennsylvania avenue line)
+32, 36 | pennsylvania avenue line | local | friendship heights station | 32 southern avenue station\n36 naylor road station | wisconsin avenue nw\npennsylvania avenue se/nw\nbranch avenue se (36)\nalabama avenue se (32) | some weekday 32 and 36 trips terminate at:\n\nfarragut square\nfoggy bottom – gwu station | 36 replaces a portion of the old 35 (see pennsylvania avenue line)
+34 | naylor rd line | local | archives (10th st & pennsylvania av nw) | naylor road station | pennsylvania avenue se\nindependence avenue se/sw\nnaylor road se |  | 34 operated to friendship heights station until replaced by the m5, which operated from naylor road station to eastern market station in 2007; 34 replaced the m5 in 2008 with the extension to the archives station, also see pennsylvania avenue line
+
+Table Columns:  route, name, fare_type, terminals, terminals1, major_streets, notes, history
+
+response:
+ normalize_coll = [terminals, terminals1, major_streets]
+
+
+id:  nu-31  Q:  what is the last stadium listed on this chart?  ans:  dw stadium
+
+Three Rows:
+ team | stadium | capacity | city_area
+bradford bulls (2014 season) | provident stadium | 27,000 | bradford, west yorkshire
+castleford tigers (2014 season) | the wish communications stadium | 11,750 | castleford, west yorkshire
+catalans dragons (2014 season) | stade gilbert brutus | 14,000 | perpignan, pyrénées-orientales, france
+
+Table Columns:  team, stadium, capacity, city_area
+
+response:
+ normalize_coll = [team, city_area]
+
+
+id:  nu-32  Q:  how many times did salvatore bettiol win first place across competitions?  ans:  2
+
+Three Rows:
+ year | competition | venue | position | event | notes
+1986 | venice marathon | venice, italy | 1st | marathon | 2:18:44
+1987 | world championships | rome, italy | 13th | marathon | 2:17:45
+1987 | venice marathon | venice, italy | 1st | marathon | 2:10:01
+
+Table Columns:  year, competition, venue, position, event, notes
+
+response:
+ normalize_coll = [notes]
+
+
+id:  nu-33  Q:  which year did illinois not have any losses during the conference?  ans:  1914-15
+
+Three Rows:
+ school | season | record | conference_record | place | postseason
+illinois | 1912–13 | 10–6 | 7–6 | 5th |
+illinois | 1913–14 | 9–4 | 7–3 | 3rd |
+illinois | 1914–15 | 16–0 | 12–0 | t1st | national champions
+
+Table Columns:  school, season, record, conference_record, place, postseason
+
+response:
+ normalize_coll = [season]
+
+
+id:  nu-34  Q:  natalia varnakova is the same height as which other contestant(s)?  ans:  jahaira novgorodova,carmen jenockova,mariesea mnesiču,patricia valiahmetova,anastasija larkova
+
+Three Rows:
+ represent | candidate | in_russian | age | height | hometown
+adygean republic | alissa joanndova | алисса йоанндова | 19 | 1.83 m (6 ft 0 in) | tulsky
+altai krai | anastasija nindova | анастасия ниндова | 22 | 1.74 m (5 ft 8 1⁄2 in) | barnaul
+altai republic | kassandra melova | кассандра мелова | 18 | 1.79 m (5 ft 10 1⁄2 in) | kosh-agach
+
+Table Columns:  represent, candidate, in_russian, age, height, hometown
+
+response:
+ normalize_coll = [height]
+
+
+id:  nu-35  Q:  how many candidates belong to a party other than republican or democrat?  ans:  0
+
+Three Rows:
+ district | incumbent | 2008_status | democratic | republican
+1 | diana degette | re-election | diana degette | george lilly
+2 | mark udall | open | jared polis | scott starin
+3 | john salazar | re-election | john salazar | wayne wolf
+
+Table Columns:  district, incumbent, 2008_status, democratic, republican
+
+response:
+ normalize_coll = [incumbent, democratic, republican]
+
+
+id:  nu-37  Q:  how many domestic routes out of houston intercontinental have united as a carrier?  ans:  10
+
+Three Rows:
+ rank | city | passengers | top_carriers
+1 | los angeles, ca | 700,000 | american, spirit, united
+2 | chicago, il | 673,000 | american, spirit, united
+3 | denver, co | 654,000 | frontier, spirit, united
+
+Table Columns:  rank, city, passengers, top_carriers
+
+response:
+ normalize_coll = [city, top_carriers]
+
+
+id:  nu-39  Q:  in what year are there the first results for giant slalom?  ans:  2005
+
+Three Rows:
+ season | age | overall | slalom | giant_slalom | super_g | downhill | combined
+2004 | 17 | 112 | – | – | 51 | – | —
+2005 | 18 | 37 | – | 27 | 18 | 49 | —
+2006 | 19 | 22 | – | 18 | 37 | 15 | —
+
+Table Columns:  season, age, overall, slalom, giant_slalom, super_g, downhill, combined
+
+response:
+ normalize_coll = [slalom, giant_slalom, super_g, downhill, combined]
+
+
+id:  nu-40  Q:  in cycle 4 of austria's next top model,how many contestants were older than 20?  ans:  5
+
+Three Rows:
+ contestant | age | height | home_city | rank
+isabelle raisa | 16 | 170 cm (5 ft 7 in) | vienna | eliminated in episode 1
+alina chlebecek | 18 | 170 cm (5 ft 7 in) | deutsch-wagram | eliminated in episode 1
+sabrina angelika rauch † | 21 | 175 cm (5 ft 9 in) | graz | eliminated in episode 2
+
+Table Columns:  contestant, age, height, home_city, rank
+
+response:
+ normalize_coll = [height]
+
+
+id:  nu-41  Q:  who scored more goals: clint dempsey or eric wynalda?  ans:  clint dempsey
+
+Three Rows:
+ _ | player | goals | caps | career
+1 | landon donovan | 57 | 155 | 2000–present
+2 | clint dempsey | 36 | 103 | 2004–present
+3 | eric wynalda | 34 | 106 | 1990–2000
+
+Table Columns:  _, player, goals, caps, career
+
+response:
+ normalize_coll = [career]
+
+
+id:  nu-42  Q:  what building had the least height in germany?  ans:  st. mary's church
+
+Three Rows:
+ name | country | town | height_metres___ft | structural_type | held_record | notes
+great pyramid of giza | egypt | giza | 146 / 480 | mausoleum | 2570 bc–1311 | due to erosion today it stands at the height of 138.8 metres (455 ft).
+lincoln cathedral | england | lincoln | 159.7 / 524 | church | 1311–1549 | spire collapsed in 1549; today, stands at a height of 83 metres (272 ft).
+st. mary's church | germany | stralsund | 151 / 500 | church | 1549–1647 | spire destroyed by lightning in 1647; today stands at a height of 104 metres (341 ft).
+
+Table Columns:  name, country, town, height_metres___ft, structural_type, held_record, notes
+
+response:
+ normalize_coll = [height_metres___ft]
+
+
+id:  nu-43  Q:  besides republican (r) and democrat (d), what other party was represented in the maine election?  ans:  independent
+
+Three Rows:
+ state_linked_to_summaries_below | incumbent_senator | incumbent_party | incumbent_electoral_history | most_recent_election_results | 2018_intent | candidates
+arizona | jeff flake | republican | jeff flake (r) 49.2%\nrichard carmona (d) 46.1%\nmarc victor (l) 4.6% | 2012 | [data unknown/missing. you can help!] | [data unknown/missing. you can help!]
+california | dianne feinstein | democratic | dianne feinstein (d) 62.5%\nelizabeth emken (r) 37.5% | 1992 (special)\n1994\n2000\n2006\n2012 | running | [data unknown/missing. you can help!]
+connecticut | chris murphy | democratic | chris murphy (d) 54.8%\nlinda mcmahon (r) 43.1%\npaul passarelli (l) 1.7% | 2012 | [data unknown/missing. you can help!] | [data unknown/missing. you can help!]
+
+Table Columns:  state_linked_to_summaries_below, incumbent_senator, incumbent_party, incumbent_electoral_history, most_recent_election_results, 2018_intent, candidates
+
+response:
+ normalize_coll = [incumbent_electoral_history, most_recent_election_results]
+
+
+id:  nu-44  Q:  which year did the team have their most total wins?  ans:  1992
+
+Three Rows:
+ season | conference | head_coach | total_wins | total_losses | total_ties | conference_wins | conference_losses | conference_ties | conference_standing | postseason_result
+1905 | independent | sidney smith | 2 | 3 | 1 | — | — | — | — | —
+1906 | independent | ralph foster | 3 | 0 | 0 | — | — | — | — | —
+1907 | independent | ralph foster | 1 | 5 | 1 | — | — | — | — | —
+
+Table Columns:  season, conference, head_coach, total_wins, total_losses, total_ties, conference_wins, conference_losses, conference_ties, conference_standing, postseason_result
+
+response:
+ normalize_coll = []
+
+
+id:  nu-46  Q:  what is the total number of models covered in the table?  ans:  20
+
+Three Rows:
+ year | manufacturer | model | length_feet | quantity | fleet_series | fuel_propulsion | powertrain
+1996 | new flyer | d60 | 60 (articulated) | 30 | 1901-1930* | diesel | detroit diesel series 50\nallison b400r
+1998 | nabi | 416 | 40 | 133 | 3001-3067, 3101-3166* | diesel | cummins m11e\nallison b400r
+1999 | nabi | 40-lfw | 40 | 44 | 4001-4044 | diesel |
+
+Table Columns:  year, manufacturer, model, length_feet, quantity, fleet_series, fuel_propulsion, powertrain
+
+response:
+ normalize_coll = [length_feet, fleet_series, powertrain]
+
+
+id:  nu-47  Q:  what is the number of wins by jaguar xjs?  ans:  7
+
+Three Rows:
+ round | date | circuit | winning_driver_ta2 | winning_vehicle_ta2 | winning_driver_ta1 | winning_vehicle_ta1
+1 | may 21 | sears point | greg pickett | chevrolet corvette | gene bothello | chevrolet corvette
+2 | june 4 | westwood | ludwig heimrath | porsche 935 | nick engels | chevrolet corvette
+3 | june 11 | portland | tuck thomas | chevrolet monza | bob matkowitch | chevrolet corvette
+
+Table Columns:  round, date, circuit, winning_driver_ta2, winning_vehicle_ta2, winning_driver_ta1, winning_vehicle_ta1
+
+response:
+ normalize_coll = [winning_driver_ta2, winning_vehicle_ta2, winning_driver_ta1, winning_vehicle_ta1]
+
+
+id:  nu-49  Q:  how many times were consecutive games played against millwall?  ans:  1
+
+Three Rows:
+ date | opponents | venue | result | scorers | attendance
+28 aug 1920 | reading | h | 0–1 |  | 14,500
+1 sep 1920 | bristol rovers | a | 2–3 | walker, wolstenholme | 10,000
+4 sep 1920 | reading | a | 0–4 |  | 10,000
+
+Table Columns:  date, opponents, venue, result, scorers, attendance
+
+response:
+ normalize_coll = [scorers, attendance]
+
+
+id:  nu-50  Q:  besides angola racing team, what other team is listed in the 23rd position?  ans:  carlin
+
+Three Rows:
+ season | series | team | races | wins | poles | f_laps | podiums | points | position
+2007 | asian formula renault challenge | champ motorsports | 12 | 0 | 0 | 0 | 1 | 64 | 14th
+2008 | asian formula renault challenge | champ motorsports | 13 | 0 | 0 | 0 | 3 | 193 | 4th
+2009 | asian formula renault challenge | asia racing team | 12 | 6 | 2 | 4 | 7 | 287 | 2nd
+
+Table Columns:  season, series, team, races, wins, poles, f_laps, podiums, points, position
+
+response:
+ normalize_coll = []
+
+
+id:  nu-51  Q:  how many countries had at least $1 billion in box office?  ans:  10
+
+Three Rows:
+ rank | country | box_office | year | box_office_from_national_films
+1 | canada/united states | $10.8 billion | 2012 | –
+2 | china | $3.6 billion | 2013 | 59% (2013)
+3 | japan | $1.88 billion | 2013 | 61% (2013)
+
+Table Columns:  rank, country, box_office, year, box_office_from_national_films
+
+response:
+ normalize_coll = [box_office]
+
+
+id:  nu-52  Q:  what city has a radio station called the wolf?  ans:  yankton
+
+Three Rows:
+ frequency | call_sign | name | format | owner | target_city_market | city_of_license
+89.7 fm | kusd | south dakota public broadcasting | npr | sd board of directors for educational telecommunications | yankton/vermillion | vermillion
+93.1 fm | kkya | kk93 | country | riverfront broadcasting llc | yankton/vermillion | yankton
+94.3 fm | kdam | the dam | mainstream rock | riverfront broadcasting llc | yankton/vermillion | hartington
+
+Table Columns:  frequency, call_sign, name, format, owner, target_city_market, city_of_license
+
+response:
+ normalize_coll = [target_city_market, city_of_license]
+
+
+id:  nu-53  Q:  what is the earliest date kodak made 16mm film?  ans:  1935
+
+Three Rows:
+ film | film1 | date
+kodachrome film | 16 mm, daylight (asa 10) & type a (asa 16) | 1935–1962
+kodachrome film | 8 mm, daylight (asa 10) & type a (asa 16) | 1936–1962
+kodachrome film | 35 mm and 828, daylight & type a | 1936–1962
+
+Table Columns:  film, film1, date
+
+response:
+ normalize_coll = [film1]
+
+id:  nu-54  Q:  who was the first to win during the 2009 fujitsu v8 supercar season?  ans:  david russell
+
+Three Rows:
+ rd | event | circuit | location | date | winner
+1 | clipsal 500 | adelaide street circuit | adelaide, south australia | 19-22 mar | david russell
+2 | winton | winton motor raceway | benalla, victoria | 1-3 may | jonathon webb
+3 | dunlop townsville 400 | townsville street circuit | townsville, queensland | 10-12 jul | james moffat
+
+Table Columns:  rd, event, circuit, location, date, winner
+
+response:
+ normalize_coll = [date]
+
+
+id:  nu-55  Q:  which competition was held in berlin and daegu?  ans:  world championships
+
+Three Rows:
+ year | competition | venue | position | notes
+2005 | world youth championships | marrakech, morocco | 6th | 5.05 m
+2006 | world junior championships | beijing, china | 5th | 5.30 m
+2008 | olympic games | beijing, china | 10th | 5.45 m
+
+Table Columns:  year, competition, venue, position, notes
+
+response:
+ normalize_coll = [venue]
+
+
+id:  nu-57  Q:  what type of plane was encountered the least?  ans:  mig-15
+
+Three Rows:
+ date | location | air_ground | number | type | status
+8 march 1944 | near steinhuder meer (lake), germany | air | 1 | me-109 | destroyed
+16 march 1944 | 20 miles south of stuttgart, germany | air | 1 | me-110 | destroyed
+11 april 1944 | 20 miles northeast of magdeburg, germany | air | 0.5 | me-109 | destroyed
+
+Table Columns:  date, location, air_ground, number, type, status
+
+response:
+ normalize_coll = [location, type]
+
+
+id:  nu-58  Q:  who was the top placing competitor?  ans:  esther shahamorov
+
+Three Rows:
+ name | sport | event | placing | performance
+shaul ladani | athletics | men's 50 km walk | 19 | 4:24:38.6\n(also entered for 20 km walk, but did not start)
+esther shahamorov | athletics | women's 100 m | semifinal (5th) | 11.49
+esther shahamorov | athletics | women's 100 m hurdles | semifinal | did not start (left munich before the semifinal)
+
+Table Columns:  name, sport, event, placing, performance
+
+response:
+ normalize_coll = [placing, performance]
+
+
+id:  nu-59  Q:  is the price money for 23 january 1984 more than that of 23 april 1984?  ans:  no
+
+Three Rows:
+ result | date | category | tournament | surface | partnering | opponents | score
+runner-up | 10 december 1978 | $75,000 | sydney, australia | grass | judy chaloner | kerry reid\n wendy turnbull | 2–6, 6–4, 2–6
+runner-up | 8 november 1981 | $50,000 | hong kong | clay | susan leo | ann kiyomura\n sharon walsh | 3–6, 4–6
+winner | 13 june 1982 | $100,000 | birmingham, great britain | grass | jo durie | rosie casals\n wendy turnbull | 6–3, 6–2
+
+Table Columns:  result, date, category, tournament, surface, partnering, opponents, score
+
+response:
+ normalize_coll = [partnering, opponents, score]
+
+
+id:  nu-61  Q:  which position was listed the most on this chart?  ans:  s
+
+Three Rows:
+ round | pick | name | position | college
+1 | 9 | brian urlacher | s | new mexico
+2 | 39 | mike brown | s | nebraska
+3 | 69 | dez white | wr | georgia tech
+
+Table Columns:  round, pick, name, position, college
+
+response:
+ normalize_coll = []
+
+
+id:  nu-62  Q:  m. shafi ahmad and absdul majid both had what type of degree?  ans:  ph.d
+
+Three Rows:
+ number | name | term_started | term_ended | alma_mater | fields | educational_background
+1 | dr abdus salam | 1961 | 1967 | imperial college | theoretical physics | doctor of philosophy (ph.d)
+2 | air commodore dr władysław turowicz | 1967 | 1979 | warsaw university of technology | aeronautical engineering | ph.d
+3 | air commodore k. m. ahmad | 1979 | 1980 | pakistan air force academy | flight instructor | certificated flight instructor (cfi)
+
+Table Columns:  number, name, term_started, term_ended, alma_mater, fields, educational_background
+
+response:
+ normalize_coll = [alma_mater, fields, educational_background]
+
+
+id:  nu-63  Q:  how many photos total are listed?  ans:  18
+
+Three Rows:
+ ship | hull_no | status | years_active | nvr_page
+henry j. kaiser | t-ao-187 | active—southern california duty oiler | 1986–present | ao187
+joshua humphreys | t-ao-188 | inactivated 1996, returned to service 2005 | 1987-1996; 2005-2006; 2010-present | ao188
+john lenthall | t-ao-189 | active | 1987-1996; 1998–present | ao189
+
+Table Columns:  ship, hull_no, status, years_active, nvr_page
+
+response:
+ normalize_coll = [years_active]
+
+
+id:  nu-66  Q:  what date is next listed after june 14, 2010.  ans:  december 6, 2010
+
+Three Rows:
+ season | episodes | season_premiere | season_finale
+1 | 20 | march 4, 2006 | may 13, 2006
+2 | 52 | october 7, 2006 | july 16, 2007
+3 | 44 | october 15, 2007 | june 2, 2008
+
+Table Columns:  season, episodes, season_premiere, season_finale
+
+response:
+ normalize_coll = []
+
+
+id:  nu-67  Q:  how many times was a tournament held in the united states?  ans:  1
+
+Three Rows:
+ outcome | no | date | tournament | surface | partner | opponents | score
+runner-up | 1. | 16 may 2010 | kurume, japan | clay | karolína plíšková | sun shengnan\n xu yifan | 0–6, 3–6
+winner | 1. | 13 february 2011 | rancho mirage, united states | hard | karolína plíšková | nadejda guskova\n sandra zaniewska | 6–7(6–8), 6–1, 6–4
+winner | 2. | 7 august 2011 | vancouver, canada | hard | karolína plíšková | jamie hampton\n n. lertcheewakarn | 5–7, 6–2, 6–4
+
+Table Columns:  outcome, no, date, tournament, surface, partner, opponents, score
+
+response:
+ normalize_coll = [opponents, score]
+
+
+id:  nu-68  Q:  how many drivers have no laps led?  ans:  18
+
+Three Rows:
+ pos | no | driver | team | laps | time_retired | grid | laps_led | points
+1 | 9 | scott dixon | chip ganassi racing | 85 | 1:46:05.7985 | 3 | 51 | 52
+2 | 6 | ryan briscoe | penske racing | 85 | + 29.7803 | 1 | 6 | 41
+3 | 10 | dario franchitti | chip ganassi racing | 85 | + 30.0551 | 6 | 0 | 35
+
+Table Columns:  pos, no, driver, team, laps, time_retired, grid, laps_led, points
+
+response:
+ normalize_coll = [time_retired]
+
+
+id:  nu-69  Q:  who superceded lord high steward?  ans:  justiciar
+
+Three Rows:
+ position | officer | current_officers | superseded_by | royal_household
+1 | lord high steward | vacant | justiciar | lord steward
+2 | lord high chancellor | the rt hon chris grayling, mp |  |
+3 | lord high treasurer | in commission |  |
+
+Table Columns:  position, officer, current_officers, superseded_by, royal_household
+
+response:
+ normalize_coll = [officer, current_officers, superseded_by, royal_household]
+
+
+id:  nu-71  Q:  how many fullback positions were picked?  ans:  2
+
+Three Rows:
+ pick__ | nfl_team | player | position | college
+1 | baltimore colts (lottery bonus pick) | george shaw | quarterback | oregon
+2 | chicago cardinals | max boydston | end | oklahoma
+3 | baltimore colts | alan ameche | fullback | wisconsin
+
+Table Columns:  pick__, nfl_team, player, position, college
+
+response:
+ normalize_coll = []
+
+
+id:  nu-72  Q:  which year had the least amount of toy sales?  ans:  2003
+
+Three Rows:
+ year | injuries_us_000 | deaths_age_LT15 | cpsc_toy_safety_funding_us_millions | toy_sales_us__billions
+1994 | 154 |  |  |
+1995 | 139 |  |  |
+1996 | 130 |  |  |
+
+Table Columns:  year, injuries_us_000, deaths_age_LT15, cpsc_toy_safety_funding_us_millions, toy_sales_us__billions
+
+response:
+ normalize_coll = []
+
+
+id:  nu-73  Q:  how many affiliates does tv azteca have all together?  ans:  9
+
+Three Rows:
+ network_name | flagship | programming_type | owner | affiliates
+canal de las estrellas | xew 2 | soap operas, retro movies and sports | televisa | 10
+canal 5 | xhgc 5 | cartoons, movies, and series | televisa | 4
+azteca 7 | xhimt 7 | sports, series, and movies | tv azteca | 5
+
+Table Columns:  network_name, flagship, programming_type, owner, affiliates
+
+response:
+ normalize_coll = []
+
+
+id:  nu-74  Q:  what was the number of times that the team placed 5th?  ans:  3
+
+Three Rows:
+ year | division | league | reg_season | playoffs
+2003 | 2 | usl w-league | 5th, western |
+2004 | 1 | usl w-league | 8th, western |
+2005 | 1 | usl w-league | 6th, western |
+
+Table Columns:  year, division, league, reg_season, playoffs
+
+response:
+ normalize_coll = [reg_season]
+
+
+id:  nu-75  Q:  how many games did the team score at least 30 points?  ans:  4
+
+Three Rows:
+ week | date | opponent | score | result | record
+1 | aug 28 | at toronto argonauts | 13–6 | loss | 0–1
+2 | sept 4 | at montreal alouettes | 21–2 | loss | 0–2
+2 | sept 6 | vs. montreal alouettes | 20–11 | loss | 0–3
+
+Table Columns:  week, date, opponent, score, result, record
+
+response:
+ normalize_coll = [opponent, score]
+
+
+id:  nu-76  Q:  did he race more laps in 1926 or 1938?  ans:  1926
+
+Three Rows:
+ year | car | start | qual | rank | finish | laps | led | retired
+1926 | 31 | 12 | 102.789 | 13 | 11 | 142 | 0 | flagged
+1927 | 27 | 27 | 107.765 | 22 | 3 | 200 | 0 | running
+1928 | 8 | 4 | 117.031 | 4 | 10 | 200 | 33 | running
+
+Table Columns:  year, car, start, qual, rank, finish, laps, led, retired
+
+response:
+ normalize_coll = [retired]
+
+
+id:  nu-77  Q:  what's the total attendance for gamestorm 11?  ans:  736
+
+Three Rows:
+ iteration | dates | location | attendance | notes
+gamestorm 10 | march 2008 | red lion - vancouver, wa | 750 | -
+gamestorm 11 | march 26–29, 2009 | hilton - vancouver, wa | 736 | debut of video games, first-ever artist guest of honor, rob alexander
+gamestorm 12 | march 25–28, 2010 | hilton - vancouver, wa | 802 | board games guest of honor: tom lehmann
+
+Table Columns:  iteration, dates, location, attendance, notes
+
+response:
+ normalize_coll = [dates]
+
+
+id:  nu-78  Q:  who is the next driver listed after scott dixon?  ans:  mike conway
+
+Three Rows:
+ pos | no | driver | team | engine | laps | time_retired | grid | laps_led | points
+1 | 2 | ryan briscoe | team penske | chevrolet | 85 | 2:07:02.8248 | 2 | 27 | 50
+2 | 12 | will power | team penske | chevrolet | 85 | + 0.4408 | 1 | 57 | 43
+3 | 10 | dario franchitti | chip ganassi racing | honda | 85 | + 1.0497 | 6 | 0 | 35
+
+Table Columns:  pos, no, driver, team, engine, laps, time_retired, grid, laps_led, points
+
+response:
+ normalize_coll = [time_retired]
+
+
+id:  nu-79  Q:  which venue did melissa morrison compete at in 2004?  ans:  athens, greece
+
+Three Rows:
+ year | competition | venue | position | event
+1997 | world indoor championships | paris, france | 5th | 60 m hurdles
+1997 | usa outdoor championships | indianapolis, united states | 1st | 100 m hurdles
+1998 | grand prix final | moscow, russia | 2nd | 100 m hurdles
+
+Table Columns:  year, competition, venue, position, event
+
+response:
+ normalize_coll = [venue]
+
+
+id:  nu-80  Q:  how many times is professional writer listed as the profession according to this chart?  ans:  3
+
+Three Rows:
+ year | recipient | nationality | profession | speech
+1997 | elie wiesel | united states | professional writer\nwinner of the nobel peace prize (1986) |
+1998 | herman wouk | united states | professional writer and 1952 pulitzer prize winner |
+1999 | a.m. rosenthal | united states | former new york times editor\nformer new york daily news columnist |
+
+Table Columns:  year, recipient, nationality, profession, speech
+
+response:
+ normalize_coll = [profession]
+
+id:  nu-94  Q:  how many games were played after october 1st?  ans:  11
+
+Three Rows:
+ date | team | competition | round | leg | opponent | location | score
+july 7 | gent | intertoto cup | round 2 | leg 1, home | cliftonville | jules ottenstadion, ghent | 2-0
+july 14 | gent | intertoto cup | round 2 | leg 2, away | cliftonville | windsor park, belfast | 4-0
+july 21 | gent | intertoto cup | round 3 | leg 1, home | aalborg | jules ottenstadion, ghent | 1-1
+
+Table Columns:  date, team, competition, round, leg, opponent, location, score
+
+response:
+ normalize_coll = [date, leg, score]
+
+
+id:  nu-95  Q:  what is the total number of wins listed for the united states?  ans:  22
+
+Three Rows:
+ golfer | country | wins | match_play | championship | invitational | champions
+tiger woods | united states | 18 | 3: 2003, 2004, 2008 | 7: 1999, 2002, 2003,\n2005, 2006, 2007, 2013 | 8: 1999, 2000, 2001, 2005,\n2006, 2007, 2009, 2013 | —
+geoff ogilvy | australia | 3 | 2: 2006, 2009 | 1: 2008 | — | —
+darren clarke | northern ireland | 2 | 1: 2000 | — | 1: 2003 | —
+
+Table Columns:  golfer, country, wins, match_play, championship, invitational, champions
+
+response:
+ normalize_coll = [match_play, championship, invitational, champions]
+
+
+id:  nu-97  Q:  when did the restaurant "verre" at the hilton dubai creek close?  ans:  october 2011
+
+Three Rows:
+ restaurant | location | date_opened | date_closed
+verre at the hilton dubai creek | dubai, united arab emirates |  | october 2011
+maze by gordon ramsay | the pearl-qatar, doha, qatar | 2010 | march 2012
+gordon ramsay at conrad tokyo | conrad tokyo, tokyo, japan |  | -
+
+Table Columns:  restaurant, location, date_opened, date_closed
+
+response:
+ normalize_coll = [date_opened, date_closed]
+
+
+id:  nu-98  Q:  who finished immediately after danny osborne?  ans:  mike imrie
+
+Three Rows:
+ position | driver | no | car | entrant | lak | ora | san | phi | total
+1 | john briggs | 9 | honda prelude chevrolet | john briggs | 42 | 42 | 42 | 42 | 168
+2 | kerry baily | 18 | toyota supra chevrolet | kerry baily | 38 | 38 | 36 | 38 | 150
+3 | james phillip | 55 | honda prelude chevrolet | james phillip | 26 | 28 | 28 | 30 | 112
+
+Table Columns:  position, driver, no, car, entrant, lak, ora, san, phi, total
+
+response:
+ normalize_coll = [car]
+
+
+id:  nu-99  Q:  where is saint anslem school located?  ans:  chester township, ohio
+
+Three Rows:
+ district | location | communities_served
+agape christian academy | burton township, ohio and troy township, ohio | accepts applications prior to the start of each school year
+hawken school | gates mills, ohio | college preparatory day school: online application, site visit and testing
+hershey montessori farm school | huntsburg township, ohio | parent-owned, and chartered by ohio department of education: application deadline january each year
+
+Table Columns:  district, location, communities_served
+
+response:
+ normalize_coll = [location, communities_served]
+
+
+id:  nu-100  Q:  who has the same number as greg foster?  ans:  kyrylo fesenko
+
+Three Rows:
+ player | no | nationality | position | years_for_jazz | school_club_team
+jim farmer | 30 | united states | guard | 1988-89 | alabama
+derrick favors | 15 | united states | forward | 2011-present | georgia tech
+kyrylo fesenko | 44 | ukraine | center | 2007-11 | cherkasy monkeys (ukraine)
+
+Table Columns:  player, no, nationality, position, years_for_jazz, school_club_team
+
+response:
+ normalize_coll = [years_for_jazz]
+
+
+id:  nu-101  Q:  besides "th' wife", what other single came out in 1964?  ans:  "blue train (of the heartbreak line)"
+
+Three Rows:
+ year | single | chart_positions_us_country | chart_positions_us | album
+1957 | "sittin' in the balcony" | — | 38 | single only
+1961 | "language of love" | — | 32 | language of love
+1962 | "thou shalt not steal" | — | 73 | singles only
+
+Table Columns:  year, single, chart_positions_us_country, chart_positions_us, album
+
+response:
+ normalize_coll = [chart_positions_us_country, chart_positions_us]
+
+
+id:  nu-104  Q:  how long does the swiss open series run for?  ans:  6 days
+
+Three Rows:
+ tour | official_title | venue | city | date_start | date_finish | prize_money_usd | report
+1 | malaysia super series | stadium badminton kuala lumpur | kuala lumpur | january 16 | january 21 | 200,000 | report
+2 | korea open super series | seoul national university gymnasium | seoul | january 23 | january 28 | 300,000 | report
+3 | all england super series | national indoor arena | birmingham | march 6 | march 11 | 200,000 | report
+
+Table Columns:  tour, official_title, venue, city, date_start, date_finish, prize_money_usd, report
+
+response:
+ normalize_coll = []
+
+
+id:  nu-106  Q:  when did leonor piuza last compete in a race?  ans:  2011
+
+Three Rows:
+ year | competition | venue | position | event | notes
+2003 | all-africa games | abuja, nigeria | 11th (h) | 800 m | 2:05.19
+2006 | commonwealth games | melbourne, australia | 9th (sf) | 800 m | 2:01.84
+2006 | african championships | bambous, mauritius | 13th (h) | 800 m | 2:10.50
+
+Table Columns:  year, competition, venue, position, event, notes
+
+response:
+ normalize_coll = [position, notes]
+
+
+id:  nu-107  Q:  what continent is listed at the top of the table?  ans:  africa
+
+Three Rows:
+ naturalisations_by_origin | _2000 | _2005 | _2009 | __total_2009
+africa | 84 182 | 98 453 | 85 144 | 62.7
+maghreb | 68 185 | 75 224 | 56 024 | 41.2
+sub-saharan africa | 10 622 | 15 624 | 22 214 | 16.4
+
+Table Columns:  naturalisations_by_origin, _2000, _2005, _2009, __total_2009
+
+response:
+ normalize_coll = [naturalisations_by_origin]
+
+
+id:  nu-108  Q:  what year was the only year in which the team won the co-championship title?  ans:  1939/40
+
+Three Rows:
+ year | division | league | reg_season | playoffs | national_cup
+1934/35 | n/a | asl | 6th | no playoff | ?
+1935/36 | n/a | asl | 2nd | no playoff | ?
+1936/37 | n/a | asl | 2nd, american | 1st round | ?
+
+Table Columns:  year, division, league, reg_season, playoffs, national_cup
+
+response:
+ normalize_coll = [year, reg_season, playoffs]
+
+
+id:  nu-110  Q:  how many hard surface courts are there?  ans:  3
+
+Three Rows:
+ outcome | no | date | tournament | surface | opponent | score
+runner-up | 1. | 15 april 2001 | grand prix hassan ii, casablanca, morocco | clay | guillermo cañas | 5–7, 2–6
+winner | 1. | 29 july 2001 | orange warsaw open, sopot, poland | clay | albert portas | 1–6, 7–5, 7–6(7–2)
+runner-up | 2. | 20 july 2003 | mercedes cup, stuttgart, germany | clay | guillermo coria | 2–6, 2–6, 1–6
+
+Table Columns:  outcome, no, date, tournament, surface, opponent, score
+
+response:
+ normalize_coll = [date, score]
+
+
+id:  nu-111  Q:  what was the least amount of points scored in a season?  ans:  0
+
+Three Rows:
+ season | class | moto | races | win | podiums | pole | pts | position
+2004 | 125cc | aprilia | 1 | 0 | 0 | 0 | 0 | nc
+2005 | 125cc | derbi | 13 | 0 | 0 | 0 | 1 | 36th
+2006 | 125cc | derbi | 16 | 0 | 0 | 0 | 53 | 14th
+
+Table Columns:  season, class, moto, races, win, podiums, pole, pts, position
+
+response:
+ normalize_coll = [position]
+
+
+id:  nu-112  Q:  how many specifications have no active directory federation services?  ans:  1
+
+Three Rows:
+ specifications | foundation | essentials | standard | datacenter
+distribution | oem only | retail, volume licensing, oem | retail, volume licensing, oem | volume licensing and oem
+licensing model | per server | per server | per cpu pair + cal | per cpu pair + cal
+processor chip limit | 1 | 2 | 64 | 64
+
+Table Columns:  specifications, foundation, essentials, standard, datacenter
+
+response:
+ normalize_coll = []
+
+
+id:  nu-114  Q:  how many distributions support the x86 architecture?  ans:  29
+
+Three Rows:
+ distribution | x86 | x86_64 | ia64 | ppc | ppc64 | sparc32 | sparc64 | arm | hppa | mips | sh | s390 | s390x | alpha | m68k
+arch linux | yes (>=i686) | yes | no | discontinued unofficial port | no | no | no | yes\nunofficial | no | no | no | no | no | no | no
+backtrack | yes | yes | no | no | no | no | no | yes | no | no | no | no | no | no | no
+bodhi linux | yes | yes | no | no | no | no | no | yes | no | no | no | no | no | no | no
+
+Table Columns:  distribution, x86, x86_64, ia64, ppc, ppc64, sparc32, sparc64, arm, hppa, mips, sh, s390, s390x, alpha, m68k
+
+response:
+ normalize_coll = [distribution]
+
+
+id:  nu-115  Q:  who was the only player to come from westmeath county?  ans:  seán mcloughlin
+
+Three Rows:
+ rank | player | county | tally | total | opposition
+1 | francis forde | galway | 2–8 | 14 | roscommon
+2 | niall english | carlow | 1–9 | 12 | westmeath
+3 | kevin broderick | galway | 3–1 | 10 | new york
+
+Table Columns:  rank, player, county, tally, total, opposition
+
+response:
+ normalize_coll = [tally]
+
+
+id:  nu-116  Q:  are the dates in a consecutive order?  ans:  yes
+
+Three Rows:
+ wrestler_ | reigns_ | date_ | place_ | notes_
+ron starr | 1 | september 19, 1986 | ponce, puerto rico | defeated invader i in a tournament final
+invader i | 1 | november 5, 1986 | san juan, puerto rico |
+jason the terrible | 1 | january 17, 1987 | caguas, puerto rico |
+
+Table Columns:  wrestler_, reigns_, date_, place_, notes_
+
+response:
+ normalize_coll = [date_, place_]
+
+
+id:  nu-117  Q:  what is the first name on the chart?  ans:  joel smith
+
+Three Rows:
+ _ | name | height | weight_lbs | position | class | hometown | previous_teams
+0 | joel smith | 6'4" | 210 | g | rs jr. | lompoc, ca, u.s. | brewster academy
+1 | venoy overton | 5'11" | 180 | g | fr. | seattle, wa, u.s. | franklin hs
+4 | tim morris | 6'4" | 210 | g | sr. | spokane wa, u.s. | central valley hs
+
+Table Columns:  _, name, height, weight_lbs, position, class, hometown, previous_teams
+
+response:
+ normalize_coll = [height, weight_lbs]
+
+
+id:  nu-118  Q:  which date had the most attendance?  ans:  october 17
+
+Three Rows:
+ date | opponent_ | rank_ | site | tv | result | attendance
+september 12 | #7 nebraska* |  | kinnick stadium • iowa city, ia |  | w 10-7 | 60,160
+september 19 | at iowa state* |  | cyclone stadium • ames, ia (cy-hawk trophy) |  | l 12-23 | 53,922
+september 26 | #6 ucla* |  | kinnick stadium • iowa city, ia |  | w 20-7 | 60,004
+
+Table Columns:  date, opponent_, rank_, site, tv, result, attendance
+
+response:
+ normalize_coll = [opponent_, rank_, site, tv, result, attendance]
+
+Process finished with exit code 0

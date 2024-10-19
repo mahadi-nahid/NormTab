@@ -1,0 +1,724 @@
+/Users/mnahid/Documents/NormTab/bin/python /Users/mnahid/Documents/Project/NormTab/normtab_wtq_spit.py
+/Users/mnahid/Documents/NormTab/lib/python3.10/site-packages/fuzzywuzzy/fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+
+
+id:  nu-0 title:  2008 Clásica de San Sebastián
+
+counter :  0
+Table Columns:  rank, cyclist, team, time, uci_protour_points
+
+Three Rows:
+ rank | cyclist | team | time | uci_protour_points
+1 | alejandro valverde (esp) | caisse d'epargne | 5h 29' 10" | 40
+2 | alexandr kolobnev (rus) | team csc saxo bank | s.t. | 30
+3 | davide rebellin (ita) | gerolsteiner | s.t. | 25
+----------------------------------------
+
+
+Column Selection (Step 1):   ['cyclist'] <class 'str'>
+-------------------------
+
+
+Extracted Table Markdown:
+ | cyclist                  |
+|:-------------------------|
+| alejandro valverde (esp) |
+| alexandr kolobnev (rus)  |
+| davide rebellin (ita)    |
+| paolo bettini (ita)      |
+| franco pellizotti (ita)  |
+| denis menchov (rus)      |
+| samuel sánchez (esp)     |
+| stéphane goubert (fra)   |
+| haimar zubeldia (esp)    |
+| david moncoutié (fra)    |
+
+Remaining subtable:
+ |   rank | team               | time       |   uci_protour_points |
+|-------:|:-------------------|:-----------|---------------------:|
+|      1 | caisse d'epargne   | 5h 29' 10" |                   40 |
+|      2 | team csc saxo bank | s.t.       |                   30 |
+|      3 | gerolsteiner       | s.t.       |                   25 |
+|      4 | quick step         | s.t.       |                   20 |
+|      5 | liquigas           | s.t.       |                   15 |
+|      6 | rabobank           | s.t.       |                   11 |
+|      7 | euskaltel-euskadi  | s.t.       |                    7 |
+|      8 | ag2r-la mondiale   | + 2"       |                    5 |
+|      9 | euskaltel-euskadi  | + 2"       |                    3 |
+|     10 | cofidis            | + 2"       |                    1 |
+not empty.
+
+Normalized Subtable (NormTab) Step 2:
+ | cyclist            | name               | country   |
+|:-------------------|:-------------------|:----------|
+| alejandro valverde | alejandro valverde | esp       |
+| alexandr kolobnev  | alexandr kolobnev  | rus       |
+| davide rebellin    | davide rebellin    | ita       |
+| paolo bettini      | paolo bettini      | ita       |
+| franco pellizotti  | franco pellizotti  | ita       |
+| denis menchov      | denis menchov      | rus       |
+| samuel sánchez     | samuel sánchez     | esp       |
+| stéphane goubert   | stéphane goubert   | fra       |
+| haimar zubeldia    | haimar zubeldia    | esp       |
+| david moncoutié    | david moncoutié    | fra       |
+
+Merged Table (Normalized) Step 2::
+ |   rank | team               | time       |   uci_protour_points | cyclist            | name               | country   |
+|-------:|:-------------------|:-----------|---------------------:|:-------------------|:-------------------|:----------|
+|      1 | caisse d'epargne   | 5h 29' 10" |                   40 | alejandro valverde | alejandro valverde | esp       |
+|      2 | team csc saxo bank | s.t.       |                   30 | alexandr kolobnev  | alexandr kolobnev  | rus       |
+|      3 | gerolsteiner       | s.t.       |                   25 | davide rebellin    | davide rebellin    | ita       |
+|      4 | quick step         | s.t.       |                   20 | paolo bettini      | paolo bettini      | ita       |
+|      5 | liquigas           | s.t.       |                   15 | franco pellizotti  | franco pellizotti  | ita       |
+|      6 | rabobank           | s.t.       |                   11 | denis menchov      | denis menchov      | rus       |
+|      7 | euskaltel-euskadi  | s.t.       |                    7 | samuel sánchez     | samuel sánchez     | esp       |
+|      8 | ag2r-la mondiale   | + 2"       |                    5 | stéphane goubert   | stéphane goubert   | fra       |
+|      9 | euskaltel-euskadi  | + 2"       |                    3 | haimar zubeldia    | haimar zubeldia    | esp       |
+|     10 | cofidis            | + 2"       |                    1 | david moncoutié    | david moncoutié    | fra       |
+
+*****************************************
+
+You are an advanced AI capable of analyzing and understanding information within tables.
+You are given the last row of a table. Your task is to detect if the last row has any information like aggregated rows such as ‘total’, ‘sum’ or average’.
+Last row: ['10', 'cofidis', '+ 2"', '1', 'david moncoutié', 'david moncoutié', 'fra']
+Directly give your choice. Ensure the format is only "YES or NO" form, no other form, without any explanation.
+response:  NO
+
+*****************************************
+
+Final merged norm_tab:
+ [['rank', 'team', 'time', 'uci_protour_points', 'cyclist', 'name', 'country'], ['1', "caisse d'epargne", '5h 29\' 10"', '40', 'alejandro valverde', 'alejandro valverde', 'esp'], ['2', 'team csc saxo bank', 's.t.', '30', 'alexandr kolobnev', 'alexandr kolobnev', 'rus'], ['3', 'gerolsteiner', 's.t.', '25', 'davide rebellin', 'davide rebellin', 'ita'], ['4', 'quick step', 's.t.', '20', 'paolo bettini', 'paolo bettini', 'ita'], ['5', 'liquigas', 's.t.', '15', 'franco pellizotti', 'franco pellizotti', 'ita'], ['6', 'rabobank', 's.t.', '11', 'denis menchov', 'denis menchov', 'rus'], ['7', 'euskaltel-euskadi', 's.t.', '7', 'samuel sánchez', 'samuel sánchez', 'esp'], ['8', 'ag2r-la mondiale', '+ 2"', '5', 'stéphane goubert', 'stéphane goubert', 'fra'], ['9', 'euskaltel-euskadi', '+ 2"', '3', 'haimar zubeldia', 'haimar zubeldia', 'esp'], ['10', 'cofidis', '+ 2"', '1', 'david moncoutié', 'david moncoutié', 'fra']]
+Transpose_promt:
+ You are an advanced AI capable of analyzing and understanding information within tables. Read the first row and first column of table reagrading2008 Clásica de San SebastiánHeadings of a table are labels or titles given to rows or columns to provide a brief description of the data they contain. Based on the given table, the headings of the table are more likely to be:
+(A): (rank, team, time, uci_protour_points, cyclist, name, country)
+(B): (rank, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+Directly give your choice. Ensure the format is only "(A) or (B)" form, no other form, without any explanation.
+response:  (A)
+Need transposition:  False
+
+Modified Merged table (Step 3):
+ |   rank | team               | time       |   uci_protour_points | cyclist            | name               | country   |
+|-------:|:-------------------|:-----------|---------------------:|:-------------------|:-------------------|:----------|
+|      1 | caisse d'epargne   | 5h 29' 10" |                   40 | alejandro valverde | alejandro valverde | esp       |
+|      2 | team csc saxo bank | s.t.       |                   30 | alexandr kolobnev  | alexandr kolobnev  | rus       |
+|      3 | gerolsteiner       | s.t.       |                   25 | davide rebellin    | davide rebellin    | ita       |
+|      4 | quick step         | s.t.       |                   20 | paolo bettini      | paolo bettini      | ita       |
+|      5 | liquigas           | s.t.       |                   15 | franco pellizotti  | franco pellizotti  | ita       |
+|      6 | rabobank           | s.t.       |                   11 | denis menchov      | denis menchov      | rus       |
+|      7 | euskaltel-euskadi  | s.t.       |                    7 | samuel sánchez     | samuel sánchez     | esp       |
+|      8 | ag2r-la mondiale   | + 2"       |                    5 | stéphane goubert   | stéphane goubert   | fra       |
+|      9 | euskaltel-euskadi  | + 2"       |                    3 | haimar zubeldia    | haimar zubeldia    | esp       |
+|     10 | cofidis            | + 2"       |                    1 | david moncoutié    | david moncoutié    | fra       |
+
+*****************************************
+
+id:  nu-129 title:  1981 Houston Oilers season
+
+counter :  109
+Table Columns:  week, date, opponent, result, attendance
+
+Three Rows:
+ week | date | opponent | result | attendance
+1 | september 6, 1981 | at los angeles rams | w 27–20 | 63,198
+2 | september 13, 1981 | at cleveland browns | w 9–3 | 79,483
+3 | september 20, 1981 | miami dolphins | l 16–10 | 47,379
+----------------------------------------
+
+
+Column Selection (Step 1):   ['date', 'result', 'attendance'] <class 'str'>
+-------------------------
+
+
+Extracted Table Markdown:
+ | date               | result   | attendance   |
+|:-------------------|:---------|:-------------|
+| september 6, 1981  | w 27–20  | 63,198       |
+| september 13, 1981 | w 9–3    | 79,483       |
+| september 20, 1981 | l 16–10  | 47,379       |
+| september 27, 1981 | l 33–17  | 50,309       |
+| october 4, 1981    | w 17–10  | 44,350       |
+| october 11, 1981   | w 35–17  | 42,671       |
+| october 18, 1981   | l 38–10  | 60,474       |
+| october 26, 1981   | l 26–13  | 52,732       |
+| november 1, 1981   | l 34–21  | 54,736       |
+| november 8, 1981   | w 17–16  | 45,519       |
+| november 15, 1981  | l 23–10  | 73,984       |
+| november 22, 1981  | l 27–24  | 49,581       |
+| november 29, 1981  | l 31–27  | 40,201       |
+| december 3, 1981   | w 17–13  | 44,502       |
+| december 13, 1981  | l 28–6   | 55,707       |
+| december 20, 1981  | w 21–20  | 41,056       |
+
+Remaining subtable:
+ |   week | opponent                |
+|-------:|:------------------------|
+|      1 | at los angeles rams     |
+|      2 | at cleveland browns     |
+|      3 | miami dolphins          |
+|      4 | at new york jets        |
+|      5 | cincinnati bengals      |
+|      6 | seattle seahawks        |
+|      7 | at new england patriots |
+|      8 | at pittsburgh steelers  |
+|      9 | at cincinnati bengals   |
+|     10 | oakland raiders         |
+|     11 | at kansas city chiefs   |
+|     12 | new orleans saints      |
+|     13 | atlanta falcons         |
+|     14 | cleveland browns        |
+|     15 | at san francisco 49ers  |
+|     16 | pittsburgh steelers     |
+not empty.
+
+Normalized Subtable (NormTab) Step 2:
+ | date       | result_type   | result_score   |   attendance |
+|:-----------|:--------------|:---------------|-------------:|
+| 1981-09-06 | w             | 27-20          |        63198 |
+| 1981-09-13 | w             | 9-3            |        79483 |
+| 1981-09-20 | l             | 16-10          |        47379 |
+| 1981-09-27 | l             | 33-17          |        50309 |
+| 1981-10-04 | w             | 17-10          |        44350 |
+| 1981-10-11 | w             | 35-17          |        42671 |
+| 1981-10-18 | l             | 38-10          |        60474 |
+| 1981-10-26 | l             | 26-13          |        52732 |
+| 1981-11-01 | l             | 34-21          |        54736 |
+| 1981-11-08 | w             | 17-16          |        45519 |
+| 1981-11-15 | l             | 23-10          |        73984 |
+| 1981-11-22 | l             | 27-24          |        49581 |
+| 1981-11-29 | l             | 31-27          |        40201 |
+| 1981-12-03 | w             | 17-13          |        44502 |
+| 1981-12-13 | l             | 28-6           |        55707 |
+| 1981-12-20 | w             | 21-20          |        41056 |
+
+Merged Table (Normalized) Step 2::
+ |   week | opponent                | date       | result_type   | result_score   |   attendance |
+|-------:|:------------------------|:-----------|:--------------|:---------------|-------------:|
+|      1 | at los angeles rams     | 1981-09-06 | w             | 27-20          |        63198 |
+|      2 | at cleveland browns     | 1981-09-13 | w             | 9-3            |        79483 |
+|      3 | miami dolphins          | 1981-09-20 | l             | 16-10          |        47379 |
+|      4 | at new york jets        | 1981-09-27 | l             | 33-17          |        50309 |
+|      5 | cincinnati bengals      | 1981-10-04 | w             | 17-10          |        44350 |
+|      6 | seattle seahawks        | 1981-10-11 | w             | 35-17          |        42671 |
+|      7 | at new england patriots | 1981-10-18 | l             | 38-10          |        60474 |
+|      8 | at pittsburgh steelers  | 1981-10-26 | l             | 26-13          |        52732 |
+|      9 | at cincinnati bengals   | 1981-11-01 | l             | 34-21          |        54736 |
+|     10 | oakland raiders         | 1981-11-08 | w             | 17-16          |        45519 |
+|     11 | at kansas city chiefs   | 1981-11-15 | l             | 23-10          |        73984 |
+|     12 | new orleans saints      | 1981-11-22 | l             | 27-24          |        49581 |
+|     13 | atlanta falcons         | 1981-11-29 | l             | 31-27          |        40201 |
+|     14 | cleveland browns        | 1981-12-03 | w             | 17-13          |        44502 |
+|     15 | at san francisco 49ers  | 1981-12-13 | l             | 28-6           |        55707 |
+|     16 | pittsburgh steelers     | 1981-12-20 | w             | 21-20          |        41056 |
+
+*****************************************
+
+You are an advanced AI capable of analyzing and understanding information within tables.
+You are given the last row of a table. Your task is to detect if the last row has any information like aggregated rows such as ‘total’, ‘sum’ or average’.
+Last row: ['16', 'pittsburgh steelers', '1981-12-20', 'w', '21-20', 41056]
+Directly give your choice. Ensure the format is only "YES or NO" form, no other form, without any explanation.
+response:  NO
+
+*****************************************
+
+Final merged norm_tab:
+ [['week', 'opponent', 'date', 'result_type', 'result_score', 'attendance'], ['1', 'at los angeles rams', '1981-09-06', 'w', '27-20', 63198], ['2', 'at cleveland browns', '1981-09-13', 'w', '9-3', 79483], ['3', 'miami dolphins', '1981-09-20', 'l', '16-10', 47379], ['4', 'at new york jets', '1981-09-27', 'l', '33-17', 50309], ['5', 'cincinnati bengals', '1981-10-04', 'w', '17-10', 44350], ['6', 'seattle seahawks', '1981-10-11', 'w', '35-17', 42671], ['7', 'at new england patriots', '1981-10-18', 'l', '38-10', 60474], ['8', 'at pittsburgh steelers', '1981-10-26', 'l', '26-13', 52732], ['9', 'at cincinnati bengals', '1981-11-01', 'l', '34-21', 54736], ['10', 'oakland raiders', '1981-11-08', 'w', '17-16', 45519], ['11', 'at kansas city chiefs', '1981-11-15', 'l', '23-10', 73984], ['12', 'new orleans saints', '1981-11-22', 'l', '27-24', 49581], ['13', 'atlanta falcons', '1981-11-29', 'l', '31-27', 40201], ['14', 'cleveland browns', '1981-12-03', 'w', '17-13', 44502], ['15', 'at san francisco 49ers', '1981-12-13', 'l', '28-6', 55707], ['16', 'pittsburgh steelers', '1981-12-20', 'w', '21-20', 41056]]
+Transpose_promt:
+ You are an advanced AI capable of analyzing and understanding information within tables. Read the first row and first column of table reagrading1981 Houston Oilers seasonHeadings of a table are labels or titles given to rows or columns to provide a brief description of the data they contain. Based on the given table, the headings of the table are more likely to be:
+(A): (week, opponent, date, result_type, result_score, attendance)
+(B): (week, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16)
+
+Directly give your choice. Ensure the format is only "(A) or (B)" form, no other form, without any explanation.
+response:  (A)
+Need transposition:  False
+
+Modified Merged table (Step 3):
+ |   week | opponent                | date       | result_type   | result_score   |   attendance |
+|-------:|:------------------------|:-----------|:--------------|:---------------|-------------:|
+|      1 | at los angeles rams     | 1981-09-06 | w             | 27-20          |        63198 |
+|      2 | at cleveland browns     | 1981-09-13 | w             | 9-3            |        79483 |
+|      3 | miami dolphins          | 1981-09-20 | l             | 16-10          |        47379 |
+|      4 | at new york jets        | 1981-09-27 | l             | 33-17          |        50309 |
+|      5 | cincinnati bengals      | 1981-10-04 | w             | 17-10          |        44350 |
+|      6 | seattle seahawks        | 1981-10-11 | w             | 35-17          |        42671 |
+|      7 | at new england patriots | 1981-10-18 | l             | 38-10          |        60474 |
+|      8 | at pittsburgh steelers  | 1981-10-26 | l             | 26-13          |        52732 |
+|      9 | at cincinnati bengals   | 1981-11-01 | l             | 34-21          |        54736 |
+|     10 | oakland raiders         | 1981-11-08 | w             | 17-16          |        45519 |
+|     11 | at kansas city chiefs   | 1981-11-15 | l             | 23-10          |        73984 |
+|     12 | new orleans saints      | 1981-11-22 | l             | 27-24          |        49581 |
+|     13 | atlanta falcons         | 1981-11-29 | l             | 31-27          |        40201 |
+|     14 | cleveland browns        | 1981-12-03 | w             | 17-13          |        44502 |
+|     15 | at san francisco 49ers  | 1981-12-13 | l             | 28-6           |        55707 |
+|     16 | pittsburgh steelers     | 1981-12-20 | w             | 21-20          |        41056 |
+
+*****************************************
+
+
+Process finished with exit code 0
+
+
+id:  nu-147 title:  Figure skating at the Asian Winter Games
+
+counter :  123
+Table Columns:  rank, nation, gold, silver, bronze, total
+
+Three Rows:
+ rank | nation | gold | silver | bronze | total
+1 | china | 13 | 9 | 13 | 35
+2 | japan | 7 | 10 | 7 | 24
+3 | uzbekistan | 1 | 2 | 3 | 6
+----------------------------------------
+
+
+Column Selection (Step 1):   [] <class 'str'>
+-------------------------
+
+
+Extracted Table Markdown:
+
+
+Remaining subtable:
+ | rank   | nation      |   gold |   silver |   bronze |   total |
+|:-------|:------------|-------:|---------:|---------:|--------:|
+| 1      | china       |     13 |        9 |       13 |      35 |
+| 2      | japan       |      7 |       10 |        7 |      24 |
+| 3      | uzbekistan  |      1 |        2 |        3 |       6 |
+| 4      | kazakhstan  |      2 |        2 |        0 |       4 |
+| 5      | north korea |      1 |        0 |        1 |       2 |
+| 6      | south korea |      0 |        0 |        2 |       2 |
+| total  | total       |     24 |       23 |       26 |      73 |
+Merged Table (Normalized):
+ | rank   | nation      |   gold |   silver |   bronze |   total |
+|:-------|:------------|-------:|---------:|---------:|--------:|
+| 1      | china       |     13 |        9 |       13 |      35 |
+| 2      | japan       |      7 |       10 |        7 |      24 |
+| 3      | uzbekistan  |      1 |        2 |        3 |       6 |
+| 4      | kazakhstan  |      2 |        2 |        0 |       4 |
+| 5      | north korea |      1 |        0 |        1 |       2 |
+| 6      | south korea |      0 |        0 |        2 |       2 |
+| total  | total       |     24 |       23 |       26 |      73 |
+
+*****************************************
+
+You are an advanced AI capable of analyzing and understanding information within tables.
+You are given the last row of a table. Your task is to detect if the last row has any information like aggregated rows such as ‘total’, ‘sum’ or average’.
+Last row: ['total', 'total', '24', '23', '26', '73']
+Directly give your choice. Ensure the format is only "YES or NO" form, no other form, without any explanation.
+response:  YES
+Ignored last row:  |   rank | nation      |   gold |   silver |   bronze |   total |
+|-------:|:------------|-------:|---------:|---------:|--------:|
+|      1 | china       |     13 |        9 |       13 |      35 |
+|      2 | japan       |      7 |       10 |        7 |      24 |
+|      3 | uzbekistan  |      1 |        2 |        3 |       6 |
+|      4 | kazakhstan  |      2 |        2 |        0 |       4 |
+|      5 | north korea |      1 |        0 |        1 |       2 |
+|      6 | south korea |      0 |        0 |        2 |       2 |
+
+*****************************************
+
+Final merged norm_tab:
+ [['rank', 'nation', 'gold', 'silver', 'bronze', 'total'], ['1', 'china', '13', '9', '13', '35'], ['2', 'japan', '7', '10', '7', '24'], ['3', 'uzbekistan', '1', '2', '3', '6'], ['4', 'kazakhstan', '2', '2', '0', '4'], ['5', 'north korea', '1', '0', '1', '2'], ['6', 'south korea', '0', '0', '2', '2']]
+Transpose_promt:
+ You are an advanced AI capable of analyzing and understanding information within tables. Read the first row and first column of table reagradingFigure skating at the Asian Winter GamesHeadings of a table are labels or titles given to rows or columns to provide a brief description of the data they contain. Based on the given table, the headings of the table are more likely to be:
+(A): (rank, nation, gold, silver, bronze, total)
+(B): (rank, 1, 2, 3, 4, 5, 6)
+
+Directly give your choice. Ensure the format is only "(A) or (B)" form, no other form, without any explanation.
+response:  (A)
+need transposition:  False
+
+Modified Merged table (Step 3):
+ |   rank | nation      |   gold |   silver |   bronze |   total |
+|-------:|:------------|-------:|---------:|---------:|--------:|
+|      1 | china       |     13 |        9 |       13 |      35 |
+|      2 | japan       |      7 |       10 |        7 |      24 |
+|      3 | uzbekistan  |      1 |        2 |        3 |       6 |
+|      4 | kazakhstan  |      2 |        2 |        0 |       4 |
+|      5 | north korea |      1 |        0 |        1 |       2 |
+|      6 | south korea |      0 |        0 |        2 |       2 |
+
+*****************************************
+
+
+Process finished with exit code 0
+
+====== ======== ======== ==========
+
+/Users/mnahid/Documents/NormTab/bin/python /Users/mnahid/Documents/Project/NormTab/normtab_wtq_eval.py
+/Users/mnahid/Documents/NormTab/lib/python3.10/site-packages/fuzzywuzzy/fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+ID:  nu-129
+Counter:  3
+
+ Markdown Table (NormTab):
+ |   week | opponent                | date       | result_type   | result_score   |   attendance |
+|-------:|:------------------------|:-----------|:--------------|:---------------|-------------:|
+|      1 | at los angeles rams     | 1981-09-06 | w             | 27-20          |        63198 |
+|      2 | at cleveland browns     | 1981-09-13 | w             | 9-3            |        79483 |
+|      3 | miami dolphins          | 1981-09-20 | l             | 16-10          |        47379 |
+|      4 | at new york jets        | 1981-09-27 | l             | 33-17          |        50309 |
+|      5 | cincinnati bengals      | 1981-10-04 | w             | 17-10          |        44350 |
+|      6 | seattle seahawks        | 1981-10-11 | w             | 35-17          |        42671 |
+|      7 | at new england patriots | 1981-10-18 | l             | 38-10          |        60474 |
+|      8 | at pittsburgh steelers  | 1981-10-26 | l             | 26-13          |        52732 |
+|      9 | at cincinnati bengals   | 1981-11-01 | l             | 34-21          |        54736 |
+|     10 | oakland raiders         | 1981-11-08 | w             | 17-16          |        45519 |
+|     11 | at kansas city chiefs   | 1981-11-15 | l             | 23-10          |        73984 |
+|     12 | new orleans saints      | 1981-11-22 | l             | 27-24          |        49581 |
+|     13 | atlanta falcons         | 1981-11-29 | l             | 31-27          |        40201 |
+|     14 | cleveland browns        | 1981-12-03 | w             | 17-13          |        44502 |
+|     15 | at san francisco 49ers  | 1981-12-13 | l             | 28-6           |        55707 |
+|     16 | pittsburgh steelers     | 1981-12-20 | w             | 21-20          |        41056 |
+
+Table Column:  row_number, week, opponent, date, result_type, result_score, attendance
+
+DataFrame from database (3 rows) :
+ row_number | week | opponent | date | result_type | result_score | attendance
+0 | 1 | at los angeles rams | 1981-09-06 | w | 27-20 | 63198
+1 | 2 | at cleveland browns | 1981-09-13 | w | 9-3 | 79483
+2 | 3 | miami dolphins | 1981-09-20 | l | 16-10 | 47379
+
+main_table: nu-129 table_qa_group:  [129, 397, 1465, 1655, 2023, 2775, 3564, 3682, 4205] number of questions:  9
+
+-----------------------------------------------
+
+
+id:  nu-129 Title:  1981 Houston Oilers season  Q:  how may away games did they win?  ans:  7
+answer_sql;  select count(*) from T where result_type = 'w'
+
+Prediction:
+
+ |   count(*) |
+|-----------:|
+|          7 |
+Gen output:  7  Gold:  7
+correct:  1
+Correcet:  1 total:  1 Accuracy:  0.9999000099990001
+
+-----------------------------------------------
+
+
+id:  nu-397 Title:  1981 Houston Oilers season  Q:  how many points did they beat the bengals by in week 5?  ans:  7
+answer_sql;  select abs(cast(substr(result_score, 1, 2) as integer) - cast(substr(result_score, 4, 2) as integer)) as point_difference
+from T
+where opponent like '%cincinnati bengals%' and week = 5
+
+Prediction:
+
+ |   point_difference |
+|-------------------:|
+|                  7 |
+Gen output:  7  Gold:  7
+correct:  2
+Correcet:  2 total:  2 Accuracy:  0.9999500024998749
+
+-----------------------------------------------
+
+
+id:  nu-1465 Title:  1981 Houston Oilers season  Q:  number of wins in the season.  ans:  7
+answer_sql;  select count(*) from T where result_type = 'w'
+
+Prediction:
+
+ |   count(*) |
+|-----------:|
+|          7 |
+Gen output:  7  Gold:  7
+correct:  3
+Correcet:  3 total:  3 Accuracy:  0.9999666677777407
+
+-----------------------------------------------
+
+
+id:  nu-1655 Title:  1981 Houston Oilers season  Q:  on which date did they score the most points?  ans:  october 11, 1981
+answer_sql;  select date from T order by result_score desc limit 1
+
+Prediction:
+
+ | date       |
+|:-----------|
+| 1981-09-13 |
+Gen output:  1981-09-13  Gold:  october 11, 1981
+Correcet:  3 total:  4 Accuracy:  0.7499812504687383
+
+-----------------------------------------------
+
+
+id:  nu-2023 Title:  1981 Houston Oilers season  Q:  how many teams did the oilers play only once in the season?  ans:  10
+answer_sql;  select count(*) from (select opponent from T group by opponent having count(*) = 1) as unique_opponents;
+
+Prediction:
+
+ |   count(*) |
+|-----------:|
+|         16 |
+Gen output:  16  Gold:  10
+Correcet:  3 total:  5 Accuracy:  0.5999880002399952
+
+-----------------------------------------------
+
+
+id:  nu-2775 Title:  1981 Houston Oilers season  Q:  how many wins were there in total?  ans:  7
+answer_sql;  select count(*) from T where result_type = 'w'
+
+Prediction:
+
+ |   count(*) |
+|-----------:|
+|          7 |
+Gen output:  7  Gold:  7
+correct:  4
+Correcet:  4 total:  6 Accuracy:  0.6666555557407376
+
+-----------------------------------------------
+
+
+id:  nu-3564 Title:  1981 Houston Oilers season  Q:  what is the total attendance for october?  ans:  200,227
+answer_sql;  select sum(attendance) from T where strftime('%m', date) = '10'
+
+Prediction:
+
+ |   sum(attendance) |
+|------------------:|
+|            200227 |
+Gen output:  200227  Gold:  200,227
+Correcet:  4 total:  7 Accuracy:  0.5714204082798817
+
+-----------------------------------------------
+
+
+id:  nu-3682 Title:  1981 Houston Oilers season  Q:  what was the next opponent after the game against the new england patriots?  ans:  at pittsburgh steelers
+answer_sql;  select opponent from T where row_number = (select row_number + 1 from T where opponent like '%new england patriots%')
+
+Prediction:
+
+ | opponent               |
+|:-----------------------|
+| at pittsburgh steelers |
+Gen output:  at pittsburgh steelers  Gold:  at pittsburgh steelers
+correct:  5
+Correcet:  5 total:  8 Accuracy:  0.6249921875976551
+
+-----------------------------------------------
+
+
+id:  nu-4205 Title:  1981 Houston Oilers season  Q:  how many times did the oilers have consecutive wins?  ans:  2
+answer_sql;  select count(*) from T where result_type = 'w' and row_number in (select row_number + 1 from T where result_type = 'w')
+
+Prediction:
+
+ |   count(*) |
+|-----------:|
+|          2 |
+Gen output:  2  Gold:  2
+correct:  6
+Correcet:  6 total:  9 Accuracy:  0.6666592593415629
+
+-----------------------------------------------
+
+***********************************************************
+
+
+Process finished with exit code 0
+======== ============== ============ ================== =============
+
+Unnorm
+
+id:  nu-129  Q:  how may away games did they win?  ans:  7
+Table Column:  row_number, week, date, opponent, result, attendance
+Original Table:
+
+ |   row_number |   week | date               | opponent                | result   | attendance   |
+|-------------:|-------:|:-------------------|:------------------------|:---------|:-------------|
+|            0 |      1 | september 6, 1981  | at los angeles rams     | w 27–20  | 63,198       |
+|            1 |      2 | september 13, 1981 | at cleveland browns     | w 9–3    | 79,483       |
+|            2 |      3 | september 20, 1981 | miami dolphins          | l 16–10  | 47,379       |
+|            3 |      4 | september 27, 1981 | at new york jets        | l 33–17  | 50,309       |
+|            4 |      5 | october 4, 1981    | cincinnati bengals      | w 17–10  | 44,350       |
+|            5 |      6 | october 11, 1981   | seattle seahawks        | w 35–17  | 42,671       |
+|            6 |      7 | october 18, 1981   | at new england patriots | l 38–10  | 60,474       |
+|            7 |      8 | october 26, 1981   | at pittsburgh steelers  | l 26–13  | 52,732       |
+|            8 |      9 | november 1, 1981   | at cincinnati bengals   | l 34–21  | 54,736       |
+|            9 |     10 | november 8, 1981   | oakland raiders         | w 17–16  | 45,519       |
+|           10 |     11 | november 15, 1981  | at kansas city chiefs   | l 23–10  | 73,984       |
+|           11 |     12 | november 22, 1981  | new orleans saints      | l 27–24  | 49,581       |
+|           12 |     13 | november 29, 1981  | atlanta falcons         | l 31–27  | 40,201       |
+|           13 |     14 | december 3, 1981   | cleveland browns        | w 17–13  | 44,502       |
+|           14 |     15 | december 13, 1981  | at san francisco 49ers  | l 28–6   | 55,707       |
+|           15 |     16 | december 20, 1981  | pittsburgh steelers     | w 21–20  | 41,056       |
+DataFrame from database (3 rows) :
+
+row_number | week | date | opponent | result | attendance
+0 | 1 | september 6, 1981 | at los angeles rams | w 27–20 | 63,198
+1 | 2 | september 13, 1981 | at cleveland browns | w 9–3 | 79,483
+2 | 3 | september 20, 1981 | miami dolphins | l 16–10 | 47,379
+
+main_table: nu-129 table_qa_group:  [129, 397, 1465, 1655, 2023, 2775, 3564, 3682, 4205] number of questions:  9
+counter:  109
+
+
+id:  nu-129  Q:  how may away games did they win?  ans:  7
+answer_sql;  select count(*) from T where result = 'w' and opponent not like 'at%'
+
+
+prediction:  |   count(*) |
+|-----------:|
+|          0 |
+Gold answer:  7
+
+Direct ans:  0  Gold:  7
+
+Gen output:  0  Gold:  7
+Correcet:  0 total:  1 Accuracy:  0.0
+
+-----------------------------------------------
+
+
+
+id:  nu-397  Q:  how many points did they beat the bengals by in week 5?  ans:  7
+answer_sql;  select abs(cast(substr(result, 3, 2) as integer) - cast(substr(result, 6, 2) as integer)) as point_difference
+from T
+where opponent like '%cincinnati bengals%' and week = 5
+
+
+prediction:  |   point_difference |
+|-------------------:|
+|                  7 |
+Gold answer:  7
+
+Direct ans:  7  Gold:  7
+
+Gen output:  7  Gold:  7
+correct:  1
+Correcet:  1 total:  2 Accuracy:  0.49997500124993743
+
+-----------------------------------------------
+
+
+
+id:  nu-1465  Q:  number of wins in the season.  ans:  7
+answer_sql;  select count(*) from T where result = 'w'
+
+
+prediction:  |   count(*) |
+|-----------:|
+|          0 |
+Gold answer:  7
+
+Direct ans:  0  Gold:  7
+
+Gen output:  0  Gold:  7
+Correcet:  1 total:  3 Accuracy:  0.3333222225925802
+
+-----------------------------------------------
+
+
+
+id:  nu-1655  Q:  on which date did they score the most points?  ans:  october 11, 1981
+answer_sql;  select date from T where result = (select max(cast(substr(result, 3, 2) as integer)) from T)
+
+
+prediction:  | date   |
+|--------|
+Gold answer:  october 11, 1981
+
+Gen output:   Gold:  october 11, 1981
+correct:  2
+Correcet:  2 total:  4 Accuracy:  0.49998750031249223
+
+-----------------------------------------------
+
+
+
+id:  nu-2023  Q:  how many teams did the oilers play only once in the season?  ans:  10
+answer_sql;  select count(*) from (select opponent from T group by opponent having count(*) = 1) as unique_opponents;
+
+
+prediction:  |   count(*) |
+|-----------:|
+|         16 |
+Gold answer:  10
+
+Direct ans:  16  Gold:  10
+
+Gen output:  16  Gold:  10
+Correcet:  2 total:  5 Accuracy:  0.3999920001599968
+
+-----------------------------------------------
+
+
+
+id:  nu-2775  Q:  how many wins were there in total?  ans:  7
+answer_sql;  select count(*) from T where result = 'w'
+
+
+prediction:  |   count(*) |
+|-----------:|
+|          0 |
+Gold answer:  7
+
+Direct ans:  0  Gold:  7
+
+Gen output:  0  Gold:  7
+Correcet:  2 total:  6 Accuracy:  0.3333277778703688
+
+-----------------------------------------------
+
+
+
+id:  nu-3564  Q:  what is the total attendance for october?  ans:  200,227
+answer_sql;  select sum(attendance) from T where date like '%october%'
+
+
+prediction:  |   sum(attendance) |
+|------------------:|
+|               198 |
+Gold answer:  200,227
+
+Direct ans:  198.0  Gold:  200,227
+
+Gen output:  198.0  Gold:  200,227
+Correcet:  2 total:  7 Accuracy:  0.28571020413994086
+
+-----------------------------------------------
+
+
+
+id:  nu-3682  Q:  what was the next opponent after the game against the new england patriots?  ans:  at pittsburgh steelers
+answer_sql;  select opponent from T where row_number = (select row_number + 1 from T where opponent like '%new england patriots%')
+
+
+prediction:  | opponent               |
+|:-----------------------|
+| at pittsburgh steelers |
+Gold answer:  at pittsburgh steelers
+
+Direct ans:  at pittsburgh steelers  Gold:  at pittsburgh steelers
+
+Gen output:  at pittsburgh steelers  Gold:  at pittsburgh steelers
+correct:  3
+Correcet:  3 total:  8 Accuracy:  0.37499531255859303
+
+-----------------------------------------------
+
+
+
+id:  nu-4205  Q:  how many times did the oilers have consecutive wins?  ans:  2
+answer_sql;  select count(*) from T where result = 'w' and row_number in (select row_number + 1 from T where result = 'w')
+
+
+prediction:  |   count(*) |
+|-----------:|
+|          0 |
+Gold answer:  2
+
+Direct ans:  0  Gold:  2
+
+Gen output:  0  Gold:  2
+Correcet:  3 total:  9 Accuracy:  0.33332962967078145
+
+-----------------------------------------------
+
+***********************************************************

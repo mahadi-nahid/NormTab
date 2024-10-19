@@ -1,0 +1,306 @@
+id,table title,original_tab,norm_table_markdown,norm_table,norm_tab_modified,norm_table_t,columns,transpose,last_row
+nu-1,World War II casualties of Poland,"| description_losses                | 1939_40   | 1940_41   | 1941_42   | 1942_43   | 1943_44   | 1944_45   | total     |
+|:----------------------------------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+| direct war losses                 | 360,000   |           |           |           |           | 183,000   | 543,000   |
+| murdered                          | 75,000    | 100,000   | 116,000   | 133,000   | 82,000    |           | 506,000   |
+| deaths in prisons & camps         | 69,000    | 210,000   | 220,000   | 266,000   | 381,000   |           | 1,146,000 |
+| deaths outside of prisons & camps |           | 42,000    | 71,000    | 142,000   | 218,000   |           | 473,000   |
+| murdered in eastern regions       |           |           |           |           |           | 100,000   | 100,000   |
+| deaths other countries            |           |           |           |           |           |           | 2,000     |
+| total                             | 504,000   | 352,000   | 407,000   | 541,000   | 681,000   | 270,000   | 2,770,000 |","| description_losses                | Date    |   Value |
+|:----------------------------------|:--------|--------:|
+| direct war losses                 | 1939_40 |  360000 |
+| direct war losses                 | 1944_45 |  183000 |
+| murdered                          | 1939_40 |   75000 |
+| murdered                          | 1940_41 |  100000 |
+| murdered                          | 1941_42 |  116000 |
+| murdered                          | 1942_43 |  133000 |
+| murdered                          | 1943_44 |   82000 |
+| deaths in prisons & camps         | 1939_40 |   69000 |
+| deaths in prisons & camps         | 1940_41 |  210000 |
+| deaths in prisons & camps         | 1941_42 |  220000 |
+| deaths in prisons & camps         | 1942_43 |  266000 |
+| deaths in prisons & camps         | 1943_44 |  381000 |
+| deaths outside of prisons & camps | 1940_41 |   42000 |
+| deaths outside of prisons & camps | 1941_42 |   71000 |
+| deaths outside of prisons & camps | 1942_43 |  142000 |
+| deaths outside of prisons & camps | 1943_44 |  218000 |
+| murdered in eastern regions       | 1944_45 |  100000 |
+| deaths other countries            | total   |    2000 |","[['description_losses', 'Date', 'Value'], ['direct war losses', '1939_40', '360000'], ['direct war losses', '1944_45', '183000'], ['murdered', '1939_40', '75000'], ['murdered', '1940_41', '100000'], ['murdered', '1941_42', '116000'], ['murdered', '1942_43', '133000'], ['murdered', '1943_44', '82000'], ['deaths in prisons & camps', '1939_40', '69000'], ['deaths in prisons & camps', '1940_41', '210000'], ['deaths in prisons & camps', '1941_42', '220000'], ['deaths in prisons & camps', '1942_43', '266000'], ['deaths in prisons & camps', '1943_44', '381000'], ['deaths outside of prisons & camps', '1940_41', '42000'], ['deaths outside of prisons & camps', '1941_42', '71000'], ['deaths outside of prisons & camps', '1942_43', '142000'], ['deaths outside of prisons & camps', '1943_44', '218000'], ['murdered in eastern regions', '1944_45', '100000'], ['deaths other countries', 'total', '2000']]"
+nu-2,New York Americans (soccer),"| year        | division   | league   | reg_season       | playoffs              | national_cup   |
+|:------------|:-----------|:---------|:-----------------|:----------------------|:---------------|
+| 1931        | 1          | asl      | 6th (fall)       | no playoff            | n/a            |
+| spring 1932 | 1          | asl      | 5th?             | no playoff            | 1st round      |
+| fall 1932   | 1          | asl      | 3rd              | no playoff            | n/a            |
+| spring 1933 | 1          | asl      | ?                | ?                     | final          |
+| 1933/34     | n/a        | asl      | 2nd              | no playoff            | ?              |
+| 1934/35     | n/a        | asl      | 2nd              | no playoff            | ?              |
+| 1935/36     | n/a        | asl      | 1st              | champion (no playoff) | ?              |
+| 1936/37     | n/a        | asl      | 5th, national    | did not qualify       | champion       |
+| 1937/38     | n/a        | asl      | 3rd(t), national | 1st round             | ?              |
+| 1938/39     | n/a        | asl      | 4th, national    | did not qualify       | ?              |
+| 1939/40     | n/a        | asl      | 4th              | no playoff            | ?              |
+| 1940/41     | n/a        | asl      | 6th              | no playoff            | ?              |
+| 1941/42     | n/a        | asl      | 3rd              | no playoff            | ?              |
+| 1942/43     | n/a        | asl      | 6th              | no playoff            | ?              |
+| 1943/44     | n/a        | asl      | 9th              | no playoff            | ?              |
+| 1944/45     | n/a        | asl      | 9th              | no playoff            | ?              |
+| 1945/46     | n/a        | asl      | 5th              | no playoff            | ?              |
+| 1946/47     | n/a        | asl      | 6th              | no playoff            | ?              |
+| 1947/48     | n/a        | asl      | 6th              | no playoff            | ?              |
+| 1948/49     | n/a        | asl      | 1st(t)           | finals                | ?              |
+| 1949/50     | n/a        | asl      | 3rd              | no playoff            | ?              |
+| 1950/51     | n/a        | asl      | 5th              | no playoff            | ?              |
+| 1951/52     | n/a        | asl      | 6th              | no playoff            | ?              |
+| 1952/53     | n/a        | asl      | 6th              | no playoff            | semifinals     |
+| 1953/54     | n/a        | asl      | 1st              | champion (no playoff) | champion       |
+| 1954/55     | n/a        | asl      | 8th              | no playoff            | ?              |
+| 1955/56     | n/a        | asl      | 6th              | no playoff            | ?              |","|   year_start |   year_end | division   | league   | reg_season       | playoffs              | national_cup   |
+|-------------:|-----------:|:-----------|:---------|:-----------------|:----------------------|:---------------|
+|         1931 |       1931 | 1          | asl      | 6th (fall)       | no playoff            | n/a            |
+|         1932 |       1932 | 1          | asl      | 5th?             | no playoff            | 1st round      |
+|         1932 |       1932 | 1          | asl      | 3rd              | no playoff            | n/a            |
+|         1933 |       1933 | 1          | asl      | ?                | ?                     | final          |
+|         1933 |       1934 | n/a        | asl      | 2nd              | no playoff            | ?              |
+|         1934 |       1935 | n/a        | asl      | 2nd              | no playoff            | ?              |
+|         1935 |       1936 | n/a        | asl      | 1st              | champion (no playoff) | ?              |
+|         1936 |       1937 | n/a        | asl      | 5th, national    | did not qualify       | champion       |
+|         1937 |       1938 | n/a        | asl      | 3rd(t), national | 1st round             | ?              |
+|         1938 |       1939 | n/a        | asl      | 4th, national    | did not qualify       | ?              |
+|         1939 |       1940 | n/a        | asl      | 4th              | no playoff            | ?              |
+|         1940 |       1941 | n/a        | asl      | 6th              | no playoff            | ?              |
+|         1941 |       1942 | n/a        | asl      | 3rd              | no playoff            | ?              |
+|         1942 |       1943 | n/a        | asl      | 6th              | no playoff            | ?              |
+|         1943 |       1944 | n/a        | asl      | 9th              | no playoff            | ?              |
+|         1944 |       1945 | n/a        | asl      | 9th              | no playoff            | ?              |
+|         1945 |       1946 | n/a        | asl      | 5th              | no playoff            | ?              |
+|         1946 |       1947 | n/a        | asl      | 6th              | no playoff            | ?              |
+|         1947 |       1948 | n/a        | asl      | 6th              | no playoff            | ?              |
+|         1948 |       1949 | n/a        | asl      | 1st(t)           | finals                | ?              |
+|         1949 |       1950 | n/a        | asl      | 3rd              | no playoff            | ?              |
+|         1950 |       1951 | n/a        | asl      | 5th              | no playoff            | ?              |
+|         1951 |       1952 | n/a        | asl      | 6th              | no playoff            | ?              |
+|         1952 |       1953 | n/a        | asl      | 6th              | no playoff            | semifinals     |
+|         1953 |       1954 | n/a        | asl      | 1st              | champion (no playoff) | champion       |
+|         1954 |       1955 | n/a        | asl      | 8th              | no playoff            | ?              |
+|         1955 |       1956 | n/a        | asl      | 6th              | no playoff            | ?              |","[['year_start', 'year_end', 'division', 'league', 'reg_season', 'playoffs', 'national_cup'], ['1931', '1931', '1', 'asl', '6th (fall)', 'no playoff', 'n/a'], ['1932', '1932', '1', 'asl', '5th?', 'no playoff', '1st round'], ['1932', '1932', '1', 'asl', '3rd', 'no playoff', 'n/a'], ['1933', '1933', '1', 'asl', '?', '?', 'final'], ['1933', '1934', 'n/a', 'asl', '2nd', 'no playoff', '?'], ['1934', '1935', 'n/a', 'asl', '2nd', 'no playoff', '?'], ['1935', '1936', 'n/a', 'asl', '1st', 'champion (no playoff)', '?'], ['1936', '1937', 'n/a', 'asl', '5th, national', 'did not qualify', 'champion'], ['1937', '1938', 'n/a', 'asl', '3rd(t), national', '1st round', '?'], ['1938', '1939', 'n/a', 'asl', '4th, national', 'did not qualify', '?'], ['1939', '1940', 'n/a', 'asl', '4th', 'no playoff', '?'], ['1940', '1941', 'n/a', 'asl', '6th', 'no playoff', '?'], ['1941', '1942', 'n/a', 'asl', '3rd', 'no playoff', '?'], ['1942', '1943', 'n/a', 'asl', '6th', 'no playoff', '?'], ['1943', '1944', 'n/a', 'asl', '9th', 'no playoff', '?'], ['1944', '1945', 'n/a', 'asl', '9th', 'no playoff', '?'], ['1945', '1946', 'n/a', 'asl', '5th', 'no playoff', '?'], ['1946', '1947', 'n/a', 'asl', '6th', 'no playoff', '?'], ['1947', '1948', 'n/a', 'asl', '6th', 'no playoff', '?'], ['1948', '1949', 'n/a', 'asl', '1st(t)', 'finals', '?'], ['1949', '1950', 'n/a', 'asl', '3rd', 'no playoff', '?'], ['1950', '1951', 'n/a', 'asl', '5th', 'no playoff', '?'], ['1951', '1952', 'n/a', 'asl', '6th', 'no playoff', '?'], ['1952', '1953', 'n/a', 'asl', '6th', 'no playoff', 'semifinals'], ['1953', '1954', 'n/a', 'asl', '1st', 'champion (no playoff)', 'champion'], ['1954', '1955', 'n/a', 'asl', '8th', 'no playoff', '?'], ['1955', '1956', 'n/a', 'asl', '6th', 'no playoff', '?']]"
+nu-4,Sky Track Cycling,"| date             | competition                    | location   | country        | event                |   placing | rider              | nationality   |
+|:-----------------|:-------------------------------|:-----------|:---------------|:---------------------|----------:|:-------------------|:--------------|
+| 31 october 2008  | 2008–09 world cup              | manchester | united kingdom | sprint               |         1 | victoria pendleton | gbr           |
+| 31 october 2008  | 2008–09 world cup              | manchester | united kingdom | keirin               |         2 | jason kenny        | gbr           |
+| 1 november 2008  | 2008–09 world cup              | manchester | united kingdom | sprint               |         1 | jason kenny        | gbr           |
+| 1 november 2008  | 2008–09 world cup              | manchester | united kingdom | 500 m time trial     |         1 | victoria pendleton | gbr           |
+| 2 november 2008  | 2008–09 world cup              | manchester | united kingdom | team sprint          |         1 | ross edgar         | gbr           |
+| 2 november 2008  | 2008–09 world cup              | manchester | united kingdom | team sprint          |         1 | jason kenny        | gbr           |
+| 2 november 2008  | 2008–09 world cup              | manchester | united kingdom | team sprint          |         1 | jamie staff        | gbr           |
+| 2 november 2008  | 2008–09 world cup              | manchester | united kingdom | keirin               |         1 | victoria pendleton | gbr           |
+| 2 november 2008  | 5th international keirin event | manchester | united kingdom | international keirin |         2 | ross edgar         | gbr           |
+| 13 february 2009 | 2008–09 world cup              | copenhagen | denmark        | team sprint          |         1 | chris hoy          | gbr           |
+| 13 february 2009 | 2008–09 world cup              | copenhagen | denmark        | team sprint          |         1 | jason kenny        | gbr           |
+| 13 february 2009 | 2008–09 world cup              | copenhagen | denmark        | team sprint          |         1 | jamie staff        | gbr           |
+| 13 february 2009 | 2008–09 world cup              | copenhagen | denmark        | sprint               |         1 | victoria pendleton | gbr           |
+| 30 october 2009  | 2009–10 world cup              | manchester | united kingdom | keirin               |         1 | chris hoy          | gbr           |
+| 30 october 2009  | 2009–10 world cup              | manchester | united kingdom | sprint               |         1 | victoria pendleton | gbr           |
+| 30 october 2009  | 2009–10 world cup              | manchester | united kingdom | sprint               |         1 | chris hoy          | gbr           |
+| 30 october 2009  | 2009–10 world cup              | manchester | united kingdom | 500 m time trial     |         2 | victoria pendleton | gbr           |
+| 1 november 2009  | 2009–10 world cup              | manchester | united kingdom | team sprint          |         1 | ross edgar         | gbr           |
+| 1 november 2009  | 2009–10 world cup              | manchester | united kingdom | team sprint          |         1 | chris hoy          | gbr           |
+| 1 november 2009  | 2009–10 world cup              | manchester | united kingdom | team sprint          |         1 | jamie staff        | gbr           |","| date       | competition                    | location   | country        | event                |   placing | rider              | nationality   |
+|:-----------|:-------------------------------|:-----------|:---------------|:---------------------|----------:|:-------------------|:--------------|
+| 2008-10-31 | 2008–09 world cup              | manchester | united kingdom | sprint               |         1 | victoria pendleton | gbr           |
+| 2008-10-31 | 2008–09 world cup              | manchester | united kingdom | keirin               |         2 | jason kenny        | gbr           |
+| 2008-11-01 | 2008–09 world cup              | manchester | united kingdom | sprint               |         1 | jason kenny        | gbr           |
+| 2008-11-01 | 2008–09 world cup              | manchester | united kingdom | 500 m time trial     |         1 | victoria pendleton | gbr           |
+| 2008-11-02 | 2008–09 world cup              | manchester | united kingdom | team sprint          |         1 | ross edgar         | gbr           |
+| 2008-11-02 | 2008–09 world cup              | manchester | united kingdom | team sprint          |         1 | jason kenny        | gbr           |
+| 2008-11-02 | 2008–09 world cup              | manchester | united kingdom | team sprint          |         1 | jamie staff        | gbr           |
+| 2008-11-02 | 2008–09 world cup              | manchester | united kingdom | keirin               |         1 | victoria pendleton | gbr           |
+| 2008-11-02 | 5th international keirin event | manchester | united kingdom | international keirin |         2 | ross edgar         | gbr           |
+| 2009-02-13 | 2008–09 world cup              | copenhagen | denmark        | team sprint          |         1 | chris hoy          | gbr           |
+| 2009-02-13 | 2008–09 world cup              | copenhagen | denmark        | team sprint          |         1 | jason kenny        | gbr           |
+| 2009-02-13 | 2008–09 world cup              | copenhagen | denmark        | team sprint          |         1 | jamie staff        | gbr           |
+| 2009-02-13 | 2008–09 world cup              | copenhagen | denmark        | sprint               |         1 | victoria pendleton | gbr           |
+| 2009-10-30 | 2009–10 world cup              | manchester | united kingdom | keirin               |         1 | chris hoy          | gbr           |
+| 2009-10-30 | 2009–10 world cup              | manchester | united kingdom | sprint               |         1 | victoria pendleton | gbr           |
+| 2009-10-30 | 2009–10 world cup              | manchester | united kingdom | sprint               |         1 | chris hoy          | gbr           |
+| 2009-10-30 | 2009–10 world cup              | manchester | united kingdom | 500 m time trial     |         2 | victoria pendleton | gbr           |
+| 2009-11-01 | 2009–10 world cup              | manchester | united kingdom | team sprint          |         1 | ross edgar         | gbr           |
+| 2009-11-01 | 2009–10 world cup              | manchester | united kingdom | team sprint          |         1 | chris hoy          | gbr           |
+| 2009-11-01 | 2009–10 world cup              | manchester | united kingdom | team sprint          |         1 | jamie staff        | gbr           |","[['date', 'competition', 'location', 'country', 'event', 'placing', 'rider', 'nationality'], ['2008-10-31', '2008–09 world cup', 'manchester', 'united kingdom', 'sprint', 1, 'victoria pendleton', 'gbr'], ['2008-10-31', '2008–09 world cup', 'manchester', 'united kingdom', 'keirin', 2, 'jason kenny', 'gbr'], ['2008-11-01', '2008–09 world cup', 'manchester', 'united kingdom', 'sprint', 1, 'jason kenny', 'gbr'], ['2008-11-01', '2008–09 world cup', 'manchester', 'united kingdom', '500 m time trial', 1, 'victoria pendleton', 'gbr'], ['2008-11-02', '2008–09 world cup', 'manchester', 'united kingdom', 'team sprint', 1, 'ross edgar', 'gbr'], ['2008-11-02', '2008–09 world cup', 'manchester', 'united kingdom', 'team sprint', 1, 'jason kenny', 'gbr'], ['2008-11-02', '2008–09 world cup', 'manchester', 'united kingdom', 'team sprint', 1, 'jamie staff', 'gbr'], ['2008-11-02', '2008–09 world cup', 'manchester', 'united kingdom', 'keirin', 1, 'victoria pendleton', 'gbr'], ['2008-11-02', '5th international keirin event', 'manchester', 'united kingdom', 'international keirin', 2, 'ross edgar', 'gbr'], ['2009-02-13', '2008–09 world cup', 'copenhagen', 'denmark', 'team sprint', 1, 'chris hoy', 'gbr'], ['2009-02-13', '2008–09 world cup', 'copenhagen', 'denmark', 'team sprint', 1, 'jason kenny', 'gbr'], ['2009-02-13', '2008–09 world cup', 'copenhagen', 'denmark', 'team sprint', 1, 'jamie staff', 'gbr'], ['2009-02-13', '2008–09 world cup', 'copenhagen', 'denmark', 'sprint', 1, 'victoria pendleton', 'gbr'], ['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', 'keirin', 1, 'chris hoy', 'gbr'], ['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', 'sprint', 1, 'victoria pendleton', 'gbr'], ['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', 'sprint', 1, 'chris hoy', 'gbr'], ['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', '500 m time trial', 2, 'victoria pendleton', 'gbr'], ['2009-11-01', '2009–10 world cup', 'manchester', 'united kingdom', 'team sprint', 1, 'ross edgar', 'gbr'], ['2009-11-01', '2009–10 world cup', 'manchester', 'united kingdom', 'team sprint', 1, 'chris hoy', 'gbr'], ['2009-11-01', '2009–10 world cup', 'manchester', 'united kingdom', 'team sprint', 1, 'jamie staff', 'gbr']]"
+nu-5,Hannes Hopley,"|   year | competition                | venue                              | position   | event        | notes   |
+|-------:|:---------------------------|:-----------------------------------|:-----------|:-------------|:--------|
+|   2000 | world junior championships | santiago, chile                    | 1st        | discus throw | 59.51 m |
+|   2003 | all-africa games           | abuja, nigeria                     | 5th        | shot put     | 17.76 m |
+|   2003 | all-africa games           | abuja, nigeria                     | 2nd        | discus throw | 62.86 m |
+|   2004 | african championships      | brazzaville, republic of the congo | 2nd        | discus throw | 63.50 m |
+|   2004 | olympic games              | athens, greece                     | 8th        | discus throw | 62.58 m |
+|   2006 | commonwealth games         | melbourne, australia               | 7th        | shot put     | 18.44 m |
+|   2006 | commonwealth games         | melbourne, australia               | 4th        | discus throw | 60.99 m |
+|   2007 | all-africa games           | algiers, algeria                   | 3rd        | discus throw | 57.79 m |
+|   2008 | african championships      | addis ababa, ethiopia              | 2nd        | discus throw | 56.98 m |","|   year | competition                | venue                              | position   | event        | notes   |
+|-------:|:---------------------------|:-----------------------------------|:-----------|:-------------|:--------|
+|   2000 | world junior championships | santiago, chile                    | 1st        | discus throw | 59.51 m |
+|   2003 | all-africa games           | abuja, nigeria                     | 5th        | shot put     | 17.76 m |
+|   2003 | all-africa games           | abuja, nigeria                     | 2nd        | discus throw | 62.86 m |
+|   2004 | african championships      | brazzaville, republic of the congo | 2nd        | discus throw | 63.50 m |
+|   2004 | olympic games              | athens, greece                     | 8th        | discus throw | 62.58 m |
+|   2006 | commonwealth games         | melbourne, australia               | 7th        | shot put     | 18.44 m |
+|   2006 | commonwealth games         | melbourne, australia               | 4th        | discus throw | 60.99 m |
+|   2007 | all-africa games           | algiers, algeria                   | 3rd        | discus throw | 57.79 m |
+|   2008 | african championships      | addis ababa, ethiopia              | 2nd        | discus throw | 56.98 m |","[['year', 'competition', 'venue', 'position', 'event', 'notes'], ['2000', 'world junior championships', 'santiago, chile', '1st', 'discus throw', '59.51 m'], ['2003', 'all-africa games', 'abuja, nigeria', '5th', 'shot put', '17.76 m'], ['2003', 'all-africa games', 'abuja, nigeria', '2nd', 'discus throw', '62.86 m'], ['2004', 'african championships', 'brazzaville, republic of the congo', '2nd', 'discus throw', '63.50 m'], ['2004', 'olympic games', 'athens, greece', '8th', 'discus throw', '62.58 m'], ['2006', 'commonwealth games', 'melbourne, australia', '7th', 'shot put', '18.44 m'], ['2006', 'commonwealth games', 'melbourne, australia', '4th', 'discus throw', '60.99 m'], ['2007', 'all-africa games', 'algiers, algeria', '3rd', 'discus throw', '57.79 m'], ['2008', 'african championships', 'addis ababa, ethiopia', '2nd', 'discus throw', '56.98 m']]"
+nu-6,Radhika Pandit,"|   year | film                      | role      | language   | notes                                                                                                                         |
+|-------:|:--------------------------|:----------|:-----------|:------------------------------------------------------------------------------------------------------------------------------|
+|   2008 | moggina manasu            | chanchala | kannada    | filmfare award for best actress - kannada\nkarnataka state film award for best actress                                        |
+|   2009 | olave jeevana lekkachaara | rukmini   | kannada    | innovative film award for best actress                                                                                        |
+|   2009 | love guru                 | kushi     | kannada    | filmfare award for best actress - kannada                                                                                     |
+|   2010 | krishnan love story       | geetha    | kannada    | filmfare award for best actress - kannada\nudaya award for best actress                                                       |
+|   2010 | gaana bajaana             | radhey    | kannada    |                                                                                                                               |
+|   2011 | hudugaru                  | gayithri  | kannada    | nominated, filmfare award for best actress – kannada                                                                          |
+|   2012 | alemari                   | neeli     | kannada    |                                                                                                                               |
+|   2012 | breaking news             | shraddha  | kannada    |                                                                                                                               |
+|   2012 | addhuri                   | poorna    | kannada    | udaya award for best actress\nnominated — siima award for best actress\nnominated — filmfare award for best actress – kannada |
+|   2012 | 18th cross                | punya     | kannada    |                                                                                                                               |
+|   2012 | sagar                     | kajal     | kannada    |                                                                                                                               |
+|   2012 | drama                     | nandini   | kannada    |                                                                                                                               |
+|   2013 | kaddipudi                 | uma       | kannada    |                                                                                                                               |
+|   2013 | dilwala                   | preethi   | kannada    |                                                                                                                               |
+|   2013 | bahaddoor                 | anjali    | kannada    | filming                                                                                                                       |
+|   2014 | mr. & mrs. ramachari      |           |            | announced                                                                                                                     |
+|   2014 | endendigu                 |           |            | filming                                                                                                                       |","|   year | film                      | role      | language   | notes                                                 |
+|-------:|:--------------------------|:----------|:-----------|:------------------------------------------------------|
+|   2008 | moggina manasu            | chanchala | kannada    | filmfare award for best actress - kannada             |
+|        |                           |           |            | karnataka state film award for best actress           |
+|   2009 | olave jeevana lekkachaara | rukmini   | kannada    | innovative film award for best actress                |
+|   2009 | love guru                 | kushi     | kannada    | filmfare award for best actress - kannada             |
+|   2010 | krishnan love story       | geetha    | kannada    | filmfare award for best actress - kannada             |
+|        |                           |           |            | udaya award for best actress                          |
+|   2010 | gaana bajaana             | radhey    | kannada    |                                                       |
+|   2011 | hudugaru                  | gayithri  | kannada    | nominated, filmfare award for best actress – kannada  |
+|   2012 | alemar                    | neeli     | kannada    |                                                       |
+|   2012 | breaking news             | shraddha  | kannada    |                                                       |
+|   2012 | addhuri                   | poorna    | kannada    | udaya award for best actress                          |
+|        |                           |           |            | nominated — siima award for best actress              |
+|        |                           |           |            | nominated — filmfare award for best actress – kannada |
+|   2012 | 18th cross                | punya     | kannada    |                                                       |
+|   2012 | sagar                     | kajal     | kannada    |                                                       |
+|   2012 | drama                     | nandini   | kannada    |                                                       |
+|   2013 | kaddipudi                 | uma       | kannada    |                                                       |
+|   2013 | dilwala                   | preethi   | kannada    |                                                       |
+|   2013 | bahaddoor                 | anjali    | kannada    | filming                                               |
+|   2014 | mr. & mrs. ramachari      |           |            | announced                                             |
+|   2014 | endendigu                 |           |            | filming                                               |","[['year', 'film', 'role', 'language', 'notes'], ['2008', 'moggina manasu', 'chanchala', 'kannada', 'filmfare award for best actress - kannada\nkarnataka state film award for best actress'], ['2009', 'olave jeevana lekkachaara', 'rukmini', 'kannada', 'innovative film award for best actress'], ['2009', 'love guru', 'kushi', 'kannada', 'filmfare award for best actress - kannada'], ['2010', 'krishnan love story', 'geetha', 'kannada', 'filmfare award for best actress - kannada\nudaya award for best actress'], ['2010', 'gaana bajaana', 'radhey', 'kannada', ''], ['2011', 'hudugaru', 'gayithri', 'kannada', 'nominated, filmfare award for best actress – kannada'], ['2012', 'alemar', 'neeli', 'kannada', ''], ['2012', 'breaking news', 'shraddha', 'kannada', ''], ['2012', 'addhuri', 'poorna', 'kannada', 'udaya award for best actress\nnominated — siima award for best actress\nnominated — filmfare award for best actress – kannada'], ['2012', '18th cross', 'punya', 'kannada', ''], ['2012', 'sagar', 'kajal', 'kannada', ''], ['2012', 'drama', 'nandini', 'kannada', ''], ['2013', 'kaddipudi', 'uma', 'kannada', ''], ['2013', 'dilwala', 'preethi', 'kannada', ''], ['2013', 'bahaddoor', 'anjali', 'kannada', 'filming'], ['2014', 'mr. & mrs. ramachari', '', '', 'announced'], ['2014', 'endendigu', '', '', 'filming']]"
+nu-7,2013–14 Toros Mexico season,"|   game | day      | date         | kickoff   | opponent             | results_score   | results_record   | location                     | attendance   |
+|-------:|:---------|:-------------|:----------|:---------------------|:----------------|:-----------------|:-----------------------------|:-------------|
+|      1 | sunday   | november 10  | 3:05pm    | at las vegas legends | l 3–7           | 0–1              | orleans arena                | 1,836        |
+|      2 | sunday   | november 17  | 1:05pm    | monterrey flash      | l 6–10          | 0–2              | unisantos park               | 363          |
+|      3 | saturday | november 23  | 7:05pm    | at bay area rosal    | w 10–7          | 1–2              | cabernet indoor sports       | 652          |
+|      4 | sunday   | december 1   | 1:05pm    | ontario fury         | w 18–4          | 2–2              | unisantos park               | 207          |
+|      5 | saturday | december 14  | 7:05pm    | at sacramento surge  | w 7–6 (ot)      | 3–2              | estadio azteca soccer arena  | 215          |
+|      6 | sunday   | december 15  | 6:00pm    | at bay area rosal    | l 8–9 (ot)      | 3–3              | cabernet indoor sports       | 480          |
+|      7 | sunday   | december 22  | 1:05pm    | turlock express      | w 16–8          | 4–3              | unisantos park               | 218          |
+|      8 | saturday | january 4    | 7:05pm    | at ontario fury      | l 5–12          | 4–4              | citizens business bank arena | 2,653        |
+|      9 | sunday   | january 5    | 1:05pm    | san diego sockers    | l 7–12          | 4–5              | unisantos park               | 388          |
+|     10 | sunday   | january 12   | 1:05pm    | las vegas legends    | w 10–7          | 5–5              | unisantos park               | 343          |
+|     11 | sunday   | january 19   | 1:05pm    | bay area rosal       | w 17–7          | 6–5              | unisantos park               | 219          |
+|     12 | sunday   | january 26   | 1:05pm    | sacramento surge     | w 20–6          | 7–5              | unisantos park               | 224          |
+|     13 | saturday | february 1   | 7:05pm    | at san diego sockers | l 5–6           | 7–6              | valley view casino center    | 4,954        |
+|     14 | friday   | february 7   | 7:05pm    | at turlock express   | l 6–9           | 7–7              | turlock soccer complex       | 673          |
+|     15 | saturday | february 8   | 7:05pm    | at sacramento surge  | w 10–6          | 8–7              | estadio azteca soccer arena  | 323          |
+|     16 | saturday | february 15♥ | 5:05pm    | bay area rosal       | w 27–2          | 9–7              | unisantos park               | 118          |","|   game | day      | date       | kickoff   | opponent          | results_score   | results_record   | location                     |   attendance |
+|-------:|:---------|:-----------|:----------|:------------------|:----------------|:-----------------|:-----------------------------|-------------:|
+|      1 | sunday   | 2013-11-10 | 3:05pm    | Las Vegas Legends | l 3–7           | 0–1              | Orleans Arena                |         1836 |
+|      2 | sunday   | 2013-11-17 | 1:05pm    | Monterrey Flash   | l 6–10          | 0–2              | Unisantos Park               |          363 |
+|      3 | saturday | 2013-11-23 | 7:05pm    | Bay Area Rosal    | w 10–7          | 1–2              | Cabernet Indoor Sports       |          652 |
+|      4 | sunday   | 2013-12-01 | 1:05pm    | Ontario Fury      | w 18–4          | 2–2              | Unisantos Park               |          207 |
+|      5 | saturday | 2013-12-14 | 7:05pm    | Sacramento Surge  | w 7–6 (ot)      | 3–2              | Estadio Azteca Soccer Arena  |          215 |
+|      6 | sunday   | 2013-12-15 | 6:00pm    | Bay Area Rosal    | l 8–9 (ot)      | 3–3              | Cabernet Indoor Sports       |          480 |
+|      7 | sunday   | 2013-12-22 | 1:05pm    | Turlock Express   | w 16–8          | 4–3              | Unisantos Park               |          218 |
+|      8 | saturday | 2014-01-04 | 7:05pm    | Ontario Fury      | l 5–12          | 4–4              | Citizens Business Bank Arena |         2653 |
+|      9 | sunday   | 2014-01-05 | 1:05pm    | San Diego Sockers | l 7–12          | 4–5              | Unisantos Park               |          388 |
+|     10 | sunday   | 2014-01-12 | 1:05pm    | Las Vegas Legends | w 10–7          | 5–5              | Unisantos Park               |          343 |
+|     11 | sunday   | 2014-01-19 | 1:05pm    | Bay Area Rosal    | w 17–7          | 6–5              | Unisantos Park               |          219 |
+|     12 | sunday   | 2014-01-26 | 1:05pm    | Sacramento Surge  | w 20–6          | 7–5              | Unisantos Park               |          224 |
+|     13 | saturday | 2014-02-01 | 7:05pm    | San Diego Sockers | l 5–6           | 7–6              | Valley View Casino Center    |         4954 |
+|     14 | friday   | 2014-02-07 | 7:05pm    | Turlock Express   | l 6–9           | 7–7              | Turlock Soccer Complex       |          673 |
+|     15 | saturday | 2014-02-08 | 7:05pm    | Sacramento Surge  | w 10–6          | 8–7              | Estadio Azteca Soccer Arena  |          323 |
+|     16 | saturday | 2014-02-15 | 5:05pm    | Bay Area Rosal    | w 27–2          | 9–7              | Unisantos Park               |          118 |","[['game', 'day', 'date', 'kickoff', 'opponent', 'results_score', 'results_record', 'location', 'attendance'], [1, 'sunday', '2013-11-10', '3:05pm', 'Las Vegas Legends', 'l 3–7', '0–1', 'Orleans Arena', 1836], [2, 'sunday', '2013-11-17', '1:05pm', 'Monterrey Flash', 'l 6–10', '0–2', 'Unisantos Park', 363], [3, 'saturday', '2013-11-23', '7:05pm', 'Bay Area Rosal', 'w 10–7', '1–2', 'Cabernet Indoor Sports', 652], [4, 'sunday', '2013-12-01', '1:05pm', 'Ontario Fury', 'w 18–4', '2–2', 'Unisantos Park', 207], [5, 'saturday', '2013-12-14', '7:05pm', 'Sacramento Surge', 'w 7–6 (ot)', '3–2', 'Estadio Azteca Soccer Arena', 215], [6, 'sunday', '2013-12-15', '6:00pm', 'Bay Area Rosal', 'l 8–9 (ot)', '3–3', 'Cabernet Indoor Sports', 480], [7, 'sunday', '2013-12-22', '1:05pm', 'Turlock Express', 'w 16–8', '4–3', 'Unisantos Park', 218], [8, 'saturday', '2014-01-04', '7:05pm', 'Ontario Fury', 'l 5–12', '4–4', 'Citizens Business Bank Arena', 2653], [9, 'sunday', '2014-01-05', '1:05pm', 'San Diego Sockers', 'l 7–12', '4–5', 'Unisantos Park', 388], [10, 'sunday', '2014-01-12', '1:05pm', 'Las Vegas Legends', 'w 10–7', '5–5', 'Unisantos Park', 343], [11, 'sunday', '2014-01-19', '1:05pm', 'Bay Area Rosal', 'w 17–7', '6–5', 'Unisantos Park', 219], [12, 'sunday', '2014-01-26', '1:05pm', 'Sacramento Surge', 'w 20–6', '7–5', 'Unisantos Park', 224], [13, 'saturday', '2014-02-01', '7:05pm', 'San Diego Sockers', 'l 5–6', '7–6', 'Valley View Casino Center', 4954], [14, 'friday', '2014-02-07', '7:05pm', 'Turlock Express', 'l 6–9', '7–7', 'Turlock Soccer Complex', 673], [15, 'saturday', '2014-02-08', '7:05pm', 'Sacramento Surge', 'w 10–6', '8–7', 'Estadio Azteca Soccer Arena', 323], [16, 'saturday', '2014-02-15', '5:05pm', 'Bay Area Rosal', 'w 27–2', '9–7', 'Unisantos Park', 118]]"
+nu-8,Cheltenham Town F.C.,"| year      | kit_manufacturer   | shirt_sponsor            | back_of_shirt_sponsor   | short_sponsor        |
+|:----------|:-------------------|:-------------------------|:------------------------|:---------------------|
+| 1977–1978 |                    | national express         |                         |                      |
+| 1982–1985 | umbro              |                          |                         |                      |
+| 1985–1986 | umbro              | whitbread                |                         |                      |
+| 1986–1988 | henson             | duraflex                 |                         |                      |
+| 1988–1989 |                    | gulf oil                 |                         |                      |
+| 1991–1993 | technik            | gulf oil                 |                         |                      |
+| 1993–1994 | club sport         | gulf oil                 |                         |                      |
+| 1994–1995 | klūb sport         | empress                  |                         |                      |
+| 1995–1996 | matchwinner        | empress                  |                         |                      |
+| 1996–1997 | uk                 | endsleigh insurance      |                         |                      |
+| 1997–1999 | errea              | endsleigh insurance      |                         |                      |
+| 1999–2004 | errea              | towergate insurance      |                         |                      |
+| 2004–2008 | errea              | bence building merchants |                         |                      |
+| 2008–     | errea              | mira showers             |                         |                      |
+| 2009–2011 | errea              | mira showers             | psu technology group    |                      |
+| 2011–2013 | errea              | mira showers             | barr stadia             | gloucestershire echo |
+| 2013–     | errea              | mira showers             | gloucestershire college | gloucestershire echo |","|   year_start | year_end   | kit_manufacturer   | shirt_sponsor            | back_of_shirt_sponsor   | short_sponsor        |
+|-------------:|:-----------|:-------------------|:-------------------------|:------------------------|:---------------------|
+|         1977 | 1978       |                    | national express         |                         |                      |
+|         1982 | 1985       | umbro              |                          |                         |                      |
+|         1985 | 1986       | umbro              | whitbread                |                         |                      |
+|         1986 | 1988       | henson             | duraflex                 |                         |                      |
+|         1988 | 1989       |                    | gulf oil                 |                         |                      |
+|         1991 | 1993       | technik            | gulf oil                 |                         |                      |
+|         1993 | 1994       | club sport         | gulf oil                 |                         |                      |
+|         1994 | 1995       | klūb sport         | empress                  |                         |                      |
+|         1995 | 1996       | matchwinner        | empress                  |                         |                      |
+|         1996 | 1997       | uk                 | endsleigh insurance      |                         |                      |
+|         1997 | 1999       | errea              | endsleigh insurance      |                         |                      |
+|         1999 | 2004       | errea              | towergate insurance      |                         |                      |
+|         2004 | 2008       | errea              | bence building merchants |                         |                      |
+|         2008 |            | errea              | mira showers             |                         |                      |
+|         2009 | 2011       | errea              | mira showers             | psu technology group    |                      |
+|         2011 | 2013       | errea              | mira showers             | barr stadia             | gloucestershire echo |
+|         2013 |            | errea              | mira showers             | gloucestershire college | gloucestershire echo |","[['year_start', 'year_end', 'kit_manufacturer', 'shirt_sponsor', 'back_of_shirt_sponsor', 'short_sponsor'], ['1977', '1978', '', 'national express', '', ''], ['1982', '1985', 'umbro', '', '', ''], ['1985', '1986', 'umbro', 'whitbread', '', ''], ['1986', '1988', 'henson', 'duraflex', '', ''], ['1988', '1989', '', 'gulf oil', '', ''], ['1991', '1993', 'technik', 'gulf oil', '', ''], ['1993', '1994', 'club sport', 'gulf oil', '', ''], ['1994', '1995', 'klūb sport', 'empress', '', ''], ['1995', '1996', 'matchwinner', 'empress', '', ''], ['1996', '1997', 'uk', 'endsleigh insurance', '', ''], ['1997', '1999', 'errea', 'endsleigh insurance', '', ''], ['1999', '2004', 'errea', 'towergate insurance', '', ''], ['2004', '2008', 'errea', 'bence building merchants', '', ''], ['2008', '', 'errea', 'mira showers', '', ''], ['2009', '2011', 'errea', 'mira showers', 'psu technology group', ''], ['2011', '2013', 'errea', 'mira showers', 'barr stadia', 'gloucestershire echo'], ['2013', '', 'errea', 'mira showers', 'gloucestershire college', 'gloucestershire echo']]"
+nu-9,Marek Plawgo,"|   year | competition                   | venue                      | position   | event         | notes          |
+|-------:|:------------------------------|:---------------------------|:-----------|:--------------|:---------------|
+|   1999 | european junior championships | riga, latvia               | 4th        | 400 m hurdles | 52.17          |
+|   2000 | world junior championships    | santiago, chile            | 1st        | 400 m hurdles | 49.23          |
+|   2001 | world championships           | edmonton, canada           | 18th (sf)  | 400 m hurdles | 49.80          |
+|   2001 | universiade                   | beijing, china             | 8th        | 400 m hurdles | 49.68          |
+|   2002 | european indoor championships | vienna, austria            | 1st        | 400 m         | 45.39 (cr, nr) |
+|   2002 | european indoor championships | vienna, austria            | 1st        | 4x400 m relay | 3:05.50 (cr)   |
+|   2002 | european championships        | munich, germany            | 4th        | 400 m         | 45.40          |
+|   2002 | european championships        | munich, germany            | 8th        | 4x400 m relay | dq             |
+|   2003 | world indoor championships    | birmingham, united kingdom | 7th (sf)   | 400 m         | 46.82          |
+|   2003 | world indoor championships    | birmingham, united kingdom | 3rd        | 4x400 m relay | 3:06.61        |
+|   2003 | european u23 championships    | bydgoszcz, poland          | 1st        | 400 m hurdles | 48.45          |
+|   2003 | european u23 championships    | bydgoszcz, poland          | 1st        | 4x400 m relay | 3:03.32        |
+|   2004 | olympic games                 | athens, greece             | 6th        | 400 m hurdles | 49.00          |
+|   2004 | olympic games                 | athens, greece             | 10th (h)   | 4x400 m relay | 3:03.69        |
+|   2006 | european championships        | gothenburg, sweden         | 2nd        | 400 m hurdles | 48.71          |
+|   2007 | world championships           | osaka, japan               | 3rd        | 400 m hurdles | 48.12 (nr)     |
+|   2007 | world championships           | osaka, japan               | 3rd        | 4x400 m relay | 3:00.05        |
+|   2008 | olympic games                 | beijing, china             | 6th        | 400 m hurdles | 48.42          |
+|   2008 | olympic games                 | beijing, china             | 7th        | 4x400 m relay | 3:00.32        |
+|   2012 | european championships        | helsinki, finland          | 18th (sf)  | 400 m hurdles | 50.77          |","|   year | competition                   | venue                      | position   | event         | notes          |
+|-------:|:------------------------------|:---------------------------|:-----------|:--------------|:---------------|
+|   1999 | european junior championships | riga, latvia               | 4th        | 400 m hurdles | 52.17          |
+|   2000 | world junior championships    | santiago, chile            | 1st        | 400 m hurdles | 49.23          |
+|   2001 | world championships           | edmonton, canada           | 18th (sf)  | 400 m hurdles | 49.80          |
+|   2001 | universiade                   | beijing, china             | 8th        | 400 m hurdles | 49.68          |
+|   2002 | european indoor championships | vienna, austria            | 1st        | 400 m         | 45.39 (cr, nr) |
+|   2002 | european indoor championships | vienna, austria            | 1st        | 4x400 m relay | 3:05.50 (cr)   |
+|   2002 | european championships        | munich, germany            | 4th        | 400 m         | 45.40          |
+|   2002 | european championships        | munich, germany            | 8th        | 4x400 m relay | dq             |
+|   2003 | world indoor championships    | birmingham, united kingdom | 7th (sf)   | 400 m         | 46.82          |
+|   2003 | world indoor championships    | birmingham, united kingdom | 3rd        | 4x400 m relay | 3:06.61        |
+|   2003 | european u23 championships    | bydgoszcz, poland          | 1st        | 400 m hurdles | 48.45          |
+|   2003 | european u23 championships    | bydgoszcz, poland          | 1st        | 4x400 m relay | 3:03.32        |
+|   2004 | olympic games                 | athens, greece             | 6th        | 400 m hurdles | 49.00          |
+|   2004 | olympic games                 | athens, greece             | 10th (h)   | 4x400 m relay | 3:03.69        |
+|   2006 | european championships        | gothenburg, sweden         | 2nd        | 400 m hurdles | 48.71          |
+|   2007 | world championships           | osaka, japan               | 3rd        | 400 m hurdles | 48.12 (nr)     |
+|   2007 | world championships           | osaka, japan               | 3rd        | 4x400 m relay | 3:00.05        |
+|   2008 | olympic games                 | beijing, china             | 6th        | 400 m hurdles | 48.42          |
+|   2008 | olympic games                 | beijing, china             | 7th        | 4x400 m relay | 3:00.32        |
+|   2012 | european championships        | helsinki, finland          | 18th (sf)  | 400 m hurdles | 50.77          |","[['year', 'competition', 'venue', 'position', 'event', 'notes'], ['1999', 'european junior championships', 'riga, latvia', '4th', '400 m hurdles', '52.17'], ['2000', 'world junior championships', 'santiago, chile', '1st', '400 m hurdles', '49.23'], ['2001', 'world championships', 'edmonton, canada', '18th (sf)', '400 m hurdles', '49.80'], ['2001', 'universiade', 'beijing, china', '8th', '400 m hurdles', '49.68'], ['2002', 'european indoor championships', 'vienna, austria', '1st', '400 m', '45.39 (cr, nr)'], ['2002', 'european indoor championships', 'vienna, austria', '1st', '4x400 m relay', '3:05.50 (cr)'], ['2002', 'european championships', 'munich, germany', '4th', '400 m', '45.40'], ['2002', 'european championships', 'munich, germany', '8th', '4x400 m relay', 'dq'], ['2003', 'world indoor championships', 'birmingham, united kingdom', '7th (sf)', '400 m', '46.82'], ['2003', 'world indoor championships', 'birmingham, united kingdom', '3rd', '4x400 m relay', '3:06.61'], ['2003', 'european u23 championships', 'bydgoszcz, poland', '1st', '400 m hurdles', '48.45'], ['2003', 'european u23 championships', 'bydgoszcz, poland', '1st', '4x400 m relay', '3:03.32'], ['2004', 'olympic games', 'athens, greece', '6th', '400 m hurdles', '49.00'], ['2004', 'olympic games', 'athens, greece', '10th (h)', '4x400 m relay', '3:03.69'], ['2006', 'european championships', 'gothenburg, sweden', '2nd', '400 m hurdles', '48.71'], ['2007', 'world championships', 'osaka, japan', '3rd', '400 m hurdles', '48.12 (nr)'], ['2007', 'world championships', 'osaka, japan', '3rd', '4x400 m relay', '3:00.05'], ['2008', 'olympic games', 'beijing, china', '6th', '400 m hurdles', '48.42'], ['2008', 'olympic games', 'beijing, china', '7th', '4x400 m relay', '3:00.32'], ['2012', 'european championships', 'helsinki, finland', '18th (sf)', '400 m hurdles', '50.77']]"

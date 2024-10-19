@@ -1,0 +1,584 @@
+id,question,gold answer,table title,original_tab,norm_table
+nu-54,who was the first to win during the 2009 fujitsu v8 supercar season?,david russell,2009 Fujitsu V8 Supercar Series,"|   rd | event                         | circuit                   | location                  | date         | winner        |
+|-----:|:------------------------------|:--------------------------|:--------------------------|:-------------|:--------------|
+|    1 | clipsal 500                   | adelaide street circuit   | adelaide, south australia | 19-22 mar    | david russell |
+|    2 | winton                        | winton motor raceway      | benalla, victoria         | 1-3 may      | jonathon webb |
+|    3 | dunlop townsville 400         | townsville street circuit | townsville, queensland    | 10-12 jul    | james moffat  |
+|    4 | norton 360 sandown challenge  | sandown raceway           | melbourne, victoria       | 31 jul-aug 2 | david russell |
+|    5 | queensland house & land 300   | queensland raceway        | ipswich, queensland       | 21-23 aug    | jonathon webb |
+|    6 | supercheap auto bathurst 1000 | mount panorama circuit    | bathurst, new south wales | 8-11 oct     | jonathon webb |
+|    7 | sydney telstra 500            | homebush street circuit   | sydney, new south wales   | 4-6 dec      | jonathon webb |"," [
+    [""rd"", ""event"", ""circuit"", ""location"", ""start_date"", ""end_date"", ""winner""],
+    [1, ""clipsal 500"", ""adelaide street circuit"", ""adelaide, south australia"", ""2009-03-19"", ""2009-03-22"", ""david russell""],
+    [2, ""winton"", ""winton motor raceway"", ""benalla, victoria"", ""2009-05-01"", ""2009-05-03"", ""jonathon webb""],
+    [3, ""dunlop townsville 400"", ""townsville street circuit"", ""townsville, queensland"", ""2009-07-10"", ""2009-07-12"", ""james moffat""],
+    [4, ""norton 360 sandown challenge"", ""sandown raceway"", ""melbourne, victoria"", ""2009-07-31"", ""2009-08-02"", ""david russell""],
+    [5, ""queensland house & land 300"", ""queensland raceway"", ""ipswich, queensland"", ""2009-08-21"", ""2009-08-23"", ""jonathon webb""],
+    [6, ""supercheap auto bathurst 1000"", ""mount panorama circuit"", ""bathurst, new south wales"", ""2009-10-08"", ""2009-10-11"", ""jonathon webb""],
+    [7, ""sydney telstra 500"", ""homebush street circuit"", ""sydney, new south wales"", ""2009-12-04"", ""2009-12-06"", ""jonathon webb""]
+]"
+nu-55,which competition was held in berlin and daegu?,world championships,Jan Kudlička,"|   year | competition                   | venue                  | position   | notes   |
+|-------:|:------------------------------|:-----------------------|:-----------|:--------|
+|   2005 | world youth championships     | marrakech, morocco     | 6th        | 5.05 m  |
+|   2006 | world junior championships    | beijing, china         | 5th        | 5.3 m   |
+|   2008 | olympic games                 | beijing, china         | 10th       | 5.45 m  |
+|   2009 | european u23 championships    | kaunas, lithuania      | 8th        | 5.15 m  |
+|   2009 | world championships           | berlin, germany        | 22nd (q)   | 5.4 m   |
+|   2010 | european championships        | barcelona, spain       | 10th       | 5.6 m   |
+|   2011 | world championships           | daegu, south korea     | 9th        | 5.65 m  |
+|   2012 | european championships        | helsinki, finland      | 6th        | 5.6 m   |
+|   2012 | olympic games                 | london, united kingdom | 8th        | 5.65 m  |
+|   2013 | european indoor championships | gothenburg, sweden     | 5th        | 5.71 m  |
+|   2014 | world indoor championships    | sopot, poland          | 3rd        | 5.8 m   |"," [
+    [""year"", ""competition"", ""venue"", ""position"", ""notes""],
+    [2005, ""world youth championships"", ""marrakech, morocco"", ""6th"", 5.05],
+    [2006, ""world junior championships"", ""beijing, china"", ""5th"", 5.3],
+    [2008, ""olympic games"", ""beijing, china"", ""10th"", 5.45],
+    [2009, ""european u23 championships"", ""kaunas, lithuania"", ""8th"", 5.15],
+    [2009, ""world championships"", ""berlin, germany"", ""22nd (q)"", 5.4],
+    [2010, ""european championships"", ""barcelona, spain"", ""10th"", 5.6],
+    [2011, ""world championships"", ""daegu, south korea"", ""9th"", 5.65],
+    [2012, ""european championships"", ""helsinki, finland"", ""6th"", 5.6],
+    [2012, ""olympic games"", ""london, united kingdom"", ""8th"", 5.65],
+    [2013, ""european indoor championships"", ""gothenburg, sweden"", ""5th"", 5.71],
+    [2014, ""world indoor championships"", ""sopot, poland"", ""3rd"", 5.8]
+]"
+nu-57,what type of plane was encountered the least?,mig-15,John B. England,"| date       | location                                 | air_ground   |   number | type   | status    |
+|:-----------|:-----------------------------------------|:-------------|---------:|:-------|:----------|
+| 1944-3-8   | near steinhuder meer (lake), germany     | air          |      1   | me-109 | destroyed |
+| 1944-3-16  | 20 miles south of stuttgart, germany     | air          |      1   | me-110 | destroyed |
+| 1944-4-11  | 20 miles northeast of magdeburg, germany | air          |      0.5 | me-109 | destroyed |
+| 1944-4-13  | west of mannheim, germany                | air          |      1   | fw-190 | destroyed |
+| 1944-4-24  | south of munich, germany                 | air          |      3   | me-110 | destroyed |
+| 1944-5-27  | north of strasbourg, france              | air          |      1   | me-109 | damaged   |
+| 1944-8-18  | 20 miles northeast of paris, france      | air          |      0.5 | me-109 | destroyed |
+| 1944-9-13  | south of nordhausen, germany             | air          |      2.5 | me-109 | destroyed |
+| 1944-10-6  | 20 miles northwest of berlin, germany    | air          |      1   | me-109 | damaged   |
+| 1944-10-6  | 20 miles northwest of berlin, germany    | air          |      2   | me-109 | destroyed |
+| 1944-11-27 | south of magdeburg, germany              | air          |      4   | fw-190 | destroyed |
+| 1945-1-14  | 20 miles northwest of berlin, germany    | air          |      1   | me-109 | destroyed |
+| 1952-1-25  | korea                                    | air          |      1   | mig-15 | damaged   |"," [
+    [""date"", ""location"", ""air_ground"", ""number"", ""type"", ""status""],
+    [""1944-3-8"", ""near steinhuder meer (lake), germany"", ""air"", 1, ""me-109"", ""destroyed""],
+    [""1944-3-16"", ""20 miles south of stuttgart, germany"", ""air"", 1, ""me-110"", ""destroyed""],
+    [""1944-4-11"", ""20 miles northeast of magdeburg, germany"", ""air"", 0.5, ""me-109"", ""destroyed""],
+    [""1944-4-13"", ""west of mannheim, germany"", ""air"", 1, ""fw-190"", ""destroyed""],
+    [""1944-4-24"", ""south of munich, germany"", ""air"", 3, ""me-110"", ""destroyed""],
+    [""1944-5-27"", ""north of strasbourg, france"", ""air"", 1, ""me-109"", ""damaged""],
+    [""1944-8-18"", ""20 miles northeast of paris, france"", ""air"", 0.5, ""me-109"", ""destroyed""],
+    [""1944-9-13"", ""south of nordhausen, germany"", ""air"", 2.5, ""me-109"", ""destroyed""],
+    [""1944-10-6"", ""20 miles northwest of berlin, germany"", ""air"", 1, ""me-109"", ""damaged""],
+    [""1944-10-6"", ""20 miles northwest of berlin, germany"", ""air"", 2, ""me-109"", ""destroyed""],
+    [""1944-11-27"", ""south of magdeburg, germany"", ""air"", 4, ""fw-190"", ""destroyed""],
+    [""1945-1-14"", ""20 miles northwest of berlin, germany"", ""air"", 1, ""me-109"", ""destroyed""],
+    [""1952-1-25"", ""korea"", ""air"", 1, ""mig-15"", ""damaged""]
+]"
+nu-58,who was the top placing competitor?,esther shahamorov,Israel at the 1972 Summer Olympics,"| name                | sport         | event                              | placing         | performance                                                  |
+|:--------------------|:--------------|:-----------------------------------|:----------------|:-------------------------------------------------------------|
+| shaul ladani        | athletics     | men's 50 km walk                   | 19              | 4:24:38.6; (also entered for 20 km walk, but did not start)  |
+| esther shahamorov   | athletics     | women's 100 m                      | semifinal (5th) | 11.49                                                        |
+| esther shahamorov   | athletics     | women's 100 m hurdles              | semifinal       | did not start (left munich before the semifinal)             |
+| dan alon            | fencing       | men's foil                         | second round    | w5–l5 (1r 3-2, 2r 2-3)                                       |
+| yehuda weissenstein | fencing       | men's foil                         | second round    | w2–l8 (1r 2-3, 2r 0-5)                                       |
+| yair michaeli       | sailing       | flying dutchman                    | 23              | 28-22-22-19-25-19-dns = 171 pts; (left kiel before 7th race) |
+| itzhak nir          | sailing       | flying dutchman                    | 23              | 28-22-22-19-25-19-dns = 171 pts; (left kiel before 7th race) |
+| henry hershkowitz   | shooting      | 50 metre rifle prone               | 23              | 593/600                                                      |
+| henry hershkowitz   | shooting      | 50 metre rifle 3 positions         | 46              | 1114/1200                                                    |
+| zelig stroch        | shooting      | 50 metre rifle prone               | 57              | 589/600                                                      |
+| shlomit nir         | swimming      | women's 100 m breaststroke         | heats (8th)     | 1:20.9                                                       |
+| shlomit nir         | swimming      | women's 200 m breaststroke         | heats (6th)     | 2:53.6                                                       |
+| david berger        | weightlifting | light-heavyweight <82.5 kg         | —               | j:132.5 c:122.5 s:— t:—                                      |
+| ze'ev friedman      | weightlifting | bantamweight <56 kg                | 12              | j:102.5 c:102.5 s:125 t:330                                  |
+| yossef romano       | weightlifting | middleweight <75 kg                | —               | (retired injured on third attempt to press 137.5kg)          |
+| gad tsobari         | wrestling     | freestyle — light flyweight <48 kg | group stage     | 0w–2l                                                        |
+| eliezer halfin      | wrestling     | freestyle — lightweight <68 kg     | group stage     | 1w–2l                                                        |
+| mark slavin         | wrestling     | greco-roman — middleweight <82 kg  | —               | (taken hostage before his scheduled event)                   |"," [
+    [""name"", ""sport"", ""event"", ""placing"", ""performance_type"", ""performance_value""],
+    [""shaul ladani"", ""athletics"", ""men's 50 km walk"", ""19"", ""time"", ""4:24:38.6""],
+    [""esther shahamorov"", ""athletics"", ""women's 100 m"", ""semifinal (5th)"", ""time"", ""11.49""],
+    [""esther shahamorov"", ""athletics"", ""women's 100 m hurdles"", ""semifinal"", ""did not start"", """"],
+    [""dan alon"", ""fencing"", ""men's foil"", ""second round"", ""result"", ""w5–l5 (1r 3-2, 2r 2-3)""],
+    [""yehuda weissenstein"", ""fencing"", ""men's foil"", ""second round"", ""result"", ""w2–l8 (1r 2-3, 2r 0-5)""],
+    [""yair michaeli"", ""sailing"", ""flying dutchman"", ""23"", ""points"", ""171""],
+    [""itzhak nir"", ""sailing"", ""flying dutchman"", ""23"", ""points"", ""171""],
+    [""henry hershkowitz"", ""shooting"", ""50 metre rifle prone"", ""23"", ""score"", ""593/600""],
+    [""henry hershkowitz"", ""shooting"", ""50 metre rifle 3 positions"", ""46"", ""score"", ""1114/1200""],
+    [""zelig stroch"", ""shooting"", ""50 metre rifle prone"", ""57"", ""score"", ""589/600""],
+    [""shlomit nir"", ""swimming"", ""women's 100 m breaststroke"", ""heats (8th)"", ""time"", ""1:20.9""],
+    [""shlomit nir"", ""swimming"", ""women's 200 m breaststroke"", ""heats (6th)"", ""time"", ""2:53.6""],
+    [""david berger"", ""weightlifting"", ""light-heavyweight <82.5 kg"", """", ""lifts"", ""j:132.5 c:122.5 s:""],
+    [""ze'ev friedman"", ""weightlifting"", ""bantamweight <56 kg"", ""12"", ""total"", ""330""],
+    [""yossef romano"", ""weightlifting"", ""middleweight <75 kg"", """", ""status"", ""(retired injured on third attempt to press 137.5kg)""],
+    [""gad tsobari"", ""wrestling"", ""freestyle — light flyweight <48 kg"", ""group stage"", ""record"", ""0w–2l""],
+    [""eliezer halfin"", ""wrestling"", ""freestyle — lightweight <68 kg"", ""group stage"", ""record"", ""1w–2l""],
+    [""mark slavin"", ""wrestling"", ""greco-roman — middleweight <82 kg"", """", ""status"", ""(taken hostage before his scheduled event)""]
+]"
+nu-59,is the price money for 23 january 1984 more than that of 23 april 1984?,no,Anne Hobbs,"| result    | date       | category   | tournament                   | surface   | partnering      | opponents                              | score                |
+|:----------|:-----------|:-----------|:-----------------------------|:----------|:----------------|:---------------------------------------|:---------------------|
+| runner-up | 1978-12-10 | $75000     | sydney, australia            | grass     | judy chaloner   | kerry reid;  wendy turnbull            | 2–6, 6–4, 2–6        |
+| runner-up | 1981-11-8  | $50000     | hong kong                    | clay      | susan leo       | ann kiyomura;  sharon walsh            | 3–6, 4–6             |
+| winner    | 1982-6-13  | $100000    | birmingham, great britain    | grass     | jo durie        | rosie casals;  wendy turnbull          | 6–3, 6–2             |
+| winner    | 1983-5-23  | $150000    | berlin, germany              | carpet    | jo durie        | claudia kohde-kilsch;  eva pfaff       | 6–4, 7–6(7–2)        |
+| runner-up | 1983-6-19  | $150000    | eastbourne, great britain    | grass     | jo durie        | martina navrátilová;  pam shriver      | 1–6, 0–6             |
+| winner    | 1983-8-21  | $200000    | toronto, canada              | hard      | andrea jaeger   | rosalyn fairbank;  candy reynolds      | 6–4, 5–7, 7–5        |
+| winner    | 1983-11-20 | $150000    | brisbane, australia          | grass     | wendy turnbull  | pam shriver;  sharon walsh             | 6–3, 6–4             |
+| winner    | 1983-11-27 | $150000    | sydney, australia            | grass     | wendy turnbull  | hana mandlíková;  helena suková        | 6–4, 6–3             |
+| runner-up | 1983-12-12 | grand slam | australian open, australia   | grass     | wendy turnbull  | martina navrátilová;  pam shriver      | 4–6, 7–6, 2–6        |
+| winner    | 1984-1-23  | $50000     | denver, united states        | hard      | marcella mesker | sherry acker;  candy reynolds          | 6–2, 6–3             |
+| runner-up | 1984-1-29  | $100000    | marco island, united states  | clay      | andrea jaeger   | hana mandlíková;  helena suková        | 6–3, 2–6, 2–6        |
+| runner-up | 1984-4-16  | $200000    | hilton head, united states   | clay      | sharon walsh    | claudia kohde-kilsch;  hana mandlíková | 5–7, 2–6             |
+| runner-up | 1984-4-22  | $250000    | amelia island, united states | clay      | mima jaušovec   | kathy jordan;  anne smith              | 4–6, 6–3, 4–6        |
+| runner-up | 1984-4-23  | $200000    | orlando, united states       | clay      | wendy turnbull  | claudia kohde-kilsch;  hana mandlíková | 0–6, 6–1, 3–6        |
+| winner    | 1984-5-20  | $150000    | berlin, germany              | clay      | candy reynolds  | kathy horvath;  virginia ruzici        | 6–3, 4–6, 7–6(13–11) |
+| runner-up | 1984-9-9   | grand slam | us open, united states       | hard      | wendy turnbull  | martina navrátilová;  pam shriver      | 2–6, 4–6             |
+| runner-up | 1985-5-20  | $75000     | melbourne, australia         | carpet    | kathy jordan    | pam shriver;  liz smylie               | 2–6, 7–5, 1–6        |
+| winner    | 1985-12-15 | $50000     | auckland, new zealand        | grass     | candy reynolds  | lea antonoplis;  adriana villagrán     | 6–1, 6–3             |
+| runner-up | 1987-7-19  | $150000    | newport, united states       | grass     | kathy jordan    | gigi fernández;  lori mcneil           | 6–7(5–7), 5–7        |
+| runner-up | 1987-8-30  | $150000    | mahwah, united states        | hard      | liz smylie      | gigi fernández;  lori mcneil           | 3–6, 2–6             |"," [['result', 'date', 'prize_money', 'tournament_location', 'surface', 'partnering', 'opponent1', 'opponent2', 'score'],
+['runner-up', '1978-12-10', 75000, 'sydney, australia', 'grass', 'judy chaloner', 'kerry reid', 'wendy turnbull', '2–6, 6–4, 2–6'],
+['runner-up', '1981-11-8', 50000, 'hong kong', 'clay', 'susan leo', 'ann kiyomura', 'sharon walsh', '3–6, 4–6'],
+['winner', '1982-6-13', 100000, 'birmingham, great britain', 'grass', 'jo durie', 'rosie casals', 'wendy turnbull', '6–3, 6–2'],
+['winner', '1983-5-23', 150000, 'berlin, germany', 'carpet', 'jo durie', 'claudia kohde-kilsch', 'eva pfaff', '6–4, 7–6(7–2)'],
+['runner-up', '1983-6-19', 150000, 'eastbourne, great britain', 'grass', 'jo durie', 'martina navrátilová', 'pam shriver', '1–6, 0–6'],
+['winner', '1983-8-21', 200000, 'toronto, canada', 'hard', 'andrea jaeger', 'rosalyn fairbank', 'candy reynolds', '6–4, 5–7, 7–5'],
+['winner', '1983-11-20', 150000, 'brisbane, australia', 'grass', 'wendy turnbull', 'pam shriver', 'sharon walsh', '6–3, 6–4'],
+['winner', '1983-11-27', 150000, 'sydney, australia', 'grass', 'wendy turnbull', 'hana mandlíková', 'helena suková', '6–4, 6–3'],
+['runner-up', '1983-12-12', 'grand slam', 'australian open, australia', 'grass', 'wendy turnbull', 'martina navrátilová', 'pam shriver', '4–6, 7–6, 2–6'],
+['winner', '1984-1-23', 50000, 'denver, united states', 'hard', 'marcella mesker', 'sherry acker', 'candy reynolds', '6–2, 6–3'],
+['runner-up', '1984-1-29', 100000, 'marco island, united states', 'clay', 'andrea jaeger', 'hana mandlíková', 'helena suková', '6–3, 2–6, 2–6'],
+['runner-up', '1984-4-16', 200000, 'hilton head, united states', 'clay', 'sharon walsh', 'claudia kohde-kilsch', 'hana mandlíková', '5–7, 2–6'],
+['runner-up', '1984-4-22', 250000, 'amelia island, united states', 'clay', 'mima jaušovec', 'kathy jordan', 'anne smith', '4–6, 6–3, 4–6'],
+['runner-up', '1984-4-23', 200000, 'orlando, united states', 'clay', 'wendy turnbull', 'claudia kohde-kilsch', 'hana mandlíková', '0–6, 6–1, 3–6'],
+['winner', '1984-5-20', 150000, 'berlin, germany', 'clay', 'candy reynolds', 'kathy horvath', 'virginia ruzici', '6–3, 4–6, 7–6(13–11)'],
+['runner-up', '1984-9-9', 'grand slam', 'us open, united states', 'hard', 'wendy turnbull', 'martina navrátilová', 'pam shriver', '2–6, 4–6'],
+['runner-up', '1985-5-20', 75000, 'melbourne, australia', 'carpet', 'kathy jordan', 'pam shriver', 'liz smylie', '2–6, 7–5, 1–6'],
+['winner', '1985-12-15', 50000, 'auckland, new zealand', 'grass', 'candy reynolds', 'lea antonoplis', 'adriana villagrán', '6–1, 6–3'],
+['runner-up', '1987-7-19', 150000, 'newport, united states', 'grass', 'kathy jordan', 'gigi fernández', 'lori mcneil', '6–7(5–7), 5–7'],
+['runner-up', '1987-8-30', 150000, 'mahwah, united states', 'hard', 'liz smylie', 'gigi fernández', 'lori mcneil', '3–6, 2–6']]"
+nu-61,which position was listed the most on this chart?,s,2000 Chicago Bears season,"|   round |   pick | name           | position   | college            |
+|--------:|-------:|:---------------|:-----------|:-------------------|
+|       1 |      9 | brian urlacher | s          | new mexico         |
+|       2 |     39 | mike brown     | s          | nebraska           |
+|       3 |     69 | dez white      | wr         | georgia tech       |
+|       3 |     87 | dustin lyman   | te         | wake forest        |
+|       4 |    125 | reggie austin  | db         | wake forest        |
+|       6 |    170 | frank murphy   | wr         | kansas state       |
+|       6 |    174 | paul edinger   | k          | michigan state     |
+|       7 |    223 | james cotton   | de         | ohio state         |
+|       7 |    254 | michael green  | s          | northwestern state |"," [
+    ['round', 'pick', 'name', 'position', 'college'],
+    [1, 9, 'brian urlacher', 's', 'new mexico'],
+    [2, 39, 'mike brown', 's', 'nebraska'],
+    [3, 69, 'dez white', 'wr', 'georgia tech'],
+    [3, 87, 'dustin lyman', 'te', 'wake forest'],
+    [4, 125, 'reggie austin', 'db', 'wake forest'],
+    [6, 170, 'frank murphy', 'wr', 'kansas state'],
+    [6, 174, 'paul edinger', 'k', 'michigan state'],
+    [7, 223, 'james cotton', 'de', 'ohio state'],
+    [7, 254, 'michael green', 's', 'northwestern state']
+]"
+nu-62,m. shafi ahmad and absdul majid both had what type of degree?,ph.d,Space and Upper Atmosphere Research Commission,"|   number | name                                |   term_started | term_ended   | alma_mater                                                                      | fields                                                                                     | educational_background               |
+|---------:|:------------------------------------|---------------:|:-------------|:--------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|:-------------------------------------|
+|        1 | dr abdus salam                      |           1961 | 1967         | imperial college                                                                | theoretical physics                                                                        | doctor of philosophy (ph.d)          |
+|        2 | air commodore dr władysław turowicz |           1967 | 1979         | warsaw university of technology                                                 | aeronautical engineering                                                                   | ph.d                                 |
+|        3 | air commodore k. m. ahmad           |           1979 | 1980         | pakistan air force academy                                                      | flight instructor                                                                          | certificated flight instructor (cfi) |
+|        4 | dr salim mehmud                     |           1980 | 1989         | oak ridge institute for science and education and oak ridge national laboratory | nuclear engineering, electrical engineering, physics, mathematics, electronics engineering | ph.d                                 |
+|        5 | dr m. shafi ahmad                   |           1989 | 1990         | university of london                                                            | astronomy                                                                                  | ph.d                                 |
+|        6 | engr.sikandar zaman                 |           1990 | 1997         | university of leeds                                                             | mechanical engineering                                                                     | bachelor of science (b.s.)           |
+|        7 | dr abdul majid                      |           1997 | 2001         | university of wales                                                             | astrophysics                                                                               | ph.d                                 |
+|        8 | major general raza hussain          |           2001 | 2010         | pakistan army corps of electrical and mechanical engineers                      | electrical engineering                                                                     | b.s.                                 |
+|        9 | major general ahmed bilal           |           2010 | present      | pakistan army corps of signals engineering                                      | computer engineering                                                                       | master of science (m.s)              |"," [
+    ['number', 'name', 'term_started', 'term_ended', 'alma_mater', 'fields', 'educational_background'],
+    [1, 'dr abdus salam', 1961, 1967, 'imperial college', 'theoretical physics', 'doctor of philosophy (ph.d)'],
+    [2, 'air commodore dr władysław turowicz', 1967, 1979, 'warsaw university of technology', 'aeronautical engineering', 'ph.d'],
+    [3, 'air commodore k. m. ahmad', 1979, 1980, 'pakistan air force academy', 'flight instructor', 'certificated flight instructor (cfi)'],
+    [4, 'dr salim mehmud', 1980, 1989, 'oak ridge institute for science and education and oak ridge national laboratory', 'nuclear engineering, electrical engineering, physics, mathematics, electronics engineering', 'ph.d'],
+    [5, 'dr m. shafi ahmad', 1989, 1990, 'university of london', 'astronomy', 'ph.d'],
+    [6, 'engr.sikandar zaman', 1990, 1997, 'university of leeds', 'mechanical engineering', 'bachelor of science (b.s.)'],
+    [7, 'dr abdul majid', 1997, 2001, 'university of wales', 'astrophysics', 'ph.d'],
+    [8, 'major general raza hussain', 2001, 2010, 'pakistan army corps of electrical and mechanical engineers', 'electrical engineering', 'b.s.'],
+    [9, 'major general ahmed bilal', 2010, 'present', 'pakistan army corps of signals engineering', 'computer engineering', 'master of science (m.s)']
+]"
+nu-63,how many photos total are listed?,18,Henry J. Kaiser-class oiler,"| ship               | hull_no   | status                                                                                                                                                                                                           | years_active                                     | nvr_page   |
+|:-------------------|:----------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------|:-----------|
+| henry j. kaiser    | t-ao-187  | active—southern california duty oiler                                                                                                                                                                            | 1986–present                                     | ao187      |
+| joshua humphreys   | t-ao-188  | inactivated 1996, returned to service 2005                                                                                                                                                                       | 1987-1996; 2005-2006; 2010-present               | ao188      |
+| john lenthall      | t-ao-189  | active                                                                                                                                                                                                           | 1987-1996; 1998–present                          | ao189      |
+| andrew j. higgins  | t-ao-190  | inactivated 1996-5. sold to the chilean navy 2009-5. towed to atlantic marine alabama shipyard, mobile, alabama, 2009-9 for p3m refit. commissioned in chilean navy on 2010-2-10 and renamed almirante montt.[1] | 1987-1996 (usa); 2010–present (chile)            | ao190      |
+| benjamin isherwood | t-ao-191  | cancelled when 95.3% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011                                                                         | launched 1988, christened 1991, never in service | ao191      |
+| henry eckford      | t-ao-192  | cancelled when 84% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011                                                                           | launched 1989, never in service                  | ao192      |
+| walter s. diehl    | t-ao-193  | active                                                                                                                                                                                                           | 1988–present                                     | ao193      |
+| john ericsson      | t-ao-194  | active                                                                                                                                                                                                           | 1991–present                                     | ao194      |
+| leroy grumman      | t-ao-195  | active                                                                                                                                                                                                           | 1989–present                                     | ao195      |
+| kanawha            | t-ao-196  | active                                                                                                                                                                                                           | 1991–present                                     | ao196      |
+| pecos              | t-ao-197  | active                                                                                                                                                                                                           | 1990–present                                     | ao197      |
+| big horn           | t-ao-198  | active                                                                                                                                                                                                           | 1992–present                                     | ao198      |
+| tippecanoe         | t-ao-199  | active                                                                                                                                                                                                           | 1993–present                                     | ao199      |
+| guadalupe          | t-ao-200  | active                                                                                                                                                                                                           | 1992–present                                     | ao200      |
+| patuxent           | t-ao-201  | active                                                                                                                                                                                                           | 1995–present                                     | ao201      |
+| yukon              | t-ao-202  | active                                                                                                                                                                                                           | 1994–present                                     | ao202      |
+| laramie            | t-ao-203  | active                                                                                                                                                                                                           | 1996–present                                     | ao203      |
+| rappahannock       | t-ao-204  | active                                                                                                                                                                                                           | 1995–present                                     | ao204      |"," [
+    [""ship"", ""hull_no"", ""status"", ""years_active"", ""nvr_page""],
+    [""henry j. kaiser"", ""t-ao-187"", ""active—southern california duty oiler"", ""1986–present"", ""ao187""],
+    [""joshua humphreys"", ""t-ao-188"", ""inactivated 1996, returned to service 2005"", ""1987-1996; 2005-2006; 2010-present"", ""ao188""],
+    [""john lenthall"", ""t-ao-189"", ""active"", ""1987-1996; 1998–present"", ""ao189""],
+    [""andrew j. higgins"", ""t-ao-190"", ""inactivated 1996-5. sold to the chilean navy 2009-5. towed to atlantic marine alabama shipyard, mobile, alabama, 2009-9 for p3m refit. commissioned in chilean navy on 2010-2-10 and renamed almirante montt.[1]"", ""1987-1996 (usa); 2010–present (chile)"", ""ao190""],
+    [""benjamin isherwood"", ""t-ao-191"", ""cancelled when 95.3% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011"", ""launched 1988, christened 1991, never in service"", ""ao191""],
+    [""henry eckford"", ""t-ao-192"", ""cancelled when 84% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011"", ""launched 1989, never in service"", ""ao192""],
+    [""walter s. diehl"", ""t-ao-193"", ""active"", ""1988–present"", ""ao193""],
+    [""john ericsson"", ""t-ao-194"", ""active"", ""1991–present"", ""ao194""],
+    [""leroy grumman"", ""t-ao-195"", ""active"", ""1989–present"", ""ao195""],
+    [""kanawha"", ""t-ao-196"", ""active"", ""1991–present"", ""ao196""],
+    [""pecos"", ""t-ao-197"", ""active"", ""1990–present"", ""ao197""],
+    [""big horn"", ""t-ao-198"", ""active"", ""1992–present"", ""ao198""],
+    [""tippecanoe"", ""t-ao-199"", ""active"", ""1993–present"", ""ao199""],
+    [""guadalupe"", ""t-ao-200"", ""active"", ""1992–present"", ""ao200""],
+    [""patuxent"", ""t-ao-201"", ""active"", ""1995–present"", ""ao201""],
+    [""yukon"", ""t-ao-202"", ""active"", ""1994–present"", ""ao202""],
+    [""laramie"", ""t-ao-203"", ""active"", ""1996–present"", ""ao203""],
+    [""rappahannock"", ""t-ao-204"", ""active"", ""1995–present"", ""ao204""]
+]"
+nu-66,"what date is next listed after june 14, 2010.","december 6, 2010","List of Little People, Big World episodes","|   season |   episodes | season_premiere   | season_finale   |
+|---------:|-----------:|:------------------|:----------------|
+|        1 |         20 | 2006-3-4          | 2006-5-13       |
+|        2 |         52 | 2006-10-7         | 2007-7-16       |
+|        3 |         44 | 2007-10-15        | 2008-6-2        |
+|        4 |         48 | 2008-10-13        | 2009-5-11       |
+|        5 |         40 | 2009-10-12        | 2010-6-14       |
+|        6 |         20 | 2010-9-6          | 2010-12-6       |
+|        7 |          8 | 2013-10-29        | 2013-12-17      |"," [['season', 'episodes', 'season_premiere', 'season_finale'],
+                      [1, 20, '2006-03-04', '2006-05-13'],
+                      [2, 52, '2006-10-07', '2007-07-16'],
+                      [3, 44, '2007-10-15', '2008-06-02'],
+                      [4, 48, '2008-10-13', '2009-05-11'],
+                      [5, 40, '2009-10-12', '2010-06-14'],
+                      [6, 20, '2010-09-06', '2010-12-06'],
+                      [7, 8, '2013-10-29', '2013-12-17']]"
+nu-67,how many times was a tournament held in the united states?,1,Kristýna Plíšková,"| outcome   |   no | date       | tournament                   | surface    | partner           | opponents                              | score                  |
+|:----------|-----:|:-----------|:-----------------------------|:-----------|:------------------|:---------------------------------------|:-----------------------|
+| runner-up |    1 | 2010-5-16  | kurume, japan                | clay       | karolína plíšková | sun shengnan;  xu yifan                | 0–6, 3–6               |
+| winner    |    1 | 2011-2-13  | rancho mirage, united states | hard       | karolína plíšková | nadejda guskova;  sandra zaniewska     | 6–7(6–8), 6–1, 6–4     |
+| winner    |    2 | 2011-8-7   | vancouver, canada            | hard       | karolína plíšková | jamie hampton;  n. lertcheewakarn      | 5–7, 6–2, 6–4          |
+| runner-up |    2 | 2011-11-6  | taipei 5, taiwan             | hard       | karolína plíšková | chan yung-jan;  zheng jie              | 6–7(5–7), 7–5, 3–6     |
+| runner-up |    3 | 2011-11-20 | bratislava, slovakia         | hard       | karolína plíšková | naomi broady;  kristina mladenovic     | 7–5, 4–6, [2–10]       |
+| winner    |    3 | 2012-1-23  | andrézieux-bouthéon, france  | hard (i)   | karolína plíšková | julie coin;  eva hrdinová              | 6–4, 4–6, [10–5]       |
+| winner    |    4 | 2012-1-30  | grenoble, france             | hard (i)   | karolína plíšková | valentyna ivakhnenko;  maryna zanevska | 6–1, 6–3               |
+| runner-up |    4 | 2012-9-17  | shrewsbury, united kingdom   | hard (i)   | karolína plíšková | vesna dolonc;  stefanie vögele         | 1–6, 7–6(7–3), [13–15] |
+| winner    |    5 | 2012-11-12 | zawada, poland               | carpet (i) | karolína plíšková | kristina barrois;  sandra klemenschits | 6–3, 6–1               |
+| winner    |    6 | 2013-10-28 | barnstaple, united kingdom   | hard (i)   | naomi broady      | raluca olaru;  tamira paszek           | 6–3, 3–6, [10–5]       |"," [['outcome', 'no', 'date', 'tournament', 'surface', 'partner', 'opponents', 'score'], 
+['runner-up', 1, '2010-05-16', 'kurume, japan', 'clay', 'karolína plíšková', 'sun shengnan;  xu yifan', '0–6, 3–6'], 
+['winner', 1, '2011-02-13', 'rancho mirage, united states', 'hard', 'karolína plíšková', 'nadejda guskova;  sandra zaniewska', '6–7(6–8), 6–1, 6–4'], 
+['winner', 2, '2011-08-07', 'vancouver, canada', 'hard', 'karolína plíšková', 'jamie hampton;  n. lertcheewakarn', '5–7, 6–2, 6–4'], 
+['runner-up', 2, '2011-11-06', 'taipei 5, taiwan', 'hard', 'karolína plíšková', 'chan yung-jan;  zheng jie', '6–7(5–7), 7–5, 3–6'], 
+['runner-up', 3, '2011-11-20', 'bratislava, slovakia', 'hard', 'karolína plíšková', 'naomi broady;  kristina mladenovic', '7–5, 4–6, [2–10]'], 
+['winner', 3, '2012-01-23', 'andrézieux-bouthéon, france', 'hard (i)', 'karolína plíšková', 'julie coin;  eva hrdinová', '6–4, 4–6, [10–5]'], 
+['winner', 4, '2012-01-30', 'grenoble, france', 'hard (i)', 'karolína plíšková', 'valentyna ivakhnenko;  maryna zanevska', '6–1, 6–3'], 
+['runner-up', 4, '2012-09-17', 'shrewsbury, united kingdom', 'hard (i)', 'karolína plíšková', 'vesna dolonc;  stefanie vögele', '1–6, 7–6(7–3), [13–15]'], 
+['winner', 5, '2012-11-12', 'zawada, poland', 'carpet (i)', 'karolína plíšková', 'kristina barrois;  sandra klemenschits', '6–3, 6–1'], 
+['winner', 6, '2013-10-28', 'barnstaple, united kingdom', 'hard (i)', 'naomi broady', 'raluca olaru;  tamira paszek', '6–3, 3–6, [10–5]']]"
+nu-68,how many drivers have no laps led?,18,2009 Honda 200,"|   pos |   no | driver              | team                       |   laps | time_retired   |   grid |   laps_led |   points |
+|------:|-----:|:--------------------|:---------------------------|-------:|:---------------|-------:|-----------:|---------:|
+|     1 |    9 | scott dixon         | chip ganassi racing        |     85 | 1:46:5.7985    |      3 |         51 |       52 |
+|     2 |    6 | ryan briscoe        | penske racing              |     85 | + 29.7803      |      1 |          6 |       41 |
+|     3 |   10 | dario franchitti    | chip ganassi racing        |     85 | + 30.0551      |      6 |          0 |       35 |
+|     4 |   14 | ryan hunter-reay    | a. j. foyt enterprises     |     85 | + 33.7307      |      7 |          0 |       32 |
+|     5 |   27 | hideki mutoh        | andretti green racing      |     85 | + 34.1839      |     11 |          0 |       30 |
+|     6 |   26 | marco andretti      | andretti green racing      |     85 | + 46.7669      |     13 |          0 |       28 |
+|     7 |    5 | paul tracy          | kv racing technology       |     85 | + 49.702       |     10 |          0 |       26 |
+|     8 |    2 | graham rahal        | newman/haas/lanigan racing |     85 | + 50.4517      |      4 |          0 |       24 |
+|     9 |    2 | raphael matos (r)   | luczo-dragon racing        |     85 | + 51.2286      |     15 |          0 |       22 |
+|    10 |   11 | tony kanaan         | andretti green racing      |     85 | + 52.081       |      8 |          0 |       20 |
+|    11 |    6 | oriol servià        | newman/haas/lanigan racing |     85 | + 52.6215      |     14 |          0 |       19 |
+|    12 |    3 | hélio castroneves   | penske racing              |     85 | + 53.2362      |      5 |          0 |       18 |
+|    13 |   18 | justin wilson       | dale coyne racing          |     85 | + 53.5768      |      2 |         28 |       17 |
+|    14 |   33 | robert doornbos (r) | hvm racing                 |     85 | + 1:10.0812    |     18 |          0 |       16 |
+|    15 |   13 | e. j. viso          | hvm racing                 |     84 | + 1 lap        |      9 |          0 |       15 |
+|    16 |    4 | dan wheldon         | panther racing             |     84 | + 1 lap        |     17 |          0 |       14 |
+|    17 |   20 | ed carpenter        | vision racing              |     84 | + 1 lap        |     21 |          0 |       13 |
+|    18 |   98 | richard antinucci   | team 3g                    |     83 | + 2 laps       |     19 |          0 |       12 |
+|    19 |    7 | danica patrick      | andretti green racing      |     83 | + 2 laps       |     12 |          0 |       12 |
+|    20 |   24 | mike conway (r)     | dreyer & reinbold racing   |     69 | mechanical     |     16 |          0 |       12 |
+|    21 |   23 | milka duno          | dreyer & reinbold racing   |     56 | handling       |     20 |          0 |       12 |"," [['pos', 'no', 'driver', 'team', 'laps', 'time_retired', 'grid', 'laps_led', 'points'],
+ ['1', '9', 'scott dixon', 'chip ganassi racing', '85', '1:46:5.7985', '3', '51', '52'],
+ ['2', '6', 'ryan briscoe', 'penske racing', '85', '+ 29.7803', '1', '6', '41'],
+ ['3', '10', 'dario franchitti', 'chip ganassi racing', '85', '+ 30.0551', '6', '0', '35'],
+ ['4', '14', 'ryan hunter-reay', 'a. j. foyt enterprises', '85', '+ 33.7307', '7', '0', '32'],
+ ['5', '27', 'hideki mutoh', 'andretti green racing', '85', '+ 34.1839', '11', '0', '30'],
+ ['6', '26', 'marco andretti', 'andretti green racing', '85', '+ 46.7669', '13', '0', '28'],
+ ['7', '5', 'paul tracy', 'kv racing technology', '85', '+ 49.702', '10', '0', '26'],
+ ['8', '2', 'graham rahal', 'newman/haas/lanigan racing', '85', '+ 50.4517', '4', '0', '24'],
+ ['9', '2', 'raphael matos (r)', 'luczo-dragon racing', '85', '+ 51.2286', '15', '0', '22'],
+ ['10', '11', 'tony kanaan', 'andretti green racing', '85', '+ 52.081', '8', '0', '20'],
+ ['11', '6', 'oriol servià', 'newman/haas/lanigan racing', '85', '+ 52.6215', '14', '0', '19'],
+ ['12', '3', 'hélio castroneves', 'penske racing', '85', '+ 53.2362', '5', '0', '18'],
+ ['13', '18', 'justin wilson', 'dale coyne racing', '85', '+ 53.5768', '2', '28', '17'],
+ ['14', '33', 'robert doornbos (r)', 'hvm racing', '85', '+ 1:10.0812', '18', '0', '16'],
+ ['15', '13', 'e. j. viso', 'hvm racing', '84', '+ 1 lap', '9', '0', '15'],
+ ['16', '4', 'dan wheldon', 'panther racing', '84', '+ 1 lap', '17', '0', '14'],
+ ['17', '20', 'ed carpenter', 'vision racing', '84', '+ 1 lap', '21', '0', '13'],
+ ['18', '98', 'richard antinucci', 'team 3g', '83', '+ 2 laps', '19', '0', '12'],
+ ['19', '7', 'danica patrick', 'andretti green racing', '83', '+ 2 laps', '12', '0', '12'],
+ ['20', '24', 'mike conway (r)', 'dreyer & reinbold racing', '69', 'mechanical', '16', '0', '12'],
+ ['21', '23', 'milka duno', 'dreyer & reinbold racing', '56', 'handling', '20', '0', '12']]"
+nu-69,who superceded lord high steward?,justiciar,Great Officer of State,"|   position | officer                       | current_officers                   | superseded_by       | royal_household     |
+|-----------:|:------------------------------|:-----------------------------------|:--------------------|:--------------------|
+|          1 | lord high steward             | vacant                             | justiciar           | lord steward        |
+|          2 | lord high chancellor          | the rt hon chris grayling, mp      | none                | none                |
+|          3 | lord high treasurer           | in commission                      | none                | none                |
+|          4 | lord president of the council | the rt hon nick clegg, mp          | none                | none                |
+|          5 | lord privy seal               | the rt hon andrew lansley, cbe, mp | none                | none                |
+|          6 | lord great chamberlain        | the marquess of cholmondeley       | lord high treasurer | lord chamberlain    |
+|          7 | lord high constable           | vacant                             | earl marshal        | master of the horse |
+|          8 | earl marshal                  | the duke of norfolk                | none                | master of the horse |
+|          9 | lord high admiral             | hrh the duke of edinburgh          | none                | none                |"," [
+    ['position', 'officer', 'current_officers', 'superseded_by', 'royal_household'],
+    [1, 'lord high steward', 'vacant', 'justiciar', 'lord steward'],
+    [2, 'lord high chancellor', 'the rt hon chris grayling, mp', 'none', 'none'],
+    [3, 'lord high treasurer', 'in commission', 'none', 'none'],
+    [4, 'lord president of the council', 'the rt hon nick clegg, mp', 'none', 'none'],
+    [5, 'lord privy seal', 'the rt hon andrew lansley, cbe, mp', 'none', 'none'],
+    [6, 'lord great chamberlain', 'the marquess of cholmondeley', 'lord high treasurer', 'lord chamberlain'],
+    [7, 'lord high constable', 'vacant', 'earl marshal', 'master of the horse'],
+    [8, 'earl marshal', 'the duke of norfolk', 'none', 'master of the horse'],
+    [9, 'lord high admiral', 'hrh the duke of edinburgh', 'none', 'none']
+]"
+nu-71,how many fullback positions were picked?,2,1955 NFL Draft,"|   pick__ | nfl_team                             | player            | position    | college      |
+|---------:|:-------------------------------------|:------------------|:------------|:-------------|
+|        1 | baltimore colts (lottery bonus pick) | george shaw       | quarterback | oregon       |
+|        2 | chicago cardinals                    | max boydston      | end         | oklahoma     |
+|        3 | baltimore colts                      | alan ameche       | fullback    | wisconsin    |
+|        4 | washington redskins                  | ralph guglielmi   | quarterback | notre dame   |
+|        5 | green bay packers                    | tom bettis        | guard       | purdue       |
+|        6 | pittsburgh steelers                  | frank varrichione | tackle      | notre dame   |
+|        7 | los angeles rams                     | larry morris      | center      | georgia tech |
+|        8 | new york giants                      | joe heap          | halfback    | notre dame   |
+|        9 | philadelphia eagles                  | dick bielski      | fullback    | maryland     |
+|       10 | san francisco 49ers                  | dickey moegle     | halfback    | rice         |
+|       11 | chicago bears                        | ron drzewiecki    | halfback    | marquette    |
+|       12 | detroit lions                        | dave middleton    | halfback    | auburn       |
+|       13 | cleveland browns                     | kurt burris       | center      | oklahoma     |"," [
+    [""pick"", ""nfl_team"", ""player"", ""position"", ""college""],
+    [1, ""baltimore colts"", ""george shaw"", ""quarterback"", ""oregon""],
+    [2, ""chicago cardinals"", ""max boydston"", ""end"", ""oklahoma""],
+    [3, ""baltimore colts"", ""alan ameche"", ""fullback"", ""wisconsin""],
+    [4, ""washington redskins"", ""ralph guglielmi"", ""quarterback"", ""notre dame""],
+    [5, ""green bay packers"", ""tom bettis"", ""guard"", ""purdue""],
+    [6, ""pittsburgh steelers"", ""frank varrichione"", ""tackle"", ""notre dame""],
+    [7, ""los angeles rams"", ""larry morris"", ""center"", ""georgia tech""],
+    [8, ""new york giants"", ""joe heap"", ""halfback"", ""notre dame""],
+    [9, ""philadelphia eagles"", ""dick bielski"", ""fullback"", ""maryland""],
+    [10, ""san francisco 49ers"", ""dickey moegle"", ""halfback"", ""rice""],
+    [11, ""chicago bears"", ""ron drzewiecki"", ""halfback"", ""marquette""],
+    [12, ""detroit lions"", ""dave middleton"", ""halfback"", ""auburn""],
+    [13, ""cleveland browns"", ""kurt burris"", ""center"", ""oklahoma""]
+]"
+nu-72,which year had the least amount of toy sales?,2003,Toy safety,"|   year | injuries_us_000   |   deaths_age_lt15 | cpsc_toy_safety_funding_us_millions   |   toy_sales_us__billions |
+|-------:|:------------------|------------------:|:--------------------------------------|-------------------------:|
+|   1994 | 154               |               nan | none                                  |                    nan   |
+|   1995 | 139               |               nan | none                                  |                    nan   |
+|   1996 | 130               |               nan | none                                  |                    nan   |
+|   1997 | 141               |               nan | none                                  |                    nan   |
+|   1998 | 153               |                14 | none                                  |                    nan   |
+|   1999 | 152               |                16 | 13.6                                  |                    nan   |
+|   2000 | 191               |                17 | 12                                    |                    nan   |
+|   2001 | 255               |                25 | 12.4                                  |                    nan   |
+|   2002 | 212               |                13 | 12.2                                  |                     21.3 |
+|   2003 | 206               |                11 | 12.8                                  |                     20.7 |
+|   2004 | 210               |                16 | 11.5                                  |                     22.4 |
+|   2005 | 202 (estimate)    |                20 | 11                                    |                     22.2 |
+|   2006 | no data           |                22 | no data†                              |                     22.3 |
+|   2007 | no data           |                22 | no data                               |                    nan   |
+|   2008 | no data           |                19 | no data                               |                    nan   |
+|   2009 | no data           |                12 | no data                               |                    nan   |"," [['year', 'injuries_us_000', 'deaths_age_lt15', 'cpsc_toy_safety_funding_us_millions', 'toy_sales_us__billions'],
+                      ['1994', '154', '', 'none', ''],
+                      ['1995', '139', '', 'none', ''],
+                      ['1996', '130', '', 'none', ''],
+                      ['1997', '141', '', 'none', ''],
+                      ['1998', '153', '14', 'none', ''],
+                      ['1999', '152', '16', '13.6', ''],
+                      ['2000', '191', '17', '12', ''],
+                      ['2001', '255', '25', '12.4', ''],
+                      ['2002', '212', '13', '12.2', '21.3'],
+                      ['2003', '206', '11', '12.8', '20.7'],
+                      ['2004', '210', '16', '11.5', '22.4'],
+                      ['2005', '202 (estimate)', '20', '11', '22.2'],
+                      ['2006', 'no data', '22', 'no data†', '22.3'],
+                      ['2007', 'no data', '22', 'no data', ''],
+                      ['2008', 'no data', '19', 'no data', ''],
+                      ['2009', 'no data', '12', 'no data', '']]"
+nu-73,how many affiliates does tv azteca have all together?,9,Television stations in Chiapas,"| network_name           | flagship   | programming_type                     | owner                          |   affiliates |
+|:-----------------------|:-----------|:-------------------------------------|:-------------------------------|-------------:|
+| canal de las estrellas | xew 2      | soap operas, retro movies and sports | televisa                       |           10 |
+| canal 5                | xhgc 5     | cartoons, movies, and series         | televisa                       |            4 |
+| azteca 7               | xhimt 7    | sports, series, and movies           | tv azteca                      |            5 |
+| galavisión             | xeq 9      | retro programming and sports         | televisa                       |            1 |
+| tv 10 chiapas          | xhttg      | educational                          | gobierno del estado de chiapas |            7 |
+| azteca 13              | xhdf 13    | news, soap operas, and sports        | tv azteca                      |            4 |
+| independent            | none       | varies                               | independent                    |            3 |"," [
+    ['network_name', 'flagship', 'programming_type', 'owner', 'affiliates'],
+    ['canal de las estrellas', 'xew 2', 'soap operas, retro movies and sports', 'televisa', 10],
+    ['canal 5', 'xhgc 5', 'cartoons, movies, and series', 'televisa', 4],
+    ['azteca 7', 'xhimt 7', 'sports, series, and movies', 'tv azteca', 5],
+    ['galavisión', 'xeq 9', 'retro programming and sports', 'televisa', 1],
+    ['tv 10 chiapas', 'xhttg', 'educational', 'gobierno del estado de chiapas', 7],
+    ['azteca 13', 'xhdf 13', 'news, soap operas, and sports', 'tv azteca', 4],
+    ['independent', 'none', 'varies', 'independent', 3]
+]"
+nu-74,what was the number of times that the team placed 5th?,3,Colorado Rapids Women,"|   year |   division | league       | reg_season   | playoffs        |
+|-------:|-----------:|:-------------|:-------------|:----------------|
+|   2003 |          2 | usl w-league | 5th, western | none            |
+|   2004 |          1 | usl w-league | 8th, western | none            |
+|   2005 |          1 | usl w-league | 6th, western | none            |
+|   2006 |          1 | usl w-league | 5th, western | none            |
+|   2007 |          1 | usl w-league | 5th, western | none            |
+|   2008 |          1 | usl w-league | 6th, western | did not qualify |
+|   2009 |          1 | usl w-league | 7th, western | did not qualify |
+|   2010 |          1 | usl w-league | 6th, western | did not qualify |
+|   2011 |          1 | usl w-league | 7th, western | did not qualify |
+|   2012 |          1 | usl w-league | 4th, western | did not qualify |
+|   2013 |          1 | usl w-league | 4th, western | did not qualify |"," [['year', 'division', 'league', 'reg_season_position', 'reg_season_region', 'playoffs_status'],
+                      [2003, 2, 'usl w-league', 5, 'western', 'none'],
+                      [2004, 1, 'usl w-league', 8, 'western', 'none'],
+                      [2005, 1, 'usl w-league', 6, 'western', 'none'],
+                      [2006, 1, 'usl w-league', 5, 'western', 'none'],
+                      [2007, 1, 'usl w-league', 5, 'western', 'none'],
+                      [2008, 1, 'usl w-league', 6, 'western', 'did not qualify'],
+                      [2009, 1, 'usl w-league', 7, 'western', 'did not qualify'],
+                      [2010, 1, 'usl w-league', 6, 'western', 'did not qualify'],
+                      [2011, 1, 'usl w-league', 7, 'western', 'did not qualify'],
+                      [2012, 1, 'usl w-league', 4, 'western', 'did not qualify'],
+                      [2013, 1, 'usl w-league', 4, 'western', 'did not qualify']]"
+nu-75,how many games did the team score at least 30 points?,4,1954 Ottawa Rough Riders season,"|   week | date    | opponent                | score   | result   | record   |
+|-------:|:--------|:------------------------|:--------|:---------|:---------|
+|      1 | aug 28  | at toronto argonauts    | 13–6    | loss     | 0–1      |
+|      2 | sept 4  | at montreal alouettes   | 21–2    | loss     | 0–2      |
+|      2 | sept 6  | vs. montreal alouettes  | 20–11   | loss     | 0–3      |
+|      3 | sept 11 | at toronto argonauts    | 12–5    | win      | 1–3      |
+|      4 | sept 18 | vs. toronto argonauts   | 34–6    | loss     | 1–4      |
+|      5 | sept 25 | vs. hamilton tiger-cats | 38–12   | loss     | 1–5      |
+|      6 | oct 2   | at hamilton tiger-cats  | 45–0    | loss     | 1–6      |
+|      7 | oct 9   | vs. montreal alouettes  | 25–11   | loss     | 1–7      |
+|      7 | oct 11  | at montreal alouettes   | 24–6    | loss     | 1–8      |
+|      8 | oct 16  | vs. toronto argonauts   | 27–11   | loss     | 1–9      |
+|      9 | oct 23  | at hamilton tiger-cats  | 25–17   | loss     | 1–10     |
+|     10 | oct 30  | vs. hamilton tiger-cats | 30–9    | loss     | 1–11     |
+|     11 | nov 6   | at toronto argonauts    | 18–12   | loss     | 1–12     |
+|     12 | nov 13  | vs. montreal alouettes  | 14–12   | win      | 2–12     |"," [
+    [""week"", ""date"", ""opponent"", ""score_home"", ""score_away"", ""result"", ""record_wins"", ""record_losses""],
+    [1, ""aug 28"", ""toronto argonauts"", None, 6, ""loss"", 0, 1],
+    [2, ""sept 4"", ""montreal alouettes"", None, 2, ""loss"", 0, 2],
+    [2, ""sept 6"", ""montreal alouettes"", 20, 11, ""loss"", 0, 3],
+    [3, ""sept 11"", ""toronto argonauts"", None, 5, ""win"", 1, 3],
+    [4, ""sept 18"", ""toronto argonauts"", 34, 6, ""loss"", 1, 4],
+    [5, ""sept 25"", ""hamilton tiger-cats"", 38, 12, ""loss"", 1, 5],
+    [6, ""oct 2"", ""hamilton tiger-cats"", None, 0, ""loss"", 1, 6],
+    [7, ""oct 9"", ""montreal alouettes"", 25, 11, ""loss"", 1, 7],
+    [7, ""oct 11"", ""montreal alouettes"", 24, 6, ""loss"", 1, 8],
+    [8, ""oct 16"", ""toronto argonauts"", 27, 11, ""loss"", 1, 9],
+    [9, ""oct 23"", ""hamilton tiger-cats"", 25, 17, ""loss"", 1, 10],
+    [10, ""oct 30"", ""hamilton tiger-cats"", 30, 9, ""loss"", 1, 11],
+    [11, ""nov 6"", ""toronto argonauts"", 18, 12, ""loss"", 1, 12],
+    [12, ""nov 13"", ""montreal alouettes"", 14, 12, ""win"", 2, 12]
+]"
+nu-76,did he race more laps in 1926 or 1938?,1926,Tony Gulotta,"| year   | car    | start   | qual    | rank   | finish   |   laps |   led | retired      |
+|:-------|:-------|:--------|:--------|:-------|:---------|-------:|------:|:-------------|
+| 1926   | 31     | 12      | 102.789 | 13     | 11       |    142 |     0 | flagged      |
+| 1927   | 27     | 27      | 107.765 | 22     | 3        |    200 |     0 | running      |
+| 1928   | 8      | 4       | 117.031 | 4      | 10       |    200 |    33 | running      |
+| 1929   | 23     | 11      | 112.146 | 15     | 17       |     91 |     0 | supercharger |
+| 1930   | 9      | 20      | 100.033 | 18     | 20       |     79 |     0 | valve        |
+| 1931   | 37     | 19      | 111.725 | 6      | 18       |    167 |     0 | crash t4     |
+| 1932   | 25     | 20      | 108.896 | 34     | 13       |    184 |     0 | flagged      |
+| 1933   | 34     | 12      | 113.578 | 15     | 7        |    200 |     0 | running      |
+| 1934   | 8      | 7       | 113.733 | 13     | 17       |     94 |     0 | rod          |
+| 1935   | 44     | 6       | 115.459 | 11     | 21       |    102 |     0 | magneto      |
+| 1937   | 38     | 7       | 118.788 | 16     | 8        |    200 |     0 | running      |
+| 1938   | 17     | 4       | 122.499 | 6      | 17       |    130 |     0 | rod          |
+| 1939   | 62     | 27      | 121.749 | 24     | 11       |    200 |     0 | running      |
+| totals | totals | totals  | totals  | totals | totals   |   1989 |    33 | none         |"," [['year', 'car', 'start', 'qual', 'rank', 'finish', 'laps', 'led', 'retired'],
+['1926', '31', '12', '102.789', '13', '11', '142', '0', 'flagged'],
+['1927', '27', '27', '107.765', '22', '3', '200', '0', 'running'],
+['1928', '8', '4', '117.031', '4', '10', '200', '33', 'running'],
+['1929', '23', '11', '112.146', '15', '17', '91', '0', 'supercharger'],
+['1930', '9', '20', '100.033', '18', '20', '79', '0', 'valve'],
+['1931', '37', '19', '111.725', '6', '18', '167', '0', 'crash t4'],
+['1932', '25', '20', '108.896', '34', '13', '184', '0', 'flagged'],
+['1933', '34', '12', '113.578', '15', '7', '200', '0', 'running'],
+['1934', '8', '7', '113.733', '13', '17', '94', '0', 'rod'],
+['1935', '44', '6', '115.459', '11', '21', '102', '0', 'magneto'],
+['1937', '38', '7', '118.788', '16', '8', '200', '0', 'running'],
+['1938', '17', '4', '122.499', '6', '17', '130', '0', 'rod'],
+['1939', '62', '27', '121.749', '24', '11', '200', '0', 'running']]"
+nu-77,what's the total attendance for gamestorm 11?,736,GameStorm.org,"| iteration    | dates                    | location                 | attendance   | notes                                                                                   |
+|:-------------|:-------------------------|:-------------------------|:-------------|:----------------------------------------------------------------------------------------|
+| gamestorm 10 | 2008-3                   | red lion - vancouver, wa | 750          | none                                                                                    |
+| gamestorm 11 | (2009-3-262009-3-29,p3d) | hilton - vancouver, wa   | 736          | debut of video games, first-ever artist guest of honor, rob alexander                   |
+| gamestorm 12 | (2010-3-252010-3-28,p3d) | hilton - vancouver, wa   | 802          | board games guest of honor: tom lehmann                                                 |
+| gamestorm 13 | (2011-3-242011-3-27,p3d) | hilton - vancouver, wa   | 984          | guests: lisa steenson, michael a. stackpole                                             |
+| gamestorm 14 | (2012-3-222012-3-25,p3d) | hilton - vancouver, wa   | 1072         | boardgame:andrew hackard and sam mitschke of steve jackson games - rpg: jason bulmahn   |
+| gamestorm 15 | (2013-3-212013-3-24,p3d) | hilton - vancouver, wa   | 1188         | none                                                                                    |
+| gamestorm 16 | (2014-3-202014-3-23,p3d) | hilton - vancouver, wa   | tba          | guests: mike selinker, shane lacy hensley, lisa steenson, zev shlasinger of z-man games |"," [['iteration', 'start_date', 'end_date', 'location', 'attendance', 'notes'],
+['gamestorm 10', '2008-3', '2008-3', 'red lion - vancouver, wa', '750', 'none'],
+['gamestorm 11', '2009-3-26', '2009-3-29', 'hilton - vancouver, wa', '736', 'debut of video games, first-ever artist guest of honor, rob alexander'],
+['gamestorm 12', '2010-3-25', '2010-3-28', 'hilton - vancouver, wa', '802', 'board games guest of honor: tom lehmann'],
+['gamestorm 13', '2011-3-24', '2011-3-27', 'hilton - vancouver, wa', '984', 'guests: lisa steenson, michael a. stackpole'],
+['gamestorm 14', '2012-3-22', '2012-3-25', 'hilton - vancouver, wa', '1072', 'boardgame:andrew hackard and sam mitschke of steve jackson games - rpg: jason bulmahn'],
+['gamestorm 15', '2013-3-21', '2013-3-24', 'hilton - vancouver, wa', '1188', 'none'],
+['gamestorm 16', '2014-3-20', '2014-3-23', 'hilton - vancouver, wa', 'tba', 'guests: mike selinker, shane lacy hensley, lisa steenson, zev shlasinger of z-man games']]"
+nu-78,who is the next driver listed after scott dixon?,mike conway,2012 GoPro Indy Grand Prix of Sonoma,"|   pos |   no | driver              | team                             | engine    |   laps | time_retired   |   grid |   laps_led |   points |
+|------:|-----:|:--------------------|:---------------------------------|:----------|-------:|:---------------|-------:|-----------:|---------:|
+|     1 |    2 | ryan briscoe        | team penske                      | chevrolet |     85 | 2:7:2.8248     |      2 |         27 |       50 |
+|     2 |   12 | will power          | team penske                      | chevrolet |     85 | + 0.4408       |      1 |         57 |       43 |
+|     3 |   10 | dario franchitti    | chip ganassi racing              | honda     |     85 | + 1.0497       |      6 |          0 |       35 |
+|     4 |    8 | rubens barrichello  | kv racing technology             | chevrolet |     85 | + 8.8529       |     11 |          0 |       32 |
+|     5 |   38 | graham rahal        | chip ganassi racing              | honda     |     85 | + 9.4667       |     13 |          0 |       30 |
+|     6 |    3 | hélio castroneves   | team penske                      | chevrolet |     85 | + 11.2575      |      4 |          0 |       28 |
+|     7 |   77 | simon pagenaud (r)  | schmidt hamilton motorsports     | honda     |     85 | + 12.3087      |      9 |          0 |       26 |
+|     8 |    4 | j.r. hildebrand     | panther racing                   | chevrolet |     85 | + 22.8121      |     15 |          0 |       24 |
+|     9 |   98 | alex tagliani       | team barracuda – bha             | honda     |     85 | + 39.6868      |      8 |          0 |       22 |
+|    10 |   11 | tony kanaan         | kv racing technology             | chevrolet |     84 | + 1 lap        |     16 |          0 |       20 |
+|    11 |   18 | justin wilson       | dale coyne racing                | honda     |     84 | + 1 lap        |     20 |          0 |       19 |
+|    12 |   19 | james jakes         | dale coyne racing                | honda     |     84 | + 1 lap        |     24 |          0 |       18 |
+|    13 |    9 | scott dixon         | chip ganassi racing              | honda     |     84 | + 1 lap        |      5 |          0 |       17 |
+|    14 |   14 | mike conway         | a.j. foyt enterprises            | honda     |     84 | + 1 lap        |     14 |          0 |       16 |
+|    15 |   17 | sebastián saavedra  | andretti autosport               | chevrolet |     84 | + 1 lap        |     23 |          0 |       15 |
+|    16 |    5 | e.j. viso           | kv racing technology             | chevrolet |     84 | + 1 lap        |     17 |          0 |       14 |
+|    17 |   78 | simona de silvestro | hvm racing                       | lotus     |     84 | + 1 lap        |     27 |          0 |       13 |
+|    18 |   28 | ryan hunter-reay    | andretti autosport               | chevrolet |     84 | + 1 lap        |      7 |          1 |       12 |
+|    19 |   22 | oriol servià        | panther/dreyer & reinbold racing | chevrolet |     84 | + 1 lap        |     18 |          0 |       12 |
+|    20 |   20 | ed carpenter        | ed carpenter racing              | chevrolet |     84 | + 1 lap        |     25 |          0 |       12 |
+|    21 |   83 | charlie kimball     | chip ganassi racing              | honda     |     82 | + 3 laps       |     21 |          0 |       12 |
+|    22 |    7 | sebastien bourdais  | dragon racing                    | chevrolet |     63 | contact        |      3 |          0 |       12 |
+|    23 |   67 | josef newgarden (r) | sarah fisher hartman racing      | honda     |     62 | contact        |     22 |          0 |       12 |
+|    24 |    6 | katherine legge (r) | dragon racing                    | chevrolet |     48 | mechanical     |     19 |          0 |       12 |
+|    25 |   26 | marco andretti      | andretti autosport               | chevrolet |     46 | mechanical     |     12 |          0 |       10 |
+|    26 |   27 | james hinchcliffe   | andretti autosport               | chevrolet |     35 | mechanical     |     10 |          0 |       10 |
+|    27 |   15 | takuma sato         | rahal letterman lanigan racing   | honda     |      2 | mechanical     |     26 |          0 |       10 |"," [['pos', 'no', 'driver', 'team', 'engine', 'laps', 'time_retired', 'grid', 'laps_led', 'points'],
+ [1, 2, 'ryan briscoe', 'team penske', 'chevrolet', 85, '2:7:2.8248', 2, 27, 50],
+ [2, 12, 'will power', 'team penske', 'chevrolet', 85, '+ 0.4408', 1, 57, 43],
+ [3, 10, 'dario franchitti', 'chip ganassi racing', 'honda', 85, '+ 1.0497', 6, 0, 35],
+ [4, 8, 'rubens barrichello', 'kv racing technology', 'chevrolet', 85, '+ 8.8529', 11, 0, 32],
+ [5, 38, 'graham rahal', 'chip ganassi racing', 'honda', 85, '+ 9.4667', 13, 0, 30],
+ [6, 3, 'hélio castroneves', 'team penske', 'chevrolet', 85, '+ 11.2575', 4, 0, 28],
+ [7, 77, 'simon pagenaud (r)', 'schmidt hamilton motorsports', 'honda', 85, '+ 12.3087', 9, 0, 26],
+ [8, 4, 'j.r. hildebrand', 'panther racing', 'chevrolet', 85, '+ 22.8121', 15, 0, 24],
+ [9, 98, 'alex tagliani', 'team barracuda – bha', 'honda', 85, '+ 39.6868', 8, 0, 22],
+ [10, 11, 'tony kanaan', 'kv racing technology', 'chevrolet', 84, '+ 1 lap', 16, 0, 20],
+ [11, 18, 'justin wilson', 'dale coyne racing', 'honda', 84, '+ 1 lap', 20, 0, 19],
+ [12, 19, 'james jakes', 'dale coyne racing', 'honda', 84, '+ 1 lap', 24, 0, 18],
+ [13, 9, 'scott dixon', 'chip ganassi racing', 'honda', 84, '+ 1 lap', 5, 0, 17],
+ [14, 14, 'mike conway', 'a.j. foyt enterprises', 'honda', 84, '+ 1 lap', 14, 0, 16],
+ [15, 17, 'sebastián saavedra', 'andretti autosport', 'chevrolet', 84, '+ 1 lap', 23, 0, 15],
+ [16, 5, 'e.j. viso', 'kv racing technology', 'chevrolet', 84, '+ 1 lap', 17, 0, 14],
+ [17, 78, 'simona de silvestro', 'hvm racing', 'lotus', 84, '+ 1 lap', 27, 0, 13],
+ [18, 28, 'ryan hunter-reay', 'andretti autosport', 'chevrolet', 84, '+ 1 lap', 7, 1, 12],
+ [19, 22, 'oriol servià', 'panther/dreyer & reinbold racing', 'chevrolet', 84, '+ 1 lap', 18, 0, 12],
+ [20, 20, 'ed carpenter', 'ed carpenter racing', 'chevrolet', 84, '+ 1 lap', 25, 0, 12],
+ [21, 83, 'charlie kimball', 'chip ganassi racing', 'honda', 82, '+ 3 laps', 21, 0, 12],
+ [22, 7, 'sebastien bourdais', 'dragon racing', 'chevrolet', 63, 'contact', 3, 0, 12],
+ [23, 67, 'josef newgarden (r)', 'sarah fisher hartman racing', 'honda', 62, 'contact', 22, 0, 12],
+ [24, 6, 'katherine legge (r)', 'dragon racing', 'chevrolet', 48, 'mechanical', 19, 0, 12],
+ [25, 26, 'marco andretti', 'andretti autosport', 'chevrolet', 46, 'mechanical', 12, 0, 10],
+ [26, 27, 'james hinchcliffe', 'andretti autosport', 'chevrolet', 35, 'mechanical', 10, 0, 10],
+ [27, 15, 'takuma sato', 'rahal letterman lanigan racing', 'honda', 2, 'mechanical', 26, 0, 10]]"

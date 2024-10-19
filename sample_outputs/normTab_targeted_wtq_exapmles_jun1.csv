@@ -1,0 +1,138 @@
+id,table title,original_tab,norm_table_markdown,norm_table,columns
+nu-0,2008 Clásica de San Sebastián,"|   rank | cyclist                  | team               | time       |   uci_protour_points |
+|-------:|:-------------------------|:-------------------|:-----------|---------------------:|
+|      1 | alejandro valverde (esp) | caisse d'epargne   | 5h 29' 10"" |                   40 |
+|      2 | alexandr kolobnev (rus)  | team csc saxo bank | s.t.       |                   30 |
+|      3 | davide rebellin (ita)    | gerolsteiner       | s.t.       |                   25 |
+|      4 | paolo bettini (ita)      | quick step         | s.t.       |                   20 |
+|      5 | franco pellizotti (ita)  | liquigas           | s.t.       |                   15 |
+|      6 | denis menchov (rus)      | rabobank           | s.t.       |                   11 |
+|      7 | samuel sánchez (esp)     | euskaltel-euskadi  | s.t.       |                    7 |
+|      8 | stéphane goubert (fra)   | ag2r-la mondiale   | + 2""       |                    5 |
+|      9 | haimar zubeldia (esp)    | euskaltel-euskadi  | + 2""       |                    3 |
+|     10 | david moncoutié (fra)    | cofidis            | + 2""       |                    1 |","|   rank | team               | time       |   uci_protour_points | cyclist                  | name               | country   |
+|-------:|:-------------------|:-----------|---------------------:|:-------------------------|:-------------------|:----------|
+|      1 | caisse d'epargne   | 5h 29' 10"" |                   40 | alejandro valverde (esp) | alejandro valverde | esp       |
+|      2 | team csc saxo bank | s.t.       |                   30 | alexandr kolobnev (rus)  | alexandr kolobnev  | rus       |
+|      3 | gerolsteiner       | s.t.       |                   25 | davide rebellin (ita)    | davide rebellin    | ita       |
+|      4 | quick step         | s.t.       |                   20 | paolo bettini (ita)      | paolo bettini      | ita       |
+|      5 | liquigas           | s.t.       |                   15 | franco pellizotti (ita)  | franco pellizotti  | ita       |
+|      6 | rabobank           | s.t.       |                   11 | denis menchov (rus)      | denis menchov      | rus       |
+|      7 | euskaltel-euskadi  | s.t.       |                    7 | samuel sánchez (esp)     | samuel sánchez     | esp       |
+|      8 | ag2r-la mondiale   | + 2""       |                    5 | stéphane goubert (fra)   | stéphane goubert   | fra       |
+|      9 | euskaltel-euskadi  | + 2""       |                    3 | haimar zubeldia (esp)    | haimar zubeldia    | esp       |
+|     10 | cofidis            | + 2""       |                    1 | david moncoutié (fra)    | david moncoutié    | fra       |","[['rank', 'team', 'time', 'uci_protour_points', 'cyclist', 'name', 'country'], ['1', ""caisse d'epargne"", '5h 29\' 10""', '40', 'alejandro valverde (esp)', 'alejandro valverde', 'esp'], ['2', 'team csc saxo bank', 's.t.', '30', 'alexandr kolobnev (rus)', 'alexandr kolobnev', 'rus'], ['3', 'gerolsteiner', 's.t.', '25', 'davide rebellin (ita)', 'davide rebellin', 'ita'], ['4', 'quick step', 's.t.', '20', 'paolo bettini (ita)', 'paolo bettini', 'ita'], ['5', 'liquigas', 's.t.', '15', 'franco pellizotti (ita)', 'franco pellizotti', 'ita'], ['6', 'rabobank', 's.t.', '11', 'denis menchov (rus)', 'denis menchov', 'rus'], ['7', 'euskaltel-euskadi', 's.t.', '7', 'samuel sánchez (esp)', 'samuel sánchez', 'esp'], ['8', 'ag2r-la mondiale', '+ 2""', '5', 'stéphane goubert (fra)', 'stéphane goubert', 'fra'], ['9', 'euskaltel-euskadi', '+ 2""', '3', 'haimar zubeldia (esp)', 'haimar zubeldia', 'esp'], ['10', 'cofidis', '+ 2""', '1', 'david moncoutié (fra)', 'david moncoutié', 'fra']]", ['cyclist']
+nu-129,1981 Houston Oilers season,"|   week | date               | opponent                | result   | attendance   |
+|-------:|:-------------------|:------------------------|:---------|:-------------|
+|      1 | september 6, 1981  | at los angeles rams     | w 27–20  | 63,198       |
+|      2 | september 13, 1981 | at cleveland browns     | w 9–3    | 79,483       |
+|      3 | september 20, 1981 | miami dolphins          | l 16–10  | 47,379       |
+|      4 | september 27, 1981 | at new york jets        | l 33–17  | 50,309       |
+|      5 | october 4, 1981    | cincinnati bengals      | w 17–10  | 44,350       |
+|      6 | october 11, 1981   | seattle seahawks        | w 35–17  | 42,671       |
+|      7 | october 18, 1981   | at new england patriots | l 38–10  | 60,474       |
+|      8 | october 26, 1981   | at pittsburgh steelers  | l 26–13  | 52,732       |
+|      9 | november 1, 1981   | at cincinnati bengals   | l 34–21  | 54,736       |
+|     10 | november 8, 1981   | oakland raiders         | w 17–16  | 45,519       |
+|     11 | november 15, 1981  | at kansas city chiefs   | l 23–10  | 73,984       |
+|     12 | november 22, 1981  | new orleans saints      | l 27–24  | 49,581       |
+|     13 | november 29, 1981  | atlanta falcons         | l 31–27  | 40,201       |
+|     14 | december 3, 1981   | cleveland browns        | w 17–13  | 44,502       |
+|     15 | december 13, 1981  | at san francisco 49ers  | l 28–6   | 55,707       |
+|     16 | december 20, 1981  | pittsburgh steelers     | w 21–20  | 41,056       |","|   week | date               | opponent                | result_outcome   | result_score   |   attendance |
+|-------:|:-------------------|:------------------------|:-----------------|:---------------|-------------:|
+|      1 | september 6, 1981  | at los angeles rams     | W                | 27-20          |        63198 |
+|      2 | september 13, 1981 | at cleveland browns     | W                | 9-3            |        79483 |
+|      3 | september 20, 1981 | miami dolphins          | L                | 16-10          |        47379 |
+|      4 | september 27, 1981 | at new york jets        | L                | 33-17          |        50309 |
+|      5 | october 4, 1981    | cincinnati bengals      | W                | 17-10          |        44350 |
+|      6 | october 11, 1981   | seattle seahawks        | W                | 35-17          |        42671 |
+|      7 | october 18, 1981   | at new england patriots | L                | 38-10          |        60474 |
+|      8 | october 26, 1981   | at pittsburgh steelers  | L                | 26-13          |        52732 |
+|      9 | november 1, 1981   | at cincinnati bengals   | L                | 34-21          |        54736 |
+|     10 | november 8, 1981   | oakland raiders         | W                | 17-16          |        45519 |
+|     11 | november 15, 1981  | at kansas city chiefs   | L                | 23-10          |        73984 |
+|     12 | november 22, 1981  | new orleans saints      | L                | 27-24          |        49581 |
+|     13 | november 29, 1981  | atlanta falcons         | L                | 31-27          |        40201 |
+|     14 | december 3, 1981   | cleveland browns        | W                | 17-13          |        44502 |
+|     15 | december 13, 1981  | at san francisco 49ers  | L                | 28-6           |        55707 |
+|     16 | december 20, 1981  | pittsburgh steelers     | W                | 21-20          |        41056 |","[['week', 'date', 'opponent', 'result_outcome', 'result_score', 'attendance'], ['1', 'september 6, 1981', 'at los angeles rams', 'W', '27-20', 63198], ['2', 'september 13, 1981', 'at cleveland browns', 'W', '9-3', 79483], ['3', 'september 20, 1981', 'miami dolphins', 'L', '16-10', 47379], ['4', 'september 27, 1981', 'at new york jets', 'L', '33-17', 50309], ['5', 'october 4, 1981', 'cincinnati bengals', 'W', '17-10', 44350], ['6', 'october 11, 1981', 'seattle seahawks', 'W', '35-17', 42671], ['7', 'october 18, 1981', 'at new england patriots', 'L', '38-10', 60474], ['8', 'october 26, 1981', 'at pittsburgh steelers', 'L', '26-13', 52732], ['9', 'november 1, 1981', 'at cincinnati bengals', 'L', '34-21', 54736], ['10', 'november 8, 1981', 'oakland raiders', 'W', '17-16', 45519], ['11', 'november 15, 1981', 'at kansas city chiefs', 'L', '23-10', 73984], ['12', 'november 22, 1981', 'new orleans saints', 'L', '27-24', 49581], ['13', 'november 29, 1981', 'atlanta falcons', 'L', '31-27', 40201], ['14', 'december 3, 1981', 'cleveland browns', 'W', '17-13', 44502], ['15', 'december 13, 1981', 'at san francisco 49ers', 'L', '28-6', 55707], ['16', 'december 20, 1981', 'pittsburgh steelers', 'W', '21-20', 41056]]"," ['result', 'attendance']"
+nu-147,Figure skating at the Asian Winter Games,"| rank   | nation      |   gold |   silver |   bronze |   total |
+|:-------|:------------|-------:|---------:|---------:|--------:|
+| 1      | china       |     13 |        9 |       13 |      35 |
+| 2      | japan       |      7 |       10 |        7 |      24 |
+| 3      | uzbekistan  |      1 |        2 |        3 |       6 |
+| 4      | kazakhstan  |      2 |        2 |        0 |       4 |
+| 5      | north korea |      1 |        0 |        1 |       2 |
+| 6      | south korea |      0 |        0 |        2 |       2 |
+| total  | total       |     24 |       23 |       26 |      73 |","|   rank | nation      |   gold |   silver |   bronze |   total |
+|-------:|:------------|-------:|---------:|---------:|--------:|
+|      1 | china       |     13 |        9 |       13 |      35 |
+|      2 | japan       |      7 |       10 |        7 |      24 |
+|      3 | uzbekistan  |      1 |        2 |        3 |       6 |
+|      4 | kazakhstan  |      2 |        2 |        0 |       4 |
+|      5 | north korea |      1 |        0 |        1 |       2 |
+|      6 | south korea |      0 |        0 |        2 |       2 |","[['rank', 'nation', 'gold', 'silver', 'bronze', 'total'], ['1', 'china', '13', '9', '13', '35'], ['2', 'japan', '7', '10', '7', '24'], ['3', 'uzbekistan', '1', '2', '3', '6'], ['4', 'kazakhstan', '2', '2', '0', '4'], ['5', 'north korea', '1', '0', '1', '2'], ['6', 'south korea', '0', '0', '2', '2']]", []
+nu-129,1981 Houston Oilers season,"|   week | date               | opponent                | result   | attendance   |
+|-------:|:-------------------|:------------------------|:---------|:-------------|
+|      1 | september 6, 1981  | at los angeles rams     | w 27–20  | 63,198       |
+|      2 | september 13, 1981 | at cleveland browns     | w 9–3    | 79,483       |
+|      3 | september 20, 1981 | miami dolphins          | l 16–10  | 47,379       |
+|      4 | september 27, 1981 | at new york jets        | l 33–17  | 50,309       |
+|      5 | october 4, 1981    | cincinnati bengals      | w 17–10  | 44,350       |
+|      6 | october 11, 1981   | seattle seahawks        | w 35–17  | 42,671       |
+|      7 | october 18, 1981   | at new england patriots | l 38–10  | 60,474       |
+|      8 | october 26, 1981   | at pittsburgh steelers  | l 26–13  | 52,732       |
+|      9 | november 1, 1981   | at cincinnati bengals   | l 34–21  | 54,736       |
+|     10 | november 8, 1981   | oakland raiders         | w 17–16  | 45,519       |
+|     11 | november 15, 1981  | at kansas city chiefs   | l 23–10  | 73,984       |
+|     12 | november 22, 1981  | new orleans saints      | l 27–24  | 49,581       |
+|     13 | november 29, 1981  | atlanta falcons         | l 31–27  | 40,201       |
+|     14 | december 3, 1981   | cleveland browns        | w 17–13  | 44,502       |
+|     15 | december 13, 1981  | at san francisco 49ers  | l 28–6   | 55,707       |
+|     16 | december 20, 1981  | pittsburgh steelers     | w 21–20  | 41,056       |","|   week | opponent                | date       | result_type   | result_score   |   attendance |
+|-------:|:------------------------|:-----------|:--------------|:---------------|-------------:|
+|      1 | at los angeles rams     | 1981-09-06 | w             | 27-20          |        63198 |
+|      2 | at cleveland browns     | 1981-09-13 | w             | 9-3            |        79483 |
+|      3 | miami dolphins          | 1981-09-20 | l             | 16-10          |        47379 |
+|      4 | at new york jets        | 1981-09-27 | l             | 33-17          |        50309 |
+|      5 | cincinnati bengals      | 1981-10-04 | w             | 17-10          |        44350 |
+|      6 | seattle seahawks        | 1981-10-11 | w             | 35-17          |        42671 |
+|      7 | at new england patriots | 1981-10-18 | l             | 38-10          |        60474 |
+|      8 | at pittsburgh steelers  | 1981-10-26 | l             | 26-13          |        52732 |
+|      9 | at cincinnati bengals   | 1981-11-01 | l             | 34-21          |        54736 |
+|     10 | oakland raiders         | 1981-11-08 | w             | 17-16          |        45519 |
+|     11 | at kansas city chiefs   | 1981-11-15 | l             | 23-10          |        73984 |
+|     12 | new orleans saints      | 1981-11-22 | l             | 27-24          |        49581 |
+|     13 | atlanta falcons         | 1981-11-29 | l             | 31-27          |        40201 |
+|     14 | cleveland browns        | 1981-12-03 | w             | 17-13          |        44502 |
+|     15 | at san francisco 49ers  | 1981-12-13 | l             | 28-6           |        55707 |
+|     16 | pittsburgh steelers     | 1981-12-20 | w             | 21-20          |        41056 |","[['week', 'opponent', 'date', 'result_type', 'result_score', 'attendance'], ['1', 'at los angeles rams', '1981-09-06', 'w', '27-20', '63198'], ['2', 'at cleveland browns', '1981-09-13', 'w', '9-3', '79483'], ['3', 'miami dolphins', '1981-09-20', 'l', '16-10', '47379'], ['4', 'at new york jets', '1981-09-27', 'l', '33-17', '50309'], ['5', 'cincinnati bengals', '1981-10-04', 'w', '17-10', '44350'], ['6', 'seattle seahawks', '1981-10-11', 'w', '35-17', '42671'], ['7', 'at new england patriots', '1981-10-18', 'l', '38-10', '60474'], ['8', 'at pittsburgh steelers', '1981-10-26', 'l', '26-13', '52732'], ['9', 'at cincinnati bengals', '1981-11-01', 'l', '34-21', '54736'], ['10', 'oakland raiders', '1981-11-08', 'w', '17-16', '45519'], ['11', 'at kansas city chiefs', '1981-11-15', 'l', '23-10', '73984'], ['12', 'new orleans saints', '1981-11-22', 'l', '27-24', '49581'], ['13', 'atlanta falcons', '1981-11-29', 'l', '31-27', '40201'], ['14', 'cleveland browns', '1981-12-03', 'w', '17-13', '44502'], ['15', 'at san francisco 49ers', '1981-12-13', 'l', '28-6', '55707'], ['16', 'pittsburgh steelers', '1981-12-20', 'w', '21-20', '41056']]"," ['date', 'result', 'attendance']"
+nu-15,1994 Alabama Crimson Tide football team,"| date            | opponent_                | rank_   | site                                                        | tv   | result   | attendance   |
+|:----------------|:-------------------------|:--------|:------------------------------------------------------------|:-----|:---------|:-------------|
+| september 3     | tennessee–chattanooga*   | #11     | legion field • birmingham, al                               |      | w 42–13  | 82,109       |
+| september 10    | vanderbilt               | #11     | bryant–denny stadium • tuscaloosa, al                       | jps  | w 17–7   | 70,123       |
+| september 17    | at arkansas              | #12     | razorback stadium • fayetteville, ar                        | abc  | w 13–6   | 52,089       |
+| september 24    | tulane*                  | #11     | legion field • birmingham, al                               |      | w 20–10  | 81,421       |
+| october 1       | georgia                  | #11     | bryant–denny stadium • tuscaloosa, al                       | espn | w 29–28  | 70,123       |
+| october 8       | southern miss*           | #11     | bryant–denny stadium • tuscaloosa, al                       |      | w 14–6   | 70,123       |
+| october 15      | at tennessee             | #10     | neyland stadium • knoxville, tn (third saturday in october) | espn | w 17–13  | 96,856       |
+| october 22      | ole miss                 | #8      | bryant–denny stadium • tuscaloosa, al (rivalry)             | abc  | w 21–10  | 70,123       |
+| november 5      | at lsu                   | #6      | tiger stadium • baton rouge, la (rivalry)                   | espn | w 35–17  | 75,453       |
+| november 12     | at #20 mississippi state | #6      | scott field • starkville, ms (rivalry)                      | abc  | w 29–25  | 41,358       |
+| november 19     | #6 auburn                | #4      | legion field • birmingham, al (iron bowl)                   | abc  | w 21–14  | 83,091       |
+| december 3      | vs. #6 florida           | #3      | georgia dome • atlanta, ga (sec championship game)          | abc  | l 23–24  | 74,751       |
+| january 2, 1995 | vs. #13 ohio state*      | #6      | citrus bowl • orlando, fl (florida citrus bowl)             | abc  | w 24–17  | 71,195       |","| opponent_                | rank_   | site                                                        | tv   | date       | result_type   | result_score   |   attendance |
+|:-------------------------|:--------|:------------------------------------------------------------|:-----|:-----------|:--------------|:---------------|-------------:|
+| tennessee–chattanooga*   | #11     | legion field • birmingham, al                               |      | 1994-09-03 | w             | 42-13          |        82109 |
+| vanderbilt               | #11     | bryant–denny stadium • tuscaloosa, al                       | jps  | 1994-09-10 | w             | 17-7           |        70123 |
+| at arkansas              | #12     | razorback stadium • fayetteville, ar                        | abc  | 1994-09-17 | w             | 13-6           |        52089 |
+| tulane*                  | #11     | legion field • birmingham, al                               |      | 1994-09-24 | w             | 20-10          |        81421 |
+| georgia                  | #11     | bryant–denny stadium • tuscaloosa, al                       | espn | 1994-10-01 | w             | 29-28          |        70123 |
+| southern miss*           | #11     | bryant–denny stadium • tuscaloosa, al                       |      | 1994-10-08 | w             | 14-6           |        70123 |
+| at tennessee             | #10     | neyland stadium • knoxville, tn (third saturday in october) | espn | 1994-10-15 | w             | 17-13          |        96856 |
+| ole miss                 | #8      | bryant–denny stadium • tuscaloosa, al (rivalry)             | abc  | 1994-10-22 | w             | 21-10          |        70123 |
+| at lsu                   | #6      | tiger stadium • baton rouge, la (rivalry)                   | espn | 1994-11-05 | w             | 35-17          |        75453 |
+| at #20 mississippi state | #6      | scott field • starkville, ms (rivalry)                      | abc  | 1994-11-12 | w             | 29-25          |        41358 |
+| #6 auburn                | #4      | legion field • birmingham, al (iron bowl)                   | abc  | 1994-11-19 | w             | 21-14          |        83091 |
+| vs. #6 florida           | #3      | georgia dome • atlanta, ga (sec championship game)          | abc  | 1994-12-03 | l             | 23-24          |        74751 |","[['opponent_', 'rank_', 'site', 'tv', 'date', 'result_type', 'result_score', 'attendance'], ['tennessee–chattanooga*', '#11', 'legion field • birmingham, al', '', '1994-09-03', 'w', '42-13', 82109], ['vanderbilt', '#11', 'bryant–denny stadium • tuscaloosa, al', 'jps', '1994-09-10', 'w', '17-7', 70123], ['at\xa0arkansas', '#12', 'razorback stadium • fayetteville, ar', 'abc', '1994-09-17', 'w', '13-6', 52089], ['tulane*', '#11', 'legion field • birmingham, al', '', '1994-09-24', 'w', '20-10', 81421], ['georgia', '#11', 'bryant–denny stadium • tuscaloosa, al', 'espn', '1994-10-01', 'w', '29-28', 70123], ['southern miss*', '#11', 'bryant–denny stadium • tuscaloosa, al', '', '1994-10-08', 'w', '14-6', 70123], ['at\xa0tennessee', '#10', 'neyland stadium • knoxville, tn (third saturday in october)', 'espn', '1994-10-15', 'w', '17-13', 96856], ['ole miss', '#8', 'bryant–denny stadium • tuscaloosa, al (rivalry)', 'abc', '1994-10-22', 'w', '21-10', 70123], ['at\xa0lsu', '#6', 'tiger stadium • baton rouge, la (rivalry)', 'espn', '1994-11-05', 'w', '35-17', 75453], ['at\xa0#20\xa0mississippi state', '#6', 'scott field • starkville, ms (rivalry)', 'abc', '1994-11-12', 'w', '29-25', 41358], ['#6\xa0auburn', '#4', 'legion field • birmingham, al (iron bowl)', 'abc', '1994-11-19', 'w', '21-14', 83091], ['vs.\xa0#6\xa0florida', '#3', 'georgia dome • atlanta, ga (sec championship game)', 'abc', '1994-12-03', 'l', '23-24', 74751]]"," ['date', 'result', 'attendance']"

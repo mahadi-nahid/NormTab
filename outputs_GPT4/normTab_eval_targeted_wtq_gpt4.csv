@@ -1,0 +1,793 @@
+id,question,answer,prediction,sql,response
+nu-0,which country had the most cyclists finish within the top 10?,italy,fra,"
+select country from T where rank <= 10 group by country order by count(*) desc limit 1
+","| country   |
+|:----------|
+| FRA       |"
+nu-1902,who came in first in the general standings?,alejandro valverde (esp),alejandro valverde,"
+select cyclist from T where rank = 1
+","| cyclist            |
+|:-------------------|
+| Alejandro Valverde |"
+nu-2037,what was the difference in points between davide rebellin and franco pellizotti?,10,10,"
+select abs((select uci_protour_points from T where cyclist = 'Davide Rebellin') - (select uci_protour_points from T where cyclist = 'Franco Pellizotti'))
+","|   abs((select uci_protour_points from T where cyclist = 'Davide Rebellin') - (select uci_protour_points from T where cyclist = 'Franco Pellizotti')) |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                   10 |"
+nu-2659,which other cyclists in the top 10 hailed from the same country as the winner?,"samuel sánchez (esp),haimar zubeldia (esp)",alejandro valverde,"
+select cyclist from T where country = (select country from T where rank = 1) and rank <= 10
+","| cyclist            |
+|:-------------------|
+| Alejandro Valverde |"
+nu-2928,how long did it take for alejandro valverde to finish?,"5h 29' 10""",19750,"
+select time_seconds from T where cyclist = 'Alejandro Valverde'
+","|   time_seconds |
+|---------------:|
+|          19750 |"
+nu-3349,what country had the most cyclists?,italy,ita 3,"
+select country, count(*) as number_of_cyclists from T group by country order by number_of_cyclists desc limit 1
+","| country   |   number_of_cyclists |
+|:----------|---------------------:|
+| ITA       |                    3 |"
+nu-3353,who was ranked between denis menchov and stephane goubert?,samuel sánchez (esp),samuel sánchez,"
+select cyclist from T where rank = (select rank + 1 from T where cyclist = 'Denis Menchov')
+","| cyclist        |
+|:---------------|
+| Samuel Sánchez |"
+nu-3876,how many more points did team liquigas score than robobank?,4,none,"
+select (select uci_protour_points from T where team = 'team liquigas') - (select uci_protour_points from T where team = 'robobank') as point_difference
+","| point_difference   |
+|:-------------------|
+|                    |"
+nu-3914,how many cyclists in the top 10 were french?,2,1,"
+select count(*) from T where rank <= 10 and country = 'FRA'
+","|   count(*) |
+|-----------:|
+|          1 |"
+nu-4082,what is the total number of uci pro tour points scored by an italian cyclist?,60,60,"
+select sum(uci_protour_points) from T where country = 'ITA'
+","|   sum(uci_protour_points) |
+|--------------------------:|
+|                        60 |"
+nu-2,how long did it take for the new york americans to win the national cup after 1936?,17 years,none,"
+select min(year_start) - 1936 as years_after_1936 
+from T 
+where national_cup_result = 'winner' and year_start > 1936
+","| years_after_1936   |
+|:-------------------|
+|                    |"
+nu-488,what is the number of times that the new york americans did not qualify for the playoffs?,2,20,"
+select count(*) from T where playoffs = 'no playoff'
+","|   count(*) |
+|-----------:|
+|         20 |"
+nu-1233,how many years ago was the new york americans founded?,83,92,"
+select 2023 - min(year_start) from T
+","|   2023 - min(year_start) |
+|-------------------------:|
+|                       92 |"
+nu-3633,what year was the last national cup that earned the title champion?,1953/54,1954,"
+select year_end from T where national_cup_result = 'champion' order by year_end desc limit 1
+","|   year_end |
+|-----------:|
+|       1954 |"
+nu-3817,how many years were there no playoffs?,21,19,"
+select count(distinct year_start) from T where playoffs = 'no playoff'
+","|   count(distinct year_start) |
+|-----------------------------:|
+|                           19 |"
+nu-3,alfie's birthday party aired on january 19. what was the airdate of the next episode?,"january 26, 1995",,"
+select original_air_date from T where row_number = (select row_number + 1 from T where original_air_date = '1994-01-19')
+","| original_air_date   |
+|---------------------|"
+nu-201,"what was the previous episode before ""robin hood play?""","""the weekend aunt helen came""",,"
+select title from T where row_number = (select row_number - 1 from T where title = 'robin hood play')
+","| title   |
+|---------|"
+nu-752,how many episodes were there in season 1?,13,13,"
+select count(*) from T where season__ = 1
+","|   count(*) |
+|-----------:|
+|         13 |"
+nu-1276,"""the charity"" aired immediately before which episode?","""the practical joke war""",,"
+select title from T where row_number = (select row_number + 1 from T where title = ""the charity"")
+","| title   |
+|---------|"
+nu-1519,"how many episodes were released after ""the weekend aunt helen came""?",10,0,"
+select count(*) from T where original_air_date > (select original_air_date from T where title = ""the weekend aunt helen came"")
+","|   count(*) |
+|-----------:|
+|          0 |"
+nu-2389,"which episode came next after ""candy sale""?","""the big bully""",,"
+select title from T where row_number = (select row_number + 1 from T where title = 'candy sale')
+","| title   |
+|---------|"
+nu-2998,where there more or less episodes in january 1995 than october 1994?,more,more,"
+select case when 
+    (select count(*) from T where strftime('%Y-%m', original_air_date) = '1995-01') > 
+    (select count(*) from T where strftime('%Y-%m', original_air_date) = '1994-10')
+    then 'more' else 'less' end as episodes_comparison
+from T
+limit 1;
+","| episodes_comparison   |
+|:----------------------|
+| more                  |"
+nu-3009,what was the name of the last episode this show aired?,"""the big bully""","""the big bully""","
+select title from T order by original_air_date desc limit 1
+","| title           |
+|:----------------|
+| ""the big bully"" |"
+nu-3131,"when did the next episode after ""the practical joke war"" air?","november 1, 1994",,"
+select original_air_date from T where row_number = (select row_number + 1 from T where title = ""the practical joke war"")
+","| original_air_date   |
+|---------------------|"
+nu-3214,what is the first episode titled?,"""the charity""","""the charity""","
+select title from T order by original_air_date asc limit 1
+","| title         |
+|:--------------|
+| ""the charity"" |"
+nu-3255,how many episodes are in season 1?,13,13,"
+select count(*) from T where season__ = 1
+","|   count(*) |
+|-----------:|
+|         13 |"
+nu-3896,what was the air date of the first episode in season one?,"october 15, 1994",1994-10-15,"
+select original_air_date from T where season__ = 1 order by row_number asc limit 1
+","| original_air_date   |
+|:--------------------|
+| 1994-10-15          |"
+nu-4,what is the number of 1st place finishes across all events?,17,17,"
+select count(*) from T where placing = '1'
+","|   count(*) |
+|-----------:|
+|         17 |"
+nu-290,what is the total number of competition?,20,2,"
+select count(distinct competition) from T
+","|   count(distinct competition) |
+|------------------------------:|
+|                             2 |"
+nu-589,when was the first date?,31 october 2008,2008-10-31,"
+select min(date) from T
+","| min(date)   |
+|:------------|
+| 2008-10-31  |"
+nu-1082,how many days is between 31 october 2008 and 1 november 2008,1,1.0,"
+select julianday('2008-11-01') - julianday('2008-10-31') as days_difference
+","|   days_difference |
+|------------------:|
+|                 1 |"
+nu-2761,who participated in more major achievements: jason kenny or victoria pendleton?,victoria pendleton,"victoria pendleton 6 ,jason kenny 4","
+select rider, count(*) as major_achievements 
+from T 
+where placing <= 3 and competition = 'world cup' 
+group by rider 
+having rider in ('jason kenny', 'victoria pendleton')
+order by major_achievements desc
+","| rider              |   major_achievements |
+|:-------------------|---------------------:|
+| victoria pendleton |                    6 |
+| jason kenny        |                    4 |"
+nu-3344,what is the total number of countries on this list,2,2,"
+select count(distinct country) from T
+","|   count(distinct country) |
+|--------------------------:|
+|                         2 |"
+nu-3398,when was the last competition?,1 november 2009,2009-11-01,"
+select max(date) from T
+","| max(date)   |
+|:------------|
+| 2009-11-01  |"
+nu-3653,how many competitions are listed before 2009?,9,2,"
+select count(distinct competition) from T where competition_year_start < 2009
+","|   count(distinct competition) |
+|------------------------------:|
+|                             2 |"
+nu-3994,what is the total number of first places earned by sky track riders?,17,17,"
+select count(*) from T where placing = '1'
+","|   count(*) |
+|-----------:|
+|         17 |"
+nu-229,how many events featured a distance of at least 60 in the discus throw?,4 events,4,"
+select count(*) from T where event = 'discus throw' and throw_distance_m >= 60
+","|   count(*) |
+|-----------:|
+|          4 |"
+nu-695,how long did the competitions go on?,8 years,9,"
+select max(year) - min(year) + 1 as competition_duration_years from T
+","|   competition_duration_years |
+|-----------------------------:|
+|                            9 |"
+nu-831,what is the number of all-africa games hannes has competed in?,2,2,"
+select count(distinct year) from T where competition like '%all-africa games%'
+","|   count(distinct year) |
+|-----------------------:|
+|                      2 |"
+nu-896,what was hopley's best throw for the discuss?,63.50 m,63.5,"
+select max(throw_distance_m) from T where event = 'discus throw'
+","|   max(throw_distance_m) |
+|------------------------:|
+|                    63.5 |"
+nu-1160,what is the number of competitions hopley competed in?,7,5,"
+select count(distinct competition) from T
+","|   count(distinct competition) |
+|------------------------------:|
+|                             5 |"
+nu-3509,where was the last competition played?,"addis ababa, ethiopia","addis ababa, ethiopia","
+select venue from T order by row_number desc limit 1
+","| venue                 |
+|:----------------------|
+| addis ababa, ethiopia |"
+nu-3932,what is the least amount in the discus throw?,56.98 m,56.98,"
+select min(throw_distance_m) from T where event = 'discus throw'
+","|   min(throw_distance_m) |
+|------------------------:|
+|                   56.98 |"
+nu-6,what is the total number of films with the language of kannada listed?,15,15,"
+select count(*) from T where language = 'kannada'
+","|   count(*) |
+|-----------:|
+|         15 |"
+nu-329,what was the first movie that won the filmfare award for best actress?,moggina manasu,moggina manasu,"
+select film from T where Award = 'Filmfare Award' and Category = 'Best Actress - Kannada' and Status = 'Won' order by year asc limit 1
+","| film           |
+|:---------------|
+| moggina manasu |"
+nu-862,the role of kushi was in 18th cross or love guru?,love guru,love guru,"
+select film from T where role = 'kushi'
+","| film      |
+|:----------|
+| love guru |"
+nu-1496,how many movies were made in 2010?,2,2,"
+select count(*) from T where year = 2010
+","|   count(*) |
+|-----------:|
+|          2 |"
+nu-2068,was she nominated for awards for the film alemari or addhuri?,addhuri,1,"
+select count(*) from T where film in ('alemari', 'addhuri') and Status = 'Nominated'
+","|   count(*) |
+|-----------:|
+|          1 |"
+nu-2157,list a year when she was in at least two films.,2012,"2009 ,2010 ,2012 ,2013 ,2014","
+select year from T group by year having count(film) >= 2
+","|   year |
+|-------:|
+|   2009 |
+|   2010 |
+|   2012 |
+|   2013 |
+|   2014 |"
+nu-4208,name a year in which no films are listed in the table.,2007,2007,"
+select min(year) - 1 as year from T
+","|   year |
+|-------:|
+|   2007 |"
+nu-7,what was the number of people attending the toros mexico vs. monterrey flash game?,363,363,"
+select attendance from T where opponent like '%monterrey flash%'
+","|   attendance |
+|-------------:|
+|          363 |"
+nu-1385,which team was the first team this team faced during this season?,las vegas legends,at las vegas legends,"
+select opponent from T where game = 1
+","| opponent             |
+|:---------------------|
+| at las vegas legends |"
+nu-1958,what was the date of the first game for the toros mexico for the 2013 to 2014 season?,november 10,2013-11-10,"
+select date from T where game = 1
+","| date       |
+|:-----------|
+| 2013-11-10 |"
+nu-2117,how many points did the team score in november?,19,19,"
+select sum(team_score) from T where strftime('%Y-%m', date) = '2013-11'
+","|   sum(team_score) |
+|------------------:|
+|                19 |"
+nu-2245,how many people attended the toros mexico vs. turlock express game?,218,"218 ,673","
+select attendance from T where opponent like '%turlock express%'
+","|   attendance |
+|-------------:|
+|          218 |
+|          673 |"
+nu-2693,what was the top attendance for any game?,"4,954",4954,"
+select max(attendance) from T
+","|   max(attendance) |
+|------------------:|
+|              4954 |"
+nu-3146,tell me the number of times they played at cabernet indoor sports.,2,2,"
+select count(*) from T where location like '%cabernet indoor sports%'
+","|   count(*) |
+|-----------:|
+|          2 |"
+nu-3314,how many games were at 1:05?,7,7,"
+select count(*) from T where kickoff = '1:05pm'
+","|   count(*) |
+|-----------:|
+|          7 |"
+nu-3392,what was the date of the game that had the most people in attendance?,february 1,2014-02-01,"
+select date from T order by attendance desc limit 1
+","| date       |
+|:-----------|
+| 2014-02-01 |"
+nu-3520,who did the team play after the law vegas legends on november 10?,monterrey flash,monterrey flash,"
+select opponent from T where row_number = (select row_number + 1 from T where opponent like '%las vegas legends%' and date = '2013-11-10')
+","| opponent        |
+|:----------------|
+| monterrey flash |"
+nu-3883,which game for toros mexico had the least amount of attendants?,bay area rosal,16,"
+select game from T where attendance = (select min(attendance) from T)
+","|   game |
+|-------:|
+|     16 |"
+nu-4018,how many games did this team win during this season?,9,9,"
+select count(*) from T where result = 'W'
+","|   count(*) |
+|-----------:|
+|          9 |"
+nu-8,what time period had no shirt sponsor?,1982-1985,1982 1985,"
+select start_year, end_year from T where shirt_sponsor = '' or shirt_sponsor is null
+","|   start_year |   end_year |
+|-------------:|-----------:|
+|         1982 |       1985 |"
+nu-339,during what time period was there no shirt sponsers?,1982-1985,1982 1985,"
+select start_year, end_year from T where shirt_sponsor = '' or shirt_sponsor is null
+","|   start_year |   end_year |
+|-------------:|-----------:|
+|         1982 |       1985 |"
+nu-1089,which kit manufacturer came next after umbro?,henson,,"
+select kit_manufacturer from T where start_year = (select min(start_year) from T where start_year > (select max(end_year) from T where kit_manufacturer = 'umbro'))
+","| kit_manufacturer   |
+|:-------------------|
+|                    |"
+nu-1700,how many different kit manufacturers have there been?,8,9,"
+select count(distinct kit_manufacturer) from T
+","|   count(distinct kit_manufacturer) |
+|-----------------------------------:|
+|                                  9 |"
+nu-1804,last year to not have a back sponsor?,2008,2008,"
+select max(end_year) from T where back_of_shirt_sponsor = ''
+","|   max(end_year) |
+|----------------:|
+|            2008 |"
+nu-2522,total years errea manufactured?,16,-3999,"
+select sum(end_year - start_year + 1) as total_years from T where kit_manufacturer = 'errea'
+","|   total_years |
+|--------------:|
+|         -3999 |"
+nu-2959,what company has the longest tenure as kit manufacturer?,errea,errea 5,"
+select kit_manufacturer, max(end_year - start_year) as tenure
+from T
+group by kit_manufacturer
+order by tenure desc
+limit 1;
+","| kit_manufacturer   |   tenure |
+|:-------------------|---------:|
+| errea              |        5 |"
+nu-3317,total number of sponsors?,13,21,"
+select count(*) from (
+  select shirt_sponsor from T where shirt_sponsor != ''
+  union all
+  select back_of_shirt_sponsor from T where back_of_shirt_sponsor != ''
+  union all
+  select short_sponsor from T where short_sponsor != ''
+)
+","|   count(*) |
+|-----------:|
+|         21 |"
+nu-3793,who was the kit manufacturer the most number of years?,errea,errea 7,"
+select kit_manufacturer, count(*) as years_count 
+from T 
+group by kit_manufacturer 
+order by years_count desc 
+limit 1
+","| kit_manufacturer   |   years_count |
+|:-------------------|--------------:|
+| errea              |             7 |"
+nu-9,when was his first 1st place record?,2000,,"
+select year from T where position = '1st' order by year asc limit 1
+","| year   |
+|--------|"
+nu-503,how many 1st place finishes has plawgo had?,5,5,"
+select count(*) from T where position = '1'
+","|   count(*) |
+|-----------:|
+|          5 |"
+nu-740,in which competition did plawgo compete after the 1999 european junior championships?,world junior championships,world junior championships,"
+select competition from T where row_number = (select row_number + 1 from T where competition = 'european junior championships' and year = 1999)
+","| competition                |
+|:---------------------------|
+| world junior championships |"
+nu-906,how many times did plawgo come in first place?,5,5,"
+select count(*) from T where position = '1'
+","|   count(*) |
+|-----------:|
+|          5 |"
+nu-937,what are the number of times the 400 m hurdles was listed as the event?,10,10,"
+select count(*) from T where event = '400 m hurdles'
+","|   count(*) |
+|-----------:|
+|         10 |"
+nu-2369,which three years did he have the most competitions?,"2001,2002,2003","2003 4 ,2002 4 ,2008 2","
+select year, count(*) as num_competitions 
+from T 
+group by year 
+order by num_competitions desc 
+limit 3
+","|   year |   num_competitions |
+|-------:|-------------------:|
+|   2003 |                  4 |
+|   2002 |                  4 |
+|   2008 |                  2 |"
+nu-2442,when was his first competition?,1999,1999,"
+select year from T order by year asc limit 1
+","|   year |
+|-------:|
+|   1999 |"
+nu-3073,how many total years has he been competing?,13,10,"
+select count(distinct year) from T
+","|   count(distinct year) |
+|-----------------------:|
+|                     10 |"
+nu-3692,name a year with no 1st place finishes.,1999,"1999 ,2000 ,2001 ,2001 ,2002 ,2002 ,2002 ,2002 ,2003 ,2003 ,2003 ,2003 ,2004 ,2004 ,2006 ,2007 ,2007 ,2008 ,2008 ,2012","
+select year from T where year not in (select year from T where position = '1st')
+","|   year |
+|-------:|
+|   1999 |
+|   2000 |
+|   2001 |
+|   2001 |
+|   2002 |
+|   2002 |
+|   2002 |
+|   2002 |
+|   2003 |
+|   2003 |
+|   2003 |
+|   2003 |
+|   2004 |
+|   2004 |
+|   2006 |
+|   2007 |
+|   2007 |
+|   2008 |
+|   2008 |
+|   2012 |"
+nu-4031,how many total competitions are listed?,13,9,"
+select count(distinct competition) from T
+","|   count(distinct competition) |
+|------------------------------:|
+|                             9 |"
+nu-10,in which three consecutive years was the record the same?,"2004,2005,2006","1970 ,1974 ,1975","
+select season from T
+where (record_wins, record_losses, record_ties) in (
+  select record_wins, record_losses, record_ties
+  from T
+  group by record_wins, record_losses, record_ties
+  having count(*) >= 3
+)
+order by season
+limit 3
+","|   season |
+|---------:|
+|     1970 |
+|     1974 |
+|     1975 |"
+nu-1426,how many times was duane thomas a leading rusher?,2,2,"
+select count(*) from T where leading_rusher = 'duane thomas'
+","|   count(*) |
+|-----------:|
+|          2 |"
+nu-1697,which team was the first runner up in 1970?,san francisco 49ers,san francisco 49ers,"
+select runner_up from T where season = 1970
+","| runner_up           |
+|:--------------------|
+| san francisco 49ers |"
+nu-2429,who won the nfc championship before the vikings in 1976?,dallas cowboys,dallas cowboys,"
+select team from T where season = (select season - 1 from T where team = 'minnesota vikings' and season = 1976)
+","| team           |
+|:---------------|
+| dallas cowboys |"
+nu-4267,how many times did the cowboys win the nfc championship in the 1970s?,5,5,"
+select count(*) from T where team like '%cowboys%' and season between 1970 and 1979
+","|   count(*) |
+|-----------:|
+|          5 |"
+nu-11,does pat or john have the highest total?,john,,"
+select name, total from T where name in ('pat', 'john') order by total desc limit 1
+","| name   | total   |
+|--------|---------|"
+nu-249,name a player that had more than 5 league goals but no other goals.,jamie cureton,,"
+select name from T where league > 5 and fa_cup = 0 and league_cup = 0 and jp_trophy = 0
+","| name   |
+|--------|"
+nu-544,how many jp trophies does each person have?,0,"scot bennett 0 ,danny coles 0 ,liam sercombe 0 ,alan gow 0 ,john o'flynn 0 ,guillem bauza 0 ,jimmy keohane 0 ,pat baldwin 0 ,jamie cureton 0 ,arron davies 0 ,jake gosling 0 ,own goals 0","
+select name, jp_trophy from T
+","| name          |   jp_trophy |
+|:--------------|------------:|
+| scot bennett  |           0 |
+| danny coles   |           0 |
+| liam sercombe |           0 |
+| alan gow      |           0 |
+| john o'flynn  |           0 |
+| guillem bauza |           0 |
+| jimmy keohane |           0 |
+| pat baldwin   |           0 |
+| jamie cureton |           0 |
+| arron davies  |           0 |
+| jake gosling  |           0 |
+| own goals     |           0 |"
+nu-955,no other player but who scored in the league cup?,john o'flynn,john o'flynn,"
+select name from T where league_cup > 0
+","| name         |
+|:-------------|
+| john o'flynn |"
+nu-1006,did danny coles score more or less than 6 goals total?,less,less,"
+select case when total > 6 then 'more' else 'less' end as score_comparison from T where name = 'danny coles'
+","| score_comparison   |
+|:-------------------|
+| less               |"
+nu-1876,how many plaers scored above 10 points this season?,2,8,"
+select count(*) from T where total > 10
+","|   count(*) |
+|-----------:|
+|          8 |"
+nu-2656,what is the difference in total goals between cureton and gosling?,19,none,"
+select abs((select total from T where name = 'cureton') - (select total from T where name = 'gosling')) as goal_difference
+","| goal_difference   |
+|:------------------|
+|                   |"
+nu-3001,how many consecutive zeros are listed under the fa cup category?,13,none,"
+select max(consecutive_zeros) from (
+  select count(*) as consecutive_zeros 
+  from (
+    select fa_cup, lead(fa_cup) over (order by row_number) as next_fa_cup
+    from T
+  ) 
+  where fa_cup = 0 and next_fa_cup = 0
+  group by fa_cup
+)
+","| max(consecutive_zeros)   |
+|:-------------------------|
+|                          |"
+nu-3223,did scot bennett score above or below 3 league goals?,above,above,"
+select case when league > 3 then 'above' else 'below' end as league_goals_status from T where name = 'scot bennett'
+","| league_goals_status   |
+|:----------------------|
+| above                 |"
+nu-3498,who is the next highest scorer after jamie cureton for this season?,john o'flynn,guillem bauza,"
+select name from T where total = (select max(total) from T where total < (select total from T where name = 'jamie cureton'))
+","| name          |
+|:--------------|
+| guillem bauza |"
+nu-13,how many more ships were wrecked in lake huron than in erie?,7,7,"
+select (select count(*) from T where lake = 'lake huron') - (select count(*) from T where lake = 'lake erie') as difference
+","|   difference |
+|-------------:|
+|            7 |"
+nu-2517,what is the name of the ship listed after regina?,issac m. scott,issac m. scott,"
+select ship from T where row_number = (select row_number + 1 from T where ship = 'regina')
+","| ship           |
+|:---------------|
+| issac m. scott |"
+nu-2970,what are the number of lives lost on the hydrus?,28,28,"
+select lives_lost from T where ship = 'hydrus'
+","|   lives_lost |
+|-------------:|
+|           28 |"
+nu-3412,what were the total lives lost on lake erie and lake michigan?,13,13,"
+select sum(lives_lost) from T where lake in ('lake erie', 'lake michigan')
+","|   sum(lives_lost) |
+|------------------:|
+|                13 |"
+nu-4147,which ship lost over 5 lives but was a barge?,plymouth,plymouth,"
+select ship from T where type_of_vessel = 'barge' and lives_lost > 5
+","| ship     |
+|:---------|
+| plymouth |"
+nu-15,what was the total number of points scored by the tide in the last 3 games combined.,68,305,"
+select sum(result_wins) from T order by date desc limit 3
+","|   sum(result_wins) |
+|-------------------:|
+|                305 |"
+nu-355,how many games played on abc?,6,6,"
+select count(*) from T where tv = 'abc'
+","|   count(*) |
+|-----------:|
+|          6 |"
+nu-388,"how many games where there at least 70,000 people in attendance for the 1994 alabama crimson tide football team?",11,11,"
+select count(*) from T where attendance >= 70000
+","|   count(*) |
+|-----------:|
+|         11 |"
+nu-487,how many wins did the tide have by 7 points.,3,3,"
+select count(*) from T where result_wins - result_losses = 7
+","|   count(*) |
+|-----------:|
+|          3 |"
+nu-1267,what was the last game of the season?,"january 2, 1995","12 vs. #13 ohio state* #6 abc 1995-01-02 24 17 71195 citrus bowl orlando, fl florida citrus bowl","
+select * from T order by date desc limit 1
+","|   row_number | opponent_           | rank_   | tv   | date       |   result_wins |   result_losses |   attendance | site_name   | location    | event               |
+|-------------:|:--------------------|:--------|:-----|:-----------|--------------:|----------------:|-------------:|:------------|:------------|:--------------------|
+|           12 | vs. #13 ohio state* | #6      | abc  | 1995-01-02 |            24 |              17 |        71195 | Citrus Bowl | Orlando, FL | Florida Citrus Bowl |"
+nu-2475,total number of games played,13,13,"
+select count(*) from T
+","|   count(*) |
+|-----------:|
+|         13 |"
+nu-2759,which stadium had the highest attendance?,neyland stadium,neyland stadium,"
+select site_name from T order by attendance desc limit 1
+","| site_name       |
+|:----------------|
+| Neyland Stadium |"
+nu-3379,how many total wins did the 1994 alabama crimson tide football team have?,12,9,"
+select count(*) from T where result_wins > result_losses
+","|   count(*) |
+|-----------:|
+|          9 |"
+nu-3813,how many games where won with a score of below 20 for the 1994 alabama crimson tide football team?,4,4,"
+select count(*) from T where result_wins < 20
+","|   count(*) |
+|-----------:|
+|          4 |"
+nu-16,who came immediately after sebastian porto in the race?,tomomi manako,tomomi manako,"
+select rider from T where row_number = (select row_number + 1 from T where rider = 'sebastian porto')
+","| rider         |
+|:--------------|
+| tomomi manako |"
+nu-361,"who finished sooner, hofmann or porto?",alex hofmann,,"
+select rider from T where rider in ('hofmann', 'porto') order by time_retired_seconds asc limit 1
+","| rider   |
+|---------|"
+nu-583,what is the difference between valentino rossi and ralf waldmann's time?,6.839,6.839,"
+select abs(t1.time_retired_seconds - t2.time_retired_seconds) as time_difference
+from T t1, T t2
+where t1.rider = 'valentino rossi' and t2.rider = 'ralf waldmann'
+","|   time_difference |
+|------------------:|
+|             6.839 |"
+nu-734,what is the number of points that loris capirossi finished with?,25,25,"
+select points from T where rider = 'loris capirossi'
+","|   points |
+|---------:|
+|       25 |"
+nu-774,what is the name of the rider that finished last?,henk van de lagemaat,maurice bolwerk,"
+select rider from T order by pos desc limit 1
+","| rider           |
+|:----------------|
+| maurice bolwerk |"
+nu-1118,who finished directly before ukawa?,jeremy mcwilliams,,"
+select rider from T where pos = (select pos - 1 from T where rider = 'ukawa')
+","| rider   |
+|---------|"
+nu-1163,loris capirossi won a total of how many points for coming in first place?,25,25,"
+select points from T where rider = 'loris capirossi' and pos = 1
+","|   points |
+|---------:|
+|       25 |"
+nu-1381,who was the first racer who was more than 20 seconds behind the leader?,franco battaini,loris capirossi,"
+select rider from T where time_retired_seconds > 20 order by pos asc limit 1
+","| rider           |
+|:----------------|
+| loris capirossi |"
+nu-1670,"who had a larger number of points, rossi or janssen?",valentino rossi,valentino rossi,"
+select rider from T where rider in ('valentino rossi', 'janssen') order by points desc limit 1
+","| rider           |
+|:----------------|
+| valentino rossi |"
+nu-18,what is the only hospital to have 6 hospital beds?,vidant bertie hospital,vidant bertie hospital,"
+select name from T where hospital_beds = 6
+","| name                   |
+|:-----------------------|
+| vidant bertie hospital |"
+nu-585,what is the total number of hospital beds at chatham hospital?,25,25,"
+select hospital_beds from T where name = 'chatham hospital'
+","|   hospital_beds |
+|----------------:|
+|              25 |"
+nu-1579,which hospital has more beds: duke or wake forest?,duke,,"
+select name from T where name in ('duke', 'wake forest') order by hospital_beds desc limit 1
+","| name   |
+|--------|"
+nu-2228,what is the only hospital in burlington?,alamance regional medical center,alamance regional medical center,"
+select name from T where city = 'burlington' limit 1
+","| name                             |
+|:---------------------------------|
+| alamance regional medical center |"
+nu-2353,what are the total number of hospital beds in alexander hospital?,25,25,"
+select hospital_beds from T where name = 'alexander hospital'
+","|   hospital_beds |
+|----------------:|
+|              25 |"
+nu-2529,which city has the most hospitals?,charlotte,charlotte 7,"
+select city, count(*) as hospital_count from T group by city order by hospital_count desc limit 1
+","| city      |   hospital_count |
+|:----------|-----------------:|
+| charlotte |                7 |"
+nu-2609,what is the last novant affiliated hospital on the table?,thomasville medical center,thomasville medical center,"
+select name from T where affiliation = 'novant' order by row_number desc limit 1
+","| name                       |
+|:---------------------------|
+| thomasville medical center |"
+nu-2724,how many hospitals have at least 10 operating rooms?,45,114,"
+select count(*) from T where operating_rooms >= 10
+","|   count(*) |
+|-----------:|
+|        114 |"
+nu-2870,which hospital has the largest amount of hospital beds?,duke university hospital,duke university hospital,"
+select name from T order by hospital_beds desc limit 1
+","| name                     |
+|:-------------------------|
+| duke university hospital |"
+nu-3420,how many rooms total are at cone health?,969,1338,"
+select sum(total) from T where affiliation like '%cone%'
+","|   sum(total) |
+|-------------:|
+|         1338 |"
+nu-3826,how many hospital have no operating rooms?,10,10,"
+select count(*) from T where operating_rooms = 0
+","|   count(*) |
+|-----------:|
+|         10 |"
+nu-631,who was the next opponent after david wheaton?,amos mansdorf,amos mansdorf,"
+select opponent_in_the_final from T where row_number = (select row_number + 1 from T where opponent_in_the_final = 'david wheaton')
+","| opponent_in_the_final   |
+|:------------------------|
+| amos mansdorf           |"
+nu-2516,what is the total number of games played on hard surfaces for this player?,12,12,"
+select count(*) from T where surface like '%hard%'
+","|   count(*) |
+|-----------:|
+|         12 |"
+nu-2824,"who did this player face before he faced david wheaton in coral springs, florida in 1993?",jim courier,jim courier,"
+select opponent_in_the_final from T where row_number = (select row_number - 1 from T where championship = 'coral springs, florida, usa' and opponent_in_the_final = 'david wheaton')
+","| opponent_in_the_final   |
+|:------------------------|
+| jim courier             |"
+nu-3590,how many courts are hard surface?,12,12,"
+select count(*) from T where surface like '%hard%'
+","|   count(*) |
+|-----------:|
+|         12 |"
+nu-3747,which country has the largest amount of participants?,united states,"memphis, tennessee, usa 4","
+select championship, count(*) as participants from T group by championship order by participants desc limit 1
+","| championship            |   participants |
+|:------------------------|---------------:|
+| memphis, tennessee, usa |              4 |"
+nu-4025,how many times did this player face goran ivanisevic in his career?,2,0,"
+select count(*) from T where opponent_in_the_final = 'goran ivanisevic'
+","|   count(*) |
+|-----------:|
+|          0 |"
+nu-20,what was the number of times won on grass?,1,1,"
+select count(*) from T where outcome = 'winner' and surface = 'grass'
+","|   count(*) |
+|-----------:|
+|          1 |"
+nu-631,who was the next opponent after david wheaton?,amos mansdorf,amos mansdorf,"
+select opponent_in_the_final from T where row_number = (select row_number + 1 from T where opponent_in_the_final = 'david wheaton')
+","| opponent_in_the_final   |
+|:------------------------|
+| amos mansdorf           |"
+nu-1805,how many events listed had no opponent?,0,0,"
+select count(*) from T where opponent_in_the_final is null or opponent_in_the_final = ''
+","|   count(*) |
+|-----------:|
+|          0 |"
+nu-1953,when was the last year as a winner?,1999,"sydney, australia","
+select max(championship) from T where outcome = 'winner'
+","| max(championship)   |
+|:--------------------|
+| sydney, australia   |"
+nu-2516,what is the total number of games played on hard surfaces for this player?,12,12,"
+select count(*) from T where surface like '%hard%'
+","|   count(*) |
+|-----------:|
+|         12 |"
+nu-3590,how many courts are hard surface?,12,12,"
+select count(*) from T where surface like '%hard%'
+","|   count(*) |
+|-----------:|
+|         12 |"
+nu-4224,how many total matches were in 1993?,5,0,"
+select count(*) from T where championship like '%1993%'
+","|   count(*) |
+|-----------:|
+|          0 |"

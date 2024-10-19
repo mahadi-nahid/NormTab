@@ -1,0 +1,108 @@
+/Users/mnahid/Documents/NormTab/bin/python /Users/mnahid/Documents/Project/NormTab/normtab_wtq_A.py
+/Users/mnahid/Documents/NormTab/lib/python3.10/site-packages/fuzzywuzzy/fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+
+
+id:  nu-0  Q:  which country had the most cyclists finish within the top 10?  ans:  italy
+Table Column:  rank, cyclist, team, time, uci_protour_points
+
+Three Rows:
+ rank | cyclist | team | time | uci_protour_points
+1 | alejandro valverde (esp) | caisse d'epargne | 5h 29' 10" | 40
+2 | alexandr kolobnev (rus) | team csc saxo bank | s.t. | 30
+3 | davide rebellin (ita) | gerolsteiner | s.t. | 25
+-------------------------
+
+Modified structure table (Step 1):
+ |   rank | cyclist                  | team               | time       |   uci_protour_points |
+|-------:|:-------------------------|:-------------------|:-----------|---------------------:|
+|      1 | alejandro valverde (esp) | caisse d'epargne   | 5h 29' 10" |                   40 |
+|      2 | alexandr kolobnev (rus)  | team csc saxo bank | s.t.       |                   30 |
+|      3 | davide rebellin (ita)    | gerolsteiner       | s.t.       |                   25 |
+|      4 | paolo bettini (ita)      | quick step         | s.t.       |                   20 |
+|      5 | franco pellizotti (ita)  | liquigas           | s.t.       |                   15 |
+|      6 | denis menchov (rus)      | rabobank           | s.t.       |                   11 |
+|      7 | samuel sánchez (esp)     | euskaltel-euskadi  | s.t.       |                    7 |
+|      8 | stéphane goubert (fra)   | ag2r-la mondiale   | + 2"       |                    5 |
+|      9 | haimar zubeldia (esp)    | euskaltel-euskadi  | + 2"       |                    3 |
+|     10 | david moncoutié (fra)    | cofidis            | + 2"       |                    1 |
+-------------------------
+
+
+Table Columns:  rank, cyclist, team, time, uci_protour_points
+
+Column Selection (Step 2):   ['cyclist', 'time'] <class 'str'>
+Extracted subtable:
+ | cyclist                  | time       |
+|:-------------------------|:-----------|
+| alejandro valverde (esp) | 5h 29' 10" |
+| alexandr kolobnev (rus)  | s.t.       |
+| davide rebellin (ita)    | s.t.       |
+| paolo bettini (ita)      | s.t.       |
+| franco pellizotti (ita)  | s.t.       |
+| denis menchov (rus)      | s.t.       |
+| samuel sánchez (esp)     | s.t.       |
+| stéphane goubert (fra)   | + 2"       |
+| haimar zubeldia (esp)    | + 2"       |
+| david moncoutié (fra)    | + 2"       |
+
+Remaining subtable:
+ |   rank | team               |   uci_protour_points |
+|-------:|:-------------------|---------------------:|
+|      1 | caisse d'epargne   |                   40 |
+|      2 | team csc saxo bank |                   30 |
+|      3 | gerolsteiner       |                   25 |
+|      4 | quick step         |                   20 |
+|      5 | liquigas           |                   15 |
+|      6 | rabobank           |                   11 |
+|      7 | euskaltel-euskadi  |                    7 |
+|      8 | ag2r-la mondiale   |                    5 |
+|      9 | euskaltel-euskadi  |                    3 |
+|     10 | cofidis            |                    1 |
+-------------------------
+
+Extracted Table Markdown:
+ | cyclist                  | time         |
+|:-------------------------|:-------------|
+| alejandro valverde (esp) | pt5h 29' 10" |
+| alexandr kolobnev (rus)  | s.t.         |
+| davide rebellin (ita)    | s.t.         |
+| paolo bettini (ita)      | s.t.         |
+| franco pellizotti (ita)  | s.t.         |
+| denis menchov (rus)      | s.t.         |
+| samuel sánchez (esp)     | s.t.         |
+| stéphane goubert (fra)   | + 2"         |
+| haimar zubeldia (esp)    | + 2"         |
+| david moncoutié (fra)    | + 2"         |
+
+Normalized Subtable (NormTab):
+| cyclist            | country   |   time_hours |   time_minutes |   time_seconds |
+|:-------------------|:----------|-------------:|---------------:|---------------:|
+| alejandro valverde | esp       |            5 |             29 |             10 |
+| alexandr kolobnev  | rus       |            0 |              0 |              0 |
+| davide rebellin    | ita       |            0 |              0 |              0 |
+| paolo bettini      | ita       |            0 |              0 |              0 |
+| franco pellizotti  | ita       |            0 |              0 |              0 |
+| denis menchov      | rus       |            0 |              0 |              0 |
+| samuel sánchez     | esp       |            0 |              0 |              0 |
+| stéphane goubert   | fra       |            0 |              0 |              2 |
+| haimar zubeldia    | esp       |            0 |              0 |              2 |
+| david moncoutié    | fra       |            0 |              0 |              2 |
+
+*****************************************
+
+Merged Table (Normalized):
+|   rank | team               |   uci_protour_points | cyclist            | country   |   time_hours |   time_minutes |   time_seconds |
+|-------:|:-------------------|---------------------:|:-------------------|:----------|-------------:|---------------:|---------------:|
+|      1 | caisse d'epargne   |                   40 | alejandro valverde | esp       |            5 |             29 |             10 |
+|      2 | team csc saxo bank |                   30 | alexandr kolobnev  | rus       |            0 |              0 |              0 |
+|      3 | gerolsteiner       |                   25 | davide rebellin    | ita       |            0 |              0 |              0 |
+|      4 | quick step         |                   20 | paolo bettini      | ita       |            0 |              0 |              0 |
+|      5 | liquigas           |                   15 | franco pellizotti  | ita       |            0 |              0 |              0 |
+|      6 | rabobank           |                   11 | denis menchov      | rus       |            0 |              0 |              0 |
+|      7 | euskaltel-euskadi  |                    7 | samuel sánchez     | esp       |            0 |              0 |              0 |
+|      8 | ag2r-la mondiale   |                    5 | stéphane goubert   | fra       |            0 |              0 |              2 |
+|      9 | euskaltel-euskadi  |                    3 | haimar zubeldia    | esp       |            0 |              0 |              2 |
+|     10 | cofidis            |                    1 | david moncoutié    | fra       |            0 |              0 |              2 |
+
+Process finished with exit code 0

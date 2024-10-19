@@ -1,0 +1,439 @@
+id,statemet,answer,prediction,sql,response
+1-24560733-1.html.csv,the wildcats kept the opposing team scoreless in four games,1,1,SELECT (SELECT COUNT(*) FROM T WHERE opponents = 0) = 4;,"|   (SELECT COUNT(*) FROM T WHERE opponents = 0) = 4 |
+|---------------------------------------------------:|
+|                                                  1 |"
+1-24560733-1.html.csv,the wildcats never scored more than 7 in any game they lost,1,1,SELECT (SELECT COUNT(*) FROM T WHERE result = 'loss' AND wildcats_points > 7) = 0;,"|   (SELECT COUNT(*) FROM T WHERE result = 'loss' AND wildcats_points > 7) = 0 |
+|-----------------------------------------------------------------------------:|
+|                                                                            1 |"
+1-24560733-1.html.csv,the wildcats lost one game in september and two games in november,1,1,SELECT (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%' AND result = 'loss') = 1 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%' AND result = 'loss') = 2;,"|   (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%' AND result = 'loss') = 1 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%' AND result = 'loss') = 2 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                      1 |"
+1-24560733-1.html.csv,"the wildcats played two games in september , four games in october , and four games in november",1,1,SELECT (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%') = 2 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'oct%') = 4 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%') = 4;,"|   (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%') = 2 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'oct%') = 4 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%') = 4 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                      1 |"
+1-24560733-1.html.csv,the most the wildcats outscored an opponent is by 36 points,1,36,SELECT MAX(wildcats_points - opponents) FROM T;,"|   MAX(wildcats_points - opponents) |
+|-----------------------------------:|
+|                                 36 |"
+1-24560733-1.html.csv,the wildcats kept the opposing team scoreless in ten games,0,0,SELECT (SELECT COUNT(*) FROM T WHERE opponents = 0) = 10;,"|   (SELECT COUNT(*) FROM T WHERE opponents = 0) = 10 |
+|----------------------------------------------------:|
+|                                                   0 |"
+1-24560733-1.html.csv,the wildcats never scored more than 7 points in any game they won,0,7,SELECT COUNT(*) FROM T WHERE result = 'win' AND wildcats_points <= 7;,"|   COUNT(*) |
+|-----------:|
+|          7 |"
+1-24560733-1.html.csv,the wildcats loss one game in november and two games in september,0,0,SELECT (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%' AND result = 'loss') = 1 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%' AND result = 'loss') = 2;,"|   (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%' AND result = 'loss') = 1 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%' AND result = 'loss') = 2 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                      0 |"
+1-24560733-1.html.csv,"the wildcats played four games in september , two games in october , and two games in november",0,0,SELECT (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%') = 4 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'oct%') = 2 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%') = 2;,"|   (SELECT COUNT(*) FROM T WHERE date LIKE 'sept%') = 4 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'oct%') = 2 AND (SELECT COUNT(*) FROM T WHERE date LIKE 'nov%') = 2 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                      0 |"
+1-24560733-1.html.csv,the most the wildcats outscored an opponent is by 26 points,0,36,SELECT MAX(wildcats_points - opponents) FROM T;,"|   MAX(wildcats_points - opponents) |
+|-----------------------------------:|
+|                                 36 |"
+1-25557880-1.html.csv,every team had several wins,0,0,SELECT (SELECT COUNT(*) FROM T WHERE wins > 0) = (SELECT COUNT(DISTINCT team) FROM T);,"|   (SELECT COUNT(*) FROM T WHERE wins > 0) = (SELECT COUNT(DISTINCT team) FROM T) |
+|---------------------------------------------------------------------------------:|
+|                                                                                0 |"
+2-16776506-2.html.csv,mirielle dittmann was the opponent in the final on hard surface on 6 february 2000 in wellington new zealand,1,,"SELECT * FROM T WHERE opponent_in_final = 'mirielle dittmann' AND surface = 'hard' AND date = '2000-02-06' AND location = 'wellington , new zealand';","| outcome   | date       | location                 | surface   | opponent_in_final   |   score_set1 |   score_set2 |   score_set3 |
+|:----------|:-----------|:-------------------------|:----------|:--------------------|-------------:|-------------:|-------------:|
+| runner-up | 2000-02-06 | wellington , new zealand | hard      | mirielle dittmann   |            6 |            7 |            6 |"
+2-16776506-2.html.csv,"on 2 may 1999 , the surface was hard",1,1,SELECT (SELECT COUNT(*) FROM T WHERE date = '1999-05-02' AND surface = 'hard') > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = '1999-05-02' AND surface = 'hard') > 0 |
+|------------------------------------------------------------------------------:|
+|                                                                             1 |"
+2-16776506-2.html.csv,the opponent in final on 6 february 2000 in wellington new zealand on hard surface was katerina kramperová,0,0,"SELECT (SELECT COUNT(*) FROM T WHERE date = '2000-02-06' AND location = 'wellington , new zealand' AND surface = 'hard' AND opponent_in_final = 'katerina kramperová') > 0;","|   (SELECT COUNT(*) FROM T WHERE date = '2000-02-06' AND location = 'wellington , new zealand' AND surface = 'hard' AND opponent_in_final = 'katerina kramperová') > 0 |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                     0 |"
+2-16776506-2.html.csv,the surface was grass on 2 may 1999,0,,SELECT * FROM T WHERE date = '1999-05-02' AND surface = 'grass';,"| outcome   | date   | location   | surface   | opponent_in_final   | score_set1   | score_set2   | score_set3   |
+|-----------|--------|------------|-----------|---------------------|--------------|--------------|--------------|"
+2-14175075-5.html.csv,cedar rapids is the site with the earliest date,1,0,SELECT (SELECT site FROM T ORDER BY date ASC LIMIT 1) = 'cedar rapids';,"|   (SELECT site FROM T ORDER BY date ASC LIMIT 1) = 'cedar rapids' |
+|------------------------------------------------------------------:|
+|                                                                 0 |"
+2-14175075-5.html.csv,volleyball is the sport with the 2nd earliest date,1,w cross country,SELECT sport FROM T ORDER BY date ASC LIMIT 1 OFFSET 1;,"| sport           |
+|:----------------|
+| w cross country |"
+2-14175075-5.html.csv,softball is the sport with the latest date,1,1,SELECT (SELECT sport FROM T ORDER BY date DESC LIMIT 1) = 'softball';,"|   (SELECT sport FROM T ORDER BY date DESC LIMIT 1) = 'softball' |
+|----------------------------------------------------------------:|
+|                                                               1 |"
+2-14175075-5.html.csv,w gymnastics is the sport with the earliest date in 2008,1,1,SELECT (SELECT MIN(date) FROM T WHERE date LIKE '2008%') = (SELECT MIN(date) FROM T WHERE sport = 'w gymnastics');,"|   (SELECT MIN(date) FROM T WHERE date LIKE '2008%') = (SELECT MIN(date) FROM T WHERE sport = 'w gymnastics') |
+|-------------------------------------------------------------------------------------------------------------:|
+|                                                                                                            1 |"
+2-14175075-5.html.csv,wrestling is the sport with the latest date in 2007,1,0,SELECT (SELECT sport FROM T WHERE date = (SELECT MAX(date) FROM T WHERE date LIKE '2007%')) = 'wrestling';,"|   (SELECT sport FROM T WHERE date = (SELECT MAX(date) FROM T WHERE date LIKE '2007%')) = 'wrestling' |
+|-----------------------------------------------------------------------------------------------------:|
+|                                                                                                    0 |"
+2-14175075-5.html.csv,ames is the site with the earliest date,0,,SELECT site FROM T WHERE date = (SELECT MIN(date) FROM T);,"| site   |
+|:-------|
+| peoria |
+| peoria |"
+2-14175075-5.html.csv,volleyball is the sport with the earliest date,0,0,SELECT (SELECT sport FROM T ORDER BY date ASC LIMIT 1) = 'volleyball';,"|   (SELECT sport FROM T ORDER BY date ASC LIMIT 1) = 'volleyball' |
+|-----------------------------------------------------------------:|
+|                                                                0 |"
+2-14175075-5.html.csv,softball is the sport with the second latest date,0,w gymnastics,SELECT sport FROM T ORDER BY date DESC LIMIT 1 OFFSET 1;,"| sport        |
+|:-------------|
+| w gymnastics |"
+2-14175075-5.html.csv,w gymnastics is the sport with the earliest date in 2007,0,0,SELECT (SELECT sport FROM T WHERE date = (SELECT MIN(date) FROM T WHERE date LIKE '2007%')) = 'w gymnastics';,"|   (SELECT sport FROM T WHERE date = (SELECT MIN(date) FROM T WHERE date LIKE '2007%')) = 'w gymnastics' |
+|--------------------------------------------------------------------------------------------------------:|
+|                                                                                                       0 |"
+2-14175075-5.html.csv,wrestling is the sport with the latest date in 2008,0,0,SELECT (SELECT sport FROM T WHERE date = (SELECT MAX(date) FROM T WHERE date LIKE '2008%')) = 'wrestling';,"|   (SELECT sport FROM T WHERE date = (SELECT MAX(date) FROM T WHERE date LIKE '2008%')) = 'wrestling' |
+|-----------------------------------------------------------------------------------------------------:|
+|                                                                                                    0 |"
+2-11512626-6.html.csv,"in a game on august 30 , mohler (1 - 10) took the loss while in a game on august 31 oquist (2 - 5) suffered the loss",1,1,SELECT (SELECT COUNT(*) FROM T WHERE date = '1997-08-30' AND loss = 'Mohler (1 - 10)') > 0 AND (SELECT COUNT(*) FROM T WHERE date = '1997-08-31' AND loss = 'Oquist (2 - 5)') > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = '1997-08-30' AND loss = 'Mohler (1 - 10)') > 0 AND (SELECT COUNT(*) FROM T WHERE date = '1997-08-31' AND loss = 'Oquist (2 - 5)') > 0 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                            1 |"
+2-11512626-6.html.csv,only two times was the attendance less than 20000 people and it was on august 4 and august 5,1,1,"SELECT (SELECT COUNT(*) FROM T WHERE attendance < 20000 AND date IN ('1997-08-04', '1997-08-05')) = 2;","|   (SELECT COUNT(*) FROM T WHERE attendance < 20000 AND date IN ('1997-08-04', '1997-08-05')) = 2 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                1 |"
+2-11512626-6.html.csv,the attendance on august 26 and august 27 was 48063 and 48032,1,1,SELECT (SELECT attendance FROM T WHERE date = '1997-08-26') = 48063 AND (SELECT attendance FROM T WHERE date = '1997-08-27') = 48032;,"|   (SELECT attendance FROM T WHERE date = '1997-08-26') = 48063 AND (SELECT attendance FROM T WHERE date = '1997-08-27') = 48032 |
+|--------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                               1 |"
+2-11512626-6.html.csv,"when the score was 10 - 4 , the colorado rockies' record went to 68 - 70 in a game against the athletics",1,1,SELECT (SELECT COUNT(*) FROM T WHERE score = '10 - 4' AND record = '68 - 70' AND opponent = 'Athletics') > 0;,"|   (SELECT COUNT(*) FROM T WHERE score = '10 - 4' AND record = '68 - 70' AND opponent = 'Athletics') > 0 |
+|--------------------------------------------------------------------------------------------------------:|
+|                                                                                                       1 |"
+2-11512626-6.html.csv,on august 27 remlinger (6 - 6) took the loss as the rockies went to 64 - 70,1,1,SELECT (SELECT COUNT(*) FROM T WHERE date = '1997-08-27' AND loss = 'Remlinger (6 - 6)' AND record = '64 - 70') > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = '1997-08-27' AND loss = 'Remlinger (6 - 6)' AND record = '64 - 70') > 0 |
+|---------------------------------------------------------------------------------------------------------------:|
+|                                                                                                              1 |"
+2-11512626-6.html.csv,"in a game on august 30 , mogler (1 - 10) won while in a game against oquist",0,0,SELECT (SELECT COUNT(*) FROM T WHERE date = '1997-08-30' AND loss = 'Mogler (1 - 10)' AND opponent = 'Oquist') > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = '1997-08-30' AND loss = 'Mogler (1 - 10)' AND opponent = 'Oquist') > 0 |
+|--------------------------------------------------------------------------------------------------------------:|
+|                                                                                                             0 |"
+2-11512626-6.html.csv,the attendance was less than 20000 over five times between august 4th and 6th,0,0,SELECT (SELECT COUNT(*) FROM T WHERE date BETWEEN '1997-08-04' AND '1997-08-06' AND attendance < 20000) > 5;,"|   (SELECT COUNT(*) FROM T WHERE date BETWEEN '1997-08-04' AND '1997-08-06' AND attendance < 20000) > 5 |
+|-------------------------------------------------------------------------------------------------------:|
+|                                                                                                      0 |"
+2-11512626-6.html.csv,on august 26 the attendance was 24343 and on august 27th the attendance was 2142,0,0,SELECT (SELECT attendance FROM T WHERE date = '1997-08-26') = 24343 AND (SELECT attendance FROM T WHERE date = '1997-08-27') = 2142;,"|   (SELECT attendance FROM T WHERE date = '1997-08-26') = 24343 AND (SELECT attendance FROM T WHERE date = '1997-08-27') = 2142 |
+|-------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                              0 |"
+2-11512626-6.html.csv,"when the score was 4 - 5 , the athletics record went 53 - 32 against the colorado rockies",0,0,SELECT (SELECT COUNT(*) FROM T WHERE score = '4 - 5' AND record = '53 - 32' AND opponent = 'Athletics') > 0;,"|   (SELECT COUNT(*) FROM T WHERE score = '4 - 5' AND record = '53 - 32' AND opponent = 'Athletics') > 0 |
+|-------------------------------------------------------------------------------------------------------:|
+|                                                                                                      0 |"
+2-11512626-6.html.csv,"on august 25 , remlinger (6 - 6) took the win against the rockies",0,0,SELECT (SELECT COUNT(*) FROM T WHERE date = '1997-08-25' AND opponent = 'Rockies' AND loss = 'Remlinger (6 - 6)') > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = '1997-08-25' AND opponent = 'Rockies' AND loss = 'Remlinger (6 - 6)') > 0 |
+|-----------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                0 |"
+2-12523044-5.html.csv,steve stricker had a score lower than phil mickelson,1,0,SELECT (SELECT score_1 FROM T WHERE player = 'steve stricker') < (SELECT score_1 FROM T WHERE player = 'phil mickelson');,"|   (SELECT score_1 FROM T WHERE player = 'steve stricker') < (SELECT score_1 FROM T WHERE player = 'phil mickelson') |
+|--------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                   0 |"
+2-12523044-5.html.csv,pádraig harrington is the only player from northern ireland,0,0,SELECT (SELECT COUNT(*) FROM T WHERE country = 'northern ireland' AND player = 'pádraig harrington') = 1;,"|   (SELECT COUNT(*) FROM T WHERE country = 'northern ireland' AND player = 'pádraig harrington') = 1 |
+|----------------------------------------------------------------------------------------------------:|
+|                                                                                                   0 |"
+2-12523044-5.html.csv,kenneth ferrie and geoff ogilvy were the only players to score a + 1 to par,1,1,"SELECT (SELECT COUNT(*) FROM T WHERE to_par = 1 AND player IN ('kenneth ferrie', 'geoff ogilvy')) = 2;","|   (SELECT COUNT(*) FROM T WHERE to_par = 1 AND player IN ('kenneth ferrie', 'geoff ogilvy')) = 2 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                1 |"
+2-12523044-5.html.csv,steve stricker has the best score out of all of the players from the united states,0,0,SELECT (SELECT MAX(score_1) FROM T WHERE country = 'united states') = (SELECT score_1 FROM T WHERE player = 'steve stricker' AND country = 'united states');,"|   (SELECT MAX(score_1) FROM T WHERE country = 'united states') = (SELECT score_1 FROM T WHERE player = 'steve stricker' AND country = 'united states') |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                      0 |"
+2-12523044-5.html.csv,there are 5 players that are from the united states,1,1,SELECT (SELECT COUNT(*) FROM T WHERE country = 'united states') = 5;,"|   (SELECT COUNT(*) FROM T WHERE country = 'united states') = 5 |
+|---------------------------------------------------------------:|
+|                                                              1 |"
+2-12523044-5.html.csv,steve stricker of of scotland had lower score than of phil mickelson of united states,0,none,SELECT (SELECT score_1 FROM T WHERE player = 'steve stricker' AND country = 'united states') < (SELECT score_1 FROM T WHERE player = 'phil mickelson' AND country = 'scotland');,"| (SELECT score_1 FROM T WHERE player = 'steve stricker' AND country = 'united states') < (SELECT score_1 FROM T WHERE player = 'phil mickelson' AND country = 'scotland')   |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                                                                                                            |"
+2-12523044-5.html.csv,pádraig harrington and graeme mcdowell are both fron northern ireland,0,0,"SELECT (SELECT COUNT(*) FROM T WHERE country = 'northern ireland' AND player IN ('pádraig harrington', 'graeme mcdowell')) = 2;","|   (SELECT COUNT(*) FROM T WHERE country = 'northern ireland' AND player IN ('pádraig harrington', 'graeme mcdowell')) = 2 |
+|--------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                         0 |"
+2-12523044-5.html.csv,kenneth ferrie and geoff ogilvy of australia were the only players to score a + 1 to par,1,1,"SELECT (SELECT COUNT(*) FROM T WHERE to_par = 1 AND player IN ('kenneth ferrie', 'geoff ogilvy')) = 2;","|   (SELECT COUNT(*) FROM T WHERE to_par = 1 AND player IN ('kenneth ferrie', 'geoff ogilvy')) = 2 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                1 |"
+2-12523044-5.html.csv,steve stricker of united states has the lowest score among all the players,1,0,SELECT (SELECT MIN(score_1) FROM T WHERE player = 'steve stricker' AND country = 'united states') = (SELECT MIN(score_1) FROM T);,"|   (SELECT MIN(score_1) FROM T WHERE player = 'steve stricker' AND country = 'united states') = (SELECT MIN(score_1) FROM T) |
+|----------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                           0 |"
+2-12523044-5.html.csv,there are more players from england than of united states during the event in the 2nd round,0,0,SELECT (SELECT COUNT(*) FROM T WHERE country = 'england' AND score_2 IS NOT NULL) > (SELECT COUNT(*) FROM T WHERE country = 'united states' AND score_2 IS NOT NULL);,"|   (SELECT COUNT(*) FROM T WHERE country = 'england' AND score_2 IS NOT NULL) > (SELECT COUNT(*) FROM T WHERE country = 'united states' AND score_2 IS NOT NULL) |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                               0 |"
+2-10301911-2.html.csv,brian finch rank is greater than 3 and he finished with a time of 2:14.59.0,1,1,SELECT (SELECT COUNT(*) FROM T WHERE rider = 'brian finch' AND rank > 3 AND time = '2:14.59.0') > 0;,"|   (SELECT COUNT(*) FROM T WHERE rider = 'brian finch' AND rank > 3 AND time = '2:14.59.0') > 0 |
+|-----------------------------------------------------------------------------------------------:|
+|                                                                                              1 |"
+2-10301911-2.html.csv,"the time value for the rider brian finch , team suzuki and a rank greater than 3 is 2:14.59.0",0,0,SELECT (SELECT COUNT(*) FROM T WHERE rider = 'brian finch' AND team = 'suzuki' AND rank > 3 AND time = '2:14.59.0') > 0;,"|   (SELECT COUNT(*) FROM T WHERE rider = 'brian finch' AND team = 'suzuki' AND rank > 3 AND time = '2:14.59.0') > 0 |
+|-------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                  0 |"
+2-15547694-1.html.csv,the agricultural panel and labour panel both have 11 total members,1,0,SELECT (SELECT panel_count FROM T WHERE panel_type = 'agricultural_panel') = 11 AND (SELECT panel_count FROM T WHERE panel_type = 'labour_panel') = 11;,"|   (SELECT panel_count FROM T WHERE panel_type = 'agricultural_panel') = 11 AND (SELECT panel_count FROM T WHERE panel_type = 'labour_panel') = 11 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                 0 |"
+2-15547694-1.html.csv,the party with 21 total members has 18 more members than the party with the fewest total members,1,1,SELECT (SELECT MAX(total) FROM T) - (SELECT MIN(total) FROM T) = 18;,"|   (SELECT MAX(total) FROM T) - (SELECT MIN(total) FROM T) = 18 |
+|---------------------------------------------------------------:|
+|                                                              1 |"
+2-15547694-1.html.csv,university of dublin is the only group of origin made up entirely of members from one party,1,1,SELECT (SELECT COUNT(DISTINCT party) FROM T WHERE panel_type = 'university_of_dublin') = 1;,"|   (SELECT COUNT(DISTINCT party) FROM T WHERE panel_type = 'university_of_dublin') = 1 |
+|--------------------------------------------------------------------------------------:|
+|                                                                                     1 |"
+2-15547694-1.html.csv,nominated by the taoiseach has the most members from one party,1,independent,"SELECT party
+FROM T
+GROUP BY party
+ORDER BY COUNT(*) DESC
+LIMIT 1;","| party       |
+|:------------|
+| independent |"
+2-15547694-1.html.csv,industrial and commercial panel has four more members than cultural and educational panel,1,0,SELECT (SELECT panel_count FROM T WHERE panel_type = 'industrial_and_commercial_panel') = (SELECT panel_count FROM T WHERE panel_type = 'cultural_and_educational_panel') + 4;,"|   (SELECT panel_count FROM T WHERE panel_type = 'industrial_and_commercial_panel') = (SELECT panel_count FROM T WHERE panel_type = 'cultural_and_educational_panel') + 4 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                        0 |"
+2-15547694-1.html.csv,the agricultural panel has 2 members and the labour panel has 5 members,0,0,SELECT (SELECT panel_count FROM T WHERE panel_type = 'agricultural_panel') = 2 AND (SELECT panel_count FROM T WHERE panel_type = 'labour_panel') = 5;,"|   (SELECT panel_count FROM T WHERE panel_type = 'agricultural_panel') = 2 AND (SELECT panel_count FROM T WHERE panel_type = 'labour_panel') = 5 |
+|------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                               0 |"
+2-15547694-1.html.csv,the party with 21 total members has 9 more members than the party with the second most members,0,0,SELECT (SELECT party FROM T GROUP BY party ORDER BY total DESC LIMIT 1) = (SELECT party FROM T GROUP BY party ORDER BY total DESC LIMIT 2 OFFSET 1) AND (SELECT total FROM T GROUP BY party ORDER BY total DESC LIMIT 1) = (SELECT total FROM T GROUP BY party ORDER BY total DESC LIMIT 2 OFFSET 1) + 9;,"|   (SELECT party FROM T GROUP BY party ORDER BY total DESC LIMIT 1) = (SELECT party FROM T GROUP BY party ORDER BY total DESC LIMIT 2 OFFSET 1) AND (SELECT total FROM T GROUP BY party ORDER BY total DESC LIMIT 1) = (SELECT total FROM T GROUP BY party ORDER BY total DESC LIMIT 2 OFFSET 1) + 9 |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                                                                                                                                                   0 |"
+2-15547694-1.html.csv,national university of ireland is the only group of origin made up mostly of members from two parties,0,1,"SELECT (SELECT COUNT(*) FROM T WHERE panel_type = 'national university of ireland' AND party IN ('fianna fáil', 'fine gael')) = (SELECT COUNT(*) FROM T WHERE panel_type = 'national university of ireland');","|   (SELECT COUNT(*) FROM T WHERE panel_type = 'national university of ireland' AND party IN ('fianna fáil', 'fine gael')) = (SELECT COUNT(*) FROM T WHERE panel_type = 'national university of ireland') |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                                                       1 |"
+2-15547694-1.html.csv,agricultural panel has the most members from one party,0,1,SELECT (SELECT MAX(panel_count) FROM T WHERE panel_type = 'agricultural_panel') = (SELECT panel_count FROM T WHERE panel_type = 'agricultural_panel' ORDER BY panel_count DESC LIMIT 1);,"|   (SELECT MAX(panel_count) FROM T WHERE panel_type = 'agricultural_panel') = (SELECT panel_count FROM T WHERE panel_type = 'agricultural_panel' ORDER BY panel_count DESC LIMIT 1) |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                                  1 |"
+2-15547694-1.html.csv,administrative panel has four more members than national university of ireland,1,0,SELECT (SELECT panel_count FROM T WHERE panel_type = 'administrative_panel') = (SELECT panel_count FROM T WHERE panel_type = 'national_university_of_ireland') + 4;,"|   (SELECT panel_count FROM T WHERE panel_type = 'administrative_panel') = (SELECT panel_count FROM T WHERE panel_type = 'national_university_of_ireland') + 4 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                             0 |"
+2-15214004-2.html.csv,joe germanese was the 27th pick,1,1,SELECT (SELECT COUNT(*) FROM T WHERE player = 'joe germanese' AND pick = 27) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'joe germanese' AND pick = 27) > 0 |
+|----------------------------------------------------------------------------:|
+|                                                                           1 |"
+2-15214004-2.html.csv,jonathan leathers was picked 25th,1,1,SELECT (SELECT COUNT(*) FROM T WHERE player = 'jonathan leathers' AND pick = 25) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'jonathan leathers' AND pick = 25) > 0 |
+|--------------------------------------------------------------------------------:|
+|                                                                               1 |"
+2-15214004-2.html.csv,joe germanese is the player with the number of 24 picks,0,0,SELECT (SELECT COUNT(*) FROM T WHERE player = 'joe germanese' AND pick = 24) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'joe germanese' AND pick = 24) > 0 |
+|----------------------------------------------------------------------------:|
+|                                                                           0 |"
+2-15214004-2.html.csv,peter lowry 's pick number was 25,0,0,SELECT (SELECT COUNT(*) FROM T WHERE player = 'peter lowry' AND pick = 25) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'peter lowry' AND pick = 25) > 0 |
+|--------------------------------------------------------------------------:|
+|                                                                         0 |"
+1-25277363-2.html.csv,bob sand wrote episode 149,1,1,SELECT (SELECT COUNT(*) FROM T WHERE no_in_series = 149 AND written_by = 'bob sand') > 0;,"|   (SELECT COUNT(*) FROM T WHERE no_in_series = 149 AND written_by = 'bob sand') > 0 |
+|------------------------------------------------------------------------------------:|
+|                                                                                   1 |"
+1-25277363-2.html.csv,tough love was the title of episode 148,1,1,SELECT (SELECT COUNT(*) FROM T WHERE no_in_series = 148 AND title = 'tough love') > 0;,"|   (SELECT COUNT(*) FROM T WHERE no_in_series = 148 AND title = 'tough love') > 0 |
+|---------------------------------------------------------------------------------:|
+|                                                                                1 |"
+1-25277363-2.html.csv,"fast friends originally aired on october 12 , 1993",1,1,SELECT (SELECT COUNT(*) FROM T WHERE title = 'fast friends' AND original_air_date = '1993-10-12') > 0;,"|   (SELECT COUNT(*) FROM T WHERE title = 'fast friends' AND original_air_date = '1993-10-12') > 0 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                1 |"
+1-25277363-2.html.csv,"fast friends originally aired on october11 , 1992",0,0,SELECT (SELECT COUNT(*) FROM T WHERE title = 'fast friends' AND original_air_date = '1992-10-11') > 0;,"|   (SELECT COUNT(*) FROM T WHERE title = 'fast friends' AND original_air_date = '1992-10-11') > 0 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                0 |"
+1-25277363-2.html.csv,the episode number in the series the test is before 148.0,0,0,SELECT (SELECT MAX(no_in_series) FROM T) < 148.0;,"|   (SELECT MAX(no_in_series) FROM T) < 148.0 |
+|--------------------------------------------:|
+|                                           0 |"
+1-18600760-10.html.csv,"joliette has 0.771 square miles of water , and can be found with geo id 3806741020",1,1,SELECT (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND water_sqmi = 0.771 AND geo_id = 3806741020) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND water_sqmi = 0.771 AND geo_id = 3806741020) > 0 |
+|----------------------------------------------------------------------------------------------------------:|
+|                                                                                                         1 |"
+1-18600760-10.html.csv,the geo id for janke township in logan county is 3804740620,1,1,SELECT (SELECT COUNT(*) FROM T WHERE township = 'janke' AND county = 'logan' AND geo_id = 3804740620) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'janke' AND county = 'logan' AND geo_id = 3804740620) > 0 |
+|-----------------------------------------------------------------------------------------------------:|
+|                                                                                                    1 |"
+1-18600760-10.html.csv,grand forks county has 36.199 square miles of land,1,1,SELECT (SELECT land_sqmi FROM T WHERE county = 'grand forks') = 36.199;,"|   (SELECT land_sqmi FROM T WHERE county = 'grand forks') = 36.199 |
+|------------------------------------------------------------------:|
+|                                                                 1 |"
+1-18600760-10.html.csv,joliette township has a geo id of 3806741020,1,1,SELECT (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND geo_id = 3806741020) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND geo_id = 3806741020) > 0 |
+|-----------------------------------------------------------------------------------:|
+|                                                                                  1 |"
+1-18600760-10.html.csv,james hill township has 4.243 sqmi of water and a latitude of 48.423125,1,,SELECT * FROM T WHERE township = 'james hill' AND water_sqmi = 4.243 AND latitude = 48.423125;,"| township   | county    |   pop_2010 |   land_sqmi |   water_sqmi |   latitude |   longitude |     geo_id |   ansi_code |
+|:-----------|:----------|-----------:|------------:|-------------:|-----------:|------------:|-----------:|------------:|
+| james hill | mountrail |         32 |       31.82 |        4.243 |    48.4231 |     -102.43 | 3806140500 |     1037048 |"
+1-18600760-10.html.csv,the township that has 28.597 sqmi of land is that of james river valley,1,1,SELECT (SELECT township FROM T WHERE land_sqmi = 28.597) = 'james river valley';,"|   (SELECT township FROM T WHERE land_sqmi = 28.597) = 'james river valley' |
+|---------------------------------------------------------------------------:|
+|                                                                          1 |"
+1-18600760-10.html.csv,the geo id for a township with 0.717 square miles of water is 3806741020,0,none,SELECT (SELECT geo_id FROM T WHERE water_sqmi = 0.717) = 3806741020;,"| (SELECT geo_id FROM T WHERE water_sqmi = 0.717) = 3806741020   |
+|:---------------------------------------------------------------|
+|                                                                |"
+1-18600760-10.html.csv,the geo id for dickey county is 3804740620,0,0,SELECT (SELECT COUNT(*) FROM T WHERE county = 'dickey' AND geo_id = 3804740620) > 0;,"|   (SELECT COUNT(*) FROM T WHERE county = 'dickey' AND geo_id = 3804740620) > 0 |
+|-------------------------------------------------------------------------------:|
+|                                                                              0 |"
+1-18600760-10.html.csv,the township of jackson is in the mountrail county,0,0,SELECT (SELECT COUNT(*) FROM T WHERE township = 'jackson' AND county = 'mountrail') > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'jackson' AND county = 'mountrail') > 0 |
+|-----------------------------------------------------------------------------------:|
+|                                                                                  0 |"
+1-18600760-10.html.csv,the geo id for johnstown is 3810340820,0,0,SELECT (SELECT COUNT(*) FROM T WHERE township = 'johnstown' AND geo_id = 3810340820) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'johnstown' AND geo_id = 3810340820) > 0 |
+|------------------------------------------------------------------------------------:|
+|                                                                                   0 |"
+1-18600760-10.html.csv,james hill has the least amount of land (sqmi),0,james river valley,SELECT township FROM T WHERE land_sqmi = (SELECT MIN(land_sqmi) FROM T),"| township           |
+|:-------------------|
+| james river valley |"
+1-18600760-10.html.csv,the latitude for the township janke is - 97.945530,0,0,SELECT (SELECT COUNT(*) FROM T WHERE township = 'janke' AND latitude = -97.945530) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'janke' AND latitude = -97.945530) > 0 |
+|----------------------------------------------------------------------------------:|
+|                                                                                 0 |"
+1-18600760-10.html.csv,"joliette has 0.771 square miles of water , and can be found with geo id 3806741020",1,1,SELECT (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND water_sqmi = 0.771 AND geo_id = 3806741020) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND water_sqmi = 0.771 AND geo_id = 3806741020) > 0 |
+|----------------------------------------------------------------------------------------------------------:|
+|                                                                                                         1 |"
+1-18600760-10.html.csv,the geo id for janke township in logan county is 3804740620,1,1,SELECT (SELECT COUNT(*) FROM T WHERE township = 'janke' AND county = 'logan' AND geo_id = 3804740620) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'janke' AND county = 'logan' AND geo_id = 3804740620) > 0 |
+|-----------------------------------------------------------------------------------------------------:|
+|                                                                                                    1 |"
+1-18600760-10.html.csv,grand forks county has 36.199 square miles of land,1,1,SELECT (SELECT land_sqmi FROM T WHERE county = 'grand forks') = 36.199;,"|   (SELECT land_sqmi FROM T WHERE county = 'grand forks') = 36.199 |
+|------------------------------------------------------------------:|
+|                                                                 1 |"
+1-18600760-10.html.csv,joliette township has a geo id of 3806741020,1,1,SELECT (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND geo_id = 3806741020) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'joliette' AND geo_id = 3806741020) > 0 |
+|-----------------------------------------------------------------------------------:|
+|                                                                                  1 |"
+1-18600760-10.html.csv,james hill township has 4.243 sqmi of water and a latitude of 48.423125,1,,SELECT * FROM T WHERE township = 'james hill' AND water_sqmi = 4.243 AND latitude = 48.423125;,"| township   | county    |   pop_2010 |   land_sqmi |   water_sqmi |   latitude |   longitude |     geo_id |   ansi_code |
+|:-----------|:----------|-----------:|------------:|-------------:|-----------:|------------:|-----------:|------------:|
+| james hill | mountrail |         32 |       31.82 |        4.243 |    48.4231 |     -102.43 | 3806140500 |     1037048 |"
+1-18600760-10.html.csv,the township that has 28.597 sqmi of land is that of james river valley,1,1,SELECT (SELECT township FROM T WHERE land_sqmi = 28.597) = 'james river valley';,"|   (SELECT township FROM T WHERE land_sqmi = 28.597) = 'james river valley' |
+|---------------------------------------------------------------------------:|
+|                                                                          1 |"
+1-18600760-10.html.csv,the geo id for a township with 0.717 square miles of water is 3806741020,0,none,SELECT (SELECT geo_id FROM T WHERE water_sqmi = 0.717) = 3806741020;,"| (SELECT geo_id FROM T WHERE water_sqmi = 0.717) = 3806741020   |
+|:---------------------------------------------------------------|
+|                                                                |"
+1-18600760-10.html.csv,the geo id for dickey county is 3804740620,0,0,SELECT (SELECT COUNT(*) FROM T WHERE county = 'dickey' AND geo_id = 3804740620) > 0;,"|   (SELECT COUNT(*) FROM T WHERE county = 'dickey' AND geo_id = 3804740620) > 0 |
+|-------------------------------------------------------------------------------:|
+|                                                                              0 |"
+1-18600760-10.html.csv,the township of jackson is in the mountrail county,0,0,SELECT (SELECT COUNT(*) FROM T WHERE township = 'jackson' AND county = 'mountrail') > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'jackson' AND county = 'mountrail') > 0 |
+|-----------------------------------------------------------------------------------:|
+|                                                                                  0 |"
+1-18600760-10.html.csv,the geo id for johnstown is 3810340820,0,0,SELECT (SELECT COUNT(*) FROM T WHERE township = 'johnstown' AND geo_id = 3810340820) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'johnstown' AND geo_id = 3810340820) > 0 |
+|------------------------------------------------------------------------------------:|
+|                                                                                   0 |"
+1-18600760-10.html.csv,james hill has the least amount of land (sqmi),0,,SELECT township FROM T WHERE land_sqmi = (SELECT MIN(land_sqmi) FROM T) AND township = 'james hill';,"| township   |
+|------------|"
+1-18600760-10.html.csv,the latitude for the township janke is - 97.945530,0,0,SELECT (SELECT COUNT(*) FROM T WHERE township = 'janke' AND latitude = -97.945530) > 0;,"|   (SELECT COUNT(*) FROM T WHERE township = 'janke' AND latitude = -97.945530) > 0 |
+|----------------------------------------------------------------------------------:|
+|                                                                                 0 |"
+2-12817505-2.html.csv,manchester united has been 2nd in league position since 17 november 2005,0,1,SELECT (SELECT COUNT(*) FROM T WHERE league_position = 2 AND date >= '2005-11-17') > 0;,"|   (SELECT COUNT(*) FROM T WHERE league_position = 2 AND date >= '2005-11-17') > 0 |
+|----------------------------------------------------------------------------------:|
+|                                                                                 1 |"
+2-12817505-2.html.csv,manchester united has beaten portsmouth 2 out of two times since 13 august 2005,1,0,SELECT (SELECT COUNT(*) FROM T WHERE opponents = 'portsmouth' AND result_f_a LIKE '2 - %') = 2 AND (SELECT COUNT(*) FROM T WHERE date >= '2005-8-13') > 2;,"|   (SELECT COUNT(*) FROM T WHERE opponents = 'portsmouth' AND result_f_a LIKE '2 - %') = 2 AND (SELECT COUNT(*) FROM T WHERE date >= '2005-8-13') > 2 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                    0 |"
+2-12817505-2.html.csv,manchester united has lost to the blackburn rovers 2 out of two times since 13 august 2005,1,0,SELECT (SELECT COUNT(*) FROM T WHERE opponents = 'blackburn rovers' AND result_f_a LIKE '%-2' AND date >= '2005-8-13') = 2;,"|   (SELECT COUNT(*) FROM T WHERE opponents = 'blackburn rovers' AND result_f_a LIKE '%-2' AND date >= '2005-8-13') = 2 |
+|----------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                     0 |"
+2-12817505-2.html.csv,there have been 19 games since 13 august 2005 which had an attendance of 60000 or more,1,12,SELECT COUNT(*) FROM T WHERE date > '2005-8-13' AND attendance >= 60000;,"|   COUNT(*) |
+|-----------:|
+|         12 |"
+2-12817505-2.html.csv,the game with the lowest attendance happened on 11 february 2006,1,1,SELECT (SELECT MIN(attendance) FROM T WHERE date = '2006-2-11') > 0;,"|   (SELECT MIN(attendance) FROM T WHERE date = '2006-2-11') > 0 |
+|---------------------------------------------------------------:|
+|                                                              1 |"
+2-12817505-2.html.csv,manchester united has always lost 3 out of three times to portsmouth since 10 september 2005,0,0,SELECT (SELECT COUNT(*) FROM T WHERE opponents = 'portsmouth' AND result_f_a LIKE '%-3' AND date >= '2005-9-10') = 3;,"|   (SELECT COUNT(*) FROM T WHERE opponents = 'portsmouth' AND result_f_a LIKE '%-3' AND date >= '2005-9-10') = 3 |
+|----------------------------------------------------------------------------------------------------------------:|
+|                                                                                                               0 |"
+2-12817505-2.html.csv,manchester united has drawn all mathces to the blackburn rovers 2 out of two times since 13 august 2005,0,0,SELECT (SELECT COUNT(*) FROM T WHERE opponents = 'blackburn rovers' AND result_f_a = '0 - 0' AND date >= '2005-8-13') = 2;,"|   (SELECT COUNT(*) FROM T WHERE opponents = 'blackburn rovers' AND result_f_a = '0 - 0' AND date >= '2005-8-13') = 2 |
+|---------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                    0 |"
+2-12817505-2.html.csv,there have been 19 games since 13 august 2005 which had an attendance exactly equal to that of arsenal in 9 april 2006,0,0,SELECT (SELECT COUNT(*) FROM T WHERE date > '2005-8-13' AND attendance = (SELECT attendance FROM T WHERE date = '2006-4-9' AND opponents = 'arsenal')) = 19;,"|   (SELECT COUNT(*) FROM T WHERE date > '2005-8-13' AND attendance = (SELECT attendance FROM T WHERE date = '2006-4-9' AND opponents = 'arsenal')) = 19 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                      0 |"
+2-12817505-2.html.csv,the last game of the season happened on 11 february 2006,0,1,SELECT (SELECT COUNT(*) FROM T WHERE date = '2006-2-11') > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = '2006-2-11') > 0 |
+|--------------------------------------------------------:|
+|                                                       1 |"
+2-1111973-1.html.csv,the vctp 20 mm (79in) rh - 202 autocannon does not have 75 km / h (47 mph) as the vcrt,1,1,SELECT (SELECT COUNT(*) FROM T WHERE vctp = '20 mm' AND vcrt = '75 km/h (47 mph)') = 0;,"|   (SELECT COUNT(*) FROM T WHERE vctp = '20 mm' AND vcrt = '75 km/h (47 mph)') = 0 |
+|----------------------------------------------------------------------------------:|
+|                                                                                 1 |"
+2-1111973-1.html.csv,vca 40t (44.1tons) and 155 mm (6.1in) l / 41 howitzer have a vctm of 26t (28.7tons) and 120 mm (4.72in) mortar respectively,1,1,SELECT (SELECT COUNT(*) FROM T WHERE vca_155 = 44.1 AND vctm = 28.7) > 0 AND (SELECT COUNT(*) FROM T WHERE vca_155 = '155 mm' AND vctm = '120 mm') > 0;,"|   (SELECT COUNT(*) FROM T WHERE vca_155 = 44.1 AND vctm = 28.7) > 0 AND (SELECT COUNT(*) FROM T WHERE vca_155 = '155 mm' AND vctm = '120 mm') > 0 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                 1 |"
+2-1111973-1.html.csv,"vctp 24hp / t (23hp / ton) has a vca 155 of 18hp / t ( 16.5hp / ton) , and not 55 km / h (34 mph)",1,0,SELECT (SELECT COUNT(*) FROM T WHERE vctp = '24hp / t' AND vca_155 = '18hp / t' AND vcrt != '55 km / h (34 mph)') > 0;,"|   (SELECT COUNT(*) FROM T WHERE vctp = '24hp / t' AND vca_155 = '18hp / t' AND vcrt != '55 km / h (34 mph)') > 0 |
+|-----------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                0 |"
+2-1111973-1.html.csv,vclc 32t (35.3tons) has the same vcrt but vclc 160 mm (6.3in) or 350 mm (13.8in) rockets has a vcrt of 7.62 mm (0.3in) fn mag 60 - 20 machine gun,1,0,SELECT (SELECT vcrt FROM T WHERE vclc = 35.3) = (SELECT vcrt FROM T WHERE vclc = '160 mm or 350 mm');,"|   (SELECT vcrt FROM T WHERE vclc = 35.3) = (SELECT vcrt FROM T WHERE vclc = '160 mm or 350 mm') |
+|------------------------------------------------------------------------------------------------:|
+|                                                                                               0 |"
+2-1111973-1.html.csv,"the vcpc and vcrt of 7.62 mm (0.3in) fn mag 60 - 20 machine gun are the same for vctp 20 mm (79in) rh - 202 autocannon , and so is the vcpc and vcrt of 75 km / h (47 mph) for vctp 75 km / h (47 mph)",1,0,SELECT (SELECT COUNT(*) FROM T WHERE vcpc = '7.62 mm' AND vcrt = '7.62 mm') > 0 AND (SELECT COUNT(*) FROM T WHERE vctp = '75 km / h' AND vcpc = '75 km / h') > 0;,"|   (SELECT COUNT(*) FROM T WHERE vcpc = '7.62 mm' AND vcrt = '7.62 mm') > 0 AND (SELECT COUNT(*) FROM T WHERE vctp = '75 km / h' AND vcpc = '75 km / h') > 0 |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                           0 |"
+2-1111973-1.html.csv,the vctp 20 mm (79in) rh - 202 autocannon does not have 7.62 mm (0.3in) fn mag 60 - 20 machine gun as the vcrt,0,0,SELECT (SELECT COUNT(*) FROM T WHERE vctp = '20 mm' AND vcrt = '7.62 mm') = 0;,"|   (SELECT COUNT(*) FROM T WHERE vctp = '20 mm' AND vcrt = '7.62 mm') = 0 |
+|-------------------------------------------------------------------------:|
+|                                                                        0 |"
+2-1111973-1.html.csv,vca 40t (44.1tons) and 155 mm (6.1in) l / 41 howitzer have a vctm of 28.8hp / t (25.1hp / ton) and 120 mm (4.72in) mortar respectively,0,0,SELECT (SELECT COUNT(*) FROM T WHERE vca_155 = 44.1 AND vctm = 28.8) > 0 AND (SELECT COUNT(*) FROM T WHERE vctp = 31.1 AND vctm = 28.7) > 0;,"|   (SELECT COUNT(*) FROM T WHERE vca_155 = 44.1 AND vctm = 28.8) > 0 AND (SELECT COUNT(*) FROM T WHERE vctp = 31.1 AND vctm = 28.7) > 0 |
+|---------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                      0 |"
+2-1111973-1.html.csv,"vctp 24hp / t (23hp / ton) has a vca 155 of 155 mm (6.1in) l / 41 howitzer , and not 55 km / h (34 mph)",0,1,SELECT (SELECT COUNT(*) FROM T WHERE vctp = '24hp / t' AND vca_155 = '155 mm' AND vcrt = '55 km / h (34 mph)') = 0;,"|   (SELECT COUNT(*) FROM T WHERE vctp = '24hp / t' AND vca_155 = '155 mm' AND vcrt = '55 km / h (34 mph)') = 0 |
+|--------------------------------------------------------------------------------------------------------------:|
+|                                                                                                             1 |"
+2-1111973-1.html.csv,vclc 32t (35.3tons) has the same vcpc but vclc 160 mm (6.3in) or 350 mm (13.8in) rockets has a vcrt of 7.62 mm (0.3in) fn mag 60 - 20 machine gun,0,0,SELECT (SELECT vcpc FROM T WHERE vclc = 35.3) = (SELECT vcpc FROM T WHERE vclc = '160 mm or 350 mm') AND (SELECT vcrt FROM T WHERE vclc = '160 mm or 350 mm') = '7.62 mm';,"|   (SELECT vcpc FROM T WHERE vclc = 35.3) = (SELECT vcpc FROM T WHERE vclc = '160 mm or 350 mm') AND (SELECT vcrt FROM T WHERE vclc = '160 mm or 350 mm') = '7.62 mm' |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                    0 |"
+2-1111973-1.html.csv,"the vcpc and vctp of 7.62 mm (0.3in) fn mag 60 - 20 machine gun are the same for vcrt 20 mm (79in) rh - 202 autocannon , and so is the vcpc and vcrt of 75 km / h (47 mph) for vctp 75 km / h (47 mph)",1,0,SELECT (SELECT COUNT(*) FROM T WHERE vcpc = '7.62 mm' AND vctp = '7.62 mm' AND vcrt = '20 mm' AND vctp = '75 km/h') > 0;,"|   (SELECT COUNT(*) FROM T WHERE vcpc = '7.62 mm' AND vctp = '7.62 mm' AND vcrt = '20 mm' AND vctp = '75 km/h') > 0 |
+|-------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                  0 |"
+2-17245513-1.html.csv,t9 place has a score of 67 + 68 + 78 + 77 = 290,1,1,SELECT (SELECT COUNT(*) FROM T WHERE place = 't9' AND score = 290) > 0;,"|   (SELECT COUNT(*) FROM T WHERE place = 't9' AND score = 290) > 0 |
+|------------------------------------------------------------------:|
+|                                                                 1 |"
+2-17245513-1.html.csv,"t7 is the place of peter oosterhuis , who won 7500",1,1,SELECT (SELECT COUNT(*) FROM T WHERE place = 't7' AND player = 'peter oosterhuis' AND money = '7500') > 0;,"|   (SELECT COUNT(*) FROM T WHERE place = 't7' AND player = 'peter oosterhuis' AND money = '7500') > 0 |
+|-----------------------------------------------------------------------------------------------------:|
+|                                                                                                    1 |"
+2-17245513-1.html.csv,jack nicklaus of the united states has a score of 72 + 70 + 75 + 72 = 289,1,1,SELECT (SELECT COUNT(*) FROM T WHERE player = 'jack nicklaus' AND score = 289) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'jack nicklaus' AND score = 289) > 0 |
+|------------------------------------------------------------------------------:|
+|                                                                             1 |"
+2-17245513-1.html.csv,"t7 is the place of player peter oosterhuis , who has 10875",0,0,SELECT (SELECT COUNT(*) FROM T WHERE place = 't7' AND player = 'peter oosterhuis' AND money = 10875) > 0;,"|   (SELECT COUNT(*) FROM T WHERE place = 't7' AND player = 'peter oosterhuis' AND money = 10875) > 0 |
+|----------------------------------------------------------------------------------------------------:|
+|                                                                                                   0 |"
+2-17245513-1.html.csv,united states has a 69 + 73 + 72 + 75 = 289 score,0,1,SELECT (SELECT COUNT(*) FROM T WHERE country = 'united states' AND score = 289) > 0;,"|   (SELECT COUNT(*) FROM T WHERE country = 'united states' AND score = 289) > 0 |
+|-------------------------------------------------------------------------------:|
+|                                                                              1 |"
+1-2370579-1.html.csv,the killing (part two) originally aired on 9 november 1966,1,0,SELECT (SELECT COUNT(*) FROM T WHERE title = 'the killing (part two)' AND originalairdate = '1966-11-09') > 0;,"|   (SELECT COUNT(*) FROM T WHERE title = 'the killing (part two)' AND originalairdate = '1966-11-09') > 0 |
+|---------------------------------------------------------------------------------------------------------:|
+|                                                                                                        0 |"
+1-2370579-1.html.csv,jeremy summers directed the episode written by tony o'grady (pseudonym of brian clemens),1,0,SELECT (SELECT COUNT(*) FROM T WHERE directed_by = 'jeremy summers' AND written_by = 'tony o''grady') > 0;,"|   (SELECT COUNT(*) FROM T WHERE directed_by = 'jeremy summers' AND written_by = 'tony o''grady') > 0 |
+|-----------------------------------------------------------------------------------------------------:|
+|                                                                                                    0 |"
+1-2370579-1.html.csv,the production number for episode 23 is 120,1,1,SELECT (SELECT prod FROM T WHERE episode = 23) = 120;,"|   (SELECT prod FROM T WHERE episode = 23) = 120 |
+|------------------------------------------------:|
+|                                               1 |"
+1-2370579-1.html.csv,"on 30 november 1966 , the episode the killing (part two) originally air",0,0,SELECT (SELECT COUNT(*) FROM T WHERE originalairdate = '1966-11-30' AND title = 'the killing (part two)') > 0;,"|   (SELECT COUNT(*) FROM T WHERE originalairdate = '1966-11-30' AND title = 'the killing (part two)') > 0 |
+|---------------------------------------------------------------------------------------------------------:|
+|                                                                                                        0 |"
+1-2370579-1.html.csv,john moxey directed the episode written by tony o'grady (pseudonym of brian clemens),0,0,SELECT (SELECT COUNT(*) FROM T WHERE directed_by = 'john moxey' AND written_by = 'tony o''grady') > 0;,"|   (SELECT COUNT(*) FROM T WHERE directed_by = 'john moxey' AND written_by = 'tony o''grady') > 0 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                0 |"
+1-2370579-1.html.csv,the production number for episode 23 is 118.0,0,0,SELECT (SELECT COUNT(*) FROM T WHERE episode = 23 AND prod = 118.0) > 0;,"|   (SELECT COUNT(*) FROM T WHERE episode = 23 AND prod = 118.0) > 0 |
+|-------------------------------------------------------------------:|
+|                                                                  0 |"
+1-2370579-1.html.csv,"on jul / aug 1966 , there 's somebody close behind you was filmed",0,1,SELECT (SELECT COUNT(*) FROM T WHERE filmed LIKE '1966-07%' OR filmed LIKE '1966-08%') > 0;,"|   (SELECT COUNT(*) FROM T WHERE filmed LIKE '1966-07%' OR filmed LIKE '1966-08%') > 0 |
+|--------------------------------------------------------------------------------------:|
+|                                                                                     1 |"
+2-12582968-1.html.csv,lukáš melich completed in the olympic games two times,1,1,SELECT (SELECT COUNT(DISTINCT year) FROM T WHERE competition LIKE '%olympic games%') = 2;,"|   (SELECT COUNT(DISTINCT year) FROM T WHERE competition LIKE '%olympic games%') = 2 |
+|------------------------------------------------------------------------------------:|
+|                                                                                   1 |"
+2-12582968-1.html.csv,lukáš melich placed third place or higher in one competition,1,0,SELECT (SELECT COUNT(*) FROM T WHERE position <= 3) = 1;,"|   (SELECT COUNT(*) FROM T WHERE position <= 3) = 1 |
+|---------------------------------------------------:|
+|                                                  0 |"
+2-12582968-1.html.csv,the competition type was a junior championship two times,1,1,SELECT (SELECT COUNT(*) FROM T WHERE competition LIKE '%junior%') = 2;,"|   (SELECT COUNT(*) FROM T WHERE competition LIKE '%junior%') = 2 |
+|-----------------------------------------------------------------:|
+|                                                                1 |"
+2-12582968-1.html.csv,four of the competitions out of ten were world wide championships,1,1,SELECT (SELECT COUNT(*) FROM T WHERE competition LIKE '%world%') = 4;,"|   (SELECT COUNT(*) FROM T WHERE competition LIKE '%world%') = 4 |
+|----------------------------------------------------------------:|
+|                                                               1 |"
+2-12582968-1.html.csv,in lukáš melich 's last two competitions he threw an average distance of 78.27 m,1,0,"SELECT (SELECT AVG(CAST(SUBSTR(notes, 1, LENGTH(notes) - 2) AS DECIMAL)) FROM T ORDER BY year DESC LIMIT 2) = 78.27;","|   (SELECT AVG(CAST(SUBSTR(notes, 1, LENGTH(notes) - 2) AS DECIMAL)) FROM T ORDER BY year DESC LIMIT 2) = 78.27 |
+|---------------------------------------------------------------------------------------------------------------:|
+|                                                                                                              0 |"
+2-12582968-1.html.csv,lukáš melich won a medal at the olympic games,0,0,"SELECT (SELECT COUNT(*) FROM T WHERE competition = 'olympic games' AND position IN ('1st', '2nd', '3rd')) > 0;","|   (SELECT COUNT(*) FROM T WHERE competition = 'olympic games' AND position IN ('1st', '2nd', '3rd')) > 0 |
+|---------------------------------------------------------------------------------------------------------:|
+|                                                                                                        0 |"
+2-12582968-1.html.csv,lukáš melich 's best finish was second,0,0,SELECT (SELECT MAX(position) FROM T WHERE position != 'dsq' AND position != 'dns') = '2nd';,"|   (SELECT MAX(position) FROM T WHERE position != 'dsq' AND position != 'dns') = '2nd' |
+|--------------------------------------------------------------------------------------:|
+|                                                                                     0 |"
+2-12582968-1.html.csv,lukáš melich 's highest finish was as a junior,0,5th,SELECT MAX(position) FROM T WHERE competition LIKE '%junior%';,"| MAX(position)   |
+|:----------------|
+| 5th             |"
+2-12582968-1.html.csv,four of the competitions were senior world championships,0,0,SELECT (SELECT COUNT(*) FROM T WHERE competition LIKE '%world championships%') = 4;,"|   (SELECT COUNT(*) FROM T WHERE competition LIKE '%world championships%') = 4 |
+|------------------------------------------------------------------------------:|
+|                                                                             0 |"
+2-12582968-1.html.csv,lukáš melich never threw for greater than 78 m,0,0,"SELECT (SELECT COUNT(*) FROM T WHERE CAST(REPLACE(notes, ' m', '') AS DECIMAL) > 78) = 0;","|   (SELECT COUNT(*) FROM T WHERE CAST(REPLACE(notes, ' m', '') AS DECIMAL) > 78) = 0 |
+|------------------------------------------------------------------------------------:|
+|                                                                                   0 |"
+2-11545282-15.html.csv,jose ortiz was the center in the oregon state jazz club from 1988 - 90,1,1,SELECT (SELECT COUNT(*) FROM T WHERE player = 'josã ortiz' AND position = 'center' AND school_club_team = 'oregon state' AND start_year = 1988 AND end_year = 1990) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'josã ortiz' AND position = 'center' AND school_club_team = 'oregon state' AND start_year = 1988 AND end_year = 1990) > 0 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                  1 |"
+2-11545282-15.html.csv,andre owens was the houston jazz club guard from 2005 - 06,1,0,SELECT (SELECT COUNT(*) FROM T WHERE player = 'andre owens' AND school_club_team = 'houston jazz' AND start_year = 2005 AND end_year = 2006) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'andre owens' AND school_club_team = 'houston jazz' AND start_year = 2005 AND end_year = 2006) > 0 |
+|--------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                           0 |"
+2-11545282-15.html.csv,houston had a jazz club during the 2005 - 06 school year,1,1,SELECT (SELECT COUNT(*) FROM T WHERE school_club_team LIKE '%houston%' AND start_year = 2005 AND end_year = 2006) > 0;,"|   (SELECT COUNT(*) FROM T WHERE school_club_team LIKE '%houston%' AND start_year = 2005 AND end_year = 2006) > 0 |
+|-----------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                1 |"
+2-11545282-15.html.csv,dan o 'sullivan plays center for the fordham jazz club,1,0,SELECT (SELECT COUNT(*) FROM T WHERE player = 'dan o sullivan' AND position = 'center' AND school_club_team = 'fordham jazz club') > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'dan o sullivan' AND position = 'center' AND school_club_team = 'fordham jazz club') > 0 |
+|----------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                 0 |"
+2-11545282-15.html.csv,greg ostertag played the center position for the jazz from 1995 to 2004 and then from 2005 to 2006,1,1,SELECT (SELECT COUNT(*) FROM T WHERE player = 'greg ostertag' AND position = 'center' AND ((start_year = 1995 AND end_year = 2004) OR (start_year = 2005 AND end_year = 2006))) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'greg ostertag' AND position = 'center' AND ((start_year = 1995 AND end_year = 2004) OR (start_year = 2005 AND end_year = 2006))) > 0 |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                                              1 |"
+2-11545282-15.html.csv,greg ostertag played center and went to kansas,1,1,SELECT (SELECT COUNT(*) FROM T WHERE player = 'greg ostertag' AND position = 'center' AND school_club_team = 'kansas') > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'greg ostertag' AND position = 'center' AND school_club_team = 'kansas') > 0 |
+|----------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                     1 |"
+2-11545282-15.html.csv,greg ostertag went to oregon state and played for the jazz from 1988 - 90,0,0,SELECT (SELECT COUNT(*) FROM T WHERE player = 'greg ostertag' AND school_club_team LIKE '%oregon state%' AND start_year = 1988 AND end_year = 1990) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'greg ostertag' AND school_club_team LIKE '%oregon state%' AND start_year = 1988 AND end_year = 1990) > 0 |
+|---------------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                                  0 |"
+2-11545282-15.html.csv,andre owens played center for the jazz from 2005 - 06,0,0,SELECT (SELECT COUNT(*) FROM T WHERE player = 'andre owens' AND position = 'center' AND start_year = 2005 AND end_year = 2006) > 0;,"|   (SELECT COUNT(*) FROM T WHERE player = 'andre owens' AND position = 'center' AND start_year = 2005 AND end_year = 2006) > 0 |
+|------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                             0 |"
+2-11545282-15.html.csv,the jazz had a houston graduate from turkey play for them from 2005 - 06,0,0,SELECT (SELECT COUNT(*) FROM T WHERE school_club_team LIKE '%houston%' AND nationality = 'turkey' AND start_year = 2005 AND end_year = 2006) > 0;,"|   (SELECT COUNT(*) FROM T WHERE school_club_team LIKE '%houston%' AND nationality = 'turkey' AND start_year = 2005 AND end_year = 2006) > 0 |
+|--------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                                                                                                                           0 |"
+2-11545282-15.html.csv,the position was center in the club team of efes pilsen (turkey),0,0,SELECT (SELECT COUNT(*) FROM T WHERE position = 'center' AND school_club_team = 'efes pilsen ( turkey )') > 0;,"|   (SELECT COUNT(*) FROM T WHERE position = 'center' AND school_club_team = 'efes pilsen ( turkey )') > 0 |
+|---------------------------------------------------------------------------------------------------------:|
+|                                                                                                        0 |"
+2-14291300-7.html.csv,the toronto maple leafs is the only opponent with 63 points,1,1,SELECT (SELECT COUNT(*) FROM T WHERE points = 63 AND opponent = 'toronto maple leafs') = 1;,"|   (SELECT COUNT(*) FROM T WHERE points = 63 AND opponent = 'toronto maple leafs') = 1 |
+|--------------------------------------------------------------------------------------:|
+|                                                                                     1 |"
+2-14291300-7.html.csv,"during march 13 , the toronto maple leafs were the opponent with 63 points",1,0,SELECT (SELECT COUNT(*) FROM T WHERE date = 'march 13' AND opponent = 'toronto maple leafs' AND points = 63) > 0;,"|   (SELECT COUNT(*) FROM T WHERE date = 'march 13' AND opponent = 'toronto maple leafs' AND points = 63) > 0 |
+|------------------------------------------------------------------------------------------------------------:|
+|                                                                                                           0 |"
+2-14291300-7.html.csv,"the toronto maple leafs are the opponent listed with 63 , 66 , and 69 points",0,0,"SELECT (SELECT COUNT(*) FROM T WHERE opponent = 'toronto maple leafs' AND points IN (63, 66, 69)) = 3;","|   (SELECT COUNT(*) FROM T WHERE opponent = 'toronto maple leafs' AND points IN (63, 66, 69)) = 3 |
+|-------------------------------------------------------------------------------------------------:|
+|                                                                                                0 |"
+2-14291300-7.html.csv,the chicago black hawks are the only opponent with 63 points,0,0,SELECT (SELECT COUNT(*) FROM T WHERE points = 63 AND opponent = 'chicago black hawks') = 1;,"|   (SELECT COUNT(*) FROM T WHERE points = 63 AND opponent = 'chicago black hawks') = 1 |
+|--------------------------------------------------------------------------------------:|
+|                                                                                     0 |"

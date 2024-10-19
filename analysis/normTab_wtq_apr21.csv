@@ -1,0 +1,2030 @@
+id,question,gold answer,table title,original_tab,norm_table
+nu-0,which country had the most cyclists finish within the top 10?,italy,2008 Clásica de San Sebastián,"rank | cyclist | team | time | uci_protour_points
+1 | alejandro valverde (esp) | caisse d'epargne | pt5h 29' 10"" | 40
+2 | alexandr kolobnev (rus) | team csc saxo bank | s.t. | 30
+3 | davide rebellin (ita) | gerolsteiner | s.t. | 25
+4 | paolo bettini (ita) | quick step | s.t. | 20
+5 | franco pellizotti (ita) | liquigas | s.t. | 15
+6 | denis menchov (rus) | rabobank | s.t. | 11
+7 | samuel sánchez (esp) | euskaltel-euskadi | s.t. | 7
+8 | stéphane goubert (fra) | ag2r-la mondiale | + 2"" | 5
+9 | haimar zubeldia (esp) | euskaltel-euskadi | + 2"" | 3
+10 | david moncoutié (fra) | cofidis | + 2"" | 1","normalized_table = [
+    [""rank"", ""cyclist_name"", ""cyclist_nationality"", ""team"", ""time"", ""uci_protour_points""],
+    [1, ""alejandro valverde"", ""esp"", ""caisse d'epargne"", ""5h 29' 10\"""", 40],
+    [2, ""alexandr kolobnev"", ""rus"", ""team csc saxo bank"", ""s.t."", 30],
+    [3, ""davide rebellin"", ""ita"", ""gerolsteiner"", ""s.t."", 25],
+    [4, ""paolo bettini"", ""ita"", ""quick step"", ""s.t."", 20],
+    [5, ""franco pellizotti"", ""ita"", ""liquigas"", ""s.t."", 15],
+    [6, ""denis menchov"", ""rus"", ""rabobank"", ""s.t."", 11],
+    [7, ""samuel sánchez"", ""esp"", ""euskaltel-euskadi"", ""s.t."", 7],
+    [8, ""stéphane goubert"", ""fra"", ""ag2r-la mondiale"", ""+ 2\"""", 5],
+    [9, ""haimar zubeldia"", ""esp"", ""euskaltel-euskadi"", ""+ 2\"""", 3],
+    [10, ""david moncoutié"", ""fra"", ""cofidis"", ""+ 2\"""", 1]
+]"
+nu-1,how many people were murdered in 1940/41?,"100,000",World War II casualties of Poland,"description_losses | 1939_40 | 1940_41 | 1941_42 | 1942_43 | 1943_44 | 1944_45 | total
+direct war losses | 360000 | none | none | none | none | 183000 | 543000
+murdered | 75000 | 100000 | 116000 | 133000 | 82000 | none | 506000
+deaths in prisons & camps | 69000 | 210000 | 220000 | 266000 | 381000 | none | 1146000
+deaths outside of prisons & camps | none | 42000 | 71000 | 142000 | 218000 | none | 473000
+murdered in eastern regions | none | none | none | none | none | 100000 | 100000
+deaths other countries | none | none | none | none | none | none | 2000
+total | 504000 | 352000 | 407000 | 541000 | 681000 | 270000 | 2770000","normalized_table = [['description_losses', 'year', 'casualties'],
+ ['direct war losses', '1939_40', 360000],
+ ['direct war losses', '1944_45', 183000],
+ ['murdered', '1939_40', 75000],
+ ['murdered', '1940_41', 100000],
+ ['murdered', '1941_42', 116000],
+ ['murdered', '1942_43', 133000],
+ ['murdered', '1943_44', 82000],
+ ['murdered', '1944_45', None],
+ ['deaths in prisons & camps', '1939_40', 69000],
+ ['deaths in prisons & camps', '1940_41', 210000],
+ ['deaths in prisons & camps', '1941_42', 220000],
+ ['deaths in prisons & camps', '1942_43', 266000],
+ ['deaths in prisons & camps', '1943_44', 381000],
+ ['deaths in prisons & camps', '1944_45', None],
+ ['deaths outside of prisons & camps', '1940_41', 42000],
+ ['deaths outside of prisons & camps', '1941_42', 71000],
+ ['deaths outside of prisons & camps', '1942_43', 142000],
+ ['deaths outside of prisons & camps', '1943_44', 218000],
+ ['deaths outside of prisons & camps', '1944_45', None],
+ ['murdered in eastern regions', '1944_45', 100000],
+ ['deaths other countries', '1944_45', 2000]]"
+nu-2,how long did it take for the new york americans to win the national cup after 1936?,17 years,New York Americans (soccer),"year | division | league | reg_season | playoffs | national_cup
+1931 | 1 | asl | 6th (fa) | no playoff | n/a
+1932-sp | 1 | asl | 5th? | no playoff | 1st round
+1932-fa | 1 | asl | 3rd | no playoff | n/a
+1933-sp | 1 | asl | ? | ? | final
+1933/34 | n/a | asl | 2nd | no playoff | ?
+1934/35 | n/a | asl | 2nd | no playoff | ?
+1935/36 | n/a | asl | 1st | champion (no playoff) | ?
+1936/37 | n/a | asl | 5th, national | did not qualify | champion
+1937/38 | n/a | asl | 3rd(t), national | 1st round | ?
+1938/39 | n/a | asl | 4th, national | did not qualify | ?
+1939/40 | n/a | asl | 4th | no playoff | ?
+1940/41 | n/a | asl | 6th | no playoff | ?
+1941/42 | n/a | asl | 3rd | no playoff | ?
+1942/43 | n/a | asl | 6th | no playoff | ?
+1943/44 | n/a | asl | 9th | no playoff | ?
+1944/45 | n/a | asl | 9th | no playoff | ?
+1945/46 | n/a | asl | 5th | no playoff | ?
+1946/47 | n/a | asl | 6th | no playoff | ?
+1947/48 | n/a | asl | 6th | no playoff | ?
+1948/49 | n/a | asl | 1st(t) | finals | ?
+1949/50 | n/a | asl | 3rd | no playoff | ?
+1950/51 | n/a | asl | 5th | no playoff | ?
+1951/52 | n/a | asl | 6th | no playoff | ?
+1952/53 | n/a | asl | 6th | no playoff | semifinals
+1953/54 | n/a | asl | 1st | champion (no playoff) | champion
+1954/55 | n/a | asl | 8th | no playoff | ?
+1955/56 | n/a | asl | 6th | no playoff | ?","normalized_table = [['year', 'division', 'league', 'reg_season', 'playoffs', 'national_cup'],
+['1931', '1', 'asl', '6th', 'no playoff', ''],
+['1932-sp', '1', 'asl', '5th', 'no playoff', '1st round'],
+['1932-fa', '1', 'asl', '3rd', 'no playoff', ''],
+['1933-sp', '1', 'asl', '', '', 'final'],
+['1933/34', '', 'asl', '2nd', 'no playoff', ''],
+['1934/35', '', 'asl', '2nd', 'no playoff', ''],
+['1935/36', '', 'asl', '1st', 'champion', ''],
+['1936/37', '', 'asl', '5th, national', 'did not qualify', 'champion'],
+['1937/38', '', 'asl', '3rd(t), national', '1st round', ''],
+['1938/39', '', 'asl', '4th, national', 'did not qualify', ''],
+['1939/40', '', 'asl', '4th', 'no playoff', ''],
+['1940/41', '', 'asl', '6th', 'no playoff', ''],
+['1941/42', '', 'asl', '3rd', 'no playoff', ''],
+['1942/43', '', 'asl', '6th', 'no playoff', ''],
+['1943/44', '', 'asl', '9th', 'no playoff', ''],
+['1944/45', '', 'asl', '9th', 'no playoff', ''],
+['1945/46', '', 'asl', '5th', 'no playoff', ''],
+['1946/47', '', 'asl', '6th', 'no playoff', ''],
+['1947/48', '', 'asl', '6th', 'no playoff', ''],
+['1948/49', '', 'asl', '1st(t)', 'finals', ''],
+['1949/50', '', 'asl', '3rd', 'no playoff', ''],
+['1950/51', '', 'asl', '5th', 'no playoff', ''],
+['1951/52', '', 'asl', '6th', 'no playoff', ''],
+['1952/53', '', 'asl', '6th', 'no playoff', 'semifinals'],
+['1953/54', '', 'asl', '1st', 'champion', 'champion'],
+['1954/55', '', 'asl', '8th', 'no playoff', ''],
+['1955/56', '', 'asl', '6th', 'no playoff', '']]"
+nu-3,alfie's birthday party aired on january 19. what was the airdate of the next episode?,"january 26, 1995",My Brother and Me,"series__ | season__ | title | notes | original_air_date
+1 | 1 | ""the charity"" | alfie, dee dee, and melanie are supposed to be helping their parents at a carnival by working the dunking booth. when goo arrives and announces their favorite basketball player, kendall gill, is at the comic book store signing autographs, the boys decide to ditch the carnival. this leaves melanie and jennifer to work the booth and both end up soaked. but the comic book store is packed and much to alfie and dee dee's surprise their father has to interview kendall gill. goo comes up with a plan to get alfie and dee dee, gill's signature before getting them back at the local carnival, but are caught by roger. all ends well for everyone except alfie and goo, who must endure being soaked at the dunking booth. | 1994-10-15
+2 | 1 | ""the practical joke war"" | alfie and goo unleash harsh practical jokes on dee dee and his friends. dee dee, harry and donnel retaliate by pulling a practical joke on alfie with the trick gum. after alfie and goo get even with dee dee and his friends, melanie and deonne help them get even. soon, alfie and goo declare a practical joke war on melanie, dee dee and their friends. this eventually stops when roger and jennifer end up on the wrong end of the practical joke war after being announced as the winner of a magazine contest for best family of 2024. they set their children straight for their behavior and will have a talk with their friends' parents as well. | 1994-10-22
+3 | 1 | ""2024-w17-we aunt helen came"" | the boy's mother, jennifer, leaves for 2024-w17-we and she leaves the father, roger, in charge. however, he lets the kids run wild. alfie and dee dee's aunt helen then comes to oversee the house until jennifer gets back. meanwhile, alfie throws a basketball at goo, which hits him in the head, giving him temporary amnesia. in this case of memory loss, goo acts like a nerd, does homework on a weekend, wants to be called milton instead of goo, and he even calls alfie alfred. he is much nicer to deonne and dee dee, but is somewhat rude to melanie. the only thing that will reverse this is another hit in the head. | 1994-11-1
+4 | 1 | ""robin hood play"" | alfie's school is performing the play robin hood and alfie is chosen to play the part of robin hood. alfie is excited at this prospect, but he does not want to wear tights because he feels that tights are for girls. however, he reconsiders his stance on tights when dee dee wisely tells him not to let that affect his performance as robin hood. | 1994-11-9
+5 | 1 | ""basketball tryouts"" | alfie tries out for the basketball team and doesn't make it even after showing off his basketball skills. however, harry, dee dee and donnell make the team. alfie is depressed and doesn't want to attend the celebration party. however, goo sets him straight by telling him it was his own fault for not being a team player and kept the ball to himself. | 1994-11-30
+6 | 1 | ""where's the snake?"" | dee dee gets a snake, but he doesn't want his parents to know about it. however, things get complicated when he loses the snake in the house. meanwhile, melanie and deonne are assigned by their teacher to take care of her beloved pet rabbit, duchess for 2024-w17-we. this causes both alfie and dee dee to be concerned for duchess when they learn from goo that snakes eat rabbits. | 1994-12-6
+7 | 1 | ""dee dee's girlfriend"" | a girl kisses dee dee in front of harry and donnell. they promise not to tell, but it slips and everyone laughs at dee dee. dee dee ends his friendship with harry and donnell and hangs out with alfie and goo. soon, alfie and goo finally get the 3 to talk to each other. | 1994-12-15
+8 | 1 | ""dee dee's haircut"" | dee dee wants to get a hair cut by cool doctor money and have his name shaved in his head. his parents will not let him do this, but goo offers to do it for 5 dollars. however, when goo messes up dee dee's hair and spells his name wrong, his parents find out the truth and dee dee is forced to have his hair shaved off. in addition to that, his friends tease him about his bald head, causing a fight between the boys along with goo and alfie. in a b-story, alfie and goo try to play a practical joke on dee dee involving a jalapeño lollipop. it backfires when roger is the unwitting victim and it leads to him chasing the boys around. | 1994-12-20
+9 | 1 | ""dee dee runs away"" | dee dee has been waiting to go to a monster truck show p1w. but alfie and goo's baseball team makes it to the tournament and everyone forgets about the monster truck show. dee dee feels ignored and runs away from home with harry and donnell. it's up to alfie and goo to try and convince him to come home. | 1994-12-28
+10 | 1 | '""donnell's birthday party"" | donnell is having a birthday party and brags about all the dancing and cool people who will be there. harry says that he knows how to dance so dee dee feels left out because he doesn't know how to dance. later on, harry admits to dee dee alone that he can't dance either and only lied so he doesn't get teased by donnell. so, they ask alfie to help them learn how to dance. he refuses to help because dee dee past_ref told on him to roger about his and goo's plans to cheat on their math quiz. alfie eventually agrees, after melanie threatens to refuse to help him with his math homework. soon dee dee and harry learn donnell's secret and were forced to teach him how to dance. after the party, dee dee tells alfie about it and finds out that he knew donnell was a liar. | 1995-1-5
+11 | 1 | ""alfie's birthday party"" | goo and melanie pretend they are dating and they leave alfie out of everything. he ends up bored and starts hanging out with dee dee and his friends. however, it just isn't the same without goo. later on, alfie learns about the surprise birthday party that goo and melanie had been planning with everyone else (except for dee dee, who couldn't know since he would've told). | 1995-1-19
+12 | 1 | ""candy sale"" | alfie and goo are selling candy to make money for some expensive jackets, but they are not having any luck. however, when dee dee start helping them sell candy, they start to make money and asks him to help them out. soon goo and alfie finds themselves confronted by melanie, deonne, harry and donnell for dee dee's share of the money. they soon learn the boys have used the money to buy 3 expensive jackets for themselves and dee dee as a token of their gratitude. they quickly apologize to alfie and goo for their quick judgment. | 1995-1-26
+13 | 1 | ""the big bully"" | dee dee gets beat up at school and his friends try to teach him how to fight back. goo, however, tells him to bluff, but the plan backfires and dee dee gets hit because of it. when alfie confronts the bully, he learns that dee dee was picked on by a girl. alfie and goo decide to confront her. however, when some of their classmates, who happen to be the girls' siblings, learn they are bullying their sister, they intervene. | 1995-2-2","normalized_table = [
+    [""series__"", ""season__"", ""title"", ""notes"", ""original_air_date""],
+    [1, 1, ""the charity"", ""alfie, dee dee, and melanie are supposed to be helping their parents at a carnival by working the dunking booth. when goo arrives and announces their favorite basketball player, kendall gill, is at the comic book store signing autographs, the boys decide to ditch the carnival. this leaves melanie and jennifer to work the booth and both end up soaked. but the comic book store is packed and much to alfie and dee dee's surprise their father has to interview kendall gill. goo comes up with a plan to get alfie and dee dee, gill's signature before getting them back at the local carnival, but are caught by roger. all ends well for everyone except alfie and goo, who must endure being soaked at the dunking booth."", ""1994-10-15""],
+    [2, 1, ""the practical joke war"", ""alfie and goo unleash harsh practical jokes on dee dee and his friends. dee dee, harry and donnel retaliate by pulling a practical joke on alfie with the trick gum. after alfie and goo get even with dee dee and his friends, melanie and deonne help them get even. soon, alfie and goo declare a practical joke war on melanie, dee dee and their friends. this eventually stops when roger and jennifer end up on the wrong end of the practical joke war after being announced as the winner of a magazine contest for best family of 2024. they set their children straight for their behavior and will have a talk with their friends' parents as well."", ""1994-10-22""],
+    [3, 1, ""2024-w17-we aunt helen came"", ""the boy's mother, jennifer, leaves for 2024-w17-we and she leaves the father, roger, in charge. however, he lets the kids run wild. alfie and dee dee's aunt helen then comes to oversee the house until jennifer gets back. meanwhile, alfie throws a basketball at goo, which hits him in the head, giving him temporary amnesia. in this case of memory loss, goo acts like a nerd, does homework on a weekend, wants to be called milton instead of goo, and he even calls alfie alfred. he is much nicer to deonne and dee dee, but is somewhat rude to melanie. the only thing that will reverse this is another hit in the head."", ""1994-11-1""],
+    [4, 1, ""robin hood play"", ""alfie's school is performing the play robin hood and alfie is chosen to play the part of robin hood. alfie is excited at this prospect, but he does not want to wear tights because he feels that tights are for girls. however, he reconsiders his stance on tights when dee dee wisely tells him not to let that affect his performance as robin hood."", ""1994-11-9""],
+    [5, 1, ""basketball tryouts"", ""alfie tries out for the basketball team and doesn't make it even after showing off his basketball skills. however, harry, dee dee and donnell make the team. alfie is depressed and doesn't want to attend the celebration party. however, goo sets him straight by telling him it was his own fault for not being a team player and kept the ball to himself."", ""1994-11-30""],
+    [6, 1, ""where's the snake?"", ""dee dee gets a snake, but he doesn't want his parents to know about it. however, things get complicated when he loses the snake in the house. meanwhile, melanie and deonne are assigned by their teacher to take care of her beloved pet rabbit, duchess for 2024-w17-we. this causes both alfie and dee dee to be concerned for duchess when they learn from goo that snakes eat rabbits."", ""1994-12-6""],
+    [7, 1, ""dee dee's girlfriend"", ""a girl kisses dee dee in front of harry and donnell. they promise not to tell, but it slips and everyone laughs at dee dee. dee dee ends his friendship with harry and donnell and hangs out with alfie and goo. soon, alfie and goo finally get the 3 to talk to each other."", ""1994-12-15""],
+    [8, 1, ""dee dee's haircut"", ""dee dee wants to get a hair cut by cool doctor money and have his name shaved in his head. his parents will not let him do this, but goo offers to do it for 5 dollars. however, when goo messes up dee dee's hair and spells his name wrong, his parents find out the truth and dee dee is forced to have his hair shaved off. in addition to that, his friends tease him about his bald head, causing a fight between the boys along with goo and alfie. in a b-story, alfie and goo try to play a practical joke on dee dee involving a jalapeño lollipop. it backfires when roger is the unwitting victim and it leads to him chasing the boys around."", ""1994-12-20""],
+    [9, 1, ""dee dee runs away"", ""dee dee has been waiting to go to a monster truck show p1w. but alfie and goo's baseball team makes it to the tournament and everyone forgets about the monster truck show. dee dee feels ignored and runs away from home with harry and donnell. it's up to alfie and goo to try and convince him to come home."", ""1994-12-28""],
+    [10, 1, ""donnell's birthday party"", ""donnell is having a birthday party and brags about all the dancing and cool people who will be there. harry says that he knows how to dance so dee dee feels left out because he doesn't know how to dance. later on, harry admits to dee dee alone that he can't dance either and only lied so he doesn't get teased by donnell. so, they ask alfie to help them learn how to dance. he refuses to help because dee dee past_ref told on him to roger about his and goo's plans to cheat on their math quiz. alfie eventually agrees, after melanie threatens to refuse to help him with his math homework. soon dee dee and harry learn donnell's secret and were forced to teach him how to dance. after the party, dee dee tells alfie about it and finds out that he knew donnell was a liar."", ""1995-1-5""],
+    [11, 1, ""alfie's birthday party"", ""goo and melanie pretend they are dating and they leave alfie out of everything. he ends up bored and starts hanging out with dee dee and his friends. however, it just isn't the same without goo. later on, alfie learns about the surprise birthday party that goo and melanie had been planning with everyone else (except for dee dee, who couldn't know since he would've told)."", ""1995-1-19""],
+    [12, 1, ""candy sale"", ""alfie and goo are selling candy to make money for some expensive jackets, but they are not having any luck. however, when dee dee start helping them sell candy, they start to make money and asks him to help them out. soon goo and alfie finds themselves confronted by melanie, deonne, harry and donnell for dee dee's share of the money. they soon learn the boys have used the money to buy 3 expensive jackets for themselves and dee dee as a token of their gratitude. they quickly apologize to alfie and goo for their quick judgment."", ""1995-1-26""],
+    [13, 1, ""the big bully"", ""dee dee gets beat up at school and his friends try to teach him how to fight back. goo, however, tells him to bluff, but the plan backfires and dee dee gets hit because of it. when alfie confronts the bully, he learns that dee dee was picked on by a girl. alfie and goo decide to confront her. however, when some of their classmates, who happen to be the girls' siblings, learn they are bullying their sister, they intervene."", ""1995-2-2""]
+]"
+nu-4,what is the number of 1st place finishes across all events?,17,Sky Track Cycling,"date | competition | location | country | event | placing | rider | nationality
+2008-10-31 | 2008–9 world cup | manchester | united kingdom | sprint | 1 | victoria pendleton | gbr
+2008-10-31 | 2008–9 world cup | manchester | united kingdom | keirin | 2 | jason kenny | gbr
+2008-11-1 | 2008–9 world cup | manchester | united kingdom | sprint | 1 | jason kenny | gbr
+2008-11-1 | 2008–9 world cup | manchester | united kingdom | 500 m time trial | 1 | victoria pendleton | gbr
+2008-11-2 | 2008–9 world cup | manchester | united kingdom | team sprint | 1 | ross edgar | gbr
+2008-11-2 | 2008–9 world cup | manchester | united kingdom | team sprint | 1 | jason kenny | gbr
+2008-11-2 | 2008–9 world cup | manchester | united kingdom | team sprint | 1 | jamie staff | gbr
+2008-11-2 | 2008–9 world cup | manchester | united kingdom | keirin | 1 | victoria pendleton | gbr
+2008-11-2 | 5th international keirin event | manchester | united kingdom | international keirin | 2 | ross edgar | gbr
+2009-2-13 | 2008–9 world cup | copenhagen | denmark | team sprint | 1 | chris hoy | gbr
+2009-2-13 | 2008–9 world cup | copenhagen | denmark | team sprint | 1 | jason kenny | gbr
+2009-2-13 | 2008–9 world cup | copenhagen | denmark | team sprint | 1 | jamie staff | gbr
+2009-2-13 | 2008–9 world cup | copenhagen | denmark | sprint | 1 | victoria pendleton | gbr
+2009-10-30 | 2009–10 world cup | manchester | united kingdom | keirin | 1 | chris hoy | gbr
+2009-10-30 | 2009–10 world cup | manchester | united kingdom | sprint | 1 | victoria pendleton | gbr
+2009-10-30 | 2009–10 world cup | manchester | united kingdom | sprint | 1 | chris hoy | gbr
+2009-10-30 | 2009–10 world cup | manchester | united kingdom | 500 m time trial | 2 | victoria pendleton | gbr
+2009-11-1 | 2009–10 world cup | manchester | united kingdom | team sprint | 1 | ross edgar | gbr
+2009-11-1 | 2009–10 world cup | manchester | united kingdom | team sprint | 1 | chris hoy | gbr
+2009-11-1 | 2009–10 world cup | manchester | united kingdom | team sprint | 1 | jamie staff | gbr","normalized_table = [['date', 'competition', 'location', 'country', 'event', 'placing', 'rider', 'nationality'],
+['2008-10-31', '2008–9 world cup', 'manchester', 'united kingdom', 'sprint', '1', 'victoria pendleton', 'gbr'],
+['2008-10-31', '2008–9 world cup', 'manchester', 'united kingdom', 'keirin', '2', 'jason kenny', 'gbr'],
+['2008-11-1', '2008–9 world cup', 'manchester', 'united kingdom', 'sprint', '1', 'jason kenny', 'gbr'],
+['2008-11-1', '2008–9 world cup', 'manchester', 'united kingdom', '500 m time trial', '1', 'victoria pendleton', 'gbr'],
+['2008-11-2', '2008–9 world cup', 'manchester', 'united kingdom', 'team sprint', '1', 'ross edgar', 'gbr'],
+['2008-11-2', '2008–9 world cup', 'manchester', 'united kingdom', 'team sprint', '1', 'jason kenny', 'gbr'],
+['2008-11-2', '2008–9 world cup', 'manchester', 'united kingdom', 'team sprint', '1', 'jamie staff', 'gbr'],
+['2008-11-2', '2008–9 world cup', 'manchester', 'united kingdom', 'keirin', '1', 'victoria pendleton', 'gbr'],
+['2008-11-2', '5th international keirin event', 'manchester', 'united kingdom', 'international keirin', '2', 'ross edgar', 'gbr'],
+['2009-2-13', '2008–9 world cup', 'copenhagen', 'denmark', 'team sprint', '1', 'chris hoy', 'gbr'],
+['2009-2-13', '2008–9 world cup', 'copenhagen', 'denmark', 'team sprint', '1', 'jason kenny', 'gbr'],
+['2009-2-13', '2008–9 world cup', 'copenhagen', 'denmark', 'team sprint', '1', 'jamie staff', 'gbr'],
+['2009-2-13', '2008–9 world cup', 'copenhagen', 'denmark', 'sprint', '1', 'victoria pendleton', 'gbr'],
+['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', 'keirin', '1', 'chris hoy', 'gbr'],
+['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', 'sprint', '1', 'victoria pendleton', 'gbr'],
+['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', 'sprint', '1', 'chris hoy', 'gbr'],
+['2009-10-30', '2009–10 world cup', 'manchester', 'united kingdom', '500 m time trial', '2', 'victoria pendleton', 'gbr'],
+['2009-11-1', '2009–10 world cup', 'manchester', 'united kingdom', 'team sprint', '1', 'ross edgar', 'gbr'],
+['2009-11-1', '2009–10 world cup', 'manchester', 'united kingdom', 'team sprint', '1', 'chris hoy', 'gbr'],
+['2009-11-1', '2009–10 world cup', 'manchester', 'united kingdom', 'team sprint', '1', 'jamie staff', 'gbr']]"
+nu-5,in which competition did hopley finish fist?,world junior championships,Hannes Hopley,"year | competition | venue | position | event | notes
+2000 | world junior championships | santiago, chile | 1st | discus throw | 59.51 m
+2003 | all-africa games | abuja, nigeria | 5th | shot put | 17.76 m
+2003 | all-africa games | abuja, nigeria | 2nd | discus throw | 62.86 m
+2004 | african championships | brazzaville, republic of the congo | 2nd | discus throw | 63.5 m
+2004 | olympic games | athens, greece | 8th | discus throw | 62.58 m
+2006 | commonwealth games | melbourne, australia | 7th | shot put | 18.44 m
+2006 | commonwealth games | melbourne, australia | 4th | discus throw | 60.99 m
+2007 | all-africa games | algiers, algeria | 3rd | discus throw | 57.79 m
+2008 | african championships | addis ababa, ethiopia | 2nd | discus throw | 56.98 m","normalized_table = [['year', 'competition', 'venue', 'position', 'event', 'notes'],
+                      [2000, 'world junior championships', 'santiago, chile', '1st', 'discus throw', '59.51 m'],
+                      [2003, 'all-africa games', 'abuja, nigeria', '5th', 'shot put', '17.76 m'],
+                      [2003, 'all-africa games', 'abuja, nigeria', '2nd', 'discus throw', '62.86 m'],
+                      [2004, 'african championships', 'brazzaville, republic of the congo', '2nd', 'discus throw', '63.5 m'],
+                      [2004, 'olympic games', 'athens, greece', '8th', 'discus throw', '62.58 m'],
+                      [2006, 'commonwealth games', 'melbourne, australia', '7th', 'shot put', '18.44 m'],
+                      [2006, 'commonwealth games', 'melbourne, australia', '4th', 'discus throw', '60.99 m'],
+                      [2007, 'all-africa games', 'algiers, algeria', '3rd', 'discus throw', '57.79 m'],
+                      [2008, 'african championships', 'addis ababa, ethiopia', '2nd', 'discus throw', '56.98 m']]"
+nu-6,what is the total number of films with the language of kannada listed?,15,Radhika Pandit,"year | film | role | language | notes
+2008 | moggina manasu | chanchala | kannada | filmfare award for best actress - kannada; karnataka state film award for best actress
+2009 | olave jeevana lekkachaara | rukmini | kannada | innovative film award for best actress
+2009 | love guru | kushi | kannada | filmfare award for best actress - kannada
+2010 | krishnan love story | geetha | kannada | filmfare award for best actress - kannada; udaya award for best actress
+2010 | gaana bajaana | radhey | kannada | none
+2011 | hudugaru | gayithri | kannada | nominated, filmfare award for best actress – kannada
+2012 | alemari | neeli | kannada | none
+2012 | breaking news | shraddha | kannada | none
+2012 | addhuri | poorna | kannada | udaya award for best actress; nominated — siima award for best actress; nominated — filmfare award for best actress – kannada
+2012 | 18th cross | punya | kannada | none
+2012 | sagar | kajal | kannada | none
+2012 | drama | nandini | kannada | none
+2013 | kaddipudi | uma | kannada | none
+2013 | dilwala | preethi | kannada | none
+2013 | bahaddoor | anjali | kannada | filming
+2014 | mr. & mrs. ramachari | none | none | announced
+2014 | endendigu | none | none | filming","normalized_table = [
+    ['year', 'film', 'role', 'language', 'notes'],
+    ['2008', 'moggina manasu', 'chanchala', 'kannada', 'filmfare award for best actress - kannada; karnataka state film award for best actress'],
+    ['2009', 'olave jeevana lekkachaara', 'rukmini', 'kannada', 'innovative film award for best actress'],
+    ['2009', 'love guru', 'kushi', 'kannada', 'filmfare award for best actress - kannada'],
+    ['2010', 'krishnan love story', 'geetha', 'kannada', 'filmfare award for best actress - kannada; udaya award for best actress'],
+    ['2010', 'gaana bajaana', 'radhey', 'kannada', 'none'],
+    ['2011', 'hudugaru', 'gayithri', 'kannada', 'nominated, filmfare award for best actress – kannada'],
+    ['2012', 'alemari', 'neeli', 'kannada', 'none'],
+    ['2012', 'breaking news', 'shraddha', 'kannada', 'none'],
+    ['2012', 'addhuri', 'poorna', 'kannada', 'udaya award for best actress; nominated — siima award for best actress; nominated — filmfare award for best actress – kannada'],
+    ['2012', '18th cross', 'punya', 'kannada', 'none'],
+    ['2012', 'sagar', 'kajal', 'kannada', 'none'],
+    ['2012', 'drama', 'nandini', 'kannada', 'none'],
+    ['2013', 'kaddipudi', 'uma', 'kannada', 'none'],
+    ['2013', 'dilwala', 'preethi', 'kannada', 'none'],
+    ['2013', 'bahaddoor', 'anjali', 'kannada', 'filming'],
+    ['2014', 'mr. & mrs. ramachari', 'none', 'none', 'announced'],
+    ['2014', 'endendigu', 'none', 'none', 'filming']
+]"
+nu-7,what was the number of people attending the toros mexico vs. monterrey flash game?,363,2013–14 Toros Mexico season,"game | day | date | kickoff | opponent | results_score | results_record | location | attendance
+1 | sunday | november 10 | t15:5 | at las vegas legends | l 3–7 | 0–1 | orleans arena | 1836
+2 | sunday | november 17 | t13:5 | monterrey flash | l 6–10 | 0–2 | unisantos park | 363
+3 | saturday | november 23 | t19:5 | at bay area rosal | w 10–7 | 1–2 | cabernet indoor sports | 652
+4 | sunday | december 1 | t13:5 | ontario fury | w 18–4 | 2–2 | unisantos park | 207
+5 | saturday | december 14 | t19:5 | at sacramento surge | w 7–6 (ot) | 3–2 | estadio azteca soccer arena | 215
+6 | sunday | december 15 | t18:0 | at bay area rosal | l 8–9 (ot) | 3–3 | cabernet indoor sports | 480
+7 | sunday | december 22 | t13:5 | turlock express | w 16–8 | 4–3 | unisantos park | 218
+8 | saturday | january 4 | t19:5 | at ontario fury | l 5–12 | 4–4 | citizens business bank arena | 2653
+9 | sunday | january 5 | t13:5 | san diego sockers | l 7–12 | 4–5 | unisantos park | 388
+10 | sunday | january 12 | t13:5 | las vegas legends | w 10–7 | 5–5 | unisantos park | 343
+11 | sunday | january 19 | t13:5 | bay area rosal | w 17–7 | 6–5 | unisantos park | 219
+12 | sunday | january 26 | t13:5 | sacramento surge | w 20–6 | 7–5 | unisantos park | 224
+13 | saturday | february 1 | t19:5 | at san diego sockers | l 5–6 | 7–6 | valley view casino center | 4954
+14 | friday | february 7 | t19:5 | at turlock express | l 6–9 | 7–7 | turlock soccer complex | 673
+15 | saturday | february 8 | t19:5 | at sacramento surge | w 10–6 | 8–7 | estadio azteca soccer arena | 323
+16 | saturday | february 15♥ | t17:5 | bay area rosal | w 27–2 | 9–7 | unisantos park | 118","normalized_table = [['game', 'day', 'date', 'kickoff', 'opponent', 'results_score', 'results_record', 'location', 'attendance'],
+['1', 'sunday', '2013-11-10', '15:5', 'las vegas legends', 'l 3–7', '0–1', 'orleans arena', '1836'],
+['2', 'sunday', '2013-11-17', '13:5', 'monterrey flash', 'l 6–10', '0–2', 'unisantos park', '363'],
+['3', 'saturday', '2013-11-23', '19:5', 'bay area rosal', 'w 10–7', '1–2', 'cabernet indoor sports', '652'],
+['4', 'sunday', '2013-12-01', '13:5', 'ontario fury', 'w 18–4', '2–2', 'unisantos park', '207'],
+['5', 'saturday', '2013-12-14', '19:5', 'sacramento surge', 'w 7–6 (ot)', '3–2', 'estadio azteca soccer arena', '215'],
+['6', 'sunday', '2013-12-15', '18:0', 'bay area rosal', 'l 8–9 (ot)', '3–3', 'cabernet indoor sports', '480'],
+['7', 'sunday', '2013-12-22', '13:5', 'turlock express', 'w 16–8', '4–3', 'unisantos park', '218'],
+['8', 'saturday', '2014-01-04', '19:5', 'ontario fury', 'l 5–12', '4–4', 'citizens business bank arena', '2653'],
+['9', 'sunday', '2014-01-05', '13:5', 'san diego sockers', 'l 7–12', '4–5', 'unisantos park', '388'],
+['10', 'sunday', '2014-01-12', '13:5', 'las vegas legends', 'w 10–7', '5–5', 'unisantos park', '343'],
+['11', 'sunday', '2014-01-19', '13:5', 'bay area rosal', 'w 17–7', '6–5', 'unisantos park', '219'],
+['12', 'sunday', '2014-01-26', '13:5', 'sacramento surge', 'w 20–6', '7–5', 'unisantos park', '224'],
+['13', 'saturday', '2014-02-01', '19:5', 'san diego sockers', 'l 5–6', '7–6', 'valley view casino center', '4954'],
+['14', 'friday', '2014-02-07', '19:5', 'turlock express', 'l 6–9', '7–7', 'turlock soccer complex', '673'],
+['15', 'saturday', '2014-02-08', '19:5', 'sacramento surge', 'w 10–6', '8–7', 'estadio azteca soccer arena', '323'],
+['16', 'saturday', '2014-02-15', '17:5', 'bay area rosal', 'w 27–2', '9–7', 'unisantos park', '118']]"
+nu-8,what time period had no shirt sponsor?,1982-1985,Cheltenham Town F.C.,"year | kit_manufacturer | shirt_sponsor | back_of_shirt_sponsor | short_sponsor
+1977–1978 | none | national express | none | none
+1982–1985 | umbro | none | none | none
+1985–1986 | umbro | whitbread | none | none
+1986–1988 | henson | duraflex | none | none
+1988–1989 | none | gulf oil | none | none
+1991–1993 | technik | gulf oil | none | none
+1993–1994 | club sport | gulf oil | none | none
+1994–1995 | klūb sport | empress | none | none
+1995–1996 | matchwinner | empress | none | none
+1996–1997 | uk | endsleigh insurance | none | none
+1997–1999 | errea | endsleigh insurance | none | none
+1999–2004 | errea | towergate insurance | none | none
+2004–2008 | errea | bence building merchants | none | none
+2008– | errea | mira showers | none | none
+2009–2011 | errea | mira showers | psu technology group | none
+2011–2013 | errea | mira showers | barr stadia | gloucestershire echo
+2013– | errea | mira showers | gloucestershire college | gloucestershire echo","normalized_table = [
+    [""year_start"", ""year_end"", ""kit_manufacturer"", ""shirt_sponsor"", ""back_of_shirt_sponsor"", ""short_sponsor""],
+    [""1977"", ""1978"", ""none"", ""national express"", ""none"", ""none""],
+    [""1982"", ""1985"", ""umbro"", ""none"", ""none"", ""none""],
+    [""1985"", ""1986"", ""umbro"", ""whitbread"", ""none"", ""none""],
+    [""1986"", ""1988"", ""henson"", ""duraflex"", ""none"", ""none""],
+    [""1988"", ""1989"", ""none"", ""gulf oil"", ""none"", ""none""],
+    [""1991"", ""1993"", ""technik"", ""gulf oil"", ""none"", ""none""],
+    [""1993"", ""1994"", ""club sport"", ""gulf oil"", ""none"", ""none""],
+    [""1994"", ""1995"", ""klūb sport"", ""empress"", ""none"", ""none""],
+    [""1995"", ""1996"", ""matchwinner"", ""empress"", ""none"", ""none""],
+    [""1996"", ""1997"", ""uk"", ""endsleigh insurance"", ""none"", ""none""],
+    [""1997"", ""1999"", ""errea"", ""endsleigh insurance"", ""none"", ""none""],
+    [""1999"", ""2004"", ""errea"", ""towergate insurance"", ""none"", ""none""],
+    [""2004"", ""2008"", ""errea"", ""bence building merchants"", ""none"", ""none""],
+    [""2008"", """", ""errea"", ""mira showers"", ""none"", ""none""],
+    [""2009"", ""2011"", ""errea"", ""mira showers"", ""psu technology group"", ""none""],
+    [""2011"", ""2013"", ""errea"", ""mira showers"", ""barr stadia"", ""gloucestershire echo""],
+    [""2013"", """", ""errea"", ""mira showers"", ""gloucestershire college"", ""gloucestershire echo""]
+]"
+nu-9,when was his first 1st place record?,2000,Marek Plawgo,"year | competition | venue | position | event | notes
+1999 | european junior championships | riga, latvia | 4th | 400 m hurdles | 52.17
+2000 | world junior championships | santiago, chile | 1st | 400 m hurdles | 49.23
+2001 | world championships | edmonton, canada | 18th (sf) | 400 m hurdles | 49.8
+2001 | universiade | beijing, china | 8th | 400 m hurdles | 49.68
+2002 | european indoor championships | vienna, austria | 1st | 400 m | 45.39 (cr, nr)
+2002 | european indoor championships | vienna, austria | 1st | 4x400 m relay | 3:5.5 (cr)
+2002 | european championships | munich, germany | 4th | 400 m | 45.4
+2002 | european championships | munich, germany | 8th | 4x400 m relay | dq
+2003 | world indoor championships | birmingham, united kingdom | 7th (sf) | 400 m | 46.82
+2003 | world indoor championships | birmingham, united kingdom | 3rd | 4x400 m relay | 3:6.61
+2003 | european u23 championships | bydgoszcz, poland | 1st | 400 m hurdles | 48.45
+2003 | european u23 championships | bydgoszcz, poland | 1st | 4x400 m relay | 3:3.32
+2004 | olympic games | athens, greece | 6th | 400 m hurdles | 49
+2004 | olympic games | athens, greece | 10th (h) | 4x400 m relay | 3:3.69
+2006 | european championships | gothenburg, sweden | 2nd | 400 m hurdles | 48.71
+2007 | world championships | osaka, japan | 3rd | 400 m hurdles | 48.12 (nr)
+2007 | world championships | osaka, japan | 3rd | 4x400 m relay | 3:0.05
+2008 | olympic games | beijing, china | 6th | 400 m hurdles | 48.42
+2008 | olympic games | beijing, china | 7th | 4x400 m relay | 3:0.32
+2012 | european championships | helsinki, finland | 18th (sf) | 400 m hurdles | 50.77","normalized_table = [['year', 'competition', 'venue', 'position', 'event', 'notes'],
+['1999', 'european junior championships', 'riga, latvia', '4th', '400 m hurdles', '52.17'],
+['2000', 'world junior championships', 'santiago, chile', '1st', '400 m hurdles', '49.23'],
+['2001', 'world championships', 'edmonton, canada', '18th (sf)', '400 m hurdles', '49.8'],
+['2001', 'universiade', 'beijing, china', '8th', '400 m hurdles', '49.68'],
+['2002', 'european indoor championships', 'vienna, austria', '1st', '400 m', '45.39 (cr, nr)'],
+['2002', 'european indoor championships', 'vienna, austria', '1st', '4x400 m relay', '3:5.5 (cr)'],
+['2002', 'european championships', 'munich, germany', '4th', '400 m', '45.4'],
+['2002', 'european championships', 'munich, germany', '8th', '4x400 m relay', 'dq'],
+['2003', 'world indoor championships', 'birmingham, united kingdom', '7th (sf)', '400 m', '46.82'],
+['2003', 'world indoor championships', 'birmingham, united kingdom', '3rd', '4x400 m relay', '3:6.61'],
+['2003', 'european u23 championships', 'bydgoszcz, poland', '1st', '400 m hurdles', '48.45'],
+['2003', 'european u23 championships', 'bydgoszcz, poland', '1st', '4x400 m relay', '3:3.32'],
+['2004', 'olympic games', 'athens, greece', '6th', '400 m hurdles', '49'],
+['2004', 'olympic games', 'athens, greece', '10th (h)', '4x400 m relay', '3:3.69'],
+['2006', 'european championships', 'gothenburg, sweden', '2nd', '400 m hurdles', '48.71'],
+['2007', 'world championships', 'osaka, japan', '3rd', '400 m hurdles', '48.12 (nr)'],
+['2007', 'world championships', 'osaka, japan', '3rd', '4x400 m relay', '3:0.05'],
+['2008', 'olympic games', 'beijing, china', '6th', '400 m hurdles', '48.42'],
+['2008', 'olympic games', 'beijing, china', '7th', '4x400 m relay', '3:0.32'],
+['2012', 'european championships', 'helsinki, finland', '18th (sf)', '400 m hurdles', '50.77']]"
+nu-10,in which three consecutive years was the record the same?,"2004,2005,2006",List of NFC champions,"season | team | record | head_coach | quarterback | leading_rusher | leading_receiver | all_pros | runner_up
+1970 | dallas cowboys | 10–4 | tom landry* | craig morton | duane thomas | bob hayes* | howley | san francisco 49ers
+1971 | dallas cowboys† | 11–3 | tom landry* | roger staubach* | duane thomas | bob hayes* | lilly*, niland, wright* | san francisco 49ers
+1972 | washington redskins | 11–3 | george allen* | billy kilmer | larry brown | charley taylor* | brown, hanburger* | dallas cowboys
+1973 | minnesota vikings | 12–2 | bud grant* | fran tarkenton* | chuck foreman | john gilliam | eller*, page*, yary* | dallas cowboys
+1974 | minnesota vikings | 10–4 | bud grant* | fran tarkenton* | chuck foreman | jim lash | page*, yary* | los angeles rams
+1975 | dallas cowboys | 10–4 | tom landry* | roger staubach* | robert newhouse | drew pearson | none | los angeles rams
+1976 | minnesota vikings | 11–2–1 | bud grant* | fran tarkenton* | chuck foreman | sammy white | yary* | los angeles rams
+1977 | dallas cowboys† | 12–2 | tom landry* | roger staubach* | tony dorsett* | drew pearson | harris, herrera, martin, pearson | minnesota vikings
+1978 | dallas cowboys | 12–4 | tom landry* | roger staubach* | tony dorsett* | tony hill | harris, white* | los angeles rams
+1979 | los angeles rams | 9–7 | ray malavasi | pat haden | wendell tyler | preston dennard | brooks, youngblood* | tampa bay buccaneers
+1980 | philadelphia eagles | 12–4 | dick vermeil | ron jaworski | wilbert montgomery | charlie smith | johnson | dallas cowboys
+1981 | san francisco 49ers† | 13–3 | bill walsh* | joe montana* | ricky patton | dwight clark | dean*, lott* | dallas cowboys
+1982 | washington redskins† | 8–1 | joe gibbs* | joe theismann | john riggins* | charlie brown | moseley | dallas cowboys
+1983 | washington redskins | 14–2 | joe gibbs* | joe theismann | john riggins* | charlie brown | butz, grimm*, jacoby, murphy, nelms, riggins*, theismann | san francisco 49ers
+1984 | san francisco 49ers† | 15–1 | bill walsh* | joe montana* | wendell tyler | dwight clark | fahnhorst | chicago bears
+1985 | chicago bears† | 15–1 | mike ditka* | jim mcmahon | walter payton* | willie gault | covert, dent*, mcmichael, payton*, singletary* | los angeles rams
+1986 | new york giants† | 14–2 | bill parcells* | phil simms | joe morris | mark bavaro | bavaro, landeta, morris, taylor* | washington redskins
+1987 | washington redskins† | 11–4 | joe gibbs* | jay schroeder | george rogers | gary clark | clark, wilburn | minnesota vikings
+1988 | san francisco 49ers† | 10–6 | bill walsh* | joe montana* | roger craig | jerry rice* | craig, rice* | chicago bears
+1989 | san francisco 49ers† | 14–2 | george seifert | joe montana* | roger craig | jerry rice* | cofer, lott*, montana*, rice*, | los angeles rams
+1990 | new york giants† | 13–3 | bill parcells* | phil simms | ottis anderson | stephen baker | johnson, landeta | san francisco 49ers
+1991 | washington redskins† | 14–2 | joe gibbs* | mark rypien | earnest byner | gary clark | green*, lachey | detroit lions
+1992 | dallas cowboys† | 13–3 | jimmy johnson | troy aikman* | emmitt smith* | michael irvin* | novacek, smith* | san francisco 49ers
+1993 | dallas cowboys† | 12–4 | jimmy johnson | troy aikman* | emmitt smith* | michael irvin* | smith*, williams | san francisco 49ers
+1994 | san francisco 49ers† | 13–3 | george seifert | steve young* | ricky watters | jerry rice* | rice*, sanders*, young* | dallas cowboys
+1995 | dallas cowboys† | 12–4 | barry switzer | troy aikman* | emmitt smith* | michael irvin* | newton, smith*, woodson | green bay packers
+1996 | green bay packers† | 13–3 | mike holmgren | brett favre | edgar bennett | antonio freeman | butler, favre | carolina panthers
+1997 | green bay packers | 13–3 | mike holmgren | brett favre | dorsey levens | antonio freeman | butler, favre | san francisco 49ers
+1998 | atlanta falcons | 14–2 | dan reeves | chris chandler | jamal anderson | tony martin | anderson | minnesota vikings
+1999 | st. louis rams† | 13–3 | dick vermeil | kurt warner | marshall faulk* | isaac bruce | carter, faulk*, pace, warner | tampa bay buccaneers
+2000 | new york giants | 12–4 | jim fassel | kerry collins | tiki barber | amani toomer | none | minnesota vikings
+2001 | st. louis rams | 14–2 | mike martz | kurt warner | marshall faulk* | torry holt | faulk*, pace, warner, williams* | philadelphia eagles
+2002 | tampa bay buccaneers† | 12–4 | jon gruden | brad johnson | michael pittman | keyshawn johnson | brooks*, rice, sapp* | philadelphia eagles
+2003 | carolina panthers | 11–5 | john fox | jake delhomme | stephen davis | steve smith | jenkins | philadelphia eagles
+2004 | philadelphia eagles | 13–3 | andy reid | donovan mcnabb | brian westbrook | terrell owens | dawkins, owens, sheppard | atlanta falcons
+2005 | seattle seahawks | 13–3 | mike holmgren | matt hasselbeck | shaun alexander | bobby engram | alexander, hutchinson, jones*, strong | carolina panthers
+2006 | chicago bears | 13–3 | lovie smith | rex grossman | thomas jones | muhsin muhammad | gould, hester, kreutz, urlacher | new orleans saints
+2007 | new york giants† | 10–6 | tom coughlin | eli manning | brandon jacobs | plaxico burress | none | green bay packers
+2008 | arizona cardinals | 9–7 | ken whisenhunt | kurt warner | edgerrin james | larry fitzgerald | fitzgerald | philadelphia eagles
+2009 | new orleans saints† | 13–3 | sean payton | drew brees | pierre thomas | marques colston | evans | minnesota vikings
+2010 | green bay packers† | 10–6 | mike mccarthy | aaron rodgers | brandon jackson | greg jennings | clifton, collins, jennings, matthews, woodson | chicago bears
+2011 | new york giants† | 9–7 | tom coughlin | eli manning | ahmad bradshaw | victor cruz | pierre-paul | san francisco 49ers
+2012 | san francisco 49ers | 11–4–1 | jim harbaugh | colin kaepernick | frank gore | michael crabtree | bowman, goldson, iupati, lee, smith, willis | atlanta falcons
+2013 | seattle seahawks† | 13–3 | pete carroll | russell wilson | marshawn lynch | golden tate | sherman, thomas | san francisco 49ers","normalized_table = [['season', 'team', 'record', 'head_coach', 'quarterback', 'leading_rusher', 'leading_receiver', 'all_pros', 'runner_up'],
+['1970', 'dallas cowboys', '10–4', 'tom landry*', 'craig morton', 'duane thomas', 'bob hayes*', 'howley', 'san francisco 49ers'],
+['1971', 'dallas cowboys†', '11–3', 'tom landry*', 'roger staubach*', 'duane thomas', 'bob hayes*', 'lilly*, niland, wright*', 'san francisco 49ers'],
+['1972', 'washington redskins', '11–3', 'george allen*', 'billy kilmer', 'larry brown', 'charley taylor*', 'brown, hanburger*', 'dallas cowboys'],
+['1973', 'minnesota vikings', '12–2', 'bud grant*', 'fran tarkenton*', 'chuck foreman', 'john gilliam', 'eller*, page*, yary*', 'dallas cowboys'],
+['1974', 'minnesota vikings', '10–4', 'bud grant*', 'fran tarkenton*', 'chuck foreman', 'jim lash', 'page*, yary*', 'los angeles rams'],
+['1975', 'dallas cowboys', '10–4', 'tom landry*', 'roger staubach*', 'robert newhouse', 'drew pearson', 'N/A', 'los angeles rams'],
+['1976', 'minnesota vikings', '11–2–1', 'bud grant*', 'fran tarkenton*', 'chuck foreman', 'sammy white', 'yary*', 'los angeles rams'],
+['1977', 'dallas cowboys†', '12–2', 'tom landry*', 'roger staubach*', 'tony dorsett*', 'drew pearson', 'harris, herrera, martin, pearson', 'minnesota vikings'],
+['1978', 'dallas cowboys', '12–4', 'tom landry*', 'roger staubach*', 'tony dorsett*', 'tony hill', 'harris, white*', 'los angeles rams'],
+['1979', 'los angeles rams', '9–7', 'ray malavasi', 'pat haden', 'wendell tyler', 'preston dennard', 'brooks, youngblood*', 'tampa bay buccaneers'],
+['1980', 'philadelphia eagles', '12–4', 'dick vermeil', 'ron jaworski', 'wilbert montgomery', 'charlie smith', 'johnson', 'dallas cowboys'],
+['1981', 'san francisco 49ers†', '13–3', 'bill walsh*', 'joe montana*', 'ricky patton', 'dwight clark', 'dean*, lott*', 'dallas cowboys'],
+['1982', 'washington redskins†', '8–1', 'joe gibbs*', 'joe theismann', 'john riggins*', 'charlie brown', 'moseley', 'dallas cowboys'],
+['1983', 'washington redskins', '14–2', 'joe gibbs*', 'joe theismann', 'john riggins*', 'charlie brown', 'butz, grimm*, jacoby, murphy, nelms, riggins*', 'san francisco 49ers'],
+['1984', 'san francisco 49ers†', '15–1', 'bill walsh*', 'joe montana*', 'wendell tyler', 'dwight clark', 'fahnhorst', 'chicago bears'],
+['1985', 'chicago bears†', '15–1', 'mike ditka*', 'jim mcmahon', 'walter payton*', 'willie gault', 'covert, dent*, mcmichael, payton*, singletary*', 'los angeles rams'],
+['1986', 'new york giants†', '14–2', 'bill parcells*', 'phil simms', 'joe morris', 'mark bavaro', 'bavaro, landeta, morris, taylor*', 'washington redskins'],
+['1987', 'washington redskins†', '11–4', 'joe gibbs*', 'jay schroeder', 'george rogers', 'gary clark', 'clark, wilburn', 'minnesota vikings'],
+['1988', 'san francisco 49ers†', '10–6', 'bill walsh*', 'joe montana*', 'roger craig', 'jerry rice*', 'craig, rice*', 'chicago bears'],
+['1989', 'san francisco 49ers†', '14–2', 'george seifert', 'joe montana*', 'roger craig', 'jerry rice*', 'cofer, lott*, montana*, rice*', 'los angeles rams'],
+['1990', 'new york giants†', '13–3', 'bill parcells*', 'phil simms', 'ottis anderson', 'stephen baker', 'johnson, landeta', 'san francisco 49ers'],
+['1991', 'washington redskins†', '14–2', 'joe gibbs*', 'mark rypien', 'earnest byner', 'gary clark', 'green*, lachey', 'detroit lions'],
+['1992', 'dallas cowboys†', '13–3', 'jimmy johnson', 'troy aikman*', 'emmitt smith*', 'michael irvin*', 'novacek, smith*', 'san francisco 49ers'],
+['1993', 'dallas cowboys†', '12–4', 'jimmy johnson', 'troy aikman*', 'emmitt smith*', 'michael irvin*', 'smith*, williams', 'san francisco 49ers'],
+['1994', 'san francisco 49ers†', '13–3', 'george seifert', 'steve young*', 'ricky watters', 'jerry rice*', 'rice*, sanders*, young*', 'dallas cowboys'],
+['1995', 'dallas cowboys†', '12–4', 'barry switzer', 'troy aikman*', 'emmitt smith*', 'michael irvin*', 'newton, smith*, woodson', 'green bay packers'],
+['1996', 'green bay packers†', '13–3', 'mike holmgren', 'brett favre', 'edgar bennett', 'antonio freeman', 'butler, favre', 'carolina panthers'],
+['1997', 'green bay packers', '13–3', 'mike holmgren', 'brett favre', 'dorsey levens', 'antonio freeman', 'butler, favre', 'san francisco 49ers'],
+['1998', 'atlanta falcons', '14–2', 'dan reeves', 'chris chandler', 'jamal anderson', 'tony martin', 'anderson', 'minnesota vikings'],
+['1999', 'st. louis rams†', '13–3', 'dick vermeil', 'kurt warner', 'marshall faulk*', 'isaac bruce', 'carter, faulk*, pace, warner', 'tampa bay buccaneers'],
+['2000', 'new york giants', '12–4', 'jim fassel', 'kerry collins', 'tiki barber', 'amani toomer', 'N/A', 'minnesota vikings'],
+['2001', 'st. louis rams', '14–2', 'mike martz', 'kurt warner', 'marshall faulk*', 'torry holt', 'faulk*, pace, warner, williams*', 'philadelphia eagles'],
+['2002', 'tampa bay buccaneers†', '12–4', 'jon gruden', 'brad johnson', 'michael pittman', 'keyshawn johnson', 'brooks*, rice, sapp*', 'philadelphia eagles'],
+['2003', 'carolina panthers', '11–5', 'john fox', 'jake delhomme', 'stephen davis', 'steve smith', 'jenkins', 'philadelphia eagles'],
+['2004', 'philadelphia eagles', '13–3', 'andy reid', 'donovan mcnabb', 'brian westbrook', 'terrell owens', 'dawkins, owens, sheppard', 'atlanta falcons'],
+['2005', 'seattle seahawks', '13–3', 'mike holmgren', 'matt hasselbeck', 'shaun alexander', 'bobby engram', 'alexander, hutchinson, jones*, strong', 'carolina panthers'],
+['2006', 'chicago bears', '13–3', 'lovie smith', 'rex grossman', 'thomas jones', 'muhsin muhammad', 'gould, hester, kreutz, urlacher', 'new orleans saints'],
+['2007', 'new york giants†', '10–6', 'tom coughlin', 'eli manning', 'brandon jacobs', 'plaxico burress', 'N/A', 'green bay packers'],
+['2008', 'arizona cardinals', '9–7', 'ken whisenhunt', 'kurt warner', 'edgerrin james', 'larry fitzgerald', 'fitzgerald', 'philadelphia eagles'],
+['2009', 'new orleans saints†', '13–3', 'sean payton', 'drew brees', 'pierre thomas', 'marques colston', 'evans', 'minnesota vikings'],
+['2010', 'green bay packers†', '10–6', 'mike mccarthy', 'aaron rodgers', 'brandon jackson', 'greg jennings', 'clifton, collins, jennings, matthews, woodson', 'chicago bears'],
+['2011', 'new york giants†', '9–7', 'tom coughlin', 'eli manning', 'ahmad bradshaw', 'victor cruz', 'pierre-paul', 'san francisco 49ers'],
+['2012', 'san francisco 49ers', '11–4–1', 'jim harbaugh', 'colin kaepernick', 'frank gore', 'michael crabtree', 'bowman, goldson, iupati, lee, smith, willis', 'atlanta falcons'],
+['2013', 'seattle seahawks†', '13–3', 'pete carroll', 'russell wilson', 'marshawn lynch', 'golden tate', 'sherman, thomas', 'san francisco 49ers']]"
+nu-11,does pat or john have the highest total?,john,2012–13 Exeter City F.C. season,"name | league | fa_cup | league_cup | jp_trophy | total
+scot bennett | 5 | 0 | 0 | 0 | 5
+danny coles | 3 | 0 | 0 | 0 | 3
+liam sercombe | 1 | 0 | 0 | 0 | 1
+alan gow | 4 | 0 | 0 | 0 | 4
+john o'flynn | 11 | 0 | 1 | 0 | 12
+guillem bauza | 2 | 0 | 0 | 0 | 2
+jimmy keohane | 3 | 0 | 0 | 0 | 3
+pat baldwin | 1 | 0 | 0 | 0 | 1
+jamie cureton | 20 | 0 | 0 | 0 | 20
+arron davies | 3 | 0 | 0 | 0 | 3
+jake gosling | 1 | 0 | 0 | 0 | 1
+own goals | 0 | 0 | 0 | 0 | 0
+total | 0 | 0 | 0 | 0 | 0","normalized_table = [['player', 'league', 'fa_cup', 'league_cup', 'jp_trophy'], 
+['scot bennett', 5, 0, 0, 0], 
+['danny coles', 3, 0, 0, 0], 
+['liam sercombe', 1, 0, 0, 0], 
+['alan gow', 4, 0, 0, 0], 
+['john o'flynn', 11, 0, 1, 0], 
+['guillem bauza', 2, 0, 0, 0], 
+['jimmy keohane', 3, 0, 0, 0], 
+['pat baldwin', 1, 0, 0, 0], 
+['jamie cureton', 20, 0, 0, 0], 
+['arron davies', 3, 0, 0, 0], 
+['jake gosling', 1, 0, 0, 0], 
+['own goals', 0, 0, 0, 0]]"
+nu-12,what is the combined score of year end rankings before 2009?,440,Guillermo García-López,"tournament | _2004 | _2005 | _2006 | _2007 | _2008 | _2009 | _2010 | _2011 | _2012 | _2013 | _2014 | w–l
+australian open | a | 2r | 2r | 2r | 3r | 2r | 1r | 3r | 1r | 1r | 2r | 9–10
+french open | 2r | 1r | 1r | 2r | 2r | 1r | 2r | 3r | 1r | 1r | none | 6–10
+wimbledon | a | 2r | 2r | 1r | 3r | 2r | 1r | 2r | 2r | 1r | none | 7–9
+us open | a | 1r | 1r | 1r | 2r | 2r | 2r | 2r | 2r | 1r | none | 5–9
+win–loss | 1–1 | 2–4 | 2–4 | 2–4 | 6–4 | 3–4 | 2–4 | 6–4 | 2–4 | 0–4 | 1–1 | 27–38
+indian wells masters | a | a | a | 3r | 2r | 1r | 4r | 2r | 3r | a | a | 8–6
+miami masters | a | a | a | 2r | 1r | 1r | 2r | 2r | 2r | a | none | 3–6
+monte-carlo masters | a | 1r | a | 3r | lq | a | 1r | 2r | a | a | none | 2–3
+rome masters | a | a | a | a | a | lq | 3r | 1r | 2r | a | none | 3–3
+madrid masters | a | a | a | lq | lq | 1r | 3r | 3r | 2r | 1r | none | 5–5
+canada masters | a | a | a | a | a | 1r | a | a | a | a | none | 0–1
+cincinnati masters | a | a | a | lq | a | 3r | a | 1r | a | a | none | 2–2
+shanghai masters | not masters series | not masters series | not masters series | not masters series | not masters series | 1r | qf | 2r | q2 | a | none | 4–3
+paris masters | a | a | a | lq | lq | a | a | 2r | 1r | 1r | none | 1–3
+hamburg masters | a | a | 2r | 1r | a | not masters series | not masters series | not masters series | not masters series | not masters series | none | 1–2
+win–loss | 0–0 | 0–1 | 1–1 | 4–4 | 1–2 | 2–6 | 11–6 | 5–8 | 5–5 | 0–2 | none | 29–35
+titles–finals | 0–0 | 0–0 | 0–0 | 0–0 | 0–0 | 1–1 | 1–2 | 0–0 | 0–0 | 0–2 | none | 2–5
+year end ranking | 129 | 91 | 68 | 90 | 62 | 41 | 33 | 39 | 76 | 62 | none | none","normalized_table = [['tournament', 'year', 'australian open', 'french open', 'wimbledon', 'us open', 'win–loss', 'indian wells masters', 'miami masters', 'monte-carlo masters', 'rome masters', 'madrid masters', 'canada masters', 'cincinnati masters', 'shanghai masters', 'paris masters', 'hamburg masters', 'titles–finals', 'year end ranking'],
+ ['2004', '2004', 'a', '2r', 'a', 'a', '1–1', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'not masters series', 'a', 'a', '0–0', '129'],
+ ['2005', '2005', '2r', '1r', '2r', '1r', '2–4', 'a', 'a', '1r', 'a', 'a', 'a', 'a', 'not masters series', 'a', 'a', '0–0', '91'],
+ ['2006', '2006', '2r', '1r', '2r', '1r', '2–4', 'a', 'a', 'a', 'a', 'a', 'a', 'a', 'not masters series', 'a', '2r', '0–0', '68'],
+ ['2007', '2007', '2r', '2r', '1r', '1r', '2–4', '3r', '2r', '3r', 'a', 'lq', 'a', 'a', 'not masters series', 'lq', '1r', '1–1', '90'],
+ ['2008', '2008', '3r', '2r', '3r', '2r', '6–4', '2r', '1r', 'lq', 'a', 'lq', 'a', 'a', 'not masters series', 'lq', 'a', '0–0', '62'],
+ ['2009', '2009', '2r', '1r', '2r', '2r', '3–4', '1r', '1r', 'a', 'lq', '1r', '1r', '1r', '1r', 'a', 'not masters series', '1–1', '41'],
+ ['2010', '2010', '1r', '2r', '1r', '2r', '2–4', '4r', '2r', '1r', '3r', '3r', 'a', 'a', 'a', 'qf', 'a', '1–2', '33'],
+ ['2011', '2011', '3r', '3r', '2r', '2r', '6–4', '2r', '2r', '2r', '1r', '3r', 'a', 'a', '1r', '2r', '2r', '0–0', '39'],
+ ['2012', '2012', '1r', '1r', '1r', '1r', '2–4', '3r', '2r', 'a', '2r', '2r', 'a', 'a', 'a', 'q2', '1r', '0–0', '76'],
+ ['2013', '2013', '1r', '1r', 'none', 'none', '0–4', 'a', 'none', 'none', 'none', '1r', 'none', 'none', 'none', 'a', '1r', '0–2', '62'],
+ ['2014', '2014', '2r', 'none', 'none', 'none', '1–1', 'a', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'none']]"
+nu-13,how many more ships were wrecked in lake huron than in erie?,7,List of storms on the Great Lakes,"ship | type_of_vessel | lake | location | lives_lost
+argus | steamer | lake huron | 25 miles off kincardine, ontario | 25 lost
+james carruthers | steamer | lake huron | near kincardine | 18 lost
+hydrus | steamer | lake huron | near lexington, michigan | 28 lost
+leafield | steamer | lake superior | none | all hands
+john a. mcgean | steamer | lake huron | near goderich, ontario | 28 lost
+plymouth | barge | lake michigan | none | 7 lost
+charles s. price | steamer | lake huron | near port huron, michigan | 28 lost
+regina | steamer | lake huron | near harbor beach, michigan | none
+issac m. scott | steamer | lake huron | near port elgin, ontario | 28 lost
+henry b. smith | steamer | lake superior | none | all hands
+wexford | steamer | lake huron | north of grand bend, ontario | all hands
+lightship no. 82 | lightship | lake erie | point albino (near buffalo) | 6 lost","normalized_table = [['ship', 'type_of_vessel', 'lake', 'location', 'lives_lost'],
+['argus', 'steamer', 'lake huron', '25 miles off kincardine, ontario', '25 lost'],
+['james carruthers', 'steamer', 'lake huron', 'near kincardine', '18 lost'],
+['hydrus', 'steamer', 'lake huron', 'near lexington, michigan', '28 lost'],
+['leafield', 'steamer', 'lake superior', 'none', 'all hands'],
+['john a. mcgean', 'steamer', 'lake huron', 'near goderich, ontario', '28 lost'],
+['plymouth', 'barge', 'lake michigan', 'none', '7 lost'],
+['charles s. price', 'steamer', 'lake huron', 'near port huron, michigan', '28 lost'],
+['regina', 'steamer', 'lake huron', 'near harbor beach, michigan', 'none'],
+['issac m. scott', 'steamer', 'lake huron', 'near port elgin, ontario', '28 lost'],
+['henry b. smith', 'steamer', 'lake superior', 'none', 'all hands'],
+['wexford', 'steamer', 'lake huron', 'north of grand bend, ontario', 'all hands'],
+['lightship no. 82', 'lightship', 'lake erie', 'point albino (near buffalo)', '6 lost']]"
+nu-14,what is the only character with a blank c string?,space,Portable character set,"name | glyph | c_string | unicode | unicode_name
+nul | none | \\0 | u+0 | null (nul)
+alert | none | \\a | u+7 | bell (bel)
+backspace | none | \\b | u+8 | backspace (bs)
+tab | none | \\t | u+9 | character tabulation (ht)
+carriage-return | none | \\r | u+000d | carriage return (cr)
+newline | none | \; | u+000a | line feed (lf)
+vertical-tab | none | \\v | u+0 | line tabulation (vt)
+form-feed | none | \\f | u+000c | form feed (ff)
+space | none | none | u+20 | space
+exclamation-mark | ! | ! | u+21 | exclamation mark
+quotation-mark | "" | \\"" | u+22 | quotation mark
+number-sign | # | # | u+23 | number sign
+dollar-sign | $ | $ | u+24 | dollar sign
+percent-sign | % | % | u+25 | percent sign
+ampersand | & | & | u+26 | ampersand
+apostrophe | ' | \\' | u+27 | apostrophe
+left-parenthesis | ( | ( | u+28 | left parenthesis
+right-parenthesis | ) | ) | u+29 | right parenthesis
+asterisk | * | * | u+002a | asterisk
+plus-sign | + | + | u+2000000000 | plus sign
+comma | , | , | u+002c | comma
+hyphen | none | none | u+002d | hyphen-minus
+period | . | . | u+002e | full stop
+slash | none | none | u+002f | solidus
+0 | 0 | 0 | u+30 | digit 0
+1 | 1 | 1 | u+31 | digit 1
+2 | 2 | 2 | u+32 | digit 2
+3 | 3 | 3 | u+33 | digit 3
+4 | 4 | 4 | u+34 | digit 4
+5 | 5 | 5 | u+35 | digit 5
+6 | 6 | 6 | u+36 | digit 6
+7 | 7 | 7 | u+37 | digit 7
+8 | 8 | 8 | u+38 | digit 8
+9 | 9 | 9 | u+39 | digit 9
+colon | : | : | u+003a | colon
+semicolon | ; | ; | u+3000000000 | semicolon
+less-than-sign | < | < | u+003c | less-than sign
+equals-sign | = | = | u+003d | equals sign
+greater-than-sign | > | > | u+003e | greater-than sign
+question-mark | ? | ? | u+003f | question mark
+commercial-at | @ | @ | u+40 | commercial at
+a | a | a | u+41 | latin capital letter a
+b | b | b | u+42 | latin capital letter b
+c | c | c | u+43 | latin capital letter c
+d | d | d | u+44 | latin capital letter d
+e | e | e | u+45 | latin capital letter e
+f | f | f | u+46 | latin capital letter f
+g | g | g | u+47 | latin capital letter g
+h | h | h | u+48 | latin capital letter h
+i | i | i | u+49 | latin capital letter i
+j | j | j | u+004a | latin capital letter j
+k | k | k | u+4000000000 | latin capital letter k
+l | l | l | u+004c | latin capital letter l
+m | m | m | u+004d | latin capital letter m
+n | n | n | u+004e | latin capital letter n
+o | o | o | u+004f | latin capital letter o
+p | p | p | u+50 | latin capital letter p
+q | q | q | u+51 | latin capital letter q
+r | r | r | u+52 | latin capital letter r
+s | s | s | u+53 | latin capital letter s
+t | t | t | u+54 | latin capital letter t
+u | u | u | u+55 | latin capital letter u
+v | v | v | u+56 | latin capital letter v
+w | w | w | u+57 | latin capital letter w
+x | x | x | u+58 | latin capital letter x
+y | y | y | u+59 | latin capital letter y
+z | z | z | u+005a | latin capital letter z
+left-square-bracket | [ | [ | u+5000000000 | left square bracket
+backslash | \\ | \\\\ | u+005c | reverse solidus
+right-square-bracket | ] | ] | u+005d | right square bracket
+circumflex | ^ | ^ | u+005e | circumflex accent
+underscore | _ | _ | u+005f | low line
+grave-accent | ` | ` | u+60 | grave accent
+a | a | a | u+61 | latin small letter a
+b | b | b | u+62 | latin small letter b
+c | c | c | u+63 | latin small letter c
+d | d | d | u+64 | latin small letter d
+e | e | e | u+65 | latin small letter e
+f | f | f | u+66 | latin small letter f
+g | g | g | u+67 | latin small letter g
+h | h | h | u+68 | latin small letter h
+i | i | i | u+69 | latin small letter i
+j | j | j | u+006a | latin small letter j
+k | k | k | u+6000000000 | latin small letter k
+l | l | l | u+006c | latin small letter l
+m | m | m | u+006d | latin small letter m
+n | n | n | u+006e | latin small letter n
+o | o | o | u+006f | latin small letter o
+p | p | p | u+70 | latin small letter p
+q | q | q | u+71 | latin small letter q
+r | r | r | u+72 | latin small letter r
+s | s | s | u+73 | latin small letter s
+t | t | t | u+74 | latin small letter t
+u | u | u | u+75 | latin small letter u
+v | v | v | u+76 | latin small letter v
+w | w | w | u+77 | latin small letter w
+x | x | x | u+78 | latin small letter x
+y | y | y | u+79 | latin small letter y
+z | z | z | u+007a | latin small letter z
+left-brace | { | { | u+7000000000 | left curly bracket
+vertical-line | \p | \p | u+007c | vertical line
+right-brace | } | } | u+007d | right curly bracket
+tilde | ~ | ~ | u+007e | tilde","normalized_table = [
+    [""name"", ""glyph"", ""c_string"", ""unicode"", ""unicode_name""],
+    [""nul"", ""none"", ""\\0"", ""u+0"", ""null (nul)""],
+    [""alert"", ""none"", ""\\a"", ""u+7"", ""bell (bel)""],
+    [""backspace"", ""none"", ""\\b"", ""u+8"", ""backspace (bs)""],
+    [""tab"", ""none"", ""\\t"", ""u+9"", ""character tabulation (ht)""],
+    [""carriage-return"", ""none"", ""\\r"", ""u+000d"", ""carriage return (cr)""],
+    [""newline"", ""none"", "";"", ""u+000a"", ""line feed (lf)""],
+    [""vertical-tab"", ""none"", ""\\v"", ""u+0"", ""line tabulation (vt)""],
+    [""form-feed"", ""none"", ""\\f"", ""u+000c"", ""form feed (ff)""],
+    [""space"", ""none"", ""none"", ""u+20"", ""space""],
+    [""exclamation-mark"", ""!"", ""!"", ""u+21"", ""exclamation mark""],
+    [""quotation-mark"", ""\"""", ""\\"", ""u+22"", ""quotation mark""],
+    [""number-sign"", ""#"", ""#"", ""u+23"", ""number sign""],
+    [""dollar-sign"", ""$"", ""$"", ""u+24"", ""dollar sign""],
+    [""percent-sign"", ""%"", ""%"", ""u+25"", ""percent sign""],
+    [""ampersand"", ""&"", ""&"", ""u+26"", ""ampersand""],
+    [""apostrophe"", ""'"", ""\\'"", ""u+27"", ""apostrophe""],
+    [""left-parenthesis"", ""("", ""("", ""u+28"", ""left parenthesis""],
+    [""right-parenthesis"", "")"", "")"", ""u+29"", ""right parenthesis""],
+    [""asterisk"", ""*"", ""*"", ""u+002a"", ""asterisk""],
+    [""plus-sign"", ""+"", ""+"", ""u+2000000000"", ""plus sign""],
+    [""comma"", "","", "","", ""u+002c"", ""comma""],
+    [""hyphen"", ""none"", ""none"", ""u+002d"", ""hyphen-minus""],
+    [""period"", ""."", ""."", ""u+002e"", ""full stop""],
+    [""slash"", ""none"", ""none"", ""u+002f"", ""solidus""],
+    [""0"", ""0"", ""0"", ""u+30"", ""digit 0""],
+    [""1"", ""1"", ""1"", ""u+31"", ""digit 1""],
+    [""2"", ""2"", ""2"", ""u+32"", ""digit 2""],
+    [""3"", ""3"", ""3"", ""u+33"", ""digit 3""],
+    [""4"", ""4"", ""4"", ""u+34"", ""digit 4""],
+    [""5"", ""5"", ""5"", ""u+35"", ""digit 5""],
+    [""6"", ""6"", ""6"", ""u+36"", ""digit 6""],
+    [""7"", ""7"", ""7"", ""u+37"", ""digit 7""],
+    [""8"", ""8"", ""8"", ""u+38"", ""digit 8""],
+    [""9"", ""9"", ""9"", ""u+39"", ""digit 9""],
+    [""colon"", "":"", "":"", ""u+003a"", ""colon""],
+    [""semicolon"", "";"", "";"", ""u+3000000000"", ""semicolon""],
+    [""less-than-sign"", ""<"", ""<"", ""u+003c"", ""less-than sign""],
+    [""equals-sign"", ""="", ""="", ""u+003d"", ""equals sign""],
+    [""greater-than-sign"", "">"", "">"", ""u+003e"", ""greater-than sign""],
+    [""question-mark"", ""?"", ""?"", ""u+003f"", ""question mark""],
+    [""commercial-at"", ""@"", ""@"", ""u+40"", ""commercial at""],
+    [""a"", ""a"", ""a"", ""u+41"", ""latin capital letter a""],
+    [""b"", ""b"", ""b"", ""u+42"", ""latin capital letter b""],
+    [""c"", ""c"", ""c"", ""u+43"", ""latin capital letter c""],
+    [""d"", ""d"", ""d"", ""u+44"", ""latin capital letter d""],
+    [""e"", ""e"", ""e"", ""u+45"", ""latin capital letter e""],
+    [""f"", ""f"", ""f"", ""u+46"", ""latin capital letter f""],
+    [""g"", ""g"", ""g"", ""u+47"", ""latin capital letter g""],
+    [""h"", ""h"", ""h"", ""u+48"", ""latin capital letter h""],
+    [""i"", ""i"", ""i"", ""u+49"", ""latin capital letter i""],
+    [""j"", ""j"", ""j"", ""u+004a"", ""latin capital letter j""],
+    [""k"", ""k"", ""k"", ""u+4000000000"", ""latin capital letter k""],
+    [""l"", ""l"", ""l"", ""u+004c"", ""latin capital letter l""],
+    [""m"", ""m"", ""m"", ""u+004d"", ""latin capital letter m""],
+    [""n"", ""n"", ""n"", ""u+004e"", ""latin capital letter n""],
+    [""o"", ""o"", ""o"", ""u+004f"", ""latin capital letter o""],
+    [""p"", ""p"", ""p"", ""u+50"", ""latin capital letter p""],
+    [""q"", ""q"", ""q"", ""u+51"", ""latin capital letter q""],
+    [""r"", ""r"", ""r"", ""u+52"", ""latin capital letter r""],
+    [""s"", ""s"", ""s"", ""u+53"", ""latin capital letter s""],
+    [""t"", ""t"", ""t"", ""u+54"", ""latin capital letter t""],
+    [""u"", ""u"", ""u"", ""u+55"", ""latin capital letter u""],
+    [""v"", ""v"", ""v"", ""u+56"", ""latin capital letter v""],
+    [""w"", ""w"", ""w"", ""u+57"", ""latin capital letter w""],
+    [""x"", ""x"", ""x"", ""u+58"", ""latin capital letter x""],
+    [""y"", ""y"", ""y"", ""u+59"", ""latin capital letter y""],
+    [""z"", ""z"", ""z"", ""u+005a"", ""latin capital letter z""],
+    [""left-square-bracket"", ""["", ""["", ""u+5000000000"", ""left square bracket""],
+    [""backslash"", ""\\"", ""\\\\"", ""u+005c"", ""reverse solidus""],
+    [""right-square-bracket"", ""]"", ""]"", ""u+005d"", ""right square bracket""],
+    [""circumflex"", ""^"", ""^"", ""u+005e"", ""circumflex accent""],
+    [""underscore"", ""_"", ""_"", ""u+005f"", ""low line""],
+    [""grave-accent"", ""`"", ""`"", ""u+60"", ""grave accent""],
+    [""a"", ""a"", ""a"", ""u+61"", ""latin small letter a""],
+    [""b"", ""b"", ""b"", ""u+62"", ""latin small letter b""],
+    [""c"", ""c"", ""c"", ""u+63"", ""latin small letter c""],
+    [""d"", ""d"", ""d"", ""u+64"", ""latin small letter d""],
+    [""e"", ""e"", ""e"", ""u+65"", ""latin small letter e""],
+    [""f"", ""f"", ""f"", ""u+66"", ""latin small letter f""],
+    [""g"", ""g"", ""g"", ""u+67"", ""latin small letter g""],
+    [""h"", ""h"", ""h"", ""u+68"", ""latin small letter h""],
+    [""i"", ""i"", ""i"", ""u+69"", ""latin small letter i""],
+    [""j"", ""j"", ""j"", ""u+006a"", ""latin small letter j""],
+    [""k"", ""k"", ""k"", ""u+6000000000"", ""latin small letter k""],
+    [""l"", ""l"", ""l"", ""u+006c"", ""latin small letter l""],
+    [""m"", ""m"", ""m"", ""u+006d"", ""latin small letter m""],
+    [""n"", ""n"", ""n"", ""u+006e"", ""latin small letter n""],
+    [""o"", ""o"", ""o"", ""u+006f"", ""latin small letter o""],
+    [""p"", ""p"", ""p"", ""u+70"", ""latin small letter p""],
+    [""q"", ""q"", ""q"", ""u+71"", ""latin small letter q""],
+    [""r"", ""r"", ""r"", ""u+72"", ""latin small letter r""],
+    [""s"", ""s"", ""s"", ""u+73"", ""latin small letter s""],
+    [""t"", ""t"", ""t"", ""u+74"", ""latin small letter t""],
+    [""u"", ""u"", ""u"", ""u+75"", ""latin small letter u""],
+    [""v"", ""v"", ""v"", ""u+76"", ""latin small letter v""],
+    [""w"", ""w"", ""w"", ""u+77"", ""latin small letter w""],
+    [""x"", ""x"", ""x"", ""u+78"", ""latin small letter x""],
+    [""y"", ""y"", ""y"", ""u+79"", ""latin small letter y""],
+    [""z"", ""z"", ""z"", ""u+007a"", ""latin small letter z""],
+    [""left-brace"", ""{"", ""{"", ""u+7000000000"", ""left curly bracket""],
+    [""vertical-line"", ""\\p"", ""\\p"", ""u+007c"", ""vertical line""],
+    [""right-brace"", ""}"", ""}"", ""u+007d"", ""right curly bracket""],
+    [""tilde"", ""~"", ""~"", ""u+007e"", ""tilde""]
+]"
+nu-15,what was the total number of points scored by the tide in the last 3 games combined.,68,1994 Alabama Crimson Tide football team,"date | opponent_ | rank_ | site | tv | result | attendance
+september 3 | tennessee–chattanooga* | #11 | legion field • birmingham, al | none | w 42–13 | 82109
+september 10 | vanderbilt | #11 | bryant–denny stadium • tuscaloosa, al | jps | w 17–7 | 70123
+september 17 | at arkansas | #12 | razorback stadium • fayetteville, ar | abc | w 13–6 | 52089
+september 24 | tulane* | #11 | legion field • birmingham, al | none | w 20–10 | 81421
+october 1 | georgia | #11 | bryant–denny stadium • tuscaloosa, al | espn | w 29–28 | 70123
+october 8 | southern miss* | #11 | bryant–denny stadium • tuscaloosa, al | none | w 14–6 | 70123
+october 15 | at tennessee | #10 | neyland stadium • knoxville, tn (third saturday in october) | espn | w 17–13 | 96856
+october 22 | ole miss | #8 | bryant–denny stadium • tuscaloosa, al (rivalry) | abc | w 21–10 | 70123
+november 5 | at lsu | #6 | tiger stadium • baton rouge, la (rivalry) | espn | w 35–17 | 75453
+november 12 | at #20 mississippi state | #6 | scott field • starkville, ms (rivalry) | abc | w 29–25 | 41358
+november 19 | #6 auburn | #4 | legion field • birmingham, al (iron bowl) | abc | w 21–14 | 83091
+december 3 | vs. #6 florida | #3 | georgia dome • atlanta, ga (sec championship game) | abc | l 23–24 | 74751
+1995-1-2 | vs. #13 ohio state* | #6 | citrus bowl • orlando, fl (florida citrus bowl) | abc | w 24–17 | 71195","normalized_table = [['date', 'opponent', 'rank', 'site', 'tv', 'result', 'attendance'],
+['1994-09-03', 'tennessee–chattanooga', '#11', 'legion field • birmingham, al', 'none', 'w 42–13', '82109'],
+['1994-09-10', 'vanderbilt', '#11', 'bryant–denny stadium • tuscaloosa, al', 'jps', 'w 17–7', '70123'],
+['1994-09-17', 'at arkansas', '#12', 'razorback stadium • fayetteville, ar', 'abc', 'w 13–6', '52089'],
+['1994-09-24', 'tulane', '#11', 'legion field • birmingham, al', 'none', 'w 20–10', '81421'],
+['1994-10-01', 'georgia', '#11', 'bryant–denny stadium • tuscaloosa, al', 'espn', 'w 29–28', '70123'],
+['1994-10-08', 'southern miss', '#11', 'bryant–denny stadium • tuscaloosa, al', 'none', 'w 14–6', '70123'],
+['1994-10-15', 'at tennessee', '#10', 'neyland stadium • knoxville, tn (third saturday in october)', 'espn', 'w 17–13', '96856'],
+['1994-10-22', 'ole miss', '#8', 'bryant–denny stadium • tuscaloosa, al (rivalry)', 'abc', 'w 21–10', '70123'],
+['1994-11-05', 'at lsu', '#6', 'tiger stadium • baton rouge, la (rivalry)', 'espn', 'w 35–17', '75453'],
+['1994-11-12', 'at #20 mississippi state', '#6', 'scott field • starkville, ms (rivalry)', 'abc', 'w 29–25', '41358'],
+['1994-11-19', '#6 auburn', '#4', 'legion field • birmingham, al (iron bowl)', 'abc', 'w 21–14', '83091'],
+['1994-12-03', 'vs. #6 florida', '#3', 'georgia dome • atlanta, ga (sec championship game)', 'abc', 'l 23–24', '74751'],
+['1995-01-02', 'vs. #13 ohio state', '#6', 'citrus bowl • orlando, fl (florida citrus bowl)', 'abc', 'w 24–17', '71195']]"
+nu-16,who came immediately after sebastian porto in the race?,tomomi manako,1999 Dutch TT,"pos | rider | manufacturer | time_retired | points
+1 | loris capirossi | honda | 38:4.73 | 25.0
+2 | valentino rossi | aprilia | +0.18 | 20.0
+3 | jeremy mcwilliams | aprilia | +0.534 | 16.0
+4 | tohru ukawa | honda | +0.537 | 13.0
+5 | shinya nakano | yamaha | +0.742 | 11.0
+6 | ralf waldmann | aprilia | +7.019 | 10.0
+7 | franco battaini | aprilia | +20.889 | 9.0
+8 | stefano perugini | honda | +20.891 | 8.0
+9 | jason vincent | honda | +21.31 | 7.0
+10 | anthony west | tsr-honda | +26.816 | 6.0
+11 | alex hofmann | tsr-honda | +26.933 | 5.0
+12 | sebastian porto | yamaha | +27.054 | 4.0
+13 | tomomi manako | yamaha | +27.903 | 3.0
+14 | masaki tokudome | tsr-honda | +33.161 | 2.0
+15 | jarno janssen | tsr-honda | +56.248 | 1.0
+16 | luca boscoscuro | tsr-honda | +56.432 | nan
+17 | johann stigefelt | yamaha | +1:7.433 | nan
+18 | julien allemand | tsr-honda | +1:16.347 | nan
+19 | fonsi nieto | yamaha | +1:25.622 | nan
+20 | lucas oliver bulto | yamaha | +1:25.758 | nan
+21 | david garcia | yamaha | +1:33.867 | nan
+22 | rudie markink | aprilia | +1:40.28 | nan
+23 | arno visscher | aprilia | +1:40.635 | nan
+24 | henk van de lagemaat | honda | +1 lap | nan
+ret | maurice bolwerk | tsr-honda | retirement | nan
+ret | andre romein | honda | retirement | nan
+ret | roberto rolfo | aprilia | retirement | nan
+ret | marcellino lucchi | aprilia | retirement | nan","normalized_table = [['pos', 'rider', 'manufacturer', 'time_retired', 'points'],
+['1', 'loris capirossi', 'honda', '38:4.73', '25.0'],
+['2', 'valentino rossi', 'aprilia', '+0.18', '20.0'],
+['3', 'jeremy mcwilliams', 'aprilia', '+0.534', '16.0'],
+['4', 'tohru ukawa', 'honda', '+0.537', '13.0'],
+['5', 'shinya nakano', 'yamaha', '+0.742', '11.0'],
+['6', 'ralf waldmann', 'aprilia', '+7.019', '10.0'],
+['7', 'franco battaini', 'aprilia', '+20.889', '9.0'],
+['8', 'stefano perugini', 'honda', '+20.891', '8.0'],
+['9', 'jason vincent', 'honda', '+21.31', '7.0'],
+['10', 'anthony west', 'tsr-honda', '+26.816', '6.0'],
+['11', 'alex hofmann', 'tsr-honda', '+26.933', '5.0'],
+['12', 'sebastian porto', 'yamaha', '+27.054', '4.0'],
+['13', 'tomomi manako', 'yamaha', '+27.903', '3.0'],
+['14', 'masaki tokudome', 'tsr-honda', '+33.161', '2.0'],
+['15', 'jarno janssen', 'tsr-honda', '+56.248', '1.0'],
+['16', 'luca boscoscuro', 'tsr-honda', '', ''],
+['17', 'johann stigefelt', 'yamaha', '+1:7.433', ''],
+['18', 'julien allemand', 'tsr-honda', '+1:16.347', ''],
+['19', 'fonsi nieto', 'yamaha', '+1:25.622', ''],
+['20', 'lucas oliver bulto', 'yamaha', '+1:25.758', ''],
+['21', 'david garcia', 'yamaha', '+1:33.867', ''],
+['22', 'rudie markink', 'aprilia', '+1:40.28', ''],
+['23', 'arno visscher', 'aprilia', '+1:40.635', ''],
+['24', 'henk van de lagemaat', 'honda', '+1 lap', ''],
+['ret', 'maurice bolwerk', 'tsr-honda', 'retirement', ''],
+['ret', 'andre romein', 'honda', 'retirement', ''],
+['ret', 'roberto rolfo', 'aprilia', 'retirement', ''],
+['ret', 'marcellino lucchi', 'aprilia', 'retirement', '']]"
+nu-19,what is the total number of skoda cars sold in the year 2005?,"492,111",Škoda Auto,"model | _1991 | _1995 | _1996 | _1997 | _1998 | _1999 | _2000 | _2001 | _2002 | _2003 | _2004 | _2005 | _2006 | _2007 | _2008 | _2009 | _2010 | _2011 | _2012 | _2013
+škoda felicia | 172000 | 210000 | none | 288458 | 261127 | 241256 | 148028 | 44963 | − | − | − | − | − | − | − | − | − | − | − | −
+škoda octavia | − | − | none | 47876 | 102373 | 143251 | 158503 | 164134 | 164017 | 165635 | 181683 | 233322 | 270274 | 309951 | 344857 | 317335 | 349746 | 387200 | 409360 | 359600
+škoda fabia | − | − | − | − | − | 823 | 128872 | 250978 | 264641 | 260988 | 247600 | 236698 | 243982 | 232890 | 246561 | 264173 | 229045 | 266800 | 255025 | 202000
+škoda superb | − | − | − | − | − | − | − | 177 | 16867 | 23135 | 22392 | 22091 | 20989 | 20530 | 25645 | 44548 | 98873 | 116700 | 106847 | 94400
+škoda roomster | − | − | − | − | − | − | − | − | − | − | − | − | 14422 | 66661 | 57467 | 47152 | 32332 | 36000 | 39249 | 33300
+škoda yeti | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | 11018 | 52604 | 70300 | 90952 | 82400
+škoda rapid | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | 1700 | 9292 | 103800
+škoda citigo | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | − | 509 | 36687 | 45200
+total | 172000 | 210000 | 261000 | 336334 | 363500 | 385330 | 435403 | 460252 | 445525 | 449758 | 451675 | 492111 | 549667 | 630032 | 674530 | 684226 | 762600 | 879200 | 949412 | 920800","normalized_table = [['model', 'year', 'sales'], 
+['škoda felicia', '1991', 172000], 
+['škoda felicia', '1995', 210000], 
+['škoda felicia', '1997', 288458], 
+['škoda felicia', '1998', 261127], 
+['škoda felicia', '1999', 241256], 
+['škoda felicia', '2000', 148028], 
+['škoda felicia', '2001', 44963], 
+['škoda octavia', '1997', 47876], 
+['škoda octavia', '1998', 102373], 
+['škoda octavia', '1999', 143251], 
+['škoda octavia', '2000', 158503], 
+['škoda octavia', '2001', 164134], 
+['škoda octavia', '2002', 164017], 
+['škoda octavia', '2003', 165635], 
+['škoda octavia', '2004', 181683], 
+['škoda octavia', '2005', 233322], 
+['škoda octavia', '2006', 270274], 
+['škoda octavia', '2007', 309951], 
+['škoda octavia', '2008', 344857], 
+['škoda octavia', '2009', 317335], 
+['škoda octavia', '2010', 349746], 
+['škoda octavia', '2011', 387200], 
+['škoda octavia', '2012', 409360], 
+['škoda octavia', '2013', 359600], 
+['škoda fabia', '2000', 823], 
+['škoda fabia', '2001', 128872], 
+['škoda fabia', '2002', 250978], 
+['škoda fabia', '2003', 264641], 
+['škoda fabia', '2004', 260988], 
+['škoda fabia', '2005', 247600], 
+['škoda fabia', '2006', 236698], 
+['škoda fabia', '2007', 243982], 
+['škoda fabia', '2008', 232890], 
+['škoda fabia', '2009', 246561], 
+['škoda fabia', '2010', 264173], 
+['škoda fabia', '2011', 229045], 
+['škoda fabia', '2012', 266800], 
+['škoda fabia', '2013', 255025], 
+['škoda superb', '2001', 177], 
+['škoda superb', '2002', 16867], 
+['škoda superb', '2003', 23135], 
+['škoda superb', '2004', 22392], 
+['škoda superb', '2005', 22091], 
+['škoda superb', '2006', 20989], 
+['škoda superb', '2007', 20530], 
+['škoda superb', '2008', 25645], 
+['škoda superb', '2009', 44548], 
+['škoda superb', '2010', 98873], 
+['škoda superb', '2011', 116700], 
+['škoda superb', '2012', 106847], 
+['škoda superb', '2013', 94400], 
+['škoda roomster', '2006', 14422], 
+['škoda roomster', '2007', 66661], 
+['škoda roomster', '2008', 57467], 
+['škoda roomster', '2009', 47152], 
+['škoda roomster', '2010', 32332], 
+['škoda roomster', '2011', 36000], 
+['škoda roomster', '2012', 39249], 
+['škoda roomster', '2013', 33300], 
+['škoda yeti', '2009', 11018], 
+['škoda yeti', '2010', 52604], 
+['škoda yeti', '2011', 70300], 
+['škoda yeti', '2012', 90952], 
+['škoda yeti', '2013', 82400], 
+['škoda rapid', '2010', 1700], 
+['škoda rapid', '2011', 9292], 
+['škoda rapid', '2012', 103800], 
+['škoda citigo', '2011', 509], 
+['škoda citigo', '2012', 36687], 
+['škoda citigo', '2013', 45200]]"
+nu-20,what was the number of times won on grass?,1,Todd Martin,"outcome | no | date | championship | surface | opponent_in_the_final | score_in_the_final
+runner-up | 1.0 | 1993-2-15 | memphis, tennessee, usa | hard (i) | jim courier | 7–5, 6–7(4–7), 6–7(4–7)
+winner | 1.0 | 1993-5-17 | coral springs, florida, usa | clay | david wheaton | 6–3, 6–4
+runner-up | 2.0 | 1993-7-26 | washington d.c., usa | hard | amos mansdorf | 6–7(3–7), 5–7
+runner-up | 3.0 | 1993-8-2 | montreal, canada | hard | mikael pernfors | 6–2, 2–6, 5–7
+runner-up | 4.0 | 1993-10-18 | tokyo, japan | carpet | ivan lendl | 4–6, 4–6
+runner-up | 5.0 | 1994-1-31 | australian open, melbourne, australia | hard | pete sampras | 6–7(4–7), 4–6, 4–6
+winner | 2.0 | 1994-2-14 | memphis, tennessee, usa | hard | brad gilbert | 6–4, 7–5
+runner-up | 6.0 | 1994-5-2 | atlanta, georgia, usa | clay | michael chang | 7–6(7–4), 6–7(4–7), 0–6
+runner-up | 7.0 | 1994-5-9 | pinehurst, usa | clay | jared palmer | 4–6, 6–7(5–7)
+winner | 3.0 | 1994-6-13 | london (queen's club), uk | grass | pete sampras | 7–6(7–4), 7–6(7–4)
+winner | 4.0 | 1995-2-20 | memphis, tennessee, usa | hard | paul haarhuis | 7–6(7–2), 6–4
+runner-up | 8.0 | 1995-12-18 | grand slam cup, munich, germany | carpet | goran ivanišević | 6–7(4–7), 3–6, 4–6
+winner | 5.0 | 1996-1-15 | sydney, australia | hard | goran ivanišević | 5–7, 6–3, 6–4
+runner-up | 9.0 | 1996-2-26 | memphis, tennessee, usa | hard (i) | pete sampras | 4–6, 6–7(2–7)
+runner-up | 10.0 | 1996-8-22 | stockholm, sweden | hard (i) | thomas enqvist | 5–7, 4–6, 6–7(0–7)
+winner | 6.0 | 1998-4-20 | barcelona, spain | clay | alberto berasategui | 6–2, 1–6, 6–3, 6–2
+winner | 7.0 | 1998-11-16 | stockholm, sweden | hard | thomas johansson | 6–3, 6–4, 6–4
+winner | 8.0 | 1999-1-18 | sydney, australia | hard | àlex corretja | 6–3, 7–6(7–5)
+runner-up | 11.0 | 1999-4-12 | estoril, portugal | clay | albert costa | 6–7(4–7), 6–2, 3–6
+runner-up | 12.0 | 1999-9-12 | us open, new york city, usa | hard | andre agassi | 4–6, 7–6(7–5), 7–6(7–2), 3–6, 2–6","normalized_table = [['outcome', 'no', 'date', 'championship', 'surface', 'opponent_in_the_final', 'score_in_the_final'],
+['runner-up', 1.0, '1993-02-15', 'memphis, tennessee, usa', 'hard (i)', 'jim courier', '7–5, 6–7(4–7), 6–7(4–7)'],
+['winner', 1.0, '1993-05-17', 'coral springs, florida, usa', 'clay', 'david wheaton', '6–3, 6–4'],
+['runner-up', 2.0, '1993-07-26', 'washington d.c., usa', 'hard', 'amos mansdorf', '6–7(3–7), 5–7'],
+['runner-up', 3.0, '1993-08-02', 'montreal, canada', 'hard', 'mikael pernfors', '6–2, 2–6, 5–7'],
+['runner-up', 4.0, '1993-10-18', 'tokyo, japan', 'carpet', 'ivan lendl', '4–6, 4–6'],
+['runner-up', 5.0, '1994-01-31', 'australian open, melbourne, australia', 'hard', 'pete sampras', '6–7(4–7), 4–6, 4–6'],
+['winner', 2.0, '1994-02-14', 'memphis, tennessee, usa', 'hard', 'brad gilbert', '6–4, 7–5'],
+['runner-up', 6.0, '1994-05-02', 'atlanta, georgia, usa', 'clay', 'michael chang', '7–6(7–4), 6–7(4–7), 0–6'],
+['runner-up', 7.0, '1994-05-09', 'pinehurst, usa', 'clay', 'jared palmer', '4–6, 6–7(5–7)'],
+['winner', 3.0, '1994-06-13', 'london (queen\'s club), uk', 'grass', 'pete sampras', '7–6(7–4), 7–6(7–4)'],
+['winner', 4.0, '1995-02-20', 'memphis, tennessee, usa', 'hard', 'paul haarhuis', '7–6(7–2), 6–4'],
+['runner-up', 8.0, '1995-12-18', 'grand slam cup, munich, germany', 'carpet', 'goran ivanišević', '6–7(4–7), 3–6, 4–6'],
+['winner', 5.0, '1996-01-15', 'sydney, australia', 'hard', 'goran ivanišević', '5–7, 6–3, 6–4'],
+['runner-up', 9.0, '1996-02-26', 'memphis, tennessee, usa', 'hard (i)', 'pete sampras', '4–6, 6–7(2–7)'],
+['runner-up', 10.0, '1996-08-22', 'stockholm, sweden', 'hard (i)', 'thomas enqvist', '5–7, 4–6, 6–7(0–7)'],
+['winner', 6.0, '1998-04-20', 'barcelona, spain', 'clay', 'alberto berasategui', '6–2, 1–6, 6–3, 6–2'],
+['winner', 7.0, '1998-11-16', 'stockholm, sweden', 'hard', 'thomas johansson', '6–3, 6–4, 6–4'],
+['winner', 8.0, '1999-01-18', 'sydney, australia', 'hard', 'àlex corretja', '6–3, 7–6(7–5)'],
+['runner-up', 11.0, '1999-04-12', 'estoril, portugal', 'clay', 'albert costa', '6–7(4–7), 6–2, 3–6'],
+['runner-up', 12.0, '1999-09-12', 'us open, new york city, usa', 'hard', 'andre agassi', '4–6, 7–6(7–5), 7–6(7–2), 3–6, 2–6']]"
+nu-21,who won the most gold medals?,brazil,Taekwondo at the 2010 South American Games,"rank | nation | gold | silver | bronze | total
+1 | brazil | 7 | 5 | 3 | 15
+2 | venezuela | 3 | 2 | 8 | 13
+3 | colombia | 2 | 3 | 4 | 9
+4 | chile | 2 | 0 | 2 | 4
+5 | argentina | 1 | 2 | 5 | 8
+6 | peru | 1 | 1 | 2 | 4
+7 | ecuador | 0 | 2 | 2 | 4
+8 | guyana | 0 | 1 | 0 | 1
+9 | aruba | 0 | 0 | 1 | 1
+9 | netherlands antilles | 0 | 0 | 1 | 1
+9 | panama | 0 | 0 | 1 | 1
+9 | uruguay | 0 | 0 | 1 | 1
+total | total | 16 | 16 | 30 | 62","normalized_table = [
+    [""rank"", ""nation"", ""gold"", ""silver"", ""bronze"", ""total""],
+    [1, ""brazil"", 7, 5, 3, 15],
+    [2, ""venezuela"", 3, 2, 8, 13],
+    [3, ""colombia"", 2, 3, 4, 9],
+    [4, ""chile"", 2, 0, 2, 4],
+    [5, ""argentina"", 1, 2, 5, 8],
+    [6, ""peru"", 1, 1, 2, 4],
+    [7, ""ecuador"", 0, 2, 2, 4],
+    [8, ""guyana"", 0, 1, 0, 1],
+    [9, ""aruba"", 0, 0, 1, 1],
+    [9, ""netherlands antilles"", 0, 0, 1, 1],
+    [9, ""panama"", 0, 0, 1, 1],
+    [9, ""uruguay"", 0, 0, 1, 1]
+]"
+nu-22,total wins by belgian riders,7,1971 Trans-AMA motocross series,"place | rider | country | team | points | wins
+1 | sylvain geboers | belgium | suzuki | 3066 | 3
+2 | adolf weil | germany | maico | 2331 | 2
+3 | torlief hansen | sweden | husqvarna | 2052 | 0
+4 | roger de coster | belgium | suzuki | 1865 | 3
+5 | joel robert | belgium | suzuki | 1730 | 1
+6 | heikki mikkola | finland | husqvarna | 1680 | 2
+7 | willy bauer | germany | maico | 1276 | 0
+8 | gaston rahier | belgium | čz | 1112 | 0
+9 | pierre karsmakers | netherlands | husqvarna | 1110 | 0
+10 | dave bickers | united kingdom | čz | 1076 | 0
+11 | john banks | united kingdom | čz | 971 | 0
+12 | andy roberton | united kingdom | husqvarna | 810 | 0
+13 | vlastimil valek | czechoslovakia | čz | 709 | 0
+14 | mark blackwell | united states | husqvarna | 604 | 0
+15 | brad lackey | united states | čz | 603 | 0
+16 | gary jones | united states | yamaha | 439 | 0
+17 | john desoto | united states | suzuki | 425 | 0
+18 | chris horsefield | united kingdom | čz | 416 | 0
+19 | uno palm | sweden | husqvarna | 324 | 0
+20 | peter lamppu | united states | montesa | 309 | 0","normalized_table = [['place', 'rider', 'country', 'team', 'points', 'wins'],
+['1', 'sylvain geboers', 'belgium', 'suzuki', '3066', '3'],
+['2', 'adolf weil', 'germany', 'maico', '2331', '2'],
+['3', 'torlief hansen', 'sweden', 'husqvarna', '2052', '0'],
+['4', 'roger de coster', 'belgium', 'suzuki', '1865', '3'],
+['5', 'joel robert', 'belgium', 'suzuki', '1730', '1'],
+['6', 'heikki mikkola', 'finland', 'husqvarna', '1680', '2'],
+['7', 'willy bauer', 'germany', 'maico', '1276', '0'],
+['8', 'gaston rahier', 'belgium', 'čz', '1112', '0'],
+['9', 'pierre karsmakers', 'netherlands', 'husqvarna', '1110', '0'],
+['10', 'dave bickers', 'united kingdom', 'čz', '1076', '0'],
+['11', 'john banks', 'united kingdom', 'čz', '971', '0'],
+['12', 'andy roberton', 'united kingdom', 'husqvarna', '810', '0'],
+['13', 'vlastimil valek', 'czechoslovakia', 'čz', '709', '0'],
+['14', 'mark blackwell', 'united states', 'husqvarna', '604', '0'],
+['15', 'brad lackey', 'united states', 'čz', '603', '0'],
+['16', 'gary jones', 'united states', 'yamaha', '439', '0'],
+['17', 'john desoto', 'united states', 'suzuki', '425', '0'],
+['18', 'chris horsefield', 'united kingdom', 'čz', '416', '0'],
+['19', 'uno palm', 'sweden', 'husqvarna', '324', '0'],
+['20', 'peter lamppu', 'united states', 'montesa', '309', '0']]"
+nu-23,what yacht had the next best time (smaller time is better) than ausmaid?,brindabella,1998 Sydney to Hobart Yacht Race,"position | sail_number | yacht | state_country | yacht_type | loa_metres | skipper | elapsed_time_d_hh_mm_ss
+1 | us17 | sayonara | usa | farr ilc maxi | 24.13 | larry ellison | 2:19:3:32
+2 | c1 | brindabella | nsw | jutson 79 | 24.07 | george snow | 2:21:55:6
+3 | yc1000 | ausmaid | sa | farr 47 | 14.24 | kevan pearce | 3:6:2:29
+4 | aus70 | ragamuffin | nsw | farr 50 | 15.15 | syd fischer | 3:6:11:29
+5 | cok1 | nokia | ci | farr ketch maxi | 25.2 | david witt | 3:9:19:0
+6 | sm1 | fudge | vic | elliot 56 | 17.07 | peter hansen | 3:11:0:26
+7 | 6606 | quest | nsw | nelson marek 46 | 14.12 | bob steel | 3:14:41:28
+8 | 9090 | industrial quest | qld | nelson marek 43 | 13.11 | kevin miller | 3:14:58:46
+9 | 4826 | aspect computing | nsw | radford 16.5 sloop | 16.5 | david pescud | 3:15:28:24
+10 | 8338 | afr t00 rambler | nsw | hick 35 | 10.66 | ed psaltis; bob thomas | 3:16:4:40","normalized_table = [
+    [""position"", ""sail_number"", ""yacht"", ""state_country"", ""yacht_type"", ""loa_metres"", ""skipper"", ""elapsed_time_days"", ""elapsed_time_hours"", ""elapsed_time_minutes"", ""elapsed_time_seconds""],
+    [1, ""us17"", ""sayonara"", ""usa"", ""farr ilc maxi"", 24.13, ""larry ellison"", 2, 19, 3, 32],
+    [2, ""c1"", ""brindabella"", ""nsw"", ""jutson 79"", 24.07, ""george snow"", 2, 21, 55, 6],
+    [3, ""yc1000"", ""ausmaid"", ""sa"", ""farr 47"", 14.24, ""kevan pearce"", 3, 6, 2, 29],
+    [4, ""aus70"", ""ragamuffin"", ""nsw"", ""farr 50"", 15.15, ""syd fischer"", 3, 6, 11, 29],
+    [5, ""cok1"", ""nokia"", ""ci"", ""farr ketch maxi"", 25.2, ""david witt"", 3, 9, 19, 0],
+    [6, ""sm1"", ""fudge"", ""vic"", ""elliot 56"", 17.07, ""peter hansen"", 3, 11, 0, 26],
+    [7, ""6606"", ""quest"", ""nsw"", ""nelson marek 46"", 14.12, ""bob steel"", 3, 14, 41, 28],
+    [8, ""9090"", ""industrial quest"", ""qld"", ""nelson marek 43"", 13.11, ""kevin miller"", 3, 14, 58, 46],
+    [9, ""4826"", ""aspect computing"", ""nsw"", ""radford 16.5 sloop"", 16.5, ""david pescud"", 3, 15, 28, 24],
+    [10, ""8338"", ""afr t00 rambler"", ""nsw"", ""hick 35"", 10.66, ""ed psaltis; bob thomas"", 3, 16, 4, 40]
+]"
+nu-24,what match comes after gl-b-5?,gl-b-6,2008 F.C. Tokyo season,"match | date | venue | opponents | score
+gl-b-1 | 2008.. | [[]] | [[]] | nan
+gl-b-2 | 2008.. | [[]] | [[]] | nan
+gl-b-3 | 2008.. | [[]] | [[]] | nan
+gl-b-4 | 2008.. | [[]] | [[]] | nan
+gl-b-5 | 2008.. | [[]] | [[]] | nan
+gl-b-6 | 2008.. | [[]] | [[]] | nan
+quarterfinals-1 | 2008.. | [[]] | [[]] | nan
+quarterfinals-2 | 2008.. | [[]] | [[]] | nan","normalized_table = [['match', 'date', 'venue', 'opponents', 'score'],
+                      ['gl-b-1', '2008..', '', '', ''],
+                      ['gl-b-2', '2008..', '', '', ''],
+                      ['gl-b-3', '2008..', '', '', ''],
+                      ['gl-b-4', '2008..', '', '', ''],
+                      ['gl-b-5', '2008..', '', '', ''],
+                      ['gl-b-6', '2008..', '', '', ''],
+                      ['quarterfinals-1', '2008..', '', '', ''],
+                      ['quarterfinals-2', '2008..', '', '', '']]"
+nu-25,how many times was amanda on the judging panel?,3,Britain's Got Talent,"series | premiere | finale | winner | runner_up | third_place | hosts | judging_panel | guest_judges
+1 | 2007-6-9 | 2007-6-17 | paul potts | damon scott | connie talbot | ant & dec | simon cowell; amanda holden; piers morgan | n/a
+2 | 2008-4-12 | 2008-5-31 | george sampson | signature | andrew johnston | ant & dec | simon cowell; amanda holden; piers morgan | n/a
+3 | 2009-4-11 | 2009-5-30 | diversity | susan boyle | julian smith | ant & dec | simon cowell; amanda holden; piers morgan | kelly brook
+4 | 2010-4-17 | 2010-6-5 | spelbound | twist and pulse | kieran gaffney | ant & dec | simon cowell; amanda holden; piers morgan | louis walsh
+5 | 2011-4-16 | 2011-6-4 | jai mcdowall | ronan parke | new bounce | ant & dec | simon cowell; amanda holden; david hasselhoff; michael mcintyre | louis walsh
+6 | 2012-3-24 | 2012-5-12 | ashleigh and pudsey | jonathan and charlotte | only boys aloud | ant & dec | simon cowell; amanda holden; alesha dixon; david walliams | carmen electra
+7 | 2013-4-13 | 2013-6-8 | attraction | jack carroll | richard & adam | ant & dec | simon cowell; amanda holden; alesha dixon; david walliams | n/a
+8 | 2014-4-12 | 2014-5-31 | tba | tba | tba | ant & dec | simon cowell; amanda holden; alesha dixon; david walliams | ant & dec
+9 | 2015 | 2015 | tba | tba | tba | ant & dec | tba | tba","normalized_table = [['series', 'premiere', 'finale', 'winner', 'runner_up', 'third_place', 'hosts', 'judging_panel', 'guest_judges'],
+['1', '2007-6-9', '2007-6-17', 'paul potts', 'damon scott', 'connie talbot', 'ant & dec', 'simon cowell; amanda holden; piers morgan', ''],
+['2', '2008-4-12', '2008-5-31', 'george sampson', 'signature', 'andrew johnston', 'ant & dec', 'simon cowell; amanda holden; piers morgan', ''],
+['3', '2009-4-11', '2009-5-30', 'diversity', 'susan boyle', 'julian smith', 'ant & dec', 'simon cowell; amanda holden; piers morgan', 'kelly brook'],
+['4', '2010-4-17', '2010-6-5', 'spelbound', 'twist and pulse', 'kieran gaffney', 'ant & dec', 'simon cowell; amanda holden; piers morgan', 'louis walsh'],
+['5', '2011-4-16', '2011-6-4', 'jai mcdowall', 'ronan parke', 'new bounce', 'ant & dec', 'simon cowell; amanda holden; david hasselhoff; michael mcintyre', 'louis walsh'],
+['6', '2012-3-24', '2012-5-12', 'ashleigh and pudsey', 'jonathan and charlotte', 'only boys aloud', 'ant & dec', 'simon cowell; amanda holden; alesha dixon; david walliams', 'carmen electra'],
+['7', '2013-4-13', '2013-6-8', 'attraction', 'jack carroll', 'richard & adam', 'ant & dec', 'simon cowell; amanda holden; alesha dixon; david walliams', ''],
+['8', '2014-4-12', '2014-5-31', 'tba', 'tba', 'tba', 'ant & dec', 'simon cowell; amanda holden; alesha dixon; david walliams', 'ant & dec'],
+['9', '2015', '2015', 'tba', 'tba', 'tba', 'ant & dec', 'tba', 'tba']]"
+nu-26,how many awards has leona lewis won?,20,List of awards and nominations received by Leona Lewis,"year | award | nominated_work | category | result
+2007 | cosmopolitan ultimate woman of 2024 | leona lewis | newcomer of 2024 | won
+2007 | the record of 2024 | ""bleeding love"" | the record of 2024 | won
+2008 | capital awards | leona lewis | favourite uk female artist | won
+2008 | britain's best | leona lewis | music award | won
+2008 | newnownext awards | leona lewis | the kylie award: next international crossover | won
+2008 | glamour woman of 2024 awards | leona lewis | uk solo artist | won
+2008 | nickelodeon uk kids choice awards | ""bleeding love"" | favourite song | won
+2008 | uk music video awards | ""bleeding love"" | people's choice award | won
+2008 | bambi award | leona lewis | shooting star | won
+2008 | new music p1w awards | leona lewis | top 40 new artist of 2024 | won
+2008 | billboard p2008y end award | leona lewis | best new artist | won
+2008 | vh1 video of 2024 | ""bleeding love"" | best video | won
+2008 | nme best album | ""spirit"" | best album | nominated
+2008 | peta | leona lewis | person of 2024 | won
+2009 | naacp image awards | leona lewis | outstanding new artist | nominated
+2009 | swiss music awards | leona lewis | best international newcomer | won
+2009 | japan gold disc awards | leona lewis | new artist of 2024 | won
+2009 | hito pop music awards | ""bleeding love"" | best western song | won
+2009 | peta - sexiest vegetarian alive awards | leona lewis | sexiest vegetarian celebrity 2009 | won
+2009 | apra awards | ""bleeding love"" | most played foreign work | won
+2009 | beffta awards | leona lewis | best female act | won
+2009 | cosmopolitan awards | leona lewis | ultimate music star | won","normalized_table = [['year', 'award', 'nominated_work', 'category', 'result'],
+                      ['2007', 'cosmopolitan ultimate woman of 2024', 'leona lewis', 'newcomer of 2024', 'won'],
+                      ['2007', 'the record of 2024', 'bleeding love', 'the record of 2024', 'won'],
+                      ['2008', 'capital awards', 'leona lewis', 'favourite uk female artist', 'won'],
+                      ['2008', ""britain's best"", 'leona lewis', 'music award', 'won'],
+                      ['2008', 'newnownext awards', 'leona lewis', 'the kylie award: next international crossover', 'won'],
+                      ['2008', 'glamour woman of 2024 awards', 'leona lewis', 'uk solo artist', 'won'],
+                      ['2008', 'nickelodeon uk kids choice awards', 'bleeding love', 'favourite song', 'won'],
+                      ['2008', 'uk music video awards', 'bleeding love', ""people's choice award"", 'won'],
+                      ['2008', 'bambi award', 'leona lewis', 'shooting star', 'won'],
+                      ['2008', 'new music p1w awards', 'leona lewis', 'top 40 new artist of 2024', 'won'],
+                      ['2008', 'billboard p2008y end award', 'leona lewis', 'best new artist', 'won'],
+                      ['2008', 'vh1 video of 2024', 'bleeding love', 'best video', 'won'],
+                      ['2008', 'nme best album', 'spirit', 'best album', 'nominated'],
+                      ['2008', 'peta', 'leona lewis', 'person of 2024', 'won'],
+                      ['2009', 'naacp image awards', 'leona lewis', 'outstanding new artist', 'nominated'],
+                      ['2009', 'swiss music awards', 'leona lewis', 'best international newcomer', 'won'],
+                      ['2009', 'japan gold disc awards', 'leona lewis', 'new artist of 2024', 'won'],
+                      ['2009', 'hito pop music awards', 'bleeding love', 'best western song', 'won'],
+                      ['2009', 'peta - sexiest vegetarian alive awards', 'leona lewis', 'sexiest vegetarian celebrity 2009', 'won'],
+                      ['2009', 'apra awards', 'bleeding love', 'most played foreign work', 'won'],
+                      ['2009', 'beffta awards', 'leona lewis', 'best female act', 'won'],
+                      ['2009', 'cosmopolitan awards', 'leona lewis', 'ultimate music star', 'won']]"
+nu-27,who was the top scorer in the last season?,simon makienok christoffersen,List of Brøndby IF seasons,"season | league_pos | league_competition | league_top_scorer | danish_cup | europe | others
+1981-82 | 4 | 1982 1st division | michael laudrup (15) | 4th round | none | none
+1982-83 | 4 | 1983 1st division | brian chrøis (12) | 4th round | none | none
+1983-84 | 4 | 1984 1st division | jens kolding (11) | 3rd round | none | none
+1984-85 | 1 | 1985 1st division | claus nielsen (17) | 3rd round | none | none
+1985-86 | 2 | 1986 1st division | claus nielsen (16) | quarter-final | none | none
+1986-87 | 1 | 1987 1st division | claus nielsen (20) | 4th round | ec1 quarter-final | none
+1987-88 | 1 | 1988 1st division | bent christensen (21) | finalist | ec3 2nd round | none
+1988-89 | 2 | 1989 1st division | bent christensen (10) | winner | ec1 1st round | none
+1989-90 | 1 | 1990 1st division | bent christensen (17) | quarter-final | ec1 1st round | none
+1990-91 | 1 | 1991 superliga | bent christensen (11) | semi-final | ec3 semi-final | none
+1991-92 | 7 | 1991-92 superliga | kim vilfort (9) | 4th round | ec1 2nd round | none
+1992-93 | 3 | 1992-93 superliga | kim vilfort (10) | 5th round | none | none
+1993-94 | 3 | 1993-94 superliga | mark strudal (13) | winner | ec3 3rd round | none
+1994-95 | 2 | 1994-95 superliga | mark strudal (12) | quarter-final | ec2 2nd round | danish supercup winner
+1995-96 | 1 | 1995-96 superliga | peter møller (15) | finalist | ec3 3rd round | none
+1996-97 | 1 | 1996-97 superliga | peter møller (22) | semi-final | ec1 qualification round; ec3 quarter-final | danish supercup winner
+1997-98 | 1 | 1997-98 superliga | ebbe sand (28) | winner | ec1 qual 2nd round; ec3 1st round | danish supercup winner
+1998-99 | 2 | 1998-99 superliga | ebbe sand (19) | semi-final | ec1 group stage | none
+1999-0 | 2 | 1999-0 superliga | bent christensen (13) | semi-final | ec1 qual 3rd round; ec3 1st round | none
+2000-1 | 2 | 2000-1 superliga | peter graulund (21) | quarter-final | ec1 qual 3rd round; ec3 1st round | none
+2001-2 | 1 | 2001-2 superliga | peter madsen (22) | 5th round | ec3 3rd round | none
+2002-3 | 2 | 2002-3 superliga | mattias jonson (11) | winner | ec1 qual 3rd round; ec3 1st round | danish supercup winner
+2003-4 | 2 | 2003-4 superliga | thomas kahlenberg (11) | semi-final | ec3 3rd round | none
+2004-5 | 1 | 2004-5 superliga | thomas kahlenberg (13) | winner | ec3 qual 2nd round | royal league group stage
+2005-6 | 2 | 2005-6 superliga | johan elmander (13) | semi-final | ec1 qual 3rd round; ec3 group stage | royal league group stage; danish league cup winner
+2006-7 | 6 | 2006-7 superliga | morten rasmussen (15) | 4th round | ec3 1st round | royal league winner; danish league cup winner
+2007-8 | 8 | 2007-8 superliga | morten rasmussen (7); martin ericsson (7) | winner | none | none
+2008-9 | 3 | 2008-9 superliga | morten rasmussen (9); alexander farnerud (9); ousman jallow (9) | semi-final | ec3 1st round | none
+2009-10 | 3 | 2009-10 superliga | morten rasmussen (12) | 4th round | ec3 qual play-off round | none
+2010-11 | 3 | 2010-11 superliga | michael krohn-dehli (11) | none | none | none
+2011-12 | 9 | 2011-12 superliga | simon makienok christoffersen (10) | none | none | none","normalized_table = [
+    [""season"", ""league_pos"", ""league_competition"", ""league_top_scorer"", ""danish_cup"", ""europe"", ""others""],
+    [""1981-82"", 4, ""1982 1st division"", ""michael laudrup"", ""4th round"", """", """"],
+    [""1982-83"", 4, ""1983 1st division"", ""brian chrøis"", ""4th round"", """", """"],
+    [""1983-84"", 4, ""1984 1st division"", ""jens kolding"", ""3rd round"", """", """"],
+    [""1984-85"", 1, ""1985 1st division"", ""claus nielsen"", ""3rd round"", """", """"],
+    [""1985-86"", 2, ""1986 1st division"", ""claus nielsen"", ""quarter-final"", """", """"],
+    [""1986-87"", 1, ""1987 1st division"", ""claus nielsen"", ""4th round"", ""ec1 quarter-final"", """"],
+    [""1987-88"", 1, ""1988 1st division"", ""bent christensen"", ""finalist"", ""ec3 2nd round"", """"],
+    [""1988-89"", 2, ""1989 1st division"", ""bent christensen"", ""winner"", ""ec1 1st round"", """"],
+    [""1989-90"", 1, ""1990 1st division"", ""bent christensen"", ""quarter-final"", ""ec1 1st round"", """"],
+    [""1990-91"", 1, ""1991 superliga"", ""bent christensen"", ""semi-final"", ""ec3 semi-final"", """"],
+    [""1991-92"", 7, ""1991-92 superliga"", ""kim vilfort"", ""4th round"", ""ec1 2nd round"", """"],
+    [""1992-93"", 3, ""1992-93 superliga"", ""kim vilfort"", ""5th round"", """", """"],
+    [""1993-94"", 3, ""1993-94 superliga"", ""mark strudal"", ""winner"", ""ec3 3rd round"", """"],
+    [""1994-95"", 2, ""1994-95 superliga"", ""mark strudal"", ""quarter-final"", ""ec2 2nd round"", ""danish supercup winner""],
+    [""1995-96"", 1, ""1995-96 superliga"", ""peter møller"", ""finalist"", ""ec3 3rd round"", """"],
+    [""1996-97"", 1, ""1996-97 superliga"", ""peter møller"", ""semi-final"", ""ec1 qualification round; ec3 quarter-final"", ""danish supercup winner""],
+    [""1997-98"", 1, ""1997-98 superliga"", ""ebbe sand"", ""winner"", ""ec1 qual 2nd round; ec3 1st round"", ""danish supercup winner""],
+    [""1998-99"", 2, ""1998-99 superliga"", ""ebbe sand"", ""semi-final"", ""ec1 group stage"", """"],
+    [""1999-0"", 2, ""1999-0 superliga"", ""bent christensen"", ""semi-final"", ""ec1 qual 3rd round; ec3 1st round"", """"],
+    [""2000-1"", 2, ""2000-1 superliga"", ""peter graulund"", ""quarter-final"", ""ec1 qual 3rd round; ec3 1st round"", """"],
+    [""2001-2"", 1, ""2001-2 superliga"", ""peter madsen"", ""5th round"", ""ec3 3rd round"", """"],
+    [""2002-3"", 2, ""2002-3 superliga"", ""mattias jonson"", ""winner"", ""ec1 qual 3rd round; ec3 1st round"", ""danish supercup winner""],
+    [""2003-4"", 2, ""2003-4 superliga"", ""thomas kahlenberg"", ""semi-final"", ""ec3 3rd round"", """"],
+    [""2004-5"", 1, ""2004-5 superliga"", ""thomas kahlenberg"", ""winner"", ""ec3 qual 2nd round"", ""royal league group stage""],
+    [""2005-6"", 2, ""2005-6 superliga"", ""johan elmander"", ""semi-final"", ""ec1 qual 3rd round; ec3 group stage"", ""royal league group stage; danish league cup winner""],
+    [""2006-7"", 6, ""2006-7 superliga"", ""morten rasmussen"", ""4th round"", ""ec3 1st round"", ""royal league winner; danish league cup winner""],
+    [""2007-8"", 8, ""2007-8 superliga"", ""morten rasmussen; martin ericsson"", ""winner"", """", """"],
+    [""2008-9"", 3, ""2008-9 superliga"", ""morten rasmussen; alexander farnerud; ousman jallow"", ""semi-final"", ""ec3 1st round"", """"],
+    [""2009-10"", 3, ""2009-10 superliga"", ""morten rasmussen"", ""4th round"", ""ec3 qual play-off round"", """"],
+    [""2010-11"", 3, ""2010-11 superliga"", ""michael krohn-dehli"", """", """", """"],
+    [""2011-12"", 9, ""2011-12 superliga"", ""simon makienok christoffersen"", """", """", """"]
+]"
+nu-28,how many jury members were there?,9,Last Hero 3,"contestant | original_tribe | switched_tribe | merged_tribe | finish | total_votes
+yelena kondulaynen; 44.the actress | pelicans | none | none | 1st voted out; day 3 | 5
+kris kelmi; 47.the singer | barracudas | none | none | 2nd voted out; day 6 | 1
+aleksandr pashutin; 60.the actor | barracudas | none | none | 3rd voted out; day 9 | 7
+igor' livanov; 49.the actor | pelicans | none | none | eliminated; day 11 | 0
+dana borisova; 26.the tv presenter | pelicans | barracudas | none | 4th voted out; day 12 | 5
+aleksandr byalko; 50.the physicist | pelicans | barracudas | none | 5th voted out; day 15 | 6
+tatyana dogileva; 45.the actress | pelicans | barracudas | none | 6th voted out; day 18 | 3
+tat'yana ovsiyenko; 36.the singer | barracudas | pelicans | none | eliminated; day 19 | 1
+viktor gusev; 47.the sport commentator | pelicans | pelicans | crocodiles | 7th voted out; 1st jury member; day 21 | 6
+ivan demidov; 39.the tv presenter | barracudas | pelicans | crocodiles | eliminated; 2nd jury member; day 23 | 3
+yelena proklova; 49.the tv presenter | pelicans | barracudas | crocodiles | 8th voted out; 3rd jury member; day 24 | 4
+marina aleksandrova; 20.the actress | barracudas | pelicans | crocodiles | 9th voted out; 4th jury member; day 27 | 6
+ivar kalnynsh; 54.the actor | none | none | crocodiles | 10th voted out; 5th jury member; day 30 | 3
+vera glagoleva; 46.the actress | none | none | crocodiles | 11th voted out; 6th jury member; day 33 | 4
+larisa verbitskaya; 43.the tv presenter | barracudas | pelicans | crocodiles | 12th voted out; 7th jury member; day 36 | 11
+aleksandr lykov; 41.the actor | barracudas | barracudas | crocodiles | 13th voted out; 8th jury member; day 37 | 6
+olga orlova; 25.the singer | barracudas | baracudas | crocodiles | eliminated; 9th jury member; day 38 | 10
+yelena perova; 26.the singer | pelicans | pelicans | crocodiles | runner-up | 2
+vladimir presnyakov, jr.; 34.the singer | pelicans | pelicans | crocodiles | sole survivor | 6","normalized_table = [['contestant', 'age', 'occupation', 'original_tribe', 'switched_tribe', 'merged_tribe', 'finish', 'total_votes'],
+['yelena kondulaynen', '44', 'the actress', 'pelicans', '', '', '1st voted out; day 3', '5'],
+['kris kelmi', '47', 'the singer', 'barracudas', '', '', '2nd voted out; day 6', '1'],
+['aleksandr pashutin', '60', 'the actor', 'barracudas', '', '', '3rd voted out; day 9', '7'],
+['igor livanov', '49', 'the actor', 'pelicans', '', '', 'eliminated; day 11', '0'],
+['dana borisova', '26', 'the tv presenter', 'pelicans', 'barracudas', '', '4th voted out; day 12', '5'],
+['aleksandr byalko', '50', 'the physicist', 'pelicans', 'barracudas', '', '5th voted out; day 15', '6'],
+['tatyana dogileva', '45', 'the actress', 'pelicans', 'barracudas', '', '6th voted out; day 18', '3'],
+['tat'yana ovsiyenko', '36', 'the singer', 'barracudas', 'pelicans', '', 'eliminated; day 19', '1'],
+['viktor gusev', '47', 'the sport commentator', 'pelicans', 'pelicans', 'crocodiles', '7th voted out; 1st jury member; day 21', '6'],
+['ivan demidov', '39', 'the tv presenter', 'barracudas', 'pelicans', 'crocodiles', 'eliminated; 2nd jury member; day 23', '3'],
+['yelena proklova', '49', 'the tv presenter', 'pelicans', 'barracudas', 'crocodiles', '8th voted out; 3rd jury member; day 24', '4'],
+['marina aleksandrova', '20', 'the actress', 'barracudas', 'pelicans', 'crocodiles', '9th voted out; 4th jury member; day 27', '6'],
+['ivar kalnynsh', '54', 'the actor', '', '', 'crocodiles', '10th voted out; 5th jury member; day 30', '3'],
+['vera glagoleva', '46', 'the actress', '', '', 'crocodiles', '11th voted out; 6th jury member; day 33', '4'],
+['larisa verbitskaya', '43', 'the tv presenter', 'barracudas', 'pelicans', 'crocodiles', '12th voted out; 7th jury member; day 36', '11'],
+['aleksandr lykov', '41', 'the actor', 'barracudas', 'barracudas', 'crocodiles', '13th voted out; 8th jury member; day 37', '6'],
+['olga orlova', '25', 'the singer', 'barracudas', 'baracudas', 'crocodiles', 'eliminated; 9th jury member; day 38', '10'],
+['yelena perova', '26', 'the singer', 'pelicans', 'pelicans', 'crocodiles', 'runner-up', '2'],
+['vladimir presnyakov, jr.', '34', 'the singer', 'pelicans', 'pelicans', 'crocodiles', 'sole survivor', '6']]"
+nu-29,"how many times was the val d'lsere, france location used?",1,Carlo Janka,"season | age | overall | slalom | giant_slalom | super_g | downhill | combined
+2007 | 20 | 130 | – | 40.0 | – | – | —
+2008 | 21 | 64 | – | 28.0 | 46 | 46 | 31
+2009 | 22 | 7 | – | 6.0 | 16 | 16 | 1
+2010 | 23 | 1 | – | 2.0 | 6 | 2 | 2
+2011 | 24 | 3 | – | 5.0 | 6 | 9 | 6
+2012 | 25 | 24 | – | 16.0 | 28 | 17 | 19
+2013 | 26 | 48 | – | 48.0 | 27 | 38 | 4
+2014 | 27 | 18 | – | 25.0 | 14 | 20 | 11
+season | date | location | race | nan | none | none | none
+2009 | 2008-12-13 | val d'isère, france | giant slalom | nan | none | none | none
+2009 | 2009-1-16 | wengen, switzerland | super combined | nan | none | none | none
+2010 | 2009-12-4 | beaver creek, usa | super combined | nan | none | none | none
+2010 | 2009-12-5 | beaver creek, usa | downhill | nan | none | none | none
+2010 | 2009-12-6 | beaver creek, usa | giant slalom | nan | none | none | none
+2010 | 2010-1-16 | wengen, switzerland | downhill | nan | none | none | none
+2010 | 2010-3-10 | garmisch, germany | downhill | nan | none | none | none
+2010 | 2010-3-12 | garmisch, germany | giant slalom | nan | none | none | none
+2011 | 2011-3-5 | kranjska gora, slovenia | giant slalom | nan | none | none | none","normalized_table = [['season', 'age', 'overall', 'slalom', 'giant_slalom', 'super_g', 'downhill', 'combined', 'date', 'location', 'race'],
+['2007', '20', '130', '', '40.0', '', '', '', '', '', ''],
+['2008', '21', '64', '', '28.0', '46', '46', '31', '', '', ''],
+['2009', '22', '7', '', '6.0', '16', '16', '1', '2008-12-13', 'val d'isère, france', 'giant slalom'],
+['2010', '23', '1', '', '2.0', '6', '2', '2', '2009-12-4', 'beaver creek, usa', 'super combined'],
+['2011', '24', '3', '', '5.0', '6', '9', '6', '2011-3-5', 'kranjska gora, slovenia', 'giant slalom']]"
+nu-31,what is the last stadium listed on this chart?,dw stadium,Super League XVIV,"team | stadium | capacity | city_area
+bradford bulls (2014 season) | provident stadium | 27000 | bradford, west yorkshire
+castleford tigers (2014 season) | the wish communications stadium | 11750 | castleford, west yorkshire
+catalans dragons (2014 season) | stade gilbert brutus | 14000 | perpignan, pyrénées-orientales, france
+huddersfield giants (2014 season) | john smith's stadium | 24544 | huddersfield, west yorkshire
+hull (2014 season) | kingston communications stadium | 25404 | kingston upon hull, east riding of yorkshire
+hull kingston rovers (2014 season) | ms3 craven park | 9471 | kingston upon hull, east riding of yorkshire
+leeds rhinos (2014 season) | headingley carnegie stadium | 22250 | leeds, west yorkshire
+london broncos (2014 season) | twickenham stoop | 12700 | twickenham, london
+salford city reds (2014 season) | salford city stadium | 12000 | salford, greater manchester
+st helens rlfc (2014 season) | langtree park | 18000 | st helens, merseyside
+wakefield trinity wildcats (2014 season) | rapid solicitors stadium | 11000 | wakefield, west yorkshire
+warrington wolves (2014 season) | halliwell jones stadium | 15500 | warrington, cheshire
+widnes vikings (2014 season) | the select security stadium | 13500 | widnes, cheshire, england
+wigan warriors (2014 season) | dw stadium | 25138 | wigan, greater manchester","normalized_table = [['team', 'stadium', 'capacity', 'city', 'area'],
+['bradford bulls', 'provident stadium', 27000, 'bradford', 'west yorkshire'],
+['castleford tigers', 'the wish communications stadium', 11750, 'castleford', 'west yorkshire'],
+['catalans dragons', 'stade gilbert brutus', 14000, 'perpignan', 'pyrénées-orientales, france'],
+['huddersfield giants', ""john smith's stadium"", 24544, 'huddersfield', 'west yorkshire'],
+['hull', 'kingston communications stadium', 25404, 'kingston upon hull', 'east riding of yorkshire'],
+['hull kingston rovers', 'ms3 craven park', 9471, 'kingston upon hull', 'east riding of yorkshire'],
+['leeds rhinos', 'headingley carnegie stadium', 22250, 'leeds', 'west yorkshire'],
+['london broncos', 'twickenham stoop', 12700, 'twickenham', 'london'],
+['salford city reds', 'salford city stadium', 12000, 'salford', 'greater manchester'],
+['st helens rlfc', 'langtree park', 18000, 'st helens', 'merseyside'],
+['wakefield trinity wildcats', 'rapid solicitors stadium', 11000, 'wakefield', 'west yorkshire'],
+['warrington wolves', 'halliwell jones stadium', 15500, 'warrington', 'cheshire'],
+['widnes vikings', 'the select security stadium', 13500, 'widnes', 'cheshire, england'],
+['wigan warriors', 'dw stadium', 25138, 'wigan', 'greater manchester']]"
+nu-32,how many times did salvatore bettiol win first place across competitions?,2,Salvatore Bettiol,"year | competition | venue | position | event | notes
+1986 | venice marathon | venice, italy | 1st | marathon | 2:18:44
+1987 | world championships | rome, italy | 13th | marathon | 2:17:45
+1987 | venice marathon | venice, italy | 1st | marathon | 2:10:1
+1990 | european championships | split, fr yugoslavia | 4th | marathon | 2:17:45
+1991 | world championships | tokyo, japan | 6th | marathon | 2:15:58
+1992 | olympic games | barcelona, spain | 5th | marathon | 2:14:15
+1993 | world championships | stuttgart, germany | — | marathon | dnf
+1996 | olympic games | atlanta, united states | 20th | marathon | 2:17:27","normalized_table = [
+    [""year"", ""competition"", ""venue"", ""position"", ""event"", ""notes""],
+    [1986, ""venice marathon"", ""venice, italy"", ""1st"", ""marathon"", ""2:18:44""],
+    [1987, ""world championships"", ""rome, italy"", ""13th"", ""marathon"", ""2:17:45""],
+    [1987, ""venice marathon"", ""venice, italy"", ""1st"", ""marathon"", ""2:10:1""],
+    [1990, ""european championships"", ""split, fr yugoslavia"", ""4th"", ""marathon"", ""2:17:45""],
+    [1991, ""world championships"", ""tokyo, japan"", ""6th"", ""marathon"", ""2:15:58""],
+    [1992, ""olympic games"", ""barcelona, spain"", ""5th"", ""marathon"", ""2:14:15""],
+    [1993, ""world championships"", ""stuttgart, germany"", """", ""marathon"", ""dnf""],
+    [1996, ""olympic games"", ""atlanta, united states"", ""20th"", ""marathon"", ""2:17:27""]
+]"
+nu-33,which year did illinois not have any losses during the conference?,1914-15,Ralph Jones,"school | season | record | conference_record | place | postseason
+illinois | 1912–13 | 10–6 | 7–6 | 5th | none
+illinois | 1913–14 | 9–4 | 7–3 | 3rd | none
+illinois | 1914–15 | 16–0 | 12–0 | t1st | national champions
+illinois | 1915–16 | 13–3 | 9–3 | t2nd | none
+illinois | 1916–17 | 13–3 | 10–2 | t1st | big 10 champions
+illinois | 1917–18 | 9–6 | 6–6 | t4th | none
+illinois | 1918–19 | 6–8 | 5–7 | 5th | none
+illinois | 1919–20 | 9–4 | 8–4 | 3rd | none
+illinois | 1912–20 | 85–34 | 64–31 | – | none","normalized_table = [['school', 'season', 'record', 'conference_record', 'place', 'postseason'],
+['illinois', '1912–13', '10–6', '7–6', '5th', 'none'],
+['illinois', '1913–14', '9–4', '7–3', '3rd', 'none'],
+['illinois', '1914–15', '16–0', '12–0', 't1st', 'national champions'],
+['illinois', '1915–16', '13–3', '9–3', 't2nd', 'none'],
+['illinois', '1916–17', '13–3', '10–2', 't1st', 'big 10 champions'],
+['illinois', '1917–18', '9–6', '6–6', 't4th', 'none'],
+['illinois', '1918–19', '6–8', '5–7', '5th', 'none'],
+['illinois', '1919–20', '9–4', '8–4', '3rd', 'none']]"
+nu-35,how many candidates belong to a party other than republican or democrat?,0,"United States House of Representatives elections in Colorado, 2008","district | incumbent | 2008_status | democratic | republican
+1 | diana degette | re-election | diana degette | george lilly
+2 | mark udall | open | jared polis | scott starin
+3 | john salazar | re-election | john salazar | wayne wolf
+4 | marilyn musgrave | re-election | betsy markey | marilyn musgrave
+5 | doug lamborn | re-election | hal bidlack | doug lamborn
+6 | tom tancredo | open | hank eng | mike coffman
+7 | ed perlmutter | re-election | ed perlmutter | john w. lerew","normalized_table = [['district', 'incumbent', 'status', 'democratic_candidate', 'republican_candidate'],
+['1', 'diana degette', 're-election', 'diana degette', 'george lilly'],
+['2', 'mark udall', 'open', 'jared polis', 'scott starin'],
+['3', 'john salazar', 're-election', 'john salazar', 'wayne wolf'],
+['4', 'marilyn musgrave', 're-election', 'betsy markey', 'marilyn musgrave'],
+['5', 'doug lamborn', 're-election', 'hal bidlack', 'doug lamborn'],
+['6', 'tom tancredo', 'open', 'hank eng', 'mike coffman'],
+['7', 'ed perlmutter', 're-election', 'ed perlmutter', 'john w. lerew']]"
+nu-37,how many domestic routes out of houston intercontinental have united as a carrier?,10,George Bush Intercontinental Airport,"rank | city | passengers | top_carriers
+1 | los angeles, ca | 700000 | american, spirit, united
+2 | chicago, il | 673000 | american, spirit, united
+3 | denver, co | 654000 | frontier, spirit, united
+4 | san francisco, ca | 492000 | united
+5 | dallas/fort worth, tx | 488000 | american, united
+6 | newark, nj | 480000 | united
+7 | las vegas, nv | 442000 | spirit, united
+8 | charlotte, nc | 441000 | united, us airways
+9 | atlanta, ga | 400000 | delta, united
+10 | phoenix, az | 393000 | united, us airways","normalized_table = [['rank', 'city', 'state', 'passengers', 'top_carriers'],
+                      [1, 'los angeles', 'CA', 700000, 'american'],
+                      [1, 'los angeles', 'CA', 700000, 'spirit'],
+                      [1, 'los angeles', 'CA', 700000, 'united'],
+                      [2, 'chicago', 'IL', 673000, 'american'],
+                      [2, 'chicago', 'IL', 673000, 'spirit'],
+                      [2, 'chicago', 'IL', 673000, 'united'],
+                      [3, 'denver', 'CO', 654000, 'frontier'],
+                      [3, 'denver', 'CO', 654000, 'spirit'],
+                      [3, 'denver', 'CO', 654000, 'united'],
+                      [4, 'san francisco', 'CA', 492000, 'united'],
+                      [5, 'dallas/fort worth', 'TX', 488000, 'american'],
+                      [5, 'dallas/fort worth', 'TX', 488000, 'united'],
+                      [6, 'newark', 'NJ', 480000, 'united'],
+                      [7, 'las vegas', 'NV', 442000, 'spirit'],
+                      [7, 'las vegas', 'NV', 442000, 'united'],
+                      [8, 'charlotte', 'NC', 441000, 'united'],
+                      [8, 'charlotte', 'NC', 441000, 'us airways'],
+                      [9, 'atlanta', 'GA', 400000, 'delta'],
+                      [9, 'atlanta', 'GA', 400000, 'united'],
+                      [10, 'phoenix', 'AZ', 393000, 'united'],
+                      [10, 'phoenix', 'AZ', 393000, 'us airways']]"
+nu-39,in what year are there the first results for giant slalom?,2005,Nadia Fanchini,"season | age | overall | slalom | giant_slalom | super_g | downhill | combined
+2004 | 17 | 112 | – | – | 51 | – | —
+2005 | 18 | 37 | – | 27 | 18 | 49 | —
+2006 | 19 | 22 | – | 18 | 37 | 15 | —
+2007 | 20 | 33 | – | 50 | 15 | 23 | —
+2008 | 21 | 38 | – | – | 35 | 13 | —
+2009 | 22 | 9 | – | 40 | 2 | 5 | 50
+2010 | 23 | 28 | – | – | 13 | 23 | —
+2011 | 24 | injured, did not compete | injured, did not compete | injured, did not compete | injured, did not compete | injured, did not compete | injured, did not compete
+2012 | 25 | 75 | – | 28 | – | – | —
+2013 | 26 | 37 | – | 17 | 28 | 30 | —","normalized_table = [['season', 'age', 'overall', 'slalom', 'giant_slalom', 'super_g', 'downhill', 'combined'],
+['2004', '17', '112', '', '', '51', '', ''],
+['2005', '18', '37', '', '27', '18', '49', ''],
+['2006', '19', '22', '', '18', '37', '15', ''],
+['2007', '20', '33', '', '50', '15', '23', ''],
+['2008', '21', '38', '', '', '35', '13', ''],
+['2009', '22', '9', '', '40', '2', '5', '50'],
+['2010', '23', '28', '', '', '13', '23', ''],
+['2011', '24', 'injured, did not compete', 'injured, did not compete', 'injured, did not compete', 'injured, did not compete', 'injured, did not compete', 'injured, did not compete'],
+['2012', '25', '75', '', '28', '', '', ''],
+['2013', '26', '37', '', '17', '28', '30', '']]"
+nu-40,"in cycle 4 of austria's next top model,how many contestants were older than 20?",5,Austria's Next Topmodel (cycle 4),"contestant | age | height | home_city | rank
+isabelle raisa | 16 | 170 cm (5 ft 7 in) | vienna | eliminated in episode 1
+alina chlebecek | 18 | 170 cm (5 ft 7 in) | deutsch-wagram | eliminated in episode 1
+sabrina angelika rauch † | 21 | 175 cm (5 ft 9 in) | graz | eliminated in episode 2
+katharina mihalović | 23 | 179 cm (5 ft 10.5 in) | vienna | eliminated in episode 2
+nataša marić | 16 | 175 cm (5 ft 9 in) | liefering (originally from serbia) | eliminated in episode 3
+michaela schopf | 21 | 172 cm (5 ft 7.5 in) | salzburg (originally from germany) | quit in episode 4
+christine riener | 20 | 181 cm (5 ft 11.25 in) | bludenz | eliminated in episode 4
+teodora-mădălina andreica | 17 | 177 cm (5 ft 9.5 in) | romania | eliminated in episode 6
+yemisi rieger | 17 | 177 cm (5 ft 9.5 in) | vienna | eliminated in episode 7
+izabela pop kostić | 20 | 170 cm (5 ft 7 in) | vienna (originally from bosnia) | eliminated in episode 8
+bianca ebelsberger | 24 | 179 cm (5 ft 10.5 in) | aurach am hongar | eliminated in episode 9
+nadine trinker | 21 | 183 cm (6 ft 0 in) | bodensdorf | eliminated in episode 9
+dzejlana ""lana"" baltić | 20 | 179 cm (5 ft 10.5 in) | graz (originally from bosnia) | 1st eliminated in episode 10
+melisa popanicić | 16 | 175 cm (5 ft 9 in) | wörgl | 2nd eliminated in episode 10
+gina zeneb adamu | 17 | 175 cm (5 ft 9 in) | bad vöslau | runner-up
+antonia maria hausmair | 16 | 175 cm (5 ft 9 in) | siegendorf | winner","normalized_table = [
+    [""contestant"", ""age"", ""height"", ""home_city"", ""rank""],
+    [""isabelle raisa"", 16, 170, ""vienna"", ""eliminated in episode 1""],
+    [""alina chlebecek"", 18, 170, ""deutsch-wagram"", ""eliminated in episode 1""],
+    [""sabrina angelika rauch †"", 21, 175, ""graz"", ""eliminated in episode 2""],
+    [""katharina mihalović"", 23, 179, ""vienna"", ""eliminated in episode 2""],
+    [""nataša marić"", 16, 175, ""liefering (originally from serbia)"", ""eliminated in episode 3""],
+    [""michaela schopf"", 21, 172, ""salzburg (originally from germany)"", ""quit in episode 4""],
+    [""christine riener"", 20, 181, ""bludenz"", ""eliminated in episode 4""],
+    [""teodora-mădălina andreica"", 17, 177, ""romania"", ""eliminated in episode 6""],
+    [""yemisi rieger"", 17, 177, ""vienna"", ""eliminated in episode 7""],
+    [""izabela pop kostić"", 20, 170, ""vienna (originally from bosnia)"", ""eliminated in episode 8""],
+    [""bianca ebelsberger"", 24, 179, ""aurach am hongar"", ""eliminated in episode 9""],
+    [""nadine trinker"", 21, 183, ""bodensdorf"", ""eliminated in episode 9""],
+    [""dzejlana 'lana' baltić"", 20, 179, ""graz (originally from bosnia)"", ""1st eliminated in episode 10""],
+    [""melisa popanicić"", 16, 175, ""wörgl"", ""2nd eliminated in episode 10""],
+    [""gina zeneb adamu"", 17, 175, ""bad vöslau"", ""runner-up""],
+    [""antonia maria hausmair"", 16, 175, ""siegendorf"", ""winner""]
+]"
+nu-41,who scored more goals: clint dempsey or eric wynalda?,clint dempsey,United States men's national soccer team,"_ | player | goals | caps | career
+1 | landon donovan | 57 | 155 | 2000–present
+2 | clint dempsey | 36 | 103 | 2004–present
+3 | eric wynalda | 34 | 106 | 1990–2000
+4 | brian mcbride | 30 | 95 | 1993–2006
+5 | joe-max moore | 24 | 100 | 1992–2002
+6t | jozy altidore | 21 | 67 | 2007–present
+6t | bruce murray | 21 | 86 | 1985–1993
+8 | eddie johnson | 19 | 62 | 2004–present
+9t | earnie stewart | 17 | 101 | 1990–2004
+9t | damarcus beasley | 17 | 114 | 2001–present","normalized_table = [['player', 'goals', 'caps', 'career_start', 'career_end'],
+['landon donovan', 57, 155, 2000, 'present'],
+['clint dempsey', 36, 103, 2004, 'present'],
+['eric wynalda', 34, 106, 1990, 2000],
+['brian mcbride', 30, 95, 1993, 2006],
+['joe-max moore', 24, 100, 1992, 2002],
+['jozy altidore', 21, 67, 2007, 'present'],
+['bruce murray', 21, 86, 1985, 1993],
+['eddie johnson', 19, 62, 2004, 'present'],
+['earnie stewart', 17, 101, 1990, 2004],
+['damarcus beasley', 17, 114, 2001, 'present']]"
+nu-42,what building had the least height in germany?,st. mary's church,List of tallest freestanding structures in the world,"name | country | town | height_metres___ft | structural_type | held_record | notes
+great pyramid of giza | egypt | giza | 146 / 480 | mausoleum | 2570 bc–1311 | due to erosion 2024-4-24 it stands at the height of 138.8 metres (455 ft).
+lincoln cathedral | england | lincoln | 159.7 / 524 | church | 1311–1549 | spire collapsed in 1549; 2024-4-24, stands at a height of 83 metres (272 ft).
+st. mary's church | germany | stralsund | 151 / 500 | church | 1549–1647 | spire destroyed by lightning in 1647; 2024-4-24 stands at a height of 104 metres (341 ft).
+strasbourg cathedral | germany and/or france (2024-4-24 france) | strasbourg | 142 / 470 | church | 1647–1874 | none
+st nikolai | germany | hamburg | 147.3 / 483 | church | 1874–1876 | due to aerial bombing in world war ii the nave was demolished; only the spire remains.
+notre-dame cathedral | france | rouen | 151 / 500 | church | 1876–1880 | none
+cologne cathedral | germany | cologne | 157.4 / 516 | church | 1880–1884 | none
+washington monument | united states | washington, d.c. | 169.3 / 555 | monument | 1884–1889 | none
+eiffel tower | france | paris | 300.6 / 986 | tower | 1889–1930 | currently stands at a height of 324 metres (1063 ft).
+chrysler building | united states | new york city | 319 / 1046 | skyscraper | 1930–1931 | none
+empire state building | united states | new york city | 448 / 1472 | skyscraper | 1931–1967 | none
+ostankino tower | russia | moscow | 540 / 1772 | tower | 1967–1976 | none
+cn tower | canada | toronto | 553 / 1815 | tower | 1976–2007 | none
+burj khalifa | united arab emirates | dubai | 829.8 / 2722 | skyscraper | 2007–present | topped-out on 2009-1-17","normalized_table = [
+    [""name"", ""country"", ""town"", ""height_metres"", ""height_ft"", ""structural_type"", ""held_record"", ""notes""],
+    [""great pyramid of giza"", ""egypt"", ""giza"", 146, 480, ""mausoleum"", ""2570 bc–1311"", ""due to erosion 2024-4-24 it stands at the height of 138.8 metres (455 ft)""],
+    [""lincoln cathedral"", ""england"", ""lincoln"", 159.7, 524, ""church"", ""1311–1549"", ""spire collapsed in 1549; 2024-4-24, stands at a height of 83 metres (272 ft)""],
+    [""st. mary's church"", ""germany"", ""stralsund"", 151, 500, ""church"", ""1549–1647"", ""spire destroyed by lightning in 1647; 2024-4-24 stands at a height of 104 metres (341 ft)""],
+    [""strasbourg cathedral"", ""germany and/or france (2024-4-24 france)"", ""strasbourg"", 142, 470, ""church"", ""1647–1874"", ""none""],
+    [""st nikolai"", ""germany"", ""hamburg"", 147.3, 483, ""church"", ""1874–1876"", ""due to aerial bombing in world war ii the nave was demolished; only the spire remains""],
+    [""notre-dame cathedral"", ""france"", ""rouen"", 151, 500, ""church"", ""1876–1880"", ""none""],
+    [""cologne cathedral"", ""germany"", ""cologne"", 157.4, 516, ""church"", ""1880–1884"", ""none""],
+    [""washington monument"", ""united states"", ""washington, d.c."", 169.3, 555, ""monument"", ""1884–1889"", ""none""],
+    [""eiffel tower"", ""france"", ""paris"", 300.6, 986, ""tower"", ""1889–1930"", ""currently stands at a height of 324 metres (1063 ft)""],
+    [""chrysler building"", ""united states"", ""new york city"", 319, 1046, ""skyscraper"", ""1930–1931"", ""none""],
+    [""empire state building"", ""united states"", ""new york city"", 448, 1472, ""skyscraper"", ""1931–1967"", ""none""],
+    [""ostankino tower"", ""russia"", ""moscow"", 540, 1772, ""tower"", ""1967–1976"", ""none""],
+    [""cn tower"", ""canada"", ""toronto"", 553, 1815, ""tower"", ""1976–2007"", ""none""],
+    [""burj khalifa"", ""united arab emirates"", ""dubai"", 829.8, 2722, ""skyscraper"", ""2007–present"", ""topped-out on 2009-1-17""]
+]"
+nu-46,what is the total number of models covered in the table?,20,AC Transit,"year | manufacturer | model | length_feet | quantity | fleet_series | fuel_propulsion | powertrain
+1996 | new flyer | d60 | 60 (articulated) | 30 | 1901-1930* | diesel | detroit diesel series 50; allison b400r
+1998 | nabi | 416 | 40 | 133 | 3001-3067, 3101-3166* | diesel | cummins m11e; allison b400r
+1999 | nabi | 40-lfw | 40 | 44 | 4001-4044 | diesel | none
+2000 | nabi | 40-lfw | 40 | 23 | 7201-7223 | diesel | cummins ism; allison b400r
+2000 | mci | d4500 | 45 | 30 | 6001-6030 | diesel | none
+2001 | mci | d4500 | 45 | 10 | 6031-6040 | diesel | none
+2003 | mci | d4500 | 45 | 39 | 6041-6079 | diesel | none
+2003 | nabi | 40-lfw | 40 | 46 | 4051-4090 | diesel | cummins isl; allison b400r
+2003 | van hool | a330 | 40 | 110 | 1001-1110 | diesel | cummins ism; voith d864.3e
+2003 | van hool | ag300 | 60 | 57 | 2001-2057 | diesel | cummins ism; voith d864.3e
+2005 | van hool | a300fc | 40 | 3 | fc1-fc3 | hydrogen | none
+2006 | van hool | a300k | 30 | 50 | 5001-5050 | diesel | cummins isb; voith d864.3e
+2007 | van hool | ag300 | 60 | 10 | 2101-2110 | diesel | cummins isl; voith d864.3e
+2007 | van hool | ag300 | 60 | 15 | 2151-2165 | diesel | cummins ism; voith d864.3e
+2008 | van hool | a300l | 40 | 27 | 1201-1227 | diesel | cummins isl; voith d864.5
+2008 | van hool | a300k | 30 | 1 | 5099 | diesel-electric hybrid | none
+2008 | van hool | a300k | 30 | 39 | 5101-5139 | diesel | cummins isb; voith d854.5
+2010 | van hool | ag300 | 60 | 9 | 2191-2199 | diesel | cummins isl; voith d864.5
+2010 | van hool | a300l fc | 40 | 12 | fc4-fc16 | hydrogen | none
+2013 | gillig | low-floor advantage | 40 | 65 | 1301-1365 | diesel | cummins isl 280 hp ; allison b400 6-speed
+2013 | new flyer | xcelsior d60 | 60 | 23 | 2201-2223 | diesel | cummins isl 330 hp; allison b400 6-speed
+2013 | gillig | low-floor advantage | 40 | 55 | 6101-6155 | diesel | cummins isl 280 hp; allison b400 6-speed","normalized_table = [['year', 'manufacturer', 'model', 'length_feet', 'quantity', 'fleet_series', 'fuel front', 'fuel_rear', 'powertrain_front', 'powertrain_rear'],
+['1996', 'new flyer', 'd60', '60', '30', '1901-1930*', 'diesel', '', 'detroit diesel series 50', 'allison b400r'],
+['1998', 'nabi', '416', '40', '133', '3001-3067, 3101-3166*', 'diesel', '', 'cummins m11e', 'allison b400r'],
+['1999', 'nabi',"
+nu-47,what is the number of wins by jaguar xjs?,7,1978 Trans-Am season,"round | date | circuit | winning_driver_ta2 | winning_vehicle_ta2 | winning_driver_ta1 | winning_vehicle_ta1
+1 | may 21 | sears point | greg pickett | chevrolet corvette | gene bothello | chevrolet corvette
+2 | june 4 | westwood | ludwig heimrath | porsche 935 | nick engels | chevrolet corvette
+3 | june 11 | portland | tuck thomas | chevrolet monza | bob matkowitch | chevrolet corvette
+4 | june 25 | mont-tremblant | monte sheldon | porsche 935 | bob tullius | jaguar xjs
+5 | july 8 | watkins glen‡ | hal shaw, jr.;  monte shelton | porsche 935 | brian fuerstenau;  bob tullius | jaguar xjs
+6 | august 13 | brainerd | jerry hansen | chevrolet monza | bob tullius | jaguar xjs
+7 | august 19 | mosport | greg pickett | chevrolet corvette | bob tullius | jaguar xjs
+8 | september 4 | road america | greg pickett | chevrolet corvette | bob tullius | jaguar xjs
+9 | october 8 | laguna seca | greg pickett | chevrolet corvette | bob tullius | jaguar xjs
+10 | november 5 | mexico city | ludwig heimrath | porsche 935 | bob tullius | jaguar xjs","normalized_table = [['round', 'date', 'circuit', 'winning_driver_ta2', 'winning_vehicle_ta2', 'winning_driver_ta1', 'winning_vehicle_ta1'],
+['1', 'may 21', 'sears point', 'greg pickett', 'chevrolet corvette', 'gene bothello', 'chevrolet corvette'],
+['2', 'june 4', 'westwood', 'ludwig heimrath', 'porsche 935', 'nick engels', 'chevrolet corvette'],
+['3', 'june 11', 'portland', 'tuck thomas', 'chevrolet monza', 'bob matkowitch', 'chevrolet corvette'],
+['4', 'june 25', 'mont-tremblant', 'monte sheldon', 'porsche 935', 'bob tullius', 'jaguar xjs'],
+['5', 'july 8', 'watkins glen‡', 'hal shaw, jr.;  monte shelton', 'porsche 935', 'brian fuerstenau;  bob tullius', 'jaguar xjs'],
+['6', 'august 13', 'brainerd', 'jerry hansen', 'chevrolet monza', 'bob tullius', 'jaguar xjs'],
+['7', 'august 19', 'mosport', 'greg pickett', 'chevrolet corvette', 'bob tullius', 'jaguar xjs'],
+['8', 'september 4', 'road america', 'greg pickett', 'chevrolet corvette', 'bob tullius', 'jaguar xjs'],
+['9', 'october 8', 'laguna seca', 'greg pickett', 'chevrolet corvette', 'bob tullius', 'jaguar xjs'],
+['10', 'november 5', 'mexico city', 'ludwig heimrath', 'porsche 935', 'bob tullius', 'jaguar xjs']]"
+nu-50,"besides angola racing team, what other team is listed in the 23rd position?",carlin,Luís Sá Silva,"season | series | team | races | wins | poles | f_laps | podiums | points | position
+2007 | asian formula renault challenge | champ motorsports | 12 | 0 | 0 | 0 | 1 | 64 | 14th
+2008 | asian formula renault challenge | champ motorsports | 13 | 0 | 0 | 0 | 3 | 193 | 4th
+2009 | asian formula renault challenge | asia racing team | 12 | 6 | 2 | 4 | 7 | 287 | 2nd
+2009 | formula renault 2 northern european cup | krenek motorsport | 14 | 0 | 0 | 0 | 0 | 44 | 21st
+2010 | ats formel 3 cup | china sonangol | 5 | 0 | 0 | 0 | 0 | 0 | 19th
+2010 | austria formula 3 cup | sonangol motopark | 4 | 1 | 2 | 3 | 2 | 35 | 9th
+2011 | formula pilota china | asia racing team | 12 | 2 | 0 | 0 | 3 | 124 | 2nd
+2012 | formula 3 euro series | angola racing team | 21 | 0 | 0 | 0 | 0 | 14 | 14th
+2012 | 59th macau grand prix formula 3 | angola racing team | 2 | 0 | 0 | 0 | 0 | — | 23rd
+2012 | masters of formula 3 | angola racing team | 1 | 0 | 0 | 0 | 0 | — | 18th
+2012 | british formula 3 championship | angola racing team | 5 | 0 | 0 | 0 | 0 | — | —
+2013 | gp3 series | carlin | 16 | 0 | 0 | 0 | 0 | 0 | 23rd","normalized_table = [['season', 'series', 'team', 'races', 'wins', 'poles', 'f_laps', 'podiums', 'points', 'position'],
+['2007', 'asian formula renault challenge', 'champ motorsports', '12', '0', '0', '0', '1', '64', '14th'],
+['2008', 'asian formula renault challenge', 'champ motorsports', '13', '0', '0', '0', '3', '193', '4th'],
+['2009', 'asian formula renault challenge', 'asia racing team', '12', '6', '2', '4', '7', '287', '2nd'],
+['2009', 'formula renault 2 northern european cup', 'krenek motorsport', '14', '0', '0', '0', '0', '44', '21st'],
+['2010', 'ats formel 3 cup', 'china sonangol', '5', '0', '0', '0', '0', '0', '19th'],
+['2010', 'austria formula 3 cup', 'sonangol motopark', '4', '1', '2', '3', '2', '35', '9th'],
+['2011', 'formula pilota china', 'asia racing team', '12', '2', '0', '0', '3', '124', '2nd'],
+['2012', 'formula 3 euro series', 'angola racing team', '21', '0', '0', '0', '0', '14', '14th'],
+['2012', '59th macau grand prix formula 3', 'angola racing team', '2', '0', '0', '0', '0', '', '23rd'],
+['2012', 'masters of formula 3', 'angola racing team', '1', '0', '0', '0', '0', '', '18th'],
+['2012', 'british formula 3 championship', 'angola racing team', '5', '0', '0', '0', '0', '', ''],
+['2013', 'gp3 series', 'carlin', '16', '0', '0', '0', '0', '0', '23rd']]"
+nu-51,how many countries had at least $1 billion in box office?,10,Film industry,"rank | country | box_office | year | box_office_from_national_films
+1.0 | canada/united states | $10800000000 | 2012 | –
+2.0 | china | $3600000000 | 2013 | 59% (2013)
+3.0 | japan | $1880000000 | 2013 | 61% (2013)
+4.0 | united kingdom | $1700000000 | 2012 | 36.1% (2011)
+5.0 | france | $1700000000 | 2012 | 33.3% (2013)
+6.0 | south korea | $1470000000 | 2013 | 59.7% (2013)
+7.0 | india | $1400000000 | 2012 | –
+8.0 | germany | $1300000000 | 2012 | –
+9.0 | russia | $1200000000 | 2012 | –
+10.0 | australia | $1200000000 | 2012 | 4.1% (2011)
+11.0 | italy | $840000000 | 2013 | 30% (2013)
+12.0 | brazil | $720000000 | 2013 | 17% (2013)
+nan | world | $34700000000 | 2012 | –","normalized_table = [['rank', 'country', 'box_office', 'year', 'box_office_from_national_films'],
+['1.0', 'canada/united states', '10800000000', '2012', ''],
+['2.0', 'china', '3600000000', '2013', '59% (2013)'],
+['3.0', 'japan', '1880000000', '2013', '61% (2013)'],
+['4.0', 'united kingdom', '1700000000', '2012', '36.1% (2011)'],
+['5.0', 'france', '1700000000', '2012', '33.3% (2013)'],
+['6.0', 'south korea', '1470000000', '2013', '59.7% (2013)'],
+['7.0', 'india', '1400000000', '2012', ''],
+['8.0', 'germany', '1300000000', '2012', ''],
+['9.0', 'russia', '1200000000', '2012', ''],
+['10.0', 'australia', '1200000000', '2012', '4.1% (2011)'],
+['11.0', 'italy', '840000000', '2013', '30% (2013)'],
+['12.0', 'brazil', '720000000', '2013', '17% (2013)']]"
+nu-52,what city has a radio station called the wolf?,yankton,"Yankton, South Dakota","frequency | call_sign | name | format | owner | target_city_market | city_of_license
+89.7 fm | kusd | south dakota public broadcasting | npr | sd board of directors for educational telecommunications | yankton/vermillion | vermillion
+93.1 fm | kkya | kk93 | country | riverfront broadcasting llc | yankton/vermillion | yankton
+94.3 fm | kdam | the dam | mainstream rock | riverfront broadcasting llc | yankton/vermillion | hartington
+104.1 fm | wnax-fm | the wolf 104.1 | country | saga communications | yankton/vermillion | yankton
+106.3 fm | kvht | classic hits 106.3 | classic hits | cullhane communications, inc. | yankton/vermillion | vermillion","normalized_table = [
+    [""frequency"", ""call_sign"", ""name"", ""format"", ""owner"", ""target_city_market"", ""city_of_license""],
+    [""89.7 fm"", ""kusd"", ""south dakota public broadcasting"", ""npr"", ""sd board of directors for educational telecommunications"", ""yankton/vermillion"", ""vermillion""],
+    [""93.1 fm"", ""kkya"", ""kk93"", ""country"", ""riverfront broadcasting llc"", ""yankton/vermillion"", ""yankton""],
+    [""94.3 fm"", ""kdam"", ""the dam"", ""mainstream rock"", ""riverfront broadcasting llc"", ""yankton/vermillion"", ""hartington""],
+    [""104.1 fm"", ""wnax-fm"", ""the wolf 104.1"", ""country"", ""saga communications"", ""yankton/vermillion"", ""yankton""],
+    [""106.3 fm"", ""kvht"", ""classic hits 106.3"", ""classic hits"", ""cullhane communications, inc."", ""yankton/vermillion"", ""vermillion""]
+]"
+nu-53,what is the earliest date kodak made 16mm film?,1935,Kodachrome,"film | film1 | date
+kodachrome film | 16 mm, daylight (asa 10) & type a (asa 16) | 1935–1962
+kodachrome film | 8 mm, daylight (asa 10) & type a (asa 16) | 1936–1962
+kodachrome film | 35 mm and 828, daylight & type a | 1936–1962
+kodachrome professional film (sheets) | daylight (asa 8) and type b (asa 10) | 1938–1951
+kodachrome film | 35 mm and 828, type f (asa 12) | 1955–1962
+kodachrome professional film | 35 mm, type a (asa 16) | 1956–1962
+kodak color print material | type d (slide duping film) | 1955–1957
+kodachrome ii film | 16 mm, daylight (asa 25) and type a (asa 40) | 1961–1974
+kodachrome ii film | 8 mm, daylight (asa 25) and type a (asa 40) | 1961–1974
+kodachrome ii film | s-8, type a (asa 40) | 1965–1974
+kodachrome ii film | 35 mm and 828, daylight (asa 25/early) (asa 64/late) | 1961–1974
+kodachrome ii film | professional, 35 mm, type a (asa 40) | 1962–1978
+kodachrome-x film | 35 mm (asa 64) | 1962–1974
+kodachrome-x film | 126 format | 1963–1974
+kodachrome-x film | 110 format | 1972–1974
+kodachrome 25 film | 35 mm, daylight | 1974–2001
+kodachrome 25 film | movie film, 16 mm, daylight | 1974–2002
+kodachrome 25 film | movie film, 8 mm, daylight | 1974–1992
+kodachrome 25 film | professional film, 35 mm, daylight | 1983–1999
+kodachrome 40 film | 35 mm, type a | 1978–1997
+kodachrome 40 film | movie film, 16 mm, type a | 1974–2006
+kodachrome 40 film | movie film, s-8, type a | 1974–2005
+kodachrome 40 film | sound movie film, s-8, type a | 1974–1998
+kodachrome 40 film | movie film, 8 mm, type a | 1974–1992
+kodachrome 64 | 35 mm, daylight | 1974–2009
+kodachrome 64 | 126 format, daylight | 1974–1993
+kodachrome 64 | 110 format, daylight | 1974–1987
+kodachrome 64 | professional film, 35 mm, daylight | 1983–2009
+kodachrome 64 | professional film, daylight, 120 format | 1986–1996
+kodachrome 200 | professional film, 35 mm, daylight | 1986–2004
+kodachrome 200 | 35 mm, daylight | 1988–2007
+cine-chrome 40a | double regular 8 mm, tungsten | 2003–2006","normalized_table = [['film', 'film1', 'format', 'asa', 'date_start', 'date_end'],
+['kodachrome film', '16 mm, daylight', 'type a', '10', '1935', '1962'],
+['kodachrome film', '8 mm, daylight', 'type a', '16', '1936', '1962'],
+['kodachrome film', '35 mm and 828', 'daylight', 'type a', '1936', '1962'],
+['kodachrome professional film (sheets)', 'N/A', 'daylight', 'type b', '8', '1938', '1951'],
+['kodachrome film', '35 mm and 828', 'N/A', 'type f', '12', '1955', '1962'],
+['kodachrome professional film', '35 mm', 'N/A', 'type a', '16', '1956', '1962'],
+['kodak color print material', 'N/A', 'N/A', 'type d', 'N/A', '1955', '1957'],
+['kodachrome ii film', '16 mm, daylight', 'type a', '25', '1961', '1974'],
+['kodachrome ii film', '8 mm, daylight', 'type a', '40', '1961', '1974'],
+['kodachrome ii film', 's-8', 'N/A', 'type a', '40', '1965', '1974'],
+['kodachrome ii film', '35 mm and 828', 'daylight', 'N/A', '25/early', '64/late', '1961', '1974'],
+['kodachrome ii film', 'professional, 35 mm', 'N/A', 'type a', '40', '1962', '1978'],
+['kodachrome-x film', '35 mm', 'N/A', 'N/A', '64', '1962', '1974'],
+['kodachrome-x film', 'N/A', '126 format', 'N/A', 'N/A', '1963', '1974'],
+['kodachrome-x film', 'N/A', '110 format', 'N/A', 'N/A', '1972', '1974'],
+['kodachrome 25 film', '35 mm', 'daylight', 'N/A', 'N/A', '1974', '2001'],
+['kodachrome 25 film', 'movie film, 16 mm', 'daylight', 'N/A', 'N/A', '1974', '2002'],
+['kodachrome 25 film', 'movie film, 8 mm', 'daylight', 'N/A', 'N/A', '1974', '1992'],
+['kodachrome 25 film', 'professional film, 35 mm', 'daylight', 'N/A', 'N/A', '1983', '1999'],
+['kodachrome 40 film', '35 mm', 'N/A', 'type a', 'N/A', '1978', '1997'],
+['kodachrome 40 film', 'movie film, 16 mm', 'N/A', 'type a', 'N/A', '1974', '2006'],
+['kodachrome 40 film', 'movie film, s-8', 'N/A', 'type a', 'N/A', '1974', '2005'],
+['kodachrome 40 film', 'sound movie film, s-8', 'N/A', 'type a', 'N/A', '1974', '1998'],
+['kodachrome 40 film', 'movie film, 8 mm', 'N/A', 'type a', 'N/A', '1974', '1992'],
+['kodachrome 64', '35 mm', 'daylight', 'N/A', 'N/A', '1974', '2009'],
+['kodachrome 64', 'N/A', '126 format', 'daylight', 'N/A', 'N/A', '1974', '1993'],
+['kodachrome 64', 'N/A', '110 format', 'daylight', 'N/A', 'N/A', '1974', '1987'],
+['kodachrome 64', 'professional film, 35 mm', 'daylight', 'N/A', 'N/A', '1983', '2009'],
+['kodachrome 64', 'professional film, daylight', '120 format', 'N/A', 'N/A', '1986', '1996'],
+['kodachrome 200', 'professional film, 35 mm', 'daylight', 'N/A', 'N/A', '1986', '2004'],
+['kodachrome 200', '35 mm', 'daylight', 'N/A', 'N/A', '1988', '2007'],
+['cine-chrome 40a', 'double regular 8 mm', 'tungsten', 'N/A', 'N/A', '2003', '2006']]"
+nu-54,who was the first to win during the 2009 fujitsu v8 supercar season?,david russell,2009 Fujitsu V8 Supercar Series,"rd | event | circuit | location | date | winner
+1 | clipsal 500 | adelaide street circuit | adelaide, south australia | 19-22 mar | david russell
+2 | winton | winton motor raceway | benalla, victoria | 1-3 may | jonathon webb
+3 | dunlop townsville 400 | townsville street circuit | townsville, queensland | 10-12 jul | james moffat
+4 | norton 360 sandown challenge | sandown raceway | melbourne, victoria | 31 jul-aug 2 | david russell
+5 | queensland house & land 300 | queensland raceway | ipswich, queensland | 21-23 aug | jonathon webb
+6 | supercheap auto bathurst 1000 | mount panorama circuit | bathurst, new south wales | 8-11 oct | jonathon webb
+7 | sydney telstra 500 | homebush street circuit | sydney, new south wales | 4-6 dec | jonathon webb","normalized_table = [['rd', 'event', 'circuit', 'location', 'start_date', 'end_date', 'winner'],
+['1', 'clipsal 500', 'adelaide street circuit', 'adelaide, south australia', '19 mar', '22 mar', 'david russell'],
+['2', 'winton', 'winton motor raceway', 'benalla, victoria', '1 may', '3 may', 'jonathon webb'],
+['3', 'dunlop townsville 400', 'townsville street circuit', 'townsville, queensland', '10 jul', '12 jul', 'james moffat'],
+['4', 'norton 360 sandown challenge', 'sandown raceway', 'melbourne, victoria', '31 jul', '2 aug', 'david russell'],
+['5', 'queensland house & land 300', 'queensland raceway', 'ipswich, queensland', '21 aug', '23 aug', 'jonathon webb'],
+['6', 'supercheap auto bathurst 1000', 'mount panorama circuit', 'bathurst, new south wales', '8 oct', '11 oct', 'jonathon webb'],
+['7', 'sydney telstra 500', 'homebush street circuit', 'sydney, new south wales', '4 dec', '6 dec', 'jonathon webb']]"
+nu-55,which competition was held in berlin and daegu?,world championships,Jan Kudlička,"year | competition | venue | position | notes
+2005 | world youth championships | marrakech, morocco | 6th | 5.05 m
+2006 | world junior championships | beijing, china | 5th | 5.3 m
+2008 | olympic games | beijing, china | 10th | 5.45 m
+2009 | european u23 championships | kaunas, lithuania | 8th | 5.15 m
+2009 | world championships | berlin, germany | 22nd (q) | 5.4 m
+2010 | european championships | barcelona, spain | 10th | 5.6 m
+2011 | world championships | daegu, south korea | 9th | 5.65 m
+2012 | european championships | helsinki, finland | 6th | 5.6 m
+2012 | olympic games | london, united kingdom | 8th | 5.65 m
+2013 | european indoor championships | gothenburg, sweden | 5th | 5.71 m
+2014 | world indoor championships | sopot, poland | 3rd | 5.8 m","normalized_table = [['year', 'competition', 'venue', 'position', 'notes'],
+                      ['2005', 'world youth championships', 'marrakech, morocco', '6th', '5.05 m'],
+                      ['2006', 'world junior championships', 'beijing, china', '5th', '5.3 m'],
+                      ['2008', 'olympic games', 'beijing, china', '10th', '5.45 m'],
+                      ['2009', 'european u23 championships', 'kaunas, lithuania', '8th', '5.15 m'],
+                      ['2009', 'world championships', 'berlin, germany', '22nd (q)', '5.4 m'],
+                      ['2010', 'european championships', 'barcelona, spain', '10th', '5.6 m'],
+                      ['2011', 'world championships', 'daegu, south korea', '9th', '5.65 m'],
+                      ['2012', 'european championships', 'helsinki, finland', '6th', '5.6 m'],
+                      ['2012', 'olympic games', 'london, united kingdom', '8th', '5.65 m'],
+                      ['2013', 'european indoor championships', 'gothenburg, sweden', '5th', '5.71 m'],
+                      ['2014', 'world indoor championships', 'sopot, poland', '3rd', '5.8 m']]"
+nu-57,what type of plane was encountered the least?,mig-15,John B. England,"date | location | air_ground | number | type | status
+1944-3-8 | near steinhuder meer (lake), germany | air | 1.0 | me-109 | destroyed
+1944-3-16 | 20 miles south of stuttgart, germany | air | 1.0 | me-110 | destroyed
+1944-4-11 | 20 miles northeast of magdeburg, germany | air | 0.5 | me-109 | destroyed
+1944-4-13 | west of mannheim, germany | air | 1.0 | fw-190 | destroyed
+1944-4-24 | south of munich, germany | air | 3.0 | me-110 | destroyed
+1944-5-27 | north of strasbourg, france | air | 1.0 | me-109 | damaged
+1944-8-18 | 20 miles northeast of paris, france | air | 0.5 | me-109 | destroyed
+1944-9-13 | south of nordhausen, germany | air | 2.5 | me-109 | destroyed
+1944-10-6 | 20 miles northwest of berlin, germany | air | 1.0 | me-109 | damaged
+1944-10-6 | 20 miles northwest of berlin, germany | air | 2.0 | me-109 | destroyed
+1944-11-27 | south of magdeburg, germany | air | 4.0 | fw-190 | destroyed
+1945-1-14 | 20 miles northwest of berlin, germany | air | 1.0 | me-109 | destroyed
+1952-1-25 | korea | air | 1.0 | mig-15 | damaged","normalized_table = [
+    [""date"", ""location"", ""air_ground"", ""number"", ""type"", ""status""],
+    [""1944-03-08"", ""near steinhuder meer (lake), germany"", ""air"", 1.0, ""me-109"", ""destroyed""],
+    [""1944-03-16"", ""20 miles south of stuttgart, germany"", ""air"", 1.0, ""me-110"", ""destroyed""],
+    [""1944-04-11"", ""20 miles northeast of magdeburg, germany"", ""air"", 0.5, ""me-109"", ""destroyed""],
+    [""1944-04-13"", ""west of mannheim, germany"", ""air"", 1.0, ""fw-190"", ""destroyed""],
+    [""1944-04-24"", ""south of munich, germany"", ""air"", 3.0, ""me-110"", ""destroyed""],
+    [""1944-05-27"", ""north of strasbourg, france"", ""air"", 1.0, ""me-109"", ""damaged""],
+    [""1944-08-18"", ""20 miles northeast of paris, france"", ""air"", 0.5, ""me-109"", ""destroyed""],
+    [""1944-09-13"", ""south of nordhausen, germany"", ""air"", 2.5, ""me-109"", ""destroyed""],
+    [""1944-10-06"", ""20 miles northwest of berlin, germany"", ""air"", 1.0, ""me-109"", ""damaged""],
+    [""1944-10-06"", ""20 miles northwest of berlin, germany"", ""air"", 2.0, ""me-109"", ""destroyed""],
+    [""1944-11-27"", ""south of magdeburg, germany"", ""air"", 4.0, ""fw-190"", ""destroyed""],
+    [""1945-01-14"", ""20 miles northwest of berlin, germany"", ""air"", 1.0, ""me-109"", ""destroyed""],
+    [""1952-01-25"", ""korea"", ""air"", 1.0, ""mig-15"", ""damaged""]
+]"
+nu-58,who was the top placing competitor?,esther shahamorov,Israel at the 1972 Summer Olympics,"name | sport | event | placing | performance
+shaul ladani | athletics | men's 50 km walk | 19 | 4:24:38.6; (also entered for 20 km walk, but did not start)
+esther shahamorov | athletics | women's 100 m | semifinal (5th) | 11.49
+esther shahamorov | athletics | women's 100 m hurdles | semifinal | did not start (left munich before the semifinal)
+dan alon | fencing | men's foil | second round | w5–l5 (1r 3-2, 2r 2-3)
+yehuda weissenstein | fencing | men's foil | second round | w2–l8 (1r 2-3, 2r 0-5)
+yair michaeli | sailing | flying dutchman | 23 | 28-22-22-19-25-19-dns = 171 pts; (left kiel before 7th race)
+itzhak nir | sailing | flying dutchman | 23 | 28-22-22-19-25-19-dns = 171 pts; (left kiel before 7th race)
+henry hershkowitz | shooting | 50 metre rifle prone | 23 | 593/600
+henry hershkowitz | shooting | 50 metre rifle 3 positions | 46 | 1114/1200
+zelig stroch | shooting | 50 metre rifle prone | 57 | 589/600
+shlomit nir | swimming | women's 100 m breaststroke | heats (8th) | 1:20.9
+shlomit nir | swimming | women's 200 m breaststroke | heats (6th) | 2:53.6
+david berger | weightlifting | light-heavyweight <82.5 kg | — | j:132.5 c:122.5 s:— t:—
+ze'ev friedman | weightlifting | bantamweight <56 kg | 12 | j:102.5 c:102.5 s:125 t:330
+yossef romano | weightlifting | middleweight <75 kg | — | (retired injured on third attempt to press 137.5kg)
+gad tsobari | wrestling | freestyle — light flyweight <48 kg | group stage | 0w–2l
+eliezer halfin | wrestling | freestyle — lightweight <68 kg | group stage | 1w–2l
+mark slavin | wrestling | greco-roman — middleweight <82 kg | — | (taken hostage before his scheduled event)","normalized_table = [['name', 'sport', 'event', 'placing', 'performance'],
+['shaul ladani', 'athletics', ""men's 50 km walk"", '19', '4:24:38.6'],
+['esther shahamorov', 'athletics', ""women's 100 m"", 'semifinal (5th)', '11.49'],
+['esther shahamorov', 'athletics', ""women's 100 m hurdles"", 'semifinal', 'did not start (left munich before the semifinal)'],
+['dan alon', 'fencing', ""men's foil"", 'second round', 'w5–l5 (1r 3-2, 2r 2-3)'],
+['yehuda weissenstein', 'fencing', ""men's foil"", 'second round', 'w2–l8 (1r 2-3, 2r 0-5)'],
+['yair michaeli', 'sailing', 'flying dutchman', '23', '28-22-22-19-25-19-dns = 171 pts; (left kiel before 7th race)'],
+['itzhak nir', 'sailing', 'flying dutchman', '23', '28-22-22-19-25-19-dns = 171 pts; (left kiel before 7th race)'],
+['henry hershkowitz', 'shooting', '50 metre rifle prone', '23', '593/600'],
+['henry hershkowitz', 'shooting', '50 metre rifle 3 positions', '46', '1114/1200'],
+['zelig stroch', 'shooting', '50 metre rifle prone', '57', '589/600'],
+['shlomit nir', 'swimming', ""women's 100 m breaststroke"", 'heats (8th)', '1:20.9'],
+['shlomit nir', 'swimming', ""women's 200 m breaststroke"", 'heats (6th)', '2:53.6'],
+['david berger', 'weightlifting', 'light-heavyweight <82.5 kg', '—', 'j:132.5 c:122.5 s:— t:—'],
+['ze\'ev friedman', 'weightlifting', 'bantamweight <56 kg', '12', 'j:102.5 c:102.5 s:125 t:330'],
+['yossef romano', 'weightlifting', 'middleweight <75 kg', '—', '(retired injured on third attempt to press 137.5kg)'],
+['gad tsobari', 'wrestling', 'freestyle — light flyweight <48 kg', 'group stage', '0w–2l'],
+['eliezer halfin', 'wrestling', 'freestyle — lightweight <68 kg', 'group stage', '1w–2l'],
+['mark slavin', 'wrestling', 'greco-roman — middleweight <82 kg', '—', '(taken hostage before his scheduled event)']]"
+nu-59,is the price money for 23 january 1984 more than that of 23 april 1984?,no,Anne Hobbs,"result | date | category | tournament | surface | partnering | opponents | score
+runner-up | 1978-12-10 | $75000 | sydney, australia | grass | judy chaloner | kerry reid;  wendy turnbull | 2–6, 6–4, 2–6
+runner-up | 1981-11-8 | $50000 | hong kong | clay | susan leo | ann kiyomura;  sharon walsh | 3–6, 4–6
+winner | 1982-6-13 | $100000 | birmingham, great britain | grass | jo durie | rosie casals;  wendy turnbull | 6–3, 6–2
+winner | 1983-5-23 | $150000 | berlin, germany | carpet | jo durie | claudia kohde-kilsch;  eva pfaff | 6–4, 7–6(7–2)
+runner-up | 1983-6-19 | $150000 | eastbourne, great britain | grass | jo durie | martina navrátilová;  pam shriver | 1–6, 0–6
+winner | 1983-8-21 | $200000 | toronto, canada | hard | andrea jaeger | rosalyn fairbank;  candy reynolds | 6–4, 5–7, 7–5
+winner | 1983-11-20 | $150000 | brisbane, australia | grass | wendy turnbull | pam shriver;  sharon walsh | 6–3, 6–4
+winner | 1983-11-27 | $150000 | sydney, australia | grass | wendy turnbull | hana mandlíková;  helena suková | 6–4, 6–3
+runner-up | 1983-12-12 | grand slam | australian open, australia | grass | wendy turnbull | martina navrátilová;  pam shriver | 4–6, 7–6, 2–6
+winner | 1984-1-23 | $50000 | denver, united states | hard | marcella mesker | sherry acker;  candy reynolds | 6–2, 6–3
+runner-up | 1984-1-29 | $100000 | marco island, united states | clay | andrea jaeger | hana mandlíková;  helena suková | 6–3, 2–6, 2–6
+runner-up | 1984-4-16 | $200000 | hilton head, united states | clay | sharon walsh | claudia kohde-kilsch;  hana mandlíková | 5–7, 2–6
+runner-up | 1984-4-22 | $250000 | amelia island, united states | clay | mima jaušovec | kathy jordan;  anne smith | 4–6, 6–3, 4–6
+runner-up | 1984-4-23 | $200000 | orlando, united states | clay | wendy turnbull | claudia kohde-kilsch;  hana mandlíková | 0–6, 6–1, 3–6
+winner | 1984-5-20 | $150000 | berlin, germany | clay | candy reynolds | kathy horvath;  virginia ruzici | 6–3, 4–6, 7–6(13–11)
+runner-up | 1984-9-9 | grand slam | us open, united states | hard | wendy turnbull | martina navrátilová;  pam shriver | 2–6, 4–6
+runner-up | 1985-5-20 | $75000 | melbourne, australia | carpet | kathy jordan | pam shriver;  liz smylie | 2–6, 7–5, 1–6
+winner | 1985-12-15 | $50000 | auckland, new zealand | grass | candy reynolds | lea antonoplis;  adriana villagrán | 6–1, 6–3
+runner-up | 1987-7-19 | $150000 | newport, united states | grass | kathy jordan | gigi fernández;  lori mcneil | 6–7(5–7), 5–7
+runner-up | 1987-8-30 | $150000 | mahwah, united states | hard | liz smylie | gigi fernández;  lori mcneil | 3–6, 2–6","normalized_table = [['result', 'date', 'prize_money', 'tournament_location', 'surface', 'partnering', 'opponent1', 'opponent2', 'score'],
+['runner-up', '1978-12-10', 75000, 'sydney, australia', 'grass', 'judy chaloner', 'kerry reid', 'wendy turnbull', '2–6, 6–4, 2–6'],
+['runner-up', '1981-11-8', 50000, 'hong kong', 'clay', 'susan leo', 'ann kiyomura', 'sharon walsh', '3–6, 4–6'],
+['winner', '1982-6-13', 100000, 'birmingham, great britain', 'grass', 'jo durie', 'rosie casals', 'wendy turnbull', '6–3, 6–2'],
+['winner', '1983-5-23', 150000, 'berlin, germany', 'carpet', 'jo durie', 'claudia kohde-kilsch', 'eva pfaff', '6–4, 7–6(7–2)'],
+['runner-up', '1983-6-19', 150000, 'eastbourne, great britain', 'grass', 'jo durie', 'martina navrátilová', 'pam shriver', '1–6, 0–6'],
+['winner', '1983-8-21', 200000, 'toronto, canada', 'hard', 'andrea jaeger', 'rosalyn fairbank', 'candy reynolds', '6–4, 5–7, 7–5'],
+['winner', '1983-11-20', 150000, 'brisbane, australia', 'grass', 'wendy turnbull', 'pam shriver', 'sharon walsh', '6–3, 6–4'],
+['winner', '1983-11-27', 150000, 'sydney, australia', 'grass', 'wendy turnbull', 'hana mandlíková', 'helena suková', '6–4, 6–3'],
+['runner-up', '1983-12-12', 'grand slam', 'australian open, australia', 'grass', 'wendy turnbull', 'martina navrátilová', 'pam shriver', '4–6, 7–6, 2–6'],
+['winner', '1984-1-23', 50000, 'denver, united states', 'hard', 'marcella mesker', 'sherry acker', 'candy reynolds', '6–2, 6–3'],
+['runner-up', '1984-1-29', 100000, 'marco island, united states', 'clay', 'andrea jaeger', 'hana mandlíková', 'helena suková', '6–3, 2–6, 2–6'],
+['runner-up', '1984-4-16', 200000, 'hilton head, united states', 'clay', 'sharon walsh', 'claudia kohde-kilsch', 'hana mandlíková', '5–7, 2–6'],
+['runner-up', '1984-4-22', 250000, 'amelia island, united states', 'clay', 'mima jaušovec', 'kathy jordan', 'anne smith', '4–6, 6–3, 4–6'],
+['runner-up', '1984-4-23', 200000, 'orlando, united states', 'clay', 'wendy turnbull', 'claudia kohde-kilsch', 'hana mandlíková', '0–6, 6–1, 3–6'],
+['winner', '1984-5-20', 150000, 'berlin, germany', 'clay', 'candy reynolds', 'kathy horvath', 'virginia ruzici', '6–3, 4–6, 7–6(13–11)'],
+['runner-up', '1984-9-9', 'grand slam', 'us open, united states', 'hard', 'wendy turnbull', 'martina navrátilová', 'pam shriver', '2–6, 4–6'],
+['runner-up', '1985-5-20', 75000, 'melbourne, australia', 'carpet', 'kathy jordan', 'pam shriver', 'liz smylie', '2–6, 7–5, 1–6'],
+['winner', '1985-12-15', 50000, 'auckland, new zealand', 'grass', 'candy reynolds', 'lea antonoplis', 'adriana villagrán', '6–1, 6–3'],
+['runner-up', '1987-7-19', 150000, 'newport, united states', 'grass', 'kathy jordan', 'gigi fernández', 'lori mcneil', '6–7(5–7), 5–7'],
+['runner-up', '1987-8-30', 150000, 'mahwah, united states', 'hard', 'liz smylie', 'gigi fernández', 'lori mcneil', '3–6, 2–6']]"
+nu-61,which position was listed the most on this chart?,s,2000 Chicago Bears season,"round | pick | name | position | college
+1 | 9 | brian urlacher | s | new mexico
+2 | 39 | mike brown | s | nebraska
+3 | 69 | dez white | wr | georgia tech
+3 | 87 | dustin lyman | te | wake forest
+4 | 125 | reggie austin | db | wake forest
+6 | 170 | frank murphy | wr | kansas state
+6 | 174 | paul edinger | k | michigan state
+7 | 223 | james cotton | de | ohio state
+7 | 254 | michael green | s | northwestern state","normalized_table = [['round', 'pick', 'name', 'position', 'college'],
+                      [1, 9, 'brian urlacher', 's', 'new mexico'],
+                      [2, 39, 'mike brown', 's', 'nebraska'],
+                      [3, 69, 'dez white', 'wr', 'georgia tech'],
+                      [3, 87, 'dustin lyman', 'te', 'wake forest'],
+                      [4, 125, 'reggie austin', 'db', 'wake forest'],
+                      [6, 170, 'frank murphy', 'wr', 'kansas state'],
+                      [6, 174, 'paul edinger', 'k', 'michigan state'],
+                      [7, 223, 'james cotton', 'de', 'ohio state'],
+                      [7, 254, 'michael green', 's', 'northwestern state']]"
+nu-62,m. shafi ahmad and absdul majid both had what type of degree?,ph.d,Space and Upper Atmosphere Research Commission,"number | name | term_started | term_ended | alma_mater | fields | educational_background
+1 | dr abdus salam | 1961 | 1967 | imperial college | theoretical physics | doctor of philosophy (ph.d)
+2 | air commodore dr władysław turowicz | 1967 | 1979 | warsaw university of technology | aeronautical engineering | ph.d
+3 | air commodore k. m. ahmad | 1979 | 1980 | pakistan air force academy | flight instructor | certificated flight instructor (cfi)
+4 | dr salim mehmud | 1980 | 1989 | oak ridge institute for science and education and oak ridge national laboratory | nuclear engineering, electrical engineering, physics, mathematics, electronics engineering | ph.d
+5 | dr m. shafi ahmad | 1989 | 1990 | university of london | astronomy | ph.d
+6 | engr.sikandar zaman | 1990 | 1997 | university of leeds | mechanical engineering | bachelor of science (b.s.)
+7 | dr abdul majid | 1997 | 2001 | university of wales | astrophysics | ph.d
+8 | major general raza hussain | 2001 | 2010 | pakistan army corps of electrical and mechanical engineers | electrical engineering | b.s.
+9 | major general ahmed bilal | 2010 | present | pakistan army corps of signals engineering | computer engineering | master of science (m.s)","normalized_table = [
+    [""number"", ""name"", ""term_started"", ""term_ended"", ""alma_mater"", ""field_1"", ""field_2"", ""field_3"", ""field_4"", ""educational_background""],
+    [1, ""dr abdus salam"", 1961, 1967, ""imperial college"", ""theoretical physics"", """", """", """", ""ph.d""],
+    [2, ""air commodore dr władysław turowicz"", 1967, 1979, ""warsaw university of technology"", ""aeronautical engineering"", """", """", """", ""ph.d""],
+    [3, ""air commodore k. m. ahmad"", 1979, 1980, ""pakistan air force academy"", ""flight instructor"", """", """", """", ""certificated flight instructor (cfi)""],
+    [4, ""dr salim mehmud"", 1980, 1989, ""oak ridge institute for science and education and oak ridge national laboratory"", ""nuclear engineering"", ""electrical engineering"", ""physics"", ""mathematics"", ""ph.d""],
+    [5, ""dr m. shafi ahmad"", 1989, 1990, ""university of london"", ""astronomy"", """", """", """", ""ph.d""],
+    [6, ""engr.sikandar zaman"", 1990, 1997, ""university of leeds"", ""mechanical engineering"", """", """", """", ""bachelor of science (b.s.)""],
+    [7, ""dr abdul majid"", 1997, 2001, ""university of wales"", ""astrophysics"", """", """", """", ""ph.d""],
+    [8, ""major general raza hussain"", 2001, 2010, ""pakistan army corps of electrical and mechanical engineers"", ""electrical engineering"", """", """", """", ""b.s.""],
+    [9, ""major general ahmed bilal"", 2010, ""present"", ""pakistan army corps of signals engineering"", ""computer engineering"", """", """", """", ""master of science (m.s)""]
+]"
+nu-63,how many photos total are listed?,18,Henry J. Kaiser-class oiler,"ship | hull_no | status | years_active | nvr_page
+henry j. kaiser | t-ao-187 | active—southern california duty oiler | 1986–present | ao187
+joshua humphreys | t-ao-188 | inactivated 1996, returned to service 2005 | 1987-1996; 2005-2006; 2010-present | ao188
+john lenthall | t-ao-189 | active | 1987-1996; 1998–present | ao189
+andrew j. higgins | t-ao-190 | inactivated 1996-5. sold to the chilean navy 2009-5. towed to atlantic marine alabama shipyard, mobile, alabama, 2009-9 for p3m refit. commissioned in chilean navy on 2010-2-10 and renamed almirante montt.[1] | 1987-1996 (usa); 2010–present (chile) | ao190
+benjamin isherwood | t-ao-191 | cancelled when 95.3% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011 | launched 1988, christened 1991, never in service | ao191
+henry eckford | t-ao-192 | cancelled when 84% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011 | launched 1989, never in service | ao192
+walter s. diehl | t-ao-193 | active | 1988–present | ao193
+john ericsson | t-ao-194 | active | 1991–present | ao194
+leroy grumman | t-ao-195 | active | 1989–present | ao195
+kanawha | t-ao-196 | active | 1991–present | ao196
+pecos | t-ao-197 | active | 1990–present | ao197
+big horn | t-ao-198 | active | 1992–present | ao198
+tippecanoe | t-ao-199 | active | 1993–present | ao199
+guadalupe | t-ao-200 | active | 1992–present | ao200
+patuxent | t-ao-201 | active | 1995–present | ao201
+yukon | t-ao-202 | active | 1994–present | ao202
+laramie | t-ao-203 | active | 1996–present | ao203
+rappahannock | t-ao-204 | active | 1995–present | ao204","normalized_table = [
+    [""ship"", ""hull_no"", ""status"", ""years_active"", ""nvr_page""],
+    [""henry j. kaiser"", ""t-ao-187"", ""active—southern california duty oiler"", ""1986–present"", ""ao187""],
+    [""joshua humphreys"", ""t-ao-188"", ""inactivated 1996, returned to service 2005"", ""1987-1996; 2005-2006; 2010-present"", ""ao188""],
+    [""john lenthall"", ""t-ao-189"", ""active"", ""1987-1996; 1998–present"", ""ao189""],
+    [""andrew j. higgins"", ""t-ao-190"", ""inactivated 1996-5. sold to the chilean navy 2009-5. towed to atlantic marine alabama shipyard, mobile, alabama, 2009-9 for p3m refit. commissioned in chilean navy on 2010-2-10 and renamed almirante montt.[1]"", ""1987-1996 (usa); 2010–present (chile)"", ""ao190""],
+    [""benjamin isherwood"", ""t-ao-191"", ""cancelled when 95.3% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011"", ""launched 1988, christened 1991, never in service"", ""ao191""],
+    [""henry eckford"", ""t-ao-192"", ""cancelled when 84% complete,; transferred to the maritime administration,; laid up in the james river reserve fleet,; scrapped in 2011"", ""launched 1989, never in service"", ""ao192""],
+    [""walter s. diehl"", ""t-ao-193"", ""active"", ""1988–present"", ""ao193""],
+    [""john ericsson"", ""t-ao-194"", ""active"", ""1991–present"", ""ao194""],
+    [""leroy grumman"", ""t-ao-195"", ""active"", ""1989–present"", ""ao195""],
+    [""kanawha"", ""t-ao-196"", ""active"", ""1991–present"", ""ao196""],
+    [""pecos"", ""t-ao-197"", ""active"", ""1990–present"", ""ao197""],
+    [""big horn"", ""t-ao-198"", ""active"", ""1992–present"", ""ao198""],
+    [""tippecanoe"", ""t-ao-199"", ""active"", ""1993–present"", ""ao199""],
+    [""guadalupe"", ""t-ao-200"", ""active"", ""1992–present"", ""ao200""],
+    [""patuxent"", ""t-ao-201"", ""active"", ""1995–present"", ""ao201""],
+    [""yukon"", ""t-ao-202"", ""active"", ""1994–present"", ""ao202""],
+    [""laramie"", ""t-ao-203"", ""active"", ""1996–present"", ""ao203""],
+    [""rappahannock"", ""t-ao-204"", ""active"", ""1995–present"", ""ao204""]
+]"
+nu-66,"what date is next listed after june 14, 2010.","december 6, 2010","List of Little People, Big World episodes","season | episodes | season_premiere | season_finale
+1 | 20 | 2006-3-4 | 2006-5-13
+2 | 52 | 2006-10-7 | 2007-7-16
+3 | 44 | 2007-10-15 | 2008-6-2
+4 | 48 | 2008-10-13 | 2009-5-11
+5 | 40 | 2009-10-12 | 2010-6-14
+6 | 20 | 2010-9-6 | 2010-12-6
+7 | 8 | 2013-10-29 | 2013-12-17","normalized_table = [['season', 'episodes', 'season_premiere', 'season_finale'],
+                      [1, 20, '2006-03-04', '2006-05-13'],
+                      [2, 52, '2006-10-07', '2007-07-16'],
+                      [3, 44, '2007-10-15', '2008-06-02'],
+                      [4, 48, '2008-10-13', '2009-05-11'],
+                      [5, 40, '2009-10-12', '2010-06-14'],
+                      [6, 20, '2010-09-06', '2010-12-06'],
+                      [7, 8, '2013-10-29', '2013-12-17']]"
+nu-67,how many times was a tournament held in the united states?,1,Kristýna Plíšková,"outcome | no | date | tournament | surface | partner | opponents | score
+runner-up | 1.0 | 2010-5-16 | kurume, japan | clay | karolína plíšková | sun shengnan;  xu yifan | 0–6, 3–6
+winner | 1.0 | 2011-2-13 | rancho mirage, united states | hard | karolína plíšková | nadejda guskova;  sandra zaniewska | 6–7(6–8), 6–1, 6–4
+winner | 2.0 | 2011-8-7 | vancouver, canada | hard | karolína plíšková | jamie hampton;  n. lertcheewakarn | 5–7, 6–2, 6–4
+runner-up | 2.0 | 2011-11-6 | taipei 5, taiwan | hard | karolína plíšková | chan yung-jan;  zheng jie | 6–7(5–7), 7–5, 3–6
+runner-up | 3.0 | 2011-11-20 | bratislava, slovakia | hard | karolína plíšková | naomi broady;  kristina mladenovic | 7–5, 4–6, [2–10]
+winner | 3.0 | 2012-1-23 | andrézieux-bouthéon, france | hard (i) | karolína plíšková | julie coin;  eva hrdinová | 6–4, 4–6, [10–5]
+winner | 4.0 | 2012-1-30 | grenoble, france | hard (i) | karolína plíšková | valentyna ivakhnenko;  maryna zanevska | 6–1, 6–3
+runner-up | 4.0 | 2012-9-17 | shrewsbury, united kingdom | hard (i) | karolína plíšková | vesna dolonc;  stefanie vögele | 1–6, 7–6(7–3), [13–15]
+winner | 5.0 | 2012-11-12 | zawada, poland | carpet (i) | karolína plíšková | kristina barrois;  sandra klemenschits | 6–3, 6–1
+winner | 6.0 | 2013-10-28 | barnstaple, united kingdom | hard (i) | naomi broady | raluca olaru;  tamira paszek | 6–3, 3–6, [10–5]","normalized_table = [['outcome', 'no', 'date', 'tournament', 'surface', 'partner', 'opponents', 'score'],
+['runner-up', 1.0, '2010-5-16', 'kurume, japan', 'clay', 'karolína plíšková', 'sun shengnan;  xu yifan', '0–6, 3–6'],
+['winner', 1.0, '2011-2-13', 'rancho mirage, united states', 'hard', 'karolína plíšková', 'nadejda guskova;  sandra zaniewska', '6–7(6–8), 6–1, 6–4'],
+['winner', 2.0, '2011-8-7', 'vancouver, canada', 'hard', 'karolína plíšková', 'jamie hampton;  n. lertcheewakarn', '5–7, 6–2, 6–4'],
+['runner-up', 2.0, '2011-11-6', 'taipei 5, taiwan', 'hard', 'karolína plíšková', 'chan yung-jan;  zheng jie', '6–7(5–7), 7–5, 3–6'],
+['runner-up', 3.0, '2011-11-20', 'bratislava, slovakia', 'hard', 'karolína plíšková', 'naomi broady;  kristina mladenovic', '7–5, 4–6, [2–10]'],
+['winner', 3.0, '2012-1-23', 'andrézieux-bouthéon, france', 'hard (i)', 'karolína plíšková', 'julie coin;  eva hrdinová', '6–4, 4–6, [10–5]'],
+['winner', 4.0, '2012-1-30', 'grenoble, france', 'hard (i)', 'karolína plíšková', 'valentyna ivakhnenko;  maryna zanevska', '6–1, 6–3'],
+['runner-up', 4.0, '2012-9-17', 'shrewsbury, united kingdom', 'hard (i)', 'karolína plíšková', 'vesna dolonc;  stefanie vögele', '1–6, 7–6(7–3), [13–15]'],
+['winner', 5.0, '2012-11-12', 'zawada, poland', 'carpet (i)', 'karolína plíšková', 'kristina barrois;  sandra klemenschits', '6–3, 6–1'],
+['winner', 6.0, '2013-10-28', 'barnstaple, united kingdom', 'hard (i)', 'naomi broady', 'raluca olaru;  tamira paszek', '6–3, 3–6, [10–5]']]"
+nu-68,how many drivers have no laps led?,18,2009 Honda 200,"pos | no | driver | team | laps | time_retired | grid | laps_led | points
+1 | 9 | scott dixon | chip ganassi racing | 85 | 1:46:5.7985 | 3 | 51 | 52
+2 | 6 | ryan briscoe | penske racing | 85 | + 29.7803 | 1 | 6 | 41
+3 | 10 | dario franchitti | chip ganassi racing | 85 | + 30.0551 | 6 | 0 | 35
+4 | 14 | ryan hunter-reay | a. j. foyt enterprises | 85 | + 33.7307 | 7 | 0 | 32
+5 | 27 | hideki mutoh | andretti green racing | 85 | + 34.1839 | 11 | 0 | 30
+6 | 26 | marco andretti | andretti green racing | 85 | + 46.7669 | 13 | 0 | 28
+7 | 5 | paul tracy | kv racing technology | 85 | + 49.702 | 10 | 0 | 26
+8 | 2 | graham rahal | newman/haas/lanigan racing | 85 | + 50.4517 | 4 | 0 | 24
+9 | 2 | raphael matos (r) | luczo-dragon racing | 85 | + 51.2286 | 15 | 0 | 22
+10 | 11 | tony kanaan | andretti green racing | 85 | + 52.081 | 8 | 0 | 20
+11 | 6 | oriol servià | newman/haas/lanigan racing | 85 | + 52.6215 | 14 | 0 | 19
+12 | 3 | hélio castroneves | penske racing | 85 | + 53.2362 | 5 | 0 | 18
+13 | 18 | justin wilson | dale coyne racing | 85 | + 53.5768 | 2 | 28 | 17
+14 | 33 | robert doornbos (r) | hvm racing | 85 | + 1:10.0812 | 18 | 0 | 16
+15 | 13 | e. j. viso | hvm racing | 84 | + 1 lap | 9 | 0 | 15
+16 | 4 | dan wheldon | panther racing | 84 | + 1 lap | 17 | 0 | 14
+17 | 20 | ed carpenter | vision racing | 84 | + 1 lap | 21 | 0 | 13
+18 | 98 | richard antinucci | team 3g | 83 | + 2 laps | 19 | 0 | 12
+19 | 7 | danica patrick | andretti green racing | 83 | + 2 laps | 12 | 0 | 12
+20 | 24 | mike conway (r) | dreyer & reinbold racing | 69 | mechanical | 16 | 0 | 12
+21 | 23 | milka duno | dreyer & reinbold racing | 56 | handling | 20 | 0 | 12","normalized_table = [
+    [""pos"", ""no"", ""driver"", ""team"", ""laps"", ""time_retired"", ""grid"", ""laps_led"", ""points""],
+    [1, 9, ""scott dixon"", ""chip ganassi racing"", 85, ""1:46:5.7985"", 3, 51, 52],
+    [2, 6, ""ryan briscoe"", ""penske racing"", 85, ""+ 29.7803"", 1, 6, 41],
+    [3, 10, ""dario franchitti"", ""chip ganassi racing"", 85, ""+ 30.0551"", 6, 0, 35],
+    [4, 14, ""ryan hunter-reay"", ""a. j. foyt enterprises"", 85, ""+ 33.7307"", 7, 0, 32],
+    [5, 27, ""hideki mutoh"", ""andretti green racing"", 85, ""+ 34.1839"", 11, 0, 30],
+    [6, 26, ""marco andretti"", ""andretti green racing"", 85, ""+ 46.7669"", 13, 0, 28],
+    [7, 5, ""paul tracy"", ""kv racing technology"", 85, ""+ 49.702"", 10, 0, 26],
+    [8, 2, ""graham rahal"", ""newman/haas/lanigan racing"", 85, ""+ 50.4517"", 4, 0, 24],
+    [9, 2, ""raphael matos (r)"", ""luczo-dragon racing"", 85, ""+ 51.2286"", 15, 0, 22],
+    [10, 11, ""tony kanaan"", ""andretti green racing"", 85, ""+ 52.081"", 8, 0, 20],
+    [11, 6, ""oriol servià"", ""newman/haas/lanigan racing"", 85, ""+ 52.6215"", 14, 0, 19],
+    [12, 3, ""hélio castroneves"", ""penske racing"", 85, ""+ 53.2362"", 5, 0, 18],
+    [13, 18, ""justin wilson"", ""dale coyne racing"", 85, ""+ 53.5768"", 2, 28, 17],
+    [14, 33, ""robert doornbos (r)"", ""hvm racing"", 85, ""+ 1:10.0812"", 18, 0, 16],
+    [15, 13, ""e. j. viso"", ""hvm racing"", 84, ""+ 1 lap"", 9, 0, 15],
+    [16, 4, ""dan wheldon"", ""panther racing"", 84, ""+ 1 lap"", 17, 0, 14],
+    [17, 20, ""ed carpenter"", ""vision racing"", 84, ""+ 1 lap"", 21, 0, 13],
+    [18, 98, ""richard antinucci"", ""team 3g"", 83, ""+ 2 laps"", 19, 0, 12],
+    [19, 7, ""danica patrick"", ""andretti green racing"", 83, ""+ 2 laps"", 12, 0, 12],
+    [20, 24, ""mike conway (r)"", ""dreyer & reinbold racing"", 69, ""mechanical"", 16, 0, 12],
+    [21, 23, ""milka duno"", ""dreyer & reinbold racing"", 56, ""handling"", 20, 0, 12]
+]"
+nu-69,who superceded lord high steward?,justiciar,Great Officer of State,"position | officer | current_officers | superseded_by | royal_household
+1 | lord high steward | vacant | justiciar | lord steward
+2 | lord high chancellor | the rt hon chris grayling, mp | none | none
+3 | lord high treasurer | in commission | none | none
+4 | lord president of the council | the rt hon nick clegg, mp | none | none
+5 | lord privy seal | the rt hon andrew lansley, cbe, mp | none | none
+6 | lord great chamberlain | the marquess of cholmondeley | lord high treasurer | lord chamberlain
+7 | lord high constable | vacant | earl marshal | master of the horse
+8 | earl marshal | the duke of norfolk | none | master of the horse
+9 | lord high admiral | hrh the duke of edinburgh | none | none","normalized_table = [['position', 'officer', 'current_officers', 'superseded_by', 'royal_household'],
+['1', 'lord high steward', 'vacant', 'justiciar', 'lord steward'],
+['2', 'lord high chancellor', 'the rt hon chris grayling, mp', 'none', 'none'],
+['3', 'lord high treasurer', 'in commission', 'none', 'none'],
+['4', 'lord president of the council', 'the rt hon nick clegg, mp', 'none', 'none'],
+['5', 'lord privy seal', 'the rt hon andrew lansley, cbe, mp', 'none', 'none'],
+['6', 'lord great chamberlain', 'the marquess of cholmondeley', 'lord high treasurer', 'lord chamberlain'],
+['7', 'lord high constable', 'vacant', 'earl marshal', 'master of the horse'],
+['8', 'earl marshal', 'the duke of norfolk', 'none', 'master of the horse'],
+['9', 'lord high admiral', 'hrh the duke of edinburgh', 'none', 'none']]"
+nu-71,how many fullback positions were picked?,2,1955 NFL Draft,"pick__ | nfl_team | player | position | college
+1 | baltimore colts (lottery bonus pick) | george shaw | quarterback | oregon
+2 | chicago cardinals | max boydston | end | oklahoma
+3 | baltimore colts | alan ameche | fullback | wisconsin
+4 | washington redskins | ralph guglielmi | quarterback | notre dame
+5 | green bay packers | tom bettis | guard | purdue
+6 | pittsburgh steelers | frank varrichione | tackle | notre dame
+7 | los angeles rams | larry morris | center | georgia tech
+8 | new york giants | joe heap | halfback | notre dame
+9 | philadelphia eagles | dick bielski | fullback | maryland
+10 | san francisco 49ers | dickey moegle | halfback | rice
+11 | chicago bears | ron drzewiecki | halfback | marquette
+12 | detroit lions | dave middleton | halfback | auburn
+13 | cleveland browns | kurt burris | center | oklahoma","normalized_table = [['pick', 'nfl_team', 'player', 'position', 'college'],
+ [1, 'baltimore colts', 'george shaw', 'quarterback', 'oregon'],
+ [2, 'chicago cardinals', 'max boydston', 'end', 'oklahoma'],
+ [3, 'baltimore colts', 'alan ameche', 'fullback', 'wisconsin'],
+ [4, 'washington redskins', 'ralph guglielmi', 'quarterback', 'notre dame'],
+ [5, 'green bay packers', 'tom bettis', 'guard', 'purdue'],
+ [6, 'pittsburgh steelers', 'frank varrichione', 'tackle', 'notre dame'],
+ [7, 'los angeles rams', 'larry morris', 'center', 'georgia tech'],
+ [8, 'new york giants', 'joe heap', 'halfback', 'notre dame'],
+ [9, 'philadelphia eagles', 'dick bielski', 'fullback', 'maryland'],
+ [10, 'san francisco 49ers', 'dickey moegle', 'halfback', 'rice'],
+ [11, 'chicago bears', 'ron drzewiecki', 'halfback', 'marquette'],
+ [12, 'detroit lions', 'dave middleton', 'halfback', 'auburn'],
+ [13, 'cleveland browns', 'kurt burris', 'center', 'oklahoma']]"
+nu-72,which year had the least amount of toy sales?,2003,Toy safety,"year | injuries_us_000 | deaths_age_lt15 | cpsc_toy_safety_funding_us_millions | toy_sales_us__billions
+1994 | 154 | nan | none | nan
+1995 | 139 | nan | none | nan
+1996 | 130 | nan | none | nan
+1997 | 141 | nan | none | nan
+1998 | 153 | 14.0 | none | nan
+1999 | 152 | 16.0 | 13.6 | nan
+2000 | 191 | 17.0 | 12 | nan
+2001 | 255 | 25.0 | 12.4 | nan
+2002 | 212 | 13.0 | 12.2 | 21.3
+2003 | 206 | 11.0 | 12.8 | 20.7
+2004 | 210 | 16.0 | 11.5 | 22.4
+2005 | 202 (estimate) | 20.0 | 11 | 22.2
+2006 | no data | 22.0 | no data† | 22.3
+2007 | no data | 22.0 | no data | nan
+2008 | no data | 19.0 | no data | nan
+2009 | no data | 12.0 | no data | nan","normalized_table = [
+    ['year', 'injuries_us_000', 'deaths_age_lt15', 'cpsc_toy_safety_funding_us_millions', 'toy_sales_us__billions'],
+    [1994, 154, None, None, None],
+    [1995, 139, None, None, None],
+    [1996, 130, None, None, None],
+    [1997, 141, None, None, None],
+    [1998, 153, 14.0, None, None],
+    [1999, 152, 16.0, 13.6, None],
+    [2000, 191, 17.0, 12.0, None],
+    [2001, 255, 25.0, 12.4, None],
+    [2002, 212, 13.0, 12.2, 21.3],
+    [2003, 206, 11.0, 12.8, 20.7],
+    [2004, 210, 16.0, 11.5, 22.4],
+    [2005, 202, 20.0, 11.0, 22.2],
+    [2006, None, 22.0, None, 22.3],
+    [2007, None, 22.0, None, None],
+    [2008, None, 19.0, None, None],
+    [2009, None, 12.0, None, None]
+]"
+nu-73,how many affiliates does tv azteca have all together?,9,Television stations in Chiapas,"network_name | flagship | programming_type | owner | affiliates
+canal de las estrellas | xew 2 | soap operas, retro movies and sports | televisa | 10
+canal 5 | xhgc 5 | cartoons, movies, and series | televisa | 4
+azteca 7 | xhimt 7 | sports, series, and movies | tv azteca | 5
+galavisión | xeq 9 | retro programming and sports | televisa | 1
+tv 10 chiapas | xhttg | educational | gobierno del estado de chiapas | 7
+azteca 13 | xhdf 13 | news, soap operas, and sports | tv azteca | 4
+independent | none | varies | independent | 3","normalized_table = [
+    [""network_name"", ""flagship"", ""programming_type"", ""owner"", ""affiliates""],
+    [""canal de las estrellas"", ""xew 2"", ""soap operas, retro movies and sports"", ""televisa"", 10],
+    [""canal 5"", ""xhgc 5"", ""cartoons, movies, and series"", ""televisa"", 4],
+    [""azteca 7"", ""xhimt 7"", ""sports, series, and movies"", ""tv azteca"", 5],
+    [""galavisión"", ""xeq 9"", ""retro programming and sports"", ""televisa"", 1],
+    [""tv 10 chiapas"", ""xhttg"", ""educational"", ""gobierno del estado de chiapas"", 7],
+    [""azteca 13"", ""xhdf 13"", ""news, soap operas, and sports"", ""tv azteca"", 4],
+    [""independent"", ""none"", ""varies"", ""independent"", 3]
+]"

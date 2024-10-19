@@ -1,0 +1,1596 @@
+id,question,gold_label,table_title,original_tab,norm_table
+1-24560733-1.html.csv,the wildcats kept the opposing team scoreless in four games,1,1947 kentucky wildcats football team,"game | date | opponent | result | wildcats_points | opponents | record
+1 | sept 20 | ole miss | loss | 7 | 14 | 0 - 1
+2 | sept 27 | cincinnati | win | 20 | 0 | 1 - 1
+3 | oct 4 | xavier | win | 20 | 7 | 2 - 1
+4 | oct 11 | 9 georgia | win | 26 | 0 | 3 - 1 , 20
+5 | oct 18 | 10 vanderbilt | win | 14 | 0 | 4 - 1 , 14
+6 | oct 25 | michigan state | win | 7 | 6 | 5 - 1 , 13
+7 | nov 1 | 18 alabama | loss | 0 | 13 | 5 - 2
+8 | nov 8 | west virginia | win | 15 | 6 | 6 - 2
+9 | nov 15 | evansville | win | 36 | 0 | 7 - 2
+10 | nov 22 | tennessee | loss | 6 | 13 | 7 - 3","normalized_table = [['game', 'date', 'opponent', 'result', 'wildcats_points', 'opponents', 'record'],
+['1', 'sept 20', 'ole miss', 'loss', '7', '14', '0 - 1'],
+['2', 'sept 27', 'cincinnati', 'win', '20', '0', '1 - 1'],
+['3', 'oct 4', 'xavier', 'win', '20', '7', '2 - 1'],
+['4', 'oct 11', '9 georgia', 'win', '26', '0', '3 - 1 , 20'],
+['5', 'oct 18', '10 vanderbilt', 'win', '14', '0', '4 - 1 , 14'],
+['6', 'oct 25', 'michigan state', 'win', '7', '6', '5 - 1 , 13'],
+['7', 'nov 1', '18 alabama', 'loss', '0', '13', '5 - 2'],
+['8', 'nov 8', 'west virginia', 'win', '15', '6', '6 - 2'],
+['9', 'nov 15', 'evansville', 'win', '36', '0', '7 - 2'],
+['10', 'nov 22', 'tennessee', 'loss', '6', '13', '7 - 3']]"
+1-25557880-1.html.csv,every team had several wins,0,césar ramos,"season | series | team | races | wins | poles | f___laps | podiums | points | position
+2007 | formula renault 2 italy | bvm minardi team | 14 | 0 | 0 | 0 | 1 | 106 | 14th
+2007 | eurocup formula renault 2 | bvm minardi team | 6 | 0 | 0 | 0 | 0 | n / a | nc
+2007 | formula renault 2 italy - wi series | bvm minardi team | 4 | 4 | 4 | 4 | 4 | 144 | 1st
+2008 | formula renault 2 italy | bvm minardi team | 14 | 0 | 1 | 2 | 4 | 216 | 6th
+2008 | eurocup formula renault 2 | bvm minardi team | 14 | 0 | 0 | 0 | 1 | 38 | 7th
+2009 | formula 3 euro series | manor motorsport | 16 | 0 | 0 | 0 | 0 | 0 | 25th
+2009 | masters of formula 3 | manor motorsport | 1 | 0 | 0 | 0 | 0 | n / a | 28th
+2010 | italian formula 3 championship | bvm - target racing | 16 | 3 | 2 | 7 | 8 | 161 | 1st
+2011 | formula renault 3.5 series | s fortec motorsport | 17 | 0 | 2 | 0 | 0 | 47 | 11th","normalized_table = [
+    [""season"", ""series"", ""team"", ""races"", ""wins"", ""poles"", ""f___laps"", ""podiums"", ""points"", ""position""],
+    [""2007"", ""formula renault 2 italy"", ""bvm minardi team"", ""14"", ""0"", ""0"", ""0"", ""1"", ""106"", ""14th""],
+    [""2007"", ""eurocup formula renault 2"", ""bvm minardi team"", ""6"", ""0"", ""0"", ""0"", ""0"", """", ""nc""],
+    [""2007"", ""formula renault 2 italy - wi series"", ""bvm minardi team"", ""4"", ""4"", ""4"", ""4"", ""4"", ""144"", ""1st""],
+    [""2008"", ""formula renault 2 italy"", ""bvm minardi team"", ""14"", ""0"", ""1"", ""2"", ""4"", ""216"", ""6th""],
+    [""2008"", ""eurocup formula renault 2"", ""bvm minardi team"", ""14"", ""0"", ""0"", ""0"", ""1"", ""38"", ""7th""],
+    [""2009"", ""formula 3 euro series"", ""manor motorsport"", ""16"", ""0"", ""0"", ""0"", ""0"", ""0"", ""25th""],
+    [""2009"", ""masters of formula 3"", ""manor motorsport"", ""1"", ""0"", ""0"", ""0"", ""0"", """", ""28th""],
+    [""2010"", ""italian formula 3 championship"", ""bvm - target racing"", ""16"", ""3"", ""2"", ""7"", ""8"", ""161"", ""1st""],
+    [""2011"", ""formula renault 3.5 series"", ""s fortec motorsport"", ""17"", ""0"", ""2"", ""0"", ""0"", ""47"", ""11th""]
+]"
+2-16776506-2.html.csv,mirielle dittmann was the opponent in the final on hard surface on 6 february 2000 in wellington new zealand,1,leanne baker,"outcome | date | location | surface | opponent_in_final | score
+winner | 1999-5-2 | coatzacoalcos , mexico | hard | candice jairala | 3 - 6 6 - 3 7 - 5
+winner | 1999-7-11 | felixstowe , england | grass | karen nugent | 6 - 4 6 - 4
+runner - up | 2000-2-6 | wellington , new zealand | hard | mirielle dittmann | 6 - 7 (5) 6 - 1 6 - 7 (5)
+runner - up | 2000-5-28 | el paso , texas , usa | hard | erin burdette | 1 - 6 3 - 6
+runner - up | 2003-9-14 | spoleto , italy | clay | lenka snajdrova | 4 - 6 3 - 6
+winner | 2005-2-6 | wellington , new zealand | hard | mirielle dittmann | 2 - 6 6 - 1 6 - 1
+winner | 2005-8-28 | jesi , italy | hard | vanessa pinto | 6 - 2 7 - 6 (6)
+winner | 2006-2-5 | taupo , new zealand | hard | natsumi hamamura | 6 - 1 6 - 2
+winner | 2006-2-12 | wellington , new zealand | hard | katerina kramperová | 6 - 4 1 - 6 6 - 0
+winner | 2008-4-20 | mazatlán , mexico | hard | anna lubinsky | 6 - 2 6 - 1","normalized_table = [
+    [""outcome"", ""date"", ""location"", ""surface"", ""opponent_in_final"", ""score_set1"", ""score_set2"", ""score_set3""],
+    [""winner"", ""1999-05-02"", ""coatzacoalcos , mexico"", ""hard"", ""candice jairala"", 3, 6, 7],
+    [""winner"", ""1999-07-11"", ""felixstowe , england"", ""grass"", ""karen nugent"", 6, 4, 6],
+    [""runner-up"", ""2000-02-06"", ""wellington , new zealand"", ""hard"", ""mirielle dittmann"", 6, 7, 6],
+    [""runner-up"", ""2000-05-28"", ""el paso , texas , usa"", ""hard"", ""erin burdette"", 1, 6, 3],
+    [""runner-up"", ""2003-09-14"", ""spoleto , italy"", ""clay"", ""lenka snajdrova"", 4, 6, 3],
+    [""winner"", ""2005-02-06"", ""wellington , new zealand"", ""hard"", ""mirielle dittmann"", 2, 6, 6],
+    [""winner"", ""2005-08-28"", ""jesi , italy"", ""hard"", ""vanessa pinto"", 6, 2, 7],
+    [""winner"", ""2006-02-05"", ""taupo , new zealand"", ""hard"", ""natsumi hamamura"", 6, 1, 6],
+    [""winner"", ""2006-02-12"", ""wellington , new zealand"", ""hard"", ""katerina kramperová"", 6, 4, 6],
+    [""winner"", ""2008-04-20"", ""mazatlán , mexico"", ""hard"", ""anna lubinsky"", 6, 2, 6]
+]"
+2-14175075-5.html.csv,cedar rapids is the site with the earliest date,1,iowa corn cy - hawk series,"date | site | sport | winning_team | series
+2007-9-4 | cedar rapids | m golf | iowa state | iowa state 2 - 0
+2007-9-8 | des moines | volleyball | iowa state | iowa state 4 - 0
+2007-9-9 | iowa city | w soccer | tie | iowa state 5 - 1
+2007-9-15 | ames | football | iowa state | iowa state 8 - 1
+2007-11-10 | peoria | m cross country | iowa state | iowa state 10 - 1
+2007-11-10 | peoria | w cross country | iowa | iowa state 10 - 3
+2007-12-5 | ames | w basketball | iowa state | iowa state 12 - 3
+2007-12-7 | ames | w swimming | iowa state | iowa state 14 - 3
+2007-12-8 | ames | m basketball | iowa state | iowa state 16 - 3
+2007-12-9 | ames | wrestling | iowa | iowa state 16 - 5
+2008-2-22 | ames | w gymnastics | iowa state | iowa state 18 - 5
+2008-3-7 | iowa city | w gymnastics | iowa | iowa state 18 - 7
+2008-4-1 | ames | softball | iowa | iowa state 18 - 9","normalized_table = [['date', 'site', 'sport', 'winning_team', 'series_wins', 'series_losses'],
+ ['2007-9-4', 'cedar rapids', 'm golf', 'iowa state', 2, 0],
+ ['2007-9-8', 'des moines', 'volleyball', 'iowa state', 4, 0],
+ ['2007-9-9', 'iowa city', 'w soccer', 'tie', 5, 1],
+ ['2007-9-15', 'ames', 'football', 'iowa state', 8, 1],
+ ['2007-11-10', 'peoria', 'm cross country', 'iowa state', 10, 1],
+ ['2007-11-10', 'peoria', 'w cross country', 'iowa', 10, 3],
+ ['2007-12-5', 'ames', 'w basketball', 'iowa state', 12, 3],
+ ['2007-12-7', 'ames', 'w swimming', 'iowa state', 14, 3],
+ ['2007-12-8', 'ames', 'm basketball', 'iowa state', 16, 3],
+ ['2007-12-9', 'ames', 'wrestling', 'iowa', 16, 5],
+ ['2008-2-22', 'ames', 'w gymnastics', 'iowa state', 18, 5],
+ ['2008-3-7', 'iowa city', 'w gymnastics', 'iowa', 18, 7],
+ ['2008-4-1', 'ames', 'softball', 'iowa', 18, 9]]"
+2-11512626-6.html.csv,"in a game on august 30 , mohler (1 - 10) took the loss while in a game on august 31 oquist (2 - 5) suffered the loss",1,1997 colorado rockies season,"date | opponent | score | loss | attendance | record
+august 1 | pirates | 7 - 6 | rincón (4 - 5) | 22657 | 52 - 58
+august 2 | pirates | 6 - 5 | swift (4 - 5) | 32388 | 52 - 59
+august 3 | pirates | 8 - 4 | reed (3 - 5) | 24989 | 52 - 60
+august 4 | phillies | 7 - 3 | castillo (8 - 10) | 15230 | 52 - 61
+august 5 | phillies | 4 - 2 | bottalico (2 - 4) | 16428 | 53 - 61
+august 6 | mets | 4 - 0 | mlicki (5 - 8) | 26633 | 54 - 61
+august 7 | mets | 12 - 4 | swift (4 - 6) | 29536 | 54 - 62
+august 8 | pirates | 5 - 3 | lieber (6 - 12) | 48262 | 55 - 62
+august 9 | pirates | 8 - 7 | rincón (4 - 6) | 48323 | 56 - 62
+august 10 | pirates | 8 - 7 | wilkins (7 - 3) | 48018 | 57 - 62
+august 12 | phillies | 5 - 0 | thomson (4 - 7) | 48228 | 57 - 63
+august 13 | phillies | 12 - 8 | wright (6 - 8) | 48491 | 57 - 64
+august 15 | mets | 6 - 2 | reed (10 - 6) | 48308 | 58 - 64
+august 16 | mets | 7 - 5 | mcmichael (7 - 10) | 48311 | 59 - 64
+august 17 | mets | 6 - 4 | mlicki (5 - 10) | 48440 | 60 - 64
+august 19 | reds | 6 - 5 | wright (6 - 9) | 31722 | 60 - 65
+august 20 | reds | 5 - 3 | white (1 - 1) | 21968 | 61 - 65
+august 21 | astros | 10 - 4 | bailey (9 - 9) | 22962 | 61 - 66
+august 22 | astros | 9 - 1 | thomson (5 - 8) | 33061 | 61 - 67
+august 23 | astros | 6 - 3 | hudek (0 - 2) | 32374 | 62 - 67
+august 24 | astros | 3 - 1 | wright (6 - 10) | 28918 | 62 - 68
+august 25 | reds | 7 - 6 | castillo (10 - 11) | 48143 | 62 - 69
+august 25 | reds | 6 - 4 | hutton (3 - 2) | 48081 | 62 - 70
+august 26 | reds | 9 - 5 | martínez (1 - 1) | 48063 | 63 - 70
+august 27 | reds | 7 - 5 | remlinger (6 - 6) | 48032 | 64 - 70
+august 28 | mariners | 9 - 5 | olivares (6 - 9) | 48422 | 65 - 70
+august 29 | mariners | 6 - 5 | timlin (3 - 3) | 48178 | 66 - 70
+august 30 | athletics | 4 - 3 | mohler (1 - 10) | 48308 | 67 - 70
+august 31 | athletics | 10 - 4 | oquist (2 - 5) | 48041 | 68 - 70","normalized_table = [['date', 'opponent', 'score', 'loss', 'attendance', 'record'],
+['1997-08-01', 'Pirates', '7 - 6', 'Rincón (4 - 5)', 22657, '52 - 58'],
+['1997-08-02', 'Pirates', '6 - 5', 'Swift (4 - 5)', 32388, '52 - 59'],
+['1997-08-03', 'Pirates', '8 - 4', 'Reed (3 - 5)', 24989, '52 - 60'],
+['1997-08-04', 'Phillies', '7 - 3', 'Castillo (8 - 10)', 15230, '52 - 61'],
+['1997-08-05', 'Phillies', '4 - 2', 'Bottalico (2 - 4)', 16428, '53 - 61'],
+['1997-08-06', 'Mets', '4 - 0', 'Mlicki (5 - 8)', 26633, '54 - 61'],
+['1997-08-07', 'Mets', '12 - 4', 'Swift (4 - 6)', 29536, '54 - 62'],
+['1997-08-08', 'Pirates', '5 - 3', 'Lieber (6 - 12)', 48262, '55 - 62'],
+['1997-08-09', 'Pirates', '8 - 7', 'Rincón (4 - 6)', 48323, '56 - 62'],
+['1997-08-10', 'Pirates', '8 - 7', 'Wilkins (7 - 3)', 48018, '57 - 62'],
+['1997-08-12', 'Phillies', '5 - 0', 'Thomson (4 - 7)', 48228, '57 - 63'],
+['1997-08-13', 'Phillies', '12 - 8', 'Wright (6 - 8)', 48491, '57 - 64'],
+['1997-08-15', 'Mets', '6 - 2', 'Reed (10 - 6)', 48308, '58 - 64'],
+['1997-08-16', 'Mets', '7 - 5', 'Mcmichael (7 - 10)', 48311, '59 - 64'],
+['1997-08-17', 'Mets', '6 - 4', 'Mlicki (5 - 10)', 48440, '60 - 64'],
+['1997-08-19', 'Reds', '6 - 5', 'Wright (6 - 9)', 31722, '60 - 65'],
+['1997-08-20', 'Reds', '5 - 3', 'White (1 - 1)', 21968, '61 - 65'],
+['1997-08-21', 'Astros', '10 - 4', 'Bailey (9 - 9)', 22962, '61 - 66'],
+['1997-08-22', 'Astros', '9 - 1', 'Thomson (5 - 8)', 33061, '61 - 67'],
+['1997-08-23', 'Astros', '6 - 3', 'Hudek (0 - 2)', 32374, '62 - 67'],
+['1997-08-24', 'Astros', '3 - 1', 'Wright (6 - 10)', 28918, '62 - 68'],
+['1997-08-25', 'Reds', '7 - 6', 'Castillo (10 - 11)', 48143, '62 - 69'],
+['1997-08-25', 'Reds', '6 - 4', 'Hutton (3 - 2)', 48081, '62 - 70'],
+['1997-08-26', 'Reds', '9 - 5', 'Martínez (1 - 1)', 48063, '63 - 70'],
+['1997-08-27', 'Reds', '7 - 5', 'Remlinger (6 - 6)', 48032, '64 - 70'],
+['1997-08-28', 'Mariners', '9 - 5', 'Olivares (6 - 9)', 48422, '65 - 70'],
+['1997-08-29', 'Mariners', '6 - 5', 'Timlin (3 - 3)', 48178, '66 - 70'],
+['1997-08-30', 'Athletics', '4 - 3', 'Mohler (1 - 10)', 48308, '67 - 70'],
+['1997-08-31', 'Athletics', '10 - 4', 'Oquist (2 - 5)', 48041, '68 - 70']]"
+2-12523044-5.html.csv,steve stricker had a score lower than phil mickelson,1,2006 u.s. open (golf),"place | player | country | score | to_par
+1 | steve stricker | united states | 70 + 69 = 139 | -1
+2 | colin montgomerie | scotland | 69 + 71 = 140 | e
+t3 | kenneth ferrie | england | 71 + 70 = 141 | + 1
+t3 | geoff ogilvy | australia | 71 + 70 = 141 | + 1
+t5 | jim furyk | united states | 70 + 72 = 142 | + 2
+t5 | pádraig harrington | ireland | 70 + 72 = 142 | + 2
+t7 | jason dufner | united states | 72 + 71 = 143 | + 3
+t7 | graeme mcdowell | northern ireland | 71 + 72 = 143 | + 3
+t7 | phil mickelson | united states | 70 + 73 = 143 | + 3
+t7 | arron oberholser | united states | 75 + 68 = 143 | + 3","normalized_table = [
+    [""place"", ""player"", ""country"", ""score_1"", ""score_2"", ""to_par""],
+    [1, ""steve stricker"", ""united states"", 70, 69, -1],
+    [2, ""colin montgomerie"", ""scotland"", 69, 71, 0],
+    [""t3"", ""kenneth ferrie"", ""england"", 71, 70, 1],
+    [""t3"", ""geoff ogilvy"", ""australia"", 71, 70, 1],
+    [5, ""jim furyk"", ""united states"", 70, 72, 2],
+    [5, ""pádraig harrington"", ""ireland"", 70, 72, 2],
+    [7, ""jason dufner"", ""united states"", 72, 71, 3],
+    [7, ""graeme mcdowell"", ""northern ireland"", 71, 72, 3],
+    [7, ""phil mickelson"", ""united states"", 70, 73, 3],
+    [7, ""arron oberholser"", ""united states"", 75, 68, 3]
+]"
+2-10301911-2.html.csv,brian finch rank is greater than 3 and he finished with a time of 2:14.59.0,1,1970 isle of man tt,"rank | rider | team | speed | time
+1 | frank whiteway | suzuki | 89.94 mph | 2:5.52.0
+2 | gordon pantall | triumph | 88.9 mph | 2:7.20.0
+3 | ray knight | triumph | 88.89 mph | 2:7.20.4
+4 | rbaylie | triumph | 87.58 mph | 2:9.15.0
+5 | graham penny | triumph | 86.7 mph | 2:10.34.4
+6 | jwade | suzuki | 85.31 mph | 2:12.42.0
+7 | brian finch | velocette | 83.86 mph | 2:14.59.0","normalized_table = [
+    [""rank"", ""rider"", ""team"", ""speed_mph"", ""time""],
+    [1, ""frank whiteway"", ""suzuki"", 89.94, ""2:5.52.0""],
+    [2, ""gordon pantall"", ""triumph"", 88.9, ""2:7.20.0""],
+    [3, ""ray knight"", ""triumph"", 88.89, ""2:7.20.4""],
+    [4, ""rbaylie"", ""triumph"", 87.58, ""2:9.15.0""],
+    [5, ""graham penny"", ""triumph"", 86.7, ""2:10.34.4""],
+    [6, ""jwade"", ""suzuki"", 85.31, ""2:12.42.0""],
+    [7, ""brian finch"", ""velocette"", 83.86, ""2:14.59.0""]
+]"
+2-15547694-1.html.csv,the agricultural panel and labour panel both have 11 total members,1,members of the 5th seanad,"party | administrative_panel | agricultural_panel | cultural_and_educational_panel | industrial_and_commercial_panel | labour_panel | national_university_of_ireland | university_of_dublin | nominated_by_the_taoiseach | total
+fianna fáil | 4 | 4 | 2 | 3 | 0 | 1 | 0 | 7 | 21
+fine gael | 1 | 3 | 2 | 2 | 0 | 1 | 0 | 0 | 9
+labour party | 0 | 0 | 0 | 1 | 5 | 0 | 0 | 2 | 8
+clann na talmhan | 0 | 2 | 0 | 0 | 1 | 0 | 0 | 0 | 3
+independent | 0 | 1 | 0 | 1 | 0 | 1 | 3 | 3 | 9
+total | 7 | 11 | 5 | 9 | 11 | 3 | 3 | 11 | 60","normalized_table = [
+    ['party', 'panel_type', 'panel_count', 'nominated_by', 'total'],
+    ['fianna fáil', 'administrative_panel', 4, 'nominated_by_the_taoiseach', 21],
+    ['fianna fáil', 'agricultural_panel', 4, 'nominated_by_the_taoiseach', 21],
+    ['fianna fáil', 'cultural_and_educational_panel', 2, 'nominated_by_the_taoiseach', 21],
+    ['fianna fáil', 'industrial_and_commercial_panel', 3, 'nominated_by_the_taoiseach', 21],
+    ['fine gael', 'administrative_panel', 1, 'nominated_by_the_taoiseach', 9],
+    ['fine gael', 'agricultural_panel', 3, 'nominated_by_the_taoiseach', 9],
+    ['fine gael', 'cultural_and_educational_panel', 2, 'nominated_by_the_taoiseach', 9],
+    ['fine gael', 'industrial_and_commercial_panel', 2, 'nominated_by_the_taoiseach', 9],
+    ['labour party', 'industrial_and_commercial_panel', 1, 'nominated_by_the_taoiseach', 8],
+    ['labour party', 'labour_panel', 5, 'nominated_by_the_taoiseach', 8],
+    ['labour party', 'nominated_by_the_taoiseach', 2, 'nominated_by_the_taoiseach', 8],
+    ['clann na talmhan', 'agricultural_panel', 2, 'nominated_by_the_taoiseach', 3],
+    ['clann na talmhan', 'industrial_and_commercial_panel', 1, 'nominated_by_the_taoiseach', 3],
+    ['independent', 'agricultural_panel', 1, 'university_of_dublin', 9],
+    ['independent', 'industrial_and_commercial_panel', 1, 'university_of_dublin', 9],
+    ['independent', 'national_university_of_ireland', 1, 'nominated_by_the_taoiseach', 9],
+    ['independent', 'university_of_dublin', 3, 'nominated_by_the_taoiseach', 9]
+]"
+2-15214004-2.html.csv,joe germanese was the 27th pick,1,2008 mls superdraft,"pick | mls_team | player | position | affiliation
+15 | san jose earthquakes | shea salinas | m | furman carolina dynamo
+16 | new york red bulls | eric brunner | d | ohio state michigan bucks
+17 | real salt lake | alex nimo | f | generation adidas
+18 | new england revolution | michael videira | m | duke cary railhawks u23 's
+19 | fc dallas | eric avila | m | uc santa barbara ventura county fusion
+20 | columbus crew | george josten | m / f | gonzaga michigan bucks
+21 | los angeles galaxy | ely allen | f / m | washington
+22 | columbus crew | ricardo pierre - louis | f | lee university cape cod crusaders
+23 | kansas city wizards | yomby william | d | old dominion hampton roads piranhas
+24 | dc united | andrew jacobson | m | california
+25 | kansas city wizards | jonathan leathers | d | furman atlanta silverbacks u23 's
+26 | chicago fire | peter lowry | m / f | santa clara san jose frogs
+27 | new england revolution | joe germanese | m | duke cary railhawks u23 's
+28 | toronto fc | brian edwards | gk | wake forest","normalized_table = [
+    [""pick"", ""mls_team"", ""player"", ""position"", ""affiliation""],
+    [15, ""san jose earthquakes"", ""shea salinas"", ""m"", ""furman carolina dynamo""],
+    [16, ""new york red bulls"", ""eric brunner"", ""d"", ""ohio state michigan bucks""],
+    [17, ""real salt lake"", ""alex nimo"", ""f"", ""generation adidas""],
+    [18, ""new england revolution"", ""michael videira"", ""m"", ""duke cary railhawks u23 's""],
+    [19, ""fc dallas"", ""eric avila"", ""m"", ""uc santa barbara ventura county fusion""],
+    [20, ""columbus crew"", ""george josten"", ""m / f"", ""gonzaga michigan bucks""],
+    [21, ""los angeles galaxy"", ""ely allen"", ""f / m"", ""washington""],
+    [22, ""columbus crew"", ""ricardo pierre - louis"", ""f"", ""lee university cape cod crusaders""],
+    [23, ""kansas city wizards"", ""yomby william"", ""d"", ""old dominion hampton roads piranhas""],
+    [24, ""dc united"", ""andrew jacobson"", ""m"", ""california""],
+    [25, ""kansas city wizards"", ""jonathan leathers"", ""d"", ""furman atlanta silverbacks u23 's""],
+    [26, ""chicago fire"", ""peter lowry"", ""m / f"", ""santa clara san jose frogs""],
+    [27, ""new england revolution"", ""joe germanese"", ""m"", ""duke cary railhawks u23 's""],
+    [28, ""toronto fc"", ""brian edwards"", ""gk"", ""wake forest""]
+]"
+1-25277363-2.html.csv,bob sand wrote episode 149,1,full house (season 7),"no_in_series | no_in_season | title | directed_by | written_by | original_air_date
+145 | 1 | it was a dark and stormy tni | john tracy | marc warren & dennis rinsler | 1993-9-14
+146 | 2 | the apartment | john tracy | tom burkhard | 1993-9-21
+147 | 3 | wrong - way tanner | john tracy | jamie tatham & chuck tatham | 1993-9-28
+148 | 4 | tough love | joel zwick | ellen guylas | 1993-10-5
+149 | 5 | fast friends | john tracy | bob sand | 1993-10-12
+150 | 6 | smash club : the next generation | john tracy | carolyn omine | 1993-10-19
+151 | 7 | high anxiety | john tracy | tom amundsen | 1993-10-26
+152 | 8 | another opening , another no show | joel zwick | story by : elias davis teleplay by : tom burkhard | 1993-11-2
+153 | 9 | 2024-4-16 of the rhino | james o'keefe | adam i lapidus | 1993-11-9
+154 | 10 | the prying game | john tracy | ellen guylas | 1993-11-16
+155 | 11 | the bicycle thief | john tracy | chuck tatham & jamie tatham | 1993-11-23
+156 | 12 | support your local parents | james o'keefe | bob sand | 1993-11-30
+157 | 13 | the perfect couple | john tracy | marc warren & dennis rinsler | 1993-12-14
+158 | 14 | is it true about stephanie | joel zwick | carolyn omine | 1994-1-4
+159 | 15 | the test | john tracy | dan chasin & linda lane | 1994-1-11
+160 | 16 | joey 's funny valentine | john tracy | adam i lapidus | 1994-1-25
+161 | 17 | the last dance | john tracy | tom amundsen | 1994-2-8
+162 | 18 | kissing cousins | john tracy | tom burkhard | 1994-2-15
+163 | 19 | love on the rocks | tom rickard | ellen guylas | 1994-3-1","normalized_table = [
+    [""no_in_series"", ""no_in_season"", ""title"", ""directed_by"", ""written_by"", ""original_air_date""],
+    [145, 1, ""it was a dark and stormy tni"", ""john tracy"", ""marc warren & dennis rinsler"", ""1993-09-14""],
+    [146, 2, ""the apartment"", ""john tracy"", ""tom burkhard"", ""1993-09-21""],
+    [147, 3, ""wrong - way tanner"", ""john tracy"", ""jamie tatham & chuck tatham"", ""1993-09-28""],
+    [148, 4, ""tough love"", ""joel zwick"", ""ellen guylas"", ""1993-10-05""],
+    [149, 5, ""fast friends"", ""john tracy"", ""bob sand"", ""1993-10-12""],
+    [150, 6, ""smash club : the next generation"", ""john tracy"", ""carolyn omine"", ""1993-10-19""],
+    [151, 7, ""high anxiety"", ""john tracy"", ""tom amundsen"", ""1993-10-26""],
+    [152, 8, ""another opening , another no show"", ""joel zwick"", ""story by : elias davis teleplay by : tom burkhard"", ""1993-11-02""],
+    [153, 9, ""2024-4-16 of the rhino"", ""james o'keefe"", ""adam i lapidus"", ""1993-11-09""],
+    [154, 10, ""the prying game"", ""john tracy"", ""ellen guylas"", ""1993-11-16""],
+    [155, 11, ""the bicycle thief"", ""john tracy"", ""chuck tatham & jamie tatham"", ""1993-11-23""],
+    [156, 12, ""support your local parents"", ""james o'keefe"", ""bob sand"", ""1993-11-30""],
+    [157, 13, ""the perfect couple"", ""john tracy"", ""marc warren & dennis rinsler"", ""1993-12-14""],
+    [158, 14, ""is it true about stephanie"", ""joel zwick"", ""carolyn omine"", ""1994-01-04""],
+    [159, 15, ""the test"", ""john tracy"", ""dan chasin & linda lane"", ""1994-01-11""],
+    [160, 16, ""joey 's funny valentine"", ""john tracy"", ""adam i lapidus"", ""1994-01-25""],
+    [161, 17, ""the last dance"", ""john tracy"", ""tom amundsen"", ""1994-02-08""],
+    [162, 18, ""kissing cousins"", ""john tracy"", ""tom burkhard"", ""1994-02-15""],
+    [163, 19, ""love on the rocks"", ""tom rickard"", ""ellen guylas"", ""1994-03-01""]
+]"
+1-18600760-10.html.csv,"joliette has 0.771 square miles of water , and can be found with geo id 3806741020",1,list of townships in north dakota,"township | county | pop_2010 | land__sqmi_ | water_sqmi | latitude | longitude | geo_id | ansi_code
+jackson | sargent | 33 | 35.809 | 0.0 | 46.066276 | -97.94553 | 3808140460 | 1036797
+james hill | mountrail | 32 | 31.82 | 4.243 | 48.423125 | -102.429934 | 3806140500 | 1037048
+james river valley | dickey | 40 | 28.597 | 0.0 | 46.246641 | -98.188329 | 3802140540 | 1036767
+janke | logan | 28 | 35.995 | 0.163 | 46.415512 | -99.131701 | 3804740620 | 1037193
+jefferson | pierce | 45 | 35.069 | 1.125 | 48.232149 | -100.18237 | 3806940700 | 1759556
+jim river valley | stutsman | 38 | 34.134 | 1.746 | 47.112388 | -98.778478 | 3809340780 | 1036484
+johnson | wells | 36 | 35.299 | 0.908 | 47.377745 | -99.458677 | 3810340820 | 1037137
+johnstown | grand forks | 79 | 36.199 | 0.0 | 48.151362 | -97.449033 | 3803540940 | 1036624
+joliette | pembina | 67 | 70.044 | 0.771 | 48.796545 | -97.217227 | 3806741020 | 1036723","normalized_table = [
+    [""township"", ""county"", ""pop_2010"", ""land_sqmi"", ""water_sqmi"", ""latitude"", ""longitude"", ""geo_id"", ""ansi_code""],
+    [""jackson"", ""sargent"", 33, 35.809, 0.0, 46.066276, -97.94553, 3808140460, 1036797],
+    [""james hill"", ""mountrail"", 32, 31.82, 4.243, 48.423125, -102.429934, 3806140500, 1037048],
+    [""james river valley"", ""dickey"", 40, 28.597, 0.0, 46.246641, -98.188329, 3802140540, 1036767],
+    [""janke"", ""logan"", 28, 35.995, 0.163, 46.415512, -99.131701, 3804740620, 1037193],
+    [""jefferson"", ""pierce"", 45, 35.069, 1.125, 48.232149, -100.18237, 3806940700, 1759556],
+    [""jim river valley"", ""stutsman"", 38, 34.134, 1.746, 47.112388, -98.778478, 3809340780, 1036484],
+    [""johnson"", ""wells"", 36, 35.299, 0.908, 47.377745, -99.458677, 3810340820, 1037137],
+    [""johnstown"", ""grand forks"", 79, 36.199, 0.0, 48.151362, -97.449033, 3803540940, 1036624],
+    [""joliette"", ""pembina"", 67, 70.044, 0.771, 48.796545, -97.217227, 3806741020, 1036723]
+]"
+1-18600760-10.html.csv,"joliette has 0.771 square miles of water , and can be found with geo id 3806741020",1,list of townships in north dakota,"township | county | pop_2010 | land__sqmi_ | water_sqmi | latitude | longitude | geo_id | ansi_code
+jackson | sargent | 33 | 35.809 | 0.0 | 46.066276 | -97.94553 | 3808140460 | 1036797
+james hill | mountrail | 32 | 31.82 | 4.243 | 48.423125 | -102.429934 | 3806140500 | 1037048
+james river valley | dickey | 40 | 28.597 | 0.0 | 46.246641 | -98.188329 | 3802140540 | 1036767
+janke | logan | 28 | 35.995 | 0.163 | 46.415512 | -99.131701 | 3804740620 | 1037193
+jefferson | pierce | 45 | 35.069 | 1.125 | 48.232149 | -100.18237 | 3806940700 | 1759556
+jim river valley | stutsman | 38 | 34.134 | 1.746 | 47.112388 | -98.778478 | 3809340780 | 1036484
+johnson | wells | 36 | 35.299 | 0.908 | 47.377745 | -99.458677 | 3810340820 | 1037137
+johnstown | grand forks | 79 | 36.199 | 0.0 | 48.151362 | -97.449033 | 3803540940 | 1036624
+joliette | pembina | 67 | 70.044 | 0.771 | 48.796545 | -97.217227 | 3806741020 | 1036723","normalized_table = [
+    [""township"", ""county"", ""pop_2010"", ""land_sqmi"", ""water_sqmi"", ""latitude"", ""longitude"", ""geo_id"", ""ansi_code""],
+    [""jackson"", ""sargent"", 33, 35.809, 0.0, 46.066276, -97.94553, 3808140460, 1036797],
+    [""james hill"", ""mountrail"", 32, 31.82, 4.243, 48.423125, -102.429934, 3806140500, 1037048],
+    [""james river valley"", ""dickey"", 40, 28.597, 0.0, 46.246641, -98.188329, 3802140540, 1036767],
+    [""janke"", ""logan"", 28, 35.995, 0.163, 46.415512, -99.131701, 3804740620, 1037193],
+    [""jefferson"", ""pierce"", 45, 35.069, 1.125, 48.232149, -100.18237, 3806940700, 1759556],
+    [""jim river valley"", ""stutsman"", 38, 34.134, 1.746, 47.112388, -98.778478, 3809340780, 1036484],
+    [""johnson"", ""wells"", 36, 35.299, 0.908, 47.377745, -99.458677, 3810340820, 1037137],
+    [""johnstown"", ""grand forks"", 79, 36.199, 0.0, 48.151362, -97.449033, 3803540940, 1036624],
+    [""joliette"", ""pembina"", 67, 70.044, 0.771, 48.796545, -97.217227, 3806741020, 1036723]
+]"
+1-2126093-3.html.csv,the winner of the miyagi tv cup donlop ladies open ended two point under par ( - 2),1,ai miyazato,"no | date | tournament | winning_score | to_par | margin_of_victory | runner_s___up
+1 | 2003-9-28 | miyagi tv cup dunlop ladies open (as an amateur ) | 70 + 70 + 71 = 211 | -5 | 1 stroke | mari katayama hiroko yamaguchi
+2 | 2004-3-7 | daikin orchid ladies | 70 + 66 + 70 = 206 | -10 | 3 strokes | kaori higo
+3 | 2004-6-13 | suntory ladies open | 69 + 70 + 70 + 68 = 277 | -11 | 6 strokes | hiroko yamaguchi toshimi kimura
+4 | 2004-6-20 | apita circle k sunkus ladies | 69 + 69 + 72 = 210 | -6 | 1 stroke | yuri fudoh
+5 | 2004-10-24 | masters gc ladies | 69 + 68 + 68 = 205 | -11 | 1 stroke | miho koga
+6 | 2004-11-21 | daio paper elleair ladies open | 66 + 67 + 69 = 202 | -14 | 3 strokes | chieko amanuma rui kitada
+7 | 2005-5-15 | vernal ladies | 69 + 64 + 70 = 203 | -13 | 8 strokes | akiko fukushima
+8 | 2005-5-22 | chukyo tv bridgestone ladies open | 65 + 74 + 70 = 209 | -7 | playoff | nikki campbell
+9 | 2005-8-21 | new catapillar mitsubishi ladies | 66 + 75 + 68 = 209 | -10 | 3 strokes | mi - jeong jeon hiromi mogi
+10 | 2005-10-2 | japan women 's open golf championship | 69 + 69 + 72 + 73 = 283 | -5 | 5 strokes | akiko fukushima
+12 | 2005-11-20 | daio paper elleair ladies open | 69 + 70 + 65 = 204 | -12 | 5 strokes | shiho oyama woo - soon ko kasumi fujii
+13 | 2006-9-10 | jlpga championship konica minolta cup | 70 + 68 + 74 + 70 = 282 | -6 | 3 strokes | hyun - ju shin
+14 | 2006-9-24 | miyagi tv cup dunlop ladies open | 70 + 73 + 71 = 214 | -2 | 3 strokes | shiho oyama","normalized_table = [
+    [""no"", ""date"", ""tournament"", ""winning_score"", ""to_par"", ""margin_of_victory"", ""runner_up""],
+    [1, ""2003-09-28"", ""miyagi tv cup dunlop ladies open (as an amateur)"", ""70 + 70 + 71 = 211"", -5, ""1 stroke"", ""mari katayama hiroko yamaguchi""],
+    [2, ""2004-03-07"", ""daikin orchid ladies"", ""70 + 66 + 70 = 206"", -10, ""3 strokes"", ""kaori higo""],
+    [3, ""2004-06-13"", ""suntory ladies open"", ""69 + 70 + 70 + 68 = 277"", -11, ""6 strokes"", ""hiroko yamaguchi toshimi kimura""],
+    [4, ""2004-06-20"", ""apita circle k sunkus ladies"", ""69 + 69 + 72 = 210"", -6, ""1 stroke"", ""yuri fudoh""],
+    [5, ""2004-10-24"", ""masters gc ladies"", ""69 + 68 + 68 = 205"", -11, ""1 stroke"", ""miho koga""],
+    [6, ""2004-11-21"", ""daio paper elleair ladies open"", ""66 + 67 + 69 = 202"", -14, ""3 strokes"", ""chieko amanuma rui kitada""],
+    [7, ""2005-05-15"", ""vernal ladies"", ""69 + 64 + 70 = 203"", -13, ""8 strokes"", ""akiko fukushima""],
+    [8, ""2005-05-22"", ""chukyo tv bridgestone ladies open"", ""65 + 74 + 70 = 209"", -7, ""playoff"", ""nikki campbell""],
+    [9, ""2005-08-21"", ""new catapillar mitsubishi ladies"", ""66 + 75 + 68 = 209"", -10, ""3 strokes"", ""mi - jeong jeon hiromi mogi""],
+    [10, ""2005-10-02"", ""japan women's open golf championship"", ""69 + 69 + 72 + 73 = 283"", -5, ""5 strokes"", ""akiko fukushima""],
+    [12, ""2005-11-20"", ""daio paper elleair ladies open"", ""69 + 70 + 65 = 204"", -12, ""5 strokes"", ""shiho oyama woo - soon ko kasumi fujii""],
+    [13, ""2006-09-10"", ""jlpga championship konica minolta cup"", ""70 + 68 + 74 + 70 = 282"", -6, ""3 strokes"", ""hyun - ju shin""],
+    [14, ""2006-09-24"", ""miyagi tv cup dunlop ladies open"", ""70 + 73 + 71 = 214"", -2, ""3 strokes"", ""shiho oyama""]
+]"
+2-12817505-2.html.csv,manchester united has been 2nd in league position since 17 november 2005,0,2005 - 06 manchester united f.c. season,"date | opponents | h___a | result_f___a | attendance | league_position
+2005-8-13 | everton | a | 2 - 0 | 38610 | 4th
+2005-8-20 | aston villa | h | 1 - 0 | 67934 | 4th
+2005-8-28 | newcastle united | a | 2 - 0 | 52327 | 4th
+2005-9-10 | manchester city | h | 1 - 1 | 67839 | 4th
+2005-9-18 | liverpool | a | 0 - 0 | 44917 | 3rd
+2005-9-24 | blackburn rovers | h | 1 - 2 | 67765 | 6th
+2005-10-1 | fulham | a | 3 - 2 | 21862 | 4th
+2005-10-15 | sunderland | a | 3 - 1 | 39085 | 3rd
+2005-10-22 | tottenham hotspur | h | 1 - 1 | 67856 | 5th
+2005-10-29 | middlesbrough | a | 1 - 4 | 30579 | 7th
+2005-11-6 | chelsea | h | 1 - 0 | 67864 | 4th
+2005-11-19 | charlton athletic | a | 3 - 1 | 26730 | 3rd
+2005-11-27 | west ham united | a | 2 - 1 | 34755 | 2nd
+2005-12-3 | portsmouth | h | 3 - 0 | 67684 | 2nd
+2005-12-11 | everton | h | 1 - 1 | 67831 | 3rd
+2005-12-14 | wigan athletic | h | 4 - 0 | 67793 | 2nd
+2005-12-17 | aston villa | a | 2 - 0 | 37128 | 2nd
+2005-12-26 | west bromwich albion | h | 3 - 0 | 67972 | 2nd
+2005-12-28 | birmingham city | a | 2 - 2 | 28459 | 2nd
+2005-12-31 | bolton wanderers | h | 4 - 1 | 67858 | 2nd
+2006-1-3 | arsenal | a | 0 - 0 | 38313 | 2nd
+2006-1-14 | manchester city | a | 1 - 3 | 47192 | 2nd
+2006-1-22 | liverpool | h | 1 - 0 | 67874 | 2nd
+2006-2-1 | blackburn rovers | a | 3 - 4 | 25484 | 2nd
+2006-2-4 | fulham | h | 4 - 2 | 67844 | 2nd
+2006-2-11 | portsmouth | a | 3 - 1 | 20206 | 2nd
+2006-3-6 | wigan athletic | a | 2 - 1 | 23524 | 2nd
+2006-3-12 | newcastle united | h | 2 - 0 | 67858 | 2nd
+2006-3-18 | west bromwich albion | a | 2 - 1 | 27623 | 2nd
+2006-3-26 | birmingham city | h | 3 - 0 | 69070 | 2nd
+2006-3-29 | west ham united | h | 1 - 0 | 69522 | 2nd
+2006-4-1 | bolton wanderers | a | 2 - 1 | 27718 | 2nd
+2006-4-9 | arsenal | h | 2 - 0 | 70908 | 2nd
+2006-4-14 | sunderland | h | 0 - 0 | 72519 | 2nd
+2006-4-17 | tottenham hotspur | a | 2 - 1 | 36141 | 2nd
+2006-4-29 | chelsea | a | 0 - 3 | 42219 | 2nd
+2006-5-1 | middlesbrough | h | 0 - 0 | 69531 | 2nd
+2006-5-7 | charlton athletic | h | 4 - 0 | 73006 | 2nd","normalized_table = [['date', 'opponents', 'h_a', 'result_f_a', 'attendance', 'league_position'],
+['2005-8-13', 'everton', 'a', '2 - 0', 38610, 4],
+['2005-8-20', 'aston villa', 'h', '1 - 0', 67934, 4],
+['2005-8-28', 'newcastle united', 'a', '2 - 0', 52327, 4],
+['2005-9-10', 'manchester city', 'h', '1 - 1', 67839, 4],
+['2005-9-18', 'liverpool', 'a', '0 - 0', 44917, 3],
+['2005-9-24', 'blackburn rovers', 'h', '1 - 2', 67765, 6],
+['2005-10-1', 'fulham', 'a', '3 - 2', 21862, 4],
+['2005-10-15', 'sunderland', 'a', '3 - 1', 39085, 3],
+['2005-10-22', 'tottenham hotspur', 'h', '1 - 1', 67856, 5],
+['2005-10-29', 'middlesbrough', 'a', '1 - 4', 30579, 7],
+['2005-11-6', 'chelsea', 'h', '1 - 0', 67864, 4],
+['2005-11-19', 'charlton athletic', 'a', '3 - 1', 26730, 3],
+['2005-11-27', 'west ham united', 'a', '2 - 1', 34755, 2],
+['2005-12-3', 'portsmouth', 'h', '3 - 0', 67684, 2],
+['2005-12-11', 'everton', 'h', '1 - 1', 67831, 3],
+['2005-12-14', 'wigan athletic', 'h', '4 - 0', 67793, 2],
+['2005-12-17', 'aston villa', 'a', '2 - 0', 37128, 2],
+['2005-12-26', 'west bromwich albion', 'h', '3 - 0', 67972, 2],
+['2005-12-28', 'birmingham city', 'a', '2 - 2', 28459, 2],
+['2005-12-31', 'bolton wanderers', 'h', '4 - 1', 67858, 2],
+['2006-1-3', 'arsenal', 'a', '0 - 0', 38313, 2],
+['2006-1-14', 'manchester city', 'a', '1 - 3', 47192, 2],
+['2006-1-22', 'liverpool', 'h', '1 - 0', 67874, 2],
+['2006-2-1', 'blackburn rovers', 'a', '3 - 4', 25484, 2],
+['2006-2-4', 'fulham', 'h', '4 - 2', 67844, 2],
+['2006-2-11', 'portsmouth', 'a', '3 - 1', 20206, 2],
+['2006-3-6', 'wigan athletic', 'a', '2 - 1', 23524, 2],
+['2006-3-12', 'newcastle united', 'h', '2 - 0', 67858, 2],
+['2006-3-18', 'west bromwich albion', 'a', '2 - 1', 27623, 2],
+['2006-3-26', 'birmingham city', 'h', '3 - 0', 69070, 2],
+['2006-3-29', 'west ham united', 'h', '1 - 0', 69522, 2],
+['2006-4-1', 'bolton wanderers', 'a', '2 - 1', 27718, 2],
+['2006-4-9', 'arsenal', 'h', '2 - 0', 70908, 2],
+['2006-4-14', 'sunderland', 'h', '0 - 0', 72519, 2],
+['2006-4-17', 'tottenham hotspur', 'a', '2 - 1', 36141, 2],
+['2006-4-29', 'chelsea', 'a', '0 - 3', 42219, 2],
+['2006-5-1', 'middlesbrough', 'h', '0 - 0', 69531, 2],
+['2006-5-7', 'charlton athletic', 'h', '4 - 0', 73006, 2]]"
+2-1111973-1.html.csv,the vctp 20 mm (79in) rh - 202 autocannon does not have 75 km / h (47 mph) as the vcrt,1,tam (tank),"vctp | vca_155 | vctm | vcpc | vclc | vcrt
+28.2 t (31.1 tons ) | 40t (44.1tons) | 26t (28.7tons) | 25t (27.6tons) | 32t (35.3tons) | 32t (35.3tons)
+20 mm (79in) rh -202 autocannon | 155 mm (6.1in) l / 41 howitzer | 120 mm (4.72in) mortar | 7.62 mm (0.3in) fn mag 60 - 20 machine gun | 160 mm (6.3in) or 350 mm (13.8in) rockets | 7.62 mm (0.3in) fn mag 60 - 20 machine gun
+km (mi) | none | km (mi) | none | km (mi) | km (mi)
+t00 / t (t23 / ton) | t18 / t ( 16.t17 / ton) | 28.t20 / t (25.t13 / ton) | 28.t20 / t (25.t13 / ton) | 22.t17 / t (20.t16 / ton) | 22.t17 / t (20.t16 / ton)
+75 km / h (47 mph) | 55 km / h (34 mph) | 75 km / h (47 mph) | 75 km / h (47 mph) | 75 km / h (47 mph) | 75 km / h (47 mph)","normalized_table = [
+    [""vctp"", ""vca_155"", ""vctm"", ""vcpc"", ""vclc"", ""vcrt""],
+    [""28.2"", ""40"", ""26"", ""25"", ""32"", ""32""],
+    [""31.1"", ""44.1"", ""28.7"", ""27.6"", ""35.3"", ""35.3""],
+    [""20 mm"", ""155 mm"", ""120 mm"", ""7.62 mm"", ""160 mm or 350 mm"", ""7.62 mm""],
+    [""79"", ""6.1"", ""4.72"", ""0.3"", ""6.3 or 13.8"", ""0.3""],
+    [""km"", ""none"", ""km"", ""none"", ""km"", ""km""],
+    [""t00 / t"", ""t18 / t"", ""28.t20 / t"", ""28.t20 / t"", ""22.t17 / t"", ""22.t17 / t""],
+    [""t23 / ton"", ""16.t17 / ton"", ""25.t13 / ton"", ""25.t13 / ton"", ""20.t16 / ton"", ""20.t16 / ton""],
+    [""75"", ""55"", ""75"", ""75"", ""75"", ""75""],
+    [""47"", ""34"", ""47"", ""47"", ""47"", ""47""]
+]"
+2-17245513-1.html.csv,t9 place has a score of 67 + 68 + 78 + 77 = 290,1,1975 u.s. open (golf),"place | player | country | score | to_par | money
+t1 | lou graham | united states | 74 + 72 + 68 + 73 = 287 | + 3 | playoff
+t1 | john mahaffey | united states | 73 + 71 + 72 + 71 = 287 | + 3 | playoff
+t3 | frank beard | united states | 74 + 69 + 67 + 78 = 288 | + 4 | 10875
+t3 | ben crenshaw | united states | 70 + 68 + 76 + 74 = 288 | + 4 | 10875
+t3 | hale irwin | united states | 74 + 71 + 73 + 70 = 288 | + 4 | 10875
+t3 | bob murphy | united states | 74 + 73 + 72 + 69 = 288 | + 4 | 10875
+t7 | jack nicklaus | united states | 72 + 70 + 75 + 72 = 289 | + 5 | 7500
+t7 | peter oosterhuis | england | 69 + 73 + 72 + 75 = 289 | + 5 | 7500
+t9 | pat fitzsimons | united states | 67 + 73 + 73 + 77 = 290 | + 6 | 5000
+t9 | arnold palmer | united states | 69 + 75 + 73 + 73 = 290 | + 6 | 5000
+t9 | tom watson | united states | 67 + 68 + 78 + 77 = 290 | + 6 | 5000","normalized_table = [['place', 'player', 'country', 'score', 'to_par', 'money'],
+['t1', 'lou graham', 'united states', '287', '+3', 'playoff'],
+['t1', 'john mahaffey', 'united states', '287', '+3', 'playoff'],
+['t3', 'frank beard', 'united states', '288', '+4', '10875'],
+['t3', 'ben crenshaw', 'united states', '288', '+4', '10875'],
+['t3', 'hale irwin', 'united states', '288', '+4', '10875'],
+['t3', 'bob murphy', 'united states', '288', '+4', '10875'],
+['t7', 'jack nicklaus', 'united states', '289', '+5', '7500'],
+['t7', 'peter oosterhuis', 'england', '289', '+5', '7500'],
+['t9', 'pat fitzsimons', 'united states', '290', '+6', '5000'],
+['t9', 'arnold palmer', 'united states', '290', '+6', '5000'],
+['t9', 'tom watson', 'united states', '290', '+6', '5000']]"
+1-2370579-1.html.csv,the killing (part two) originally aired on 9 november 1966,1,the baron,"episode | prod | title | directed_by | written_by | originalairdate | filmed
+1 | 104 | diplomatic immunity | leslie norman | dennis spooner | 1966-9-28 | aug / 1965-9
+2 | 107 | epitaph for a hero | john moxey | terry nation | 1966-10-5 | 1965-10
+3 | 109 | something for a rainy day | cyril frankel | terry nation | 1966-10-12 | nov / 1965-12
+4 | 102 | red horse , red rider | john moxey | terry nation | 1966-10-19 | 1965-8
+5 | 110 | enemy of the state | jeremy summers | dennis spooner | 1966-10-26 | 1965-12
+6 | 114 | masquerade (part 1) | cyril frankel | terry nation | 1966-11-2 | feb / 1966-3
+7 | 115 | the killing (part 2) | cyril frankel | terry nation | 1966-11-9 | feb / 1966-3
+8 | 108 | the persuaders | leslie norman | dennis spooner | 1966-11-16 | 1965-10
+9 | 112 | and suddenly you 're dead | cyril frankel | terry nation and dennis spooner | 1966-11-23 | 1966-1
+10 | 103 | the legions of ammak | john moxey | michael cramoy | 1966-11-30 | 1965-8
+11 | 101 | samurai west | john moxey | brian degas | 1966-12-7 | 1965-7
+12 | 123 | the maze | jeremy summers | tony o'grady (pseudonym of brian clemens) | 1966-12-14 | jun / 1966-7
+13 | 105 | portrait of louisa | john moxey | terry nation | 1966-12-21 | 1965-9
+14 | 111 | there 's somebody close behind you | roy baker | terry nation and dennis spooner | 1966-12-28 | 1965-12
+15 | 125 | storm warning (part 1) | gordon flemyng | terry nation | 1967-1-4 | jul / 1966-8
+16 | 126 | the island (part 2) | gordon flemyng | terry nation | 1967-1-11 | jul / 1966-8
+17 | 121 | time to kill | jeremy summers | dennis spooner | 1967-1-18 | may / 1966-6
+18 | 113 | a memory of evil | don chaffey | terry nation and dennis spooner | 1967-1-25 | jan / 1966-2
+19 | 117 | you can't win them all | don chaffey | dennis spooner | 1967-2-1 | 1966-4
+20 | 128 | the high terrace | robert asher | dennis spooner | 1967-2-8 | 1966-9
+21 | 118 | the 7 eyes of tni | robert asher | terry nation | 1967-2-15 | 1966-4
+22 | 124 | tni of the hunter | roy baker | terry nation | 1967-2-22 | 1966-7
+23 | 120 | the edge of fear | quentin lawrence | dennis spooner | 1967-3-1 | 1966-5
+24 | 116 | long ago and far away | robert asher | dennis spooner | 1967-3-8 | apr / 1966-5
+25 | 122 | so dark the tni | robert tronson | terry nation and dennis spooner | 1967-3-15 | 1966-6
+26 | 119 | the long , long day | roy baker | tony o'grady | 1967-3-22 | apr / 1966-5
+27 | 127 | roundabout | robert tronson | terry nation | 1967-3-29 | aug / 1966-9
+28 | 129 | the man outside | roy baker | terry nation | 1967-4-5 | 1966-9
+29 | 130 | countdown | robert asher | terry nation | 1967-4-12 | 1966-10","normalized_table = [['episode', 'prod', 'title', 'directed_by', 'written_by', 'originalairdate', 'filmed'],
+['1', '104', 'diplomatic immunity', 'leslie norman', 'dennis spooner', '1966-09-28', '1965-09'],
+['2', '107', 'epitaph for a hero', 'john moxey', 'terry nation', '1966-10-05', '1965-10'],
+['3', '109', 'something for a rainy day', 'cyril frankel', 'terry nation', '1966-10-12', '1965-12'],
+['4', '102', 'red horse , red rider', 'john moxey', 'terry nation', '1966-10-19', '1965-08'],
+['5', '110', 'enemy of the state', 'jeremy summers', 'dennis spooner', '1966-10-26', '1965-12'],
+['6', '114', 'masquerade (part 1)', 'cyril frankel', 'terry nation', '1966-11-02', '1966-03'],
+['7', '115', 'the killing (part 2)', 'cyril frankel', 'terry nation', '1966-11-09', '1966-03'],
+['8', '108', 'the persuaders', 'leslie norman', 'dennis spooner', '1966-11-16', '1965-10'],
+['9', '112', ""and suddenly you 're dead"", 'cyril frankel', 'terry nation and dennis spooner', '1966-11-23', '1966-01'],
+['10', '103', 'the legions of ammak', 'john moxey', 'michael cramoy', '1966-11-30', '1965-08'],
+['11', '101', 'samurai west', 'john moxey', 'brian degas', '1966-12-07', '1965-07'],
+['12', '123', 'the maze', 'jeremy summers', 'tony ogrady (pseudonym of brian clemens)', '1966-12-14', '1966-07'],
+['13', '105', 'portrait of louisa', 'john moxey', 'terry nation', '1966-12-21', '1965-09'],
+['14', '111', 'there s somebody close behind you', 'roy baker', 'terry nation and dennis spooner', '1966-12-28', '1965-12'],
+['15', '125', 'storm warning (part 1)', 'gordon flemyng', 'terry nation', '1967-01-04', '1966-08'],
+['16', '126', 'the island (part 2)', 'gordon flemyng', 'terry nation', '1967-01-11', '1966-08'],
+['17', '121', 'time to kill', 'jeremy summers', 'dennis spooner', '1967-01-18', '1966-06'],
+['18', '113', 'a memory of evil', 'don chaffey', 'terry nation and dennis spooner', '1967-01-25', '1966-02'],
+['19', '117', 'you cant win them all', 'don chaffey', 'dennis spooner', '1967-02-01', '1966-04'],
+['20', '128', 'the high terrace', 'robert asher', 'dennis spooner', '1967-02-08', '1966-09'],
+['21', '118', 'the 7 eyes of tni', 'robert asher', 'terry nation', '1967-02-15', '1966-04'],
+['22', '124', 'tni of the hunter', 'roy baker', 'terry nation', '1967-02-22', '1966-07'],
+['23', '120', 'the edge of fear', 'quentin lawrence', 'dennis spooner', '1967-03-01', '1966-05'],
+['24', '116', 'long ago and far away', 'robert asher', 'dennis spooner', '1967-03-08', '1966-05'],
+['25', '122', 'so dark the tni', 'robert tronson', 'terry nation and dennis spooner', '1967-03-15', '1966-06'],
+['26', '119', 'the long , long day', 'roy baker', 'tony ogrady', '1967-03-22', '1966-05'],
+['27', '127', 'roundabout', 'robert tronson', 'terry nation', '1967-03-29', '1966-09'],
+['28', '129', 'the man outside', 'roy baker', 'terry nation', '1967-04-05', '1966-09'],
+['29', '130', 'countdown', 'robert asher', 'terry nation', '1967-04-12', '1966-10']]"
+2-12582968-1.html.csv,lukáš melich completed in the olympic games two times,1,lukáš melich,"year | competition | venue | position | notes
+1998 | world junior championships | annecy , france | 10th | 61.51 m
+1999 | european junior championships | riga , latvia | 5th | 64.2 m
+2001 | european u23 championships | amsterdam , netherlands | 11th | 66.41 m
+2003 | universiade | daegu , south korea | 4th | 71.26 m
+2005 | world championships | helsinki , finland | 14th | 74.53 m
+2006 | european championships | gothenburg , sweden | 15th | 73.77 m
+2008 | olympic games | beijing , pr china | 29th | 70.56 m
+2009 | world championships | berlin , germany | 14th | 74.47 m
+2012 | olympic games | london , great britain | 6th | 77.17 m
+2013 | world championships | moscow , russia | 3rd | 79.36 m","normalized_table = [
+    [""year"", ""competition"", ""venue"", ""position"", ""notes""],
+    [""1998"", ""world junior championships"", ""annecy , france"", ""10th"", ""61.51 m""],
+    [""1999"", ""european junior championships"", ""riga , latvia"", ""5th"", ""64.2 m""],
+    [""2001"", ""european u23 championships"", ""amsterdam , netherlands"", ""11th"", ""66.41 m""],
+    [""2003"", ""universiade"", ""daegu , south korea"", ""4th"", ""71.26 m""],
+    [""2005"", ""world championships"", ""helsinki , finland"", ""14th"", ""74.53 m""],
+    [""2006"", ""european championships"", ""gothenburg , sweden"", ""15th"", ""73.77 m""],
+    [""2008"", ""olympic games"", ""beijing , pr china"", ""29th"", ""70.56 m""],
+    [""2009"", ""world championships"", ""berlin , germany"", ""14th"", ""74.47 m""],
+    [""2012"", ""olympic games"", ""london , great britain"", ""6th"", ""77.17 m""],
+    [""2013"", ""world championships"", ""moscow , russia"", ""3rd"", ""79.36 m""]
+]"
+2-11545282-15.html.csv,jose ortiz was the center in the oregon state jazz club from 1988 - 90,1,utah jazz all - time roster,"player | nationality | position | years_for_jazz | school___club_team
+mehmet okur | turkey | forward - center | 2004-11 | efes pilsen ( turkey )
+josã ortiz | puerto rico | center | 1988 - 90 | oregon state
+greg ostertag | united states | center | 1995 - 2004 , 2005-6 | kansas
+dan o 'sullivan | united states | center | 1990 - 91 | fordham
+andre owens | united states | guard | 2005-6 | houston","normalized_table = [
+    [""player"", ""nationality"", ""position"", ""start_year"", ""end_year"", ""school_club_team""],
+    [""mehmet okur"", ""turkey"", ""forward - center"", 2004, 2011, ""efes pilsen ( turkey )""],
+    [""josã ortiz"", ""puerto rico"", ""center"", 1988, 1990, ""oregon state""],
+    [""greg ostertag"", ""united states"", ""center"", 1995, 2004, ""kansas""],
+    [""greg ostertag"", ""united states"", ""center"", 2005, 2006, ""kansas""],
+    [""dan o 'sullivan"", ""united states"", ""center"", 1990, 1991, ""fordham""],
+    [""andre owens"", ""united states"", ""guard"", 2005, 2006, ""houston""]
+]"
+2-14291300-7.html.csv,the toronto maple leafs is the only opponent with 63 points,1,none,"game | march | opponent | score | record | points
+63 | 4 | detroit red wings | 2 - 2 | 24 - 28 - 11 | 59
+64 | 6 | california golden seals | 4 - 4 | 24 - 28 - 12 | 60
+65 | 7 | minnesota north stars | 1 - 3 | 24 - 29 - 12 | 60
+66 | 10 | pittsburgh penguins | 2 - 2 | 24 - 29 - 13 | 61
+67 | 12 | new york rangers | 2 - 7 | 24 - 30 - 13 | 61
+68 | 13 | toronto maple leafs | 3 - 2 | 25 - 30 - 13 | 63
+69 | 18 | new york rangers | 2 - 1 | 26 - 30 - 13 | 65
+70 | 20 | boston bruins | 3 - 5 | 26 - 31 - 13 | 65
+71 | 21 | toronto maple leafs | 1 - 1 | 26 - 31 - 14 | 66
+72 | 24 | montreal canadiens | 3 - 5 | 26 - 32 - 14 | 66
+73 | 25 | minnesota north stars | 2 - 2 | 26 - 32 - 15 | 67
+74 | 27 | chicago black hawks | 1 - 3 | 26 - 33 - 15 | 67
+75 | 28 | pittsburgh penguins | 3 - 1 | 27 - 33 - 15 | 69","normalized_table = [
+    [""game"", ""date"", ""opponent"", ""score_home"", ""score_away"", ""record_wins"", ""record_losses"", ""record_overtime_losses"", ""points""],
+    [63, 4, ""detroit red wings"", 2, 2, 24, 28, 11, 59],
+    [64, 6, ""california golden seals"", 4, 4, 24, 28, 12, 60],
+    [65, 7, ""minnesota north stars"", 1, 3, 24, 29, 12, 60],
+    [66, 10, ""pittsburgh penguins"", 2, 2, 24, 29, 13, 61],
+    [67, 12, ""new york rangers"", 2, 7, 24, 30, 13, 61],
+    [68, 13, ""toronto maple leafs"", 3, 2, 25, 30, 13, 63],
+    [69, 18, ""new york rangers"", 2, 1, 26, 30, 13, 65],
+    [70, 20, ""boston bruins"", 3, 5, 26, 31, 13, 65],
+    [71, 21, ""toronto maple leafs"", 1, 1, 26, 31, 14, 66],
+    [72, 24, ""montreal canadiens"", 3, 5, 26, 32, 14, 66],
+    [73, 25, ""minnesota north stars"", 2, 2, 26, 32, 15, 67],
+    [74, 27, ""chicago black hawks"", 1, 3, 26, 33, 15, 67],
+    [75, 28, ""pittsburgh penguins"", 3, 1, 27, 33, 15, 69]
+]"
+2-17025909-3.html.csv,"the nation of croatia won 3 medals all together , 2 of which were silver",1,2003 world taekwondo championships,"rank | nation | gold | silver | bronze | total
+1 | south korea | 8 | 0 | 2 | 10
+2 | iran | 2 | 2 | 1 | 5
+3 | chinese taipei | 2 | 0 | 1 | 3
+4 | united states | 1 | 2 | 3 | 6
+5 | spain | 1 | 1 | 3 | 5
+6 | china | 1 | 1 | 1 | 3
+7 | greece | 1 | 0 | 2 | 3
+8 | croatia | 0 | 2 | 1 | 3
+9 | france | 0 | 2 | 0 | 2
+10 | germany | 0 | 1 | 2 | 3
+11 | canada | 0 | 1 | 1 | 2
+11 | denmark | 0 | 1 | 1 | 1
+13 | cuba | 0 | 1 | 0 | 1
+13 | great britain | 0 | 1 | 0 | 1
+13 | mexico | 0 | 1 | 0 | 1
+16 | azerbaijan | 0 | 0 | 4 | 4
+17 | thailand | 0 | 0 | 2 | 2
+18 | australia | 0 | 0 | 1 | 1
+18 | austria | 0 | 0 | 1 | 1
+18 | belarus | 0 | 0 | 1 | 1
+18 | kazakhstan | 0 | 0 | 1 | 1
+18 | morocco | 0 | 0 | 1 | 1
+18 | philippines | 0 | 0 | 1 | 1
+18 | turkey | 0 | 0 | 1 | 1
+18 | venezuela | 0 | 0 | 1 | 1
+total | total | 16 | 16 | 32 | 64","normalized_table = [['rank', 'nation', 'gold', 'silver', 'bronze', 'total'],
+['1', 'south korea', '8', '0', '2', '10'],
+['2', 'iran', '2', '2', '1', '5'],
+['3', 'chinese taipei', '2', '0', '1', '3'],
+['4', 'united states', '1', '2', '3', '6'],
+['5', 'spain', '1', '1', '3', '5'],
+['6', 'china', '1', '1', '1', '3'],
+['7', 'greece', '1', '0', '2', '3'],
+['8', 'croatia', '0', '2', '1', '3'],
+['9', 'france', '0', '2', '0', '2'],
+['10', 'germany', '0', '1', '2', '3'],
+['11', 'canada', '0', '1', '1', '2'],
+['11', 'denmark', '0', '1', '1', '1'],
+['13', 'cuba', '0', '1', '0', '1'],
+['13', 'great britain', '0', '1', '0', '1'],
+['13', 'mexico', '0', '1', '0', '1'],
+['16', 'azerbaijan', '0', '0', '4', '4'],
+['17', 'thailand', '0', '0', '2', '2'],
+['18', 'australia', '0', '0', '1', '1'],
+['18', 'austria', '0', '0', '1', '1'],
+['18', 'belarus', '0', '0', '1', '1'],
+['18', 'kazakhstan', '0', '0', '1', '1'],
+['18', 'morocco', '0', '0', '1', '1'],
+['18', 'philippines', '0', '0', '1', '1'],
+['18', 'turkey', '0', '0', '1', '1'],
+['18', 'venezuela', '0', '0', '1', '1']]"
+2-12076689-7.html.csv,in the 2006 season the texas rangers played the mariners nine times,1,2006 texas rangers season,"date | opponent | score | loss | attendance | record
+september 1 | indians | 7 - 2 | padilla (13 - 9) | 23776 | 69 - 67
+september 2 | indians | 6 - 5 | volquez (1 - 4) | 40222 | 69 - 68
+september 3 | indians | 5 - 2 | byrd | 19667 | 70 - 68
+september 4 | athletics | 8 - 1 | zito | 23949 | 71 - 68
+september 5 | athletics | 5 - 4 | saarloos | 27225 | 72 - 68
+september 6 | athletics | 9 - 6 | rupe (0 - 1) | 17838 | 72 - 69
+september 8 | mariners | 7 - 2 | millwood (14 - 10) | 28646 | 72 - 70
+september 9 | mariners | 3 - 2 | rheinecker (4 - 6) | 33454 | 72 - 71
+september 10 | mariners | 4 - 2 | huber | 34321 | 73 - 71
+september 12 | tigers | 3 - 2 | mahay (1 - 3) | 24196 | 73 - 72
+september 13 | tigers | 11 - 3 | verlander | 24672 | 74 - 72
+september 14 | angels | 2 - 1 | volquez (1 - 5) | 21488 | 74 - 73
+september 15 | angels | 2 - 1 | francisco (0 - 1) | 30788 | 74 - 74
+september 16 | angels | 12 - 6 | lackey | 40196 | 75 - 74
+september 17 | angels | 8 - 1 | santana | 24303 | 76 - 74
+september 18 | mariners | 8 - 1 | hernández | 18214 | 77 - 74
+september 19 | mariners | 9 - 7 | wilson (2 - 3) | 18551 | 77 - 75
+september 20 | mariners | 6 - 3 | tejeda (4 - 4) | 26006 | 77 - 76
+september 22 | indians | 12 - 4 | byrd | 26284 | 78 - 76
+september 23 | indians | 6 - 3 | padilla (14 - 10) | 38351 | 78 - 77
+september 24 | indians | 11 - 6 | millwood (16 - 11) | 36617 | 78 - 78
+september 25 | angels | 8 - 3 | volquez (1 - 6) | 39781 | 78 - 79
+september 26 | angels | 5 - 2 | escobar | 37339 | 79 - 79
+september 27 | angels | 6 - 5 | wilson (2 - 4) | 38032 | 79 - 80
+september 29 | mariners | 6 - 5 | fruto | 30766 | 80 - 80
+september 30 | mariners | 3 - 1 | millwood (16 - 12) | 23310 | 80 - 81
+october 1 | mariners | 3 - 2 | tejeda (5 - 5) | 28361 | 80 - 82","normalized_table = [['date', 'opponent', 'score', 'loss', 'attendance', 'record'],
+['september 1', 'indians', '7 - 2', 'padilla', '23776', '69 - 67'],
+['september 2', 'indians', '6 - 5', 'volquez', '40222', '69 - 68'],
+['september 3', 'indians', '5 - 2', 'byrd', '19667', '70 - 68'],
+['september 4', 'athletics', '8 - 1', 'zito', '23949', '71 - 68'],
+['september 5', 'athletics', '5 - 4', 'saarloos', '27225', '72 - 68'],
+['september 6', 'athletics', '9 - 6', 'rupe', '17838', '72 - 69'],
+['september 8', 'mariners', '7 - 2', 'millwood', '28646', '72 - 70'],
+['september 9', 'mariners', '3 - 2', 'rheinecker', '33454', '72 - 71'],
+['september 10', 'mariners', '4 - 2', 'huber', '34321', '73 - 71'],
+['september 12', 'tigers', '3 - 2', 'mahay', '24196', '73 - 72'],
+['september 13', 'tigers', '11 - 3', 'verlander', '24672', '74 - 72'],
+['september 14', 'angels', '2 - 1', 'volquez', '21488', '74 - 73'],
+['september 15', 'angels', '2 - 1', 'francisco', '30788', '74 - 74'],
+['september 16', 'angels', '12 - 6', 'lackey', '40196', '75 - 74'],
+['september 17', 'angels', '8 - 1', 'santana', '24303', '76 - 74'],
+['september 18', 'mariners', '8 - 1', 'hernández', '18214', '77 - 74'],
+['september 19', 'mariners', '9 - 7', 'wilson', '18551', '77 - 75'],
+['september 20', 'mariners', '6 - 3', 'tejeda', '26006', '77 - 76'],
+['september 22', 'indians', '12 - 4', 'byrd', '26284', '78 - 76'],
+['september 23', 'indians', '6 - 3', 'padilla', '38351', '78 - 77'],
+['september 24', 'indians', '11 - 6', 'millwood', '36617', '78 - 78'],
+['september 25', 'angels', '8 - 3', 'volquez', '39781', '78 - 79'],
+['september 26', 'angels', '5 - 2', 'escobar', '37339', '79 - 79'],
+['september 27', 'angels', '6 - 5', 'wilson', '38032', '79 - 80'],
+['september 29', 'mariners', '6 - 5', 'fruto', '30766', '80 - 80'],
+['september 30', 'mariners', '3 - 1', 'millwood', '23310', '80 - 81'],
+['october 1', 'mariners', '3 - 2', 'tejeda', '28361', '80 - 82']]"
+2-11545282-1.html.csv,the utah jazz had six player from the united states,1,utah jazz all - time roster,"player | nationality | position | years_for_jazz | school___club_team
+rick adelman | united states | guard | 1974 - 75 | loyola (ca)
+john amaechi | england | center / forward | 2001-3 | penn state
+louis amundson | united states | forward | 2007 | unlv
+j j anderson | united states | forward | 1982 - 85 | bradley
+shandon anderson | united states | guard / forward | 1996 - 99 | georgia
+rafael araãjo | brazil | center | 2006 - 2007 | byu
+carlos arroyo | puerto rico | guard | 2002-5 | florida international
+isaac austin | united states | center | 1991 - 93 | arizona state
+anthony avent | united states | forward | 1998 - 99 | seton hall","normalized_table = [
+    [""player"", ""nationality"", ""position"", ""start_year"", ""end_year"", ""school___club_team""],
+    [""rick adelman"", ""united states"", ""guard"", 1974, 1975, ""loyola (ca)""],
+    [""john amaechi"", ""england"", ""center / forward"", 2001, 2003, ""penn state""],
+    [""louis amundson"", ""united states"", ""forward"", 2007, 2007, ""unlv""],
+    [""j j anderson"", ""united states"", ""forward"", 1982, 1985, ""bradley""],
+    [""shandon anderson"", ""united states"", ""guard / forward"", 1996, 1999, ""georgia""],
+    [""rafael araãjo"", ""brazil"", ""center"", 2006, 2007, ""byu""],
+    [""carlos arroyo"", ""puerto rico"", ""guard"", 2002, 2005, ""florida international""],
+    [""isaac austin"", ""united states"", ""center"", 1991, 1993, ""arizona state""],
+    [""anthony avent"", ""united states"", ""forward"", 1998, 1999, ""seton hall""]
+]"
+2-1015521-1.html.csv,there are currently 12 t - 260 eu aircrafts in service,1,uruguayan air force,"aircraft | origin | type | versions | in_service
+cessna a -37 dragonfly | united states | attack / fighter | a -37000000000 | 12 (16 delivered)
+fma ia 58 pucarã¡ | argentina | attack | a -58 | 5 (6 delivered)
+lockheed c -130 hercules | united states | transport / utility | c -130000000000 | 2
+embraer emb 110 bandeirante | brazil | transport / utility | c -95 | 3
+beechcraft twin bonanza | united states | transport / utility | d50 | 1
+casa c -212 aviocar | spain | transport | c -212 - 200 | 2
+embraer emb 120 brasilia | brazil | transport | emb 120 | 1
+cessna 206 stationair | united states | utility / liaison | u206h | 10
+beechcraft b58 baron | united states | trainer / liaison | b -58 | 2
+british aerospace 125 | united kingdom | vip transport | 700a 600a | 2
+aermacchi sf260 | italy | trainer | t -260 eu | 12
+pilatus pc -7 turbo trainer | switzerland | trainer | -92 | 5 (6 delivered)
+cessna t -41 mescalero | united states | trainer | t - 41d | 7
+aerospatiale as 365 dauphin | france | liaison / transport | as 365 | 1
+bell 212 twin huey | united states | transport / utility | bell 212 | 4
+bell uh -1 iroquois | united states | transport / utility | uh pt-1h | 13","normalized_table = [
+    [""aircraft"", ""origin"", ""type"", ""versions"", ""in_service""],
+    [""cessna a -37 dragonfly"", ""united states"", ""attack / fighter"", ""a -37"", ""12""],
+    [""fma ia 58 pucarã¡"", ""argentina"", ""attack"", ""a -58"", ""5""],
+    [""lockheed c -130 hercules"", ""united states"", ""transport / utility"", ""c -130"", ""2""],
+    [""embraer emb 110 bandeirante"", ""brazil"", ""transport / utility"", ""c -95"", ""3""],
+    [""beechcraft twin bonanza"", ""united states"", ""transport / utility"", ""d50"", ""1""],
+    [""casa c -212 aviocar"", ""spain"", ""transport"", ""c -212 - 200"", ""2""],
+    [""embraer emb 120 brasilia"", ""brazil"", ""transport"", ""emb 120"", ""1""],
+    [""cessna 206 stationair"", ""united states"", ""utility / liaison"", ""u206h"", ""10""],
+    [""beechcraft b58 baron"", ""united states"", ""trainer / liaison"", ""b -58"", ""2""],
+    [""british aerospace 125"", ""united kingdom"", ""vip transport"", ""700a 600a"", ""2""],
+    [""aermacchi sf260"", ""italy"", ""trainer"", ""t -260 eu"", ""12""],
+    [""pilatus pc -7 turbo trainer"", ""switzerland"", ""trainer"", ""-92"", ""5""],
+    [""cessna t -41 mescalero"", ""united states"", ""trainer"", ""t - 41d"", ""7""],
+    [""aerospatiale as 365 dauphin"", ""france"", ""liaison / transport"", ""as 365"", ""1""],
+    [""bell 212 twin huey"", ""united states"", ""transport / utility"", ""bell 212"", ""4""],
+    [""bell uh -1 iroquois"", ""united states"", ""transport / utility"", ""uh pt-1h"", ""13""]
+]"
+2-16835332-3.html.csv,the years 1972 - 1976 have a rank of 1,1,none,"rank | player | years | games | reb_avg | total_rebounds
+1 | jim nowers | 1972 - 1976 | 112 | 9.4 | 1048
+2 | kenny sanders | 1985 - 1989 | 107 | 9.6 | 1026
+3 | will thomas | 2004 - 2008 | 131 | 7.6 | 993
+4 | george evans | 1997 - 2001 | 116 | 8.2 | 953
+5 | robert dykes | 1987 - 1991 | 122 | 7.5 | 925
+6 | andre gaddy | 1977 - 1982 | 98 | 9.3 | 916
+7 | jai lewis | 2002 - 2006 | 125 | 7.2 | 895
+8 | rob rose | 1982 - 1986 | 113 | 7.1 | 805
+9 | herb estes | 1973 - 1976 | 80 | 9.2 | 734
+10 | jesse young | 1999 - 2003 | 115 | 6.2 | 708","normalized_table = [
+    [""rank"", ""player"", ""start_year"", ""end_year"", ""years"", ""games"", ""reb_avg"", ""total_rebounds""],
+    [1, ""jim nowers"", 1972, 1976, ""1972 - 1976"", 112, 9.4, 1048],
+    [2, ""kenny sanders"", 1985, 1989, ""1985 - 1989"", 107, 9.6, 1026],
+    [3, ""will thomas"", 2004, 2008, ""2004 - 2008"", 131, 7.6, 993],
+    [4, ""george evans"", 1997, 2001, ""1997 - 2001"", 116, 8.2, 953],
+    [5, ""robert dykes"", 1987, 1991, ""1987 - 1991"", 122, 7.5, 925],
+    [6, ""andre gaddy"", 1977, 1982, ""1977 - 1982"", 98, 9.3, 916],
+    [7, ""jai lewis"", 2002, 2006, ""2002 - 2006"", 125, 7.2, 895],
+    [8, ""rob rose"", 1982, 1986, ""1982 - 1986"", 113, 7.1, 805],
+    [9, ""herb estes"", 1973, 1976, ""1973 - 1976"", 80, 9.2, 734],
+    [10, ""jesse young"", 1999, 2003, ""1999 - 2003"", 115, 6.2, 708]
+]"
+1-29789-1.html.csv,25.7 million international tourists visited russia in 2012,1,tourism,"rank | country | unwto_region | international_tourist_arrivals_2012 | international_tourist_arrivals_2011 | change_2011_to_2012 | change_2010_to_2011
+1 | france | europe | 83000000 | 81600000 | + 1.8% | + 5%
+2 | united states | north america | 67000000 | 62700000 | + 6.8% | + 4.9%
+3 | china | asia | 57700000 | 57600000 | + 0.3% | + 3.4%
+4 | spain | europe | 57700000 | 56200000 | + 2.7% | + 6.6%
+5 | italy | europe | 46400000 | 46100000 | + 0.5% | + 5.7%
+6 | turkey | europe | 35700000 | 34700000 | + 3% | + 10.5%
+7 | germany | europe | 30400000 | 28400000 | + 7.3% | + 5.5%
+8 | united kingdom | europe | 29300000 | 29300000 | -0.1% | + 3.6%
+9 | russia | europe | 25700000 | 22700000 | + 13.4% | + 11.9%","normalized_table = [
+    [""rank"", ""country"", ""unwto_region"", ""international_tourist_arrivals_year_2012"", ""international_tourist_arrivals_year_2011"", ""change_2011_to_2012"", ""change_2010_to_2011""],
+    [1, ""france"", ""europe"", 83000000, 81600000, ""+1.8%"", ""+5%""],
+    [2, ""united states"", ""north america"", 67000000, 62700000, ""+6.8%"", ""+4.9%""],
+    [3, ""china"", ""asia"", 57700000, 57600000, ""+0.3%"", ""+3.4%""],
+    [4, ""spain"", ""europe"", 57700000, 56200000, ""+2.7%"", ""+6.6%""],
+    [5, ""italy"", ""europe"", 46400000, 46100000, ""+0.5%"", ""+5.7%""],
+    [6, ""turkey"", ""europe"", 35700000, 34700000, ""+3%"", ""+10.5%""],
+    [7, ""germany"", ""europe"", 30400000, 28400000, ""+7.3%"", ""+5.5%""],
+    [8, ""united kingdom"", ""europe"", 29300000, 29300000, ""-0.1%"", ""+3.6%""],
+    [9, ""russia"", ""europe"", 25700000, 22700000, ""+13.4%"", ""+11.9%""]
+]"
+1-1697190-2.html.csv,this person 's lowest yearly earnings between 1998 and 2005 was 0,1,casey martin,"year | tournaments_played | cuts_made | wins | best_finish | earnings | money_list_rank
+1998 | 3 | 2 | 0 | t -23 | 37221 | 221
+2000 | 29 | 14 | 0 | t -17 | 143248 | 179
+2001 | 2 | 0 | 0 | cut | 0 | n / a
+2002 | 3 | 0 | 0 | cut | 0 | n / a
+2003 | 1 | 0 | 0 | cut | 0 | n / a
+2004 | 2 | 2 | 0 | t -69 | 15858 | n / a
+2005 | 1 | 1 | 0 | t -65 | 10547 | n / a","normalized_table = [
+    [""year"", ""tournaments_played"", ""cuts_made"", ""wins"", ""best_finish"", ""earnings"", ""money_list_rank""],
+    [1998, 3, 2, 0, ""t -23"", 37221, 221],
+    [2000, 29, 14, 0, ""t -17"", 143248, 179],
+    [2001, 2, 0, 0, ""cut"", 0, None],
+    [2002, 3, 0, 0, ""cut"", 0, None],
+    [2003, 1, 0, 0, ""cut"", 0, None],
+    [2004, 2, 2, 0, ""t -69"", 15858, None],
+    [2005, 1, 1, 0, ""t -65"", 10547, None]
+]"
+2-18844321-1.html.csv,there was 13 tour matches in the last 3 months of 1978,0,1978 new zealand rugby union tour of britain and ireland,"opposing_team | against | date | venue | status
+cambridge university | 12 | 1978-10-18 | grange road , cambridge | tour match
+cardiff | 7 | 1978-10-21 | cardiff arms park , cardiff | tour match
+west wales xv | 7 | 1978-10-25 | st helen 's , swansea | tour match
+london counties | 12 | 1978-10-28 | twickenham , london | tour match
+munster | 12 | 1978-10-31 | thomond park , limerick | tour match
+ireland | 6 | 1978-11-4 | lansdowne road , dublin | test match
+ulster | 7 | 1978-11-7 | ravenhill , belfast | tour match
+wales | 12 | 1978-11-11 | cardiff arms park , cardiff | test match
+south and south - west counties | 0 | 1978-11-15 | memorial ground , bristol | tour match
+midland counties | 15 | 1978-11-18 | welford road , leicester | tour match
+combined services | 6 | 1978-11-21 | aldershot military stadium , aldershot | tour match
+england | 6 | 1978-11-25 | twickenham , london | test match
+monmouthshire | 9 | 1978-11-29 | rodney parade , newport | tour match
+north of england | 6 | 1978-12-2 | birkenhead park , birkenhead | tour match
+north and midland of scotland | 3 | 1978-12-5 | linksfield stadium , aberdeen | tour match
+scotland | 9 | 1978-12-9 | murrayfield , edinburgh | test match
+bridgend | 6 | 1978-12-13 | brewery field , bridgend | tour match
+barbarians | 16 | 1978-12-16 | cardiff arms park , cardiff | tour match","normalized_table = [
+    [""opposing_team"", ""against"", ""date"", ""venue"", ""status""],
+    [""cambridge university"", 12, ""1978-10-18"", ""grange road , cambridge"", ""tour match""],
+    [""cardiff"", 7, ""1978-10-21"", ""cardiff arms park , cardiff"", ""tour match""],
+    [""west wales xv"", 7, ""1978-10-25"", ""st helen 's , swansea"", ""tour match""],
+    [""london counties"", 12, ""1978-10-28"", ""twickenham , london"", ""tour match""],
+    [""munster"", 12, ""1978-10-31"", ""thomond park , limerick"", ""tour match""],
+    [""ireland"", 6, ""1978-11-4"", ""lansdowne road , dublin"", ""test match""],
+    [""ulster"", 7, ""1978-11-7"", ""ravenhill , belfast"", ""tour match""],
+    [""wales"", 12, ""1978-11-11"", ""cardiff arms park , cardiff"", ""test match""],
+    [""south and south - west counties"", 0, ""1978-11-15"", ""memorial ground , bristol"", ""tour match""],
+    [""midland counties"", 15, ""1978-11-18"", ""welford road , leicester"", ""tour match""],
+    [""combined services"", 6, ""1978-11-21"", ""aldershot military stadium , aldershot"", ""tour match""],
+    [""england"", 6, ""1978-11-25"", ""twickenham , london"", ""test match""],
+    [""monmouthshire"", 9, ""1978-11-29"", ""rodney parade , newport"", ""tour match""],
+    [""north of england"", 6, ""1978-12-2"", ""birkenhead park , birkenhead"", ""tour match""],
+    [""north and midland of scotland"", 3, ""1978-12-5"", ""linksfield stadium , aberdeen"", ""tour match""],
+    [""scotland"", 9, ""1978-12-9"", ""murrayfield , edinburgh"", ""test match""],
+    [""bridgend"", 6, ""1978-12-13"", ""brewery field , bridgend"", ""tour match""],
+    [""barbarians"", 16, ""1978-12-16"", ""cardiff arms park , cardiff"", ""tour match""]
+]"
+2-10826385-15.html.csv,melbourne had the lowest score when playing as the away team,1,1972 vfl season,"home_team | home_team_score | away_team | away_team_score | venue | crowd | date
+footscray | 14.7 (91) | st kilda | 9.11 (65) | western oval | 18655 | 1972-7-15
+fitzroy | 16.14 (110) | north melbourne | 9.12 (66) | junction oval | 7007 | 1972-7-15
+essendon | 13.12 (90) | richmond | 17.9 (111) | windy hill | 22251 | 1972-7-15
+carlton | 20.8 (128) | south melbourne | 8.15 (63) | princes park | 14465 | 1972-7-15
+hawthorn | 19.14 (128) | geelong | 15.8 (98) | glenferrie oval | 12425 | 1972-7-15
+collingwood | 10.13 (73) | melbourne | 8.1 (58) | vfl park | 30883 | 1972-7-15","normalized_table = [['home_team', 'home_team_score', 'away_team', 'away_team_score', 'venue', 'crowd', 'date'],
+['footscray', '14.7', 'st kilda', '9.11', 'western oval', '18655', '1972-07-15'],
+['fitzroy', '16.14', 'north melbourne', '9.12', 'junction oval', '7007', '1972-07-15'],
+['essendon', '13.12', 'richmond', '17.9', 'windy hill', '22251', '1972-07-15'],
+['carlton', '20.8', 'south melbourne', '8.15', 'princes park', '14465', '1972-07-15'],
+['hawthorn', '19.14', 'geelong', '15.8', 'glenferrie oval', '12425', '1972-07-15'],
+['collingwood', '10.13', 'melbourne', '8.1', 'vfl park', '30883', '1972-07-15']]"
+1-2150776-1.html.csv,on june 16th jeff gordon was on hendrick motorsports,1,pocono 400,"year | date | driver | team | manufacturer | laps | _ | race_time | average_speed_mph | report
+1982 | june 6 | bobby allison | digard motorsports | buick | 200 | 500 (804.672) | 4:24:8 | 113.579 | report
+1983 | june 12 | bobby allison | digard motorsports | buick | 200 | 500 (804.672) | 3:53:13 | 128.636 | report
+1984 | june 10 | cale yarborough | ranier - lundy | chevrolet | 200 | 500 (804.672) | 3:37:8 | 138.164 | report
+1985 | june 9 | bill elliott | melling racing | ford | 200 | 500 (804.672) | 3:35:48 | 138.974 | report
+1986 | june 8 | tim richmond | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 4:24:50 | 113.279 | report
+1987 | june 14 | tim richmond | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 4:5:57 | 122.166 | report
+1988 | june 19 | geoffrey bodine | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 3:58:21 | 126.147 | report
+1989 | june 18 | terry labonte | junior johnson & associates | ford | 200 | 500 (804.672) | 3:48:27 | 131.32 | report
+1990 | june 17 | harry gant | leo jackson racing | oldsmobile | 200 | 500 (804.672) | 4:8:25 | 120.6 | report
+1991 | june 16 | darrell waltrip | darwal , inc | chevrolet | 200 | 500 (804.672) | 4:4:34 | 122.666 | report
+1992 | june 14 | alan kulwicki | ak racing | ford | 200 | 500 (804.672) | 3:28:18 | 144.023 | report
+1993 | june 13 | kyle petty | sabco racing | pontiac | 200 | 500 (804.672) | 3:37:23 | 138.005 | report
+1994 | june 12 | rusty wallace | penske racing | ford | 200 | 500 (804.672) | 3:52:55 | 128.801 | report
+1995 | june 11 | terry labonte | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 3:37:50 | 137.72 | report
+1996 | june 16 | jeff gordon | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 3:35:40 | 139.104 | report
+1997 | june 8 | jeff gordon | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 3:34:33 | 139.828 | report
+1998 | june 21 | jeremy mayfield | penske racing | ford | 200 | 500 (804.672) | 4:14:39 | 117.809 | report
+1999 | june 20 | bobby labonte | joe gibbs racing | pontiac | 200 | 500 (804.672) | 4:12:19 | 118.898 | report
+2000 | june 19 | jeremy mayfield | penske racing | ford | 200 | 500 (804.672) | 3:34:41 | 139.741 | report
+2001 | june 17 | ricky rudd | robert yates racing | ford | 200 | 500 (804.672) | 3:43:14 | 134.389 | report
+2002 | june 9 | dale jarrett | robert yates racing | ford | 200 | 500 (804.672) | 3:29:10 | 143.426 | report
+2003 | june 8 | tony stewart | joe gibbs racing | chevrolet | 200 | 500 (804.672) | 3:42:24 | 134.892 | report
+2004 | june 13 | jimmie johnson | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 4:27:33 | 112.129 | report
+2005 | june 12 | carl edwards | roush racing | ford | 201 | 502.5 (808.695) | 3:53:24 | 129.177 | report
+2006 | june 11 | denny hamlin | joe gibbs racing | chevrolet | 200 | 500 (804.672) | 3:47:52 | 131.656 | report
+2007 | june 10 | jeff gordon | hendrick motorsports | chevrolet | 106 | 265 (426.476) | 1:57:15 | 135.608 | report
+2008 | june 8 | kasey kahne | gillett evernham motorsports | dodge | 200 | 500 (804.672) | 3:59:36 | 125.209 | report
+2009 | june 7 | tony stewart | stewart - haas racing | chevrolet | 200 | 500 (804.672) | 3:36:35 | 138.515 | report
+2010 | june 6 | denny hamlin | joe gibbs racing | toyota | 204 | 510 (820.765) | 3:44:30 | 136.303 | report
+2011 | june 12 | jeff gordon | hendrick motorsports | chevrolet | 200 | 500 (804.672) | 3:26:21 | 145.384 | report
+2012 | june 10 | joey logano | joe gibbs racing | toyota | 160 | 400 (643.737) | 3:3:12 | 131.004 | report","normalized_table = [['year', 'date', 'driver', 'team', 'manufacturer', 'laps', 'race_time', 'average_speed_mph', 'report'],
+['1982', 'june 6', 'bobby allison', 'digard motorsports', 'buick', '200', '4:24:8', '113.579', 'report'],
+['1983', 'june 12', 'bobby allison', 'digard motorsports', 'buick', '200', '3:53:13', '128.636', 'report'],
+['1984', 'june 10', 'cale yarborough', 'ranier - lundy', 'chevrolet', '200', '3:37:8', '138.164', 'report'],
+['1985', 'june 9', 'bill elliott', 'melling racing', 'ford', '200', '3:35:48', '138.974', 'report'],
+['1986', 'june 8', 'tim richmond', 'hendrick motorsports', 'chevrolet', '200', '4:24:50', '113.279', 'report'],
+['1987', 'june 14', 'tim richmond', 'hendrick motorsports', 'chevrolet', '200', '4:5:57', '122.166', 'report'],
+['1988', 'june 19', 'geoffrey bodine', 'hendrick motorsports', 'chevrolet', '200', '3:58:21', '126.147', 'report'],
+['1989', 'june 18', 'terry labonte', 'junior johnson & associates', 'ford', '200', '3:48:27', '131.32', 'report'],
+['1990', 'june 17', 'harry gant', 'leo jackson racing', 'oldsmobile', '200', '4:8:25', '120.6', 'report'],
+['1991', 'june 16', 'darrell waltrip', 'darwal , inc', 'chevrolet', '200', '4:4:34', '122.666', 'report'],
+['1992', 'june 14', 'alan kulwicki', 'ak racing', 'ford', '200', '3:28:18', '144.023', 'report'],
+['1993', 'june 13', 'kyle petty', 'sabco racing', 'pontiac', '200', '3:37:23', '138.005', 'report'],
+['1994', 'june 12', 'rusty wallace', 'penske racing', 'ford', '200', '3:52:55', '128.801', 'report'],
+['1995', 'june 11', 'terry labonte', 'hendrick motorsports', 'chevrolet', '200', '3:37:50', '137.72', 'report'],
+['1996', 'june 16', 'jeff gordon', 'hendrick motorsports', 'chevrolet', '200', '3:35:40', '139.104', 'report'],
+['1997', 'june 8', 'jeff gordon', 'hendrick motorsports', 'chevrolet', '200', '3:34:33', '139.828', 'report'],
+['1998', 'june 21', 'jeremy mayfield', 'penske racing', 'ford', '200', '4:14:39', '117.809', 'report'],
+['1999', 'june 20', 'bobby labonte', 'joe gibbs racing', 'pontiac', '200', '4:12:19', '118.898', 'report'],
+['2000', 'june 19', 'jeremy mayfield', 'penske racing', 'ford', '200', '3:34:41', '139.741', 'report'],
+['2001', 'june 17', 'ricky rudd', 'robert yates racing', 'ford', '200', '3:43:14', '134.389', 'report'],
+['2002', 'june 9', 'dale jarrett', 'robert yates racing', 'ford', '200', '3:29:10', '143.426', 'report'],
+['2003', 'june 8', 'tony stewart', 'joe gibbs racing', 'chevrolet', '200', '3:42:24', '134.892', 'report'],
+['2004', 'june 13', 'jimmie johnson', 'hendrick motorsports', 'chevrolet', '200', '4:27:33', '112.129', 'report'],
+['2005', 'june 12', 'carl edwards', 'roush racing', 'ford', '201', '3:53:24', '129.177', 'report'],
+['2006', 'june 11', 'denny hamlin', 'joe gibbs racing', 'chevrolet', '200', '3:47:52', '131.656', 'report'],
+['2007', 'june 10', 'jeff gordon', 'hendrick motorsports', 'chevrolet', '106', '1:57:15', '135.608', 'report'],
+['2008', 'june 8', 'kasey kahne', 'gillett evernham motorsports', 'dodge', '200', '3:59:36', '125.209', 'report'],
+['2009', 'june 7', 'tony stewart', 'stewart - haas racing', 'chevrolet', '200', '3:36:35', '138.515', 'report'],
+['2010', 'june 6', 'denny hamlin', 'joe gibbs racing', 'toyota', '204', '3:44:30', '136.303', 'report'],
+['2011', 'june 12', 'jeff gordon', 'hendrick motorsports', 'chevrolet', '200', '3:26:21', '145.384', 'report'],
+['2012', 'june 10', 'joey logano', 'joe gibbs racing', 'toyota', '160', '3:3:12', '131.004', 'report']]"
+2-15100419-2.html.csv,there are no defensive end picks and an overall smaller than 2,1,jacksonville jaguars draft history,"round | pick | overall | name | position | college
+1 | 2 | 2 | kevin hardy | linebacker | illinois
+2 | 3 | 33 | tony brackens | defensive end | texas
+2 | 30 | 60 | michael cheever | center | georgia tech
+3 | 2 | 63 | aaron beasley | cornerback | west virginia
+4 | 15 | 110 | reggie barlow | wide receiver | alabama state
+5 | 14 | 146 | jimmy herndon | guard | houston
+6 | 3 | 170 | john fisher | defensive back | missouri western
+6 | 18 | 185 | chris doering | wide receiver | florida
+7 | 18 | 227 | clarence jones | wide receiver | tennessee state
+7 | 19 | 228 | gregory spann | wide receiver | jackson state","normalized_table = [
+    [""round"", ""pick"", ""overall"", ""name"", ""position"", ""college""],
+    [1, 2, 2, ""kevin hardy"", ""linebacker"", ""illinois""],
+    [2, 3, 33, ""tony brackens"", ""defensive end"", ""texas""],
+    [2, 30, 60, ""michael cheever"", ""center"", ""georgia tech""],
+    [3, 2, 63, ""aaron beasley"", ""cornerback"", ""west virginia""],
+    [4, 15, 110, ""reggie barlow"", ""wide receiver"", ""alabama state""],
+    [5, 14, 146, ""jimmy herndon"", ""guard"", ""houston""],
+    [6, 3, 170, ""john fisher"", ""defensive back"", ""missouri western""],
+    [6, 18, 185, ""chris doering"", ""wide receiver"", ""florida""],
+    [7, 18, 227, ""clarence jones"", ""wide receiver"", ""tennessee state""],
+    [7, 19, 228, ""gregory spann"", ""wide receiver"", ""jackson state""]
+]"
+1-14562722-2.html.csv,"volume 5 , of 4 episodes , took place of september 19 , 2006 , in region 1",1,none,"volume | discs | episodes | region_1 | region_2 | region_4
+1 | 1 | 4 | 2006-1-31 | 2007-2-19 | 2007-3-15
+2 | 1 | 4 | 2006-3-28 | 2007-6-4 | 2007-7-5
+3 | 1 | 4 | 2006-5-30 | 2007-9-3 | 2008-3-13
+4 | 1 | 4 | 2006-7-18 | 2008-2-18 | 2008-6-19
+5 | 1 | 4 | 2006-9-19 | 2008-5-26 | 2009-3-5","normalized_table = [['volume', 'discs', 'episodes', 'region_1_start', 'region_1_end', 'region_2_start', 'region_2_end', 'region_4_start', 'region_4_end'],
+['1', '1', '4', '2006-1-31', '2007-2-19', '2007-2-19', '2007-6-4', '2007-6-4', '2007-7-5'],
+['2', '1', '4', '2006-3-28', '2007-6-4', '2007-6-4', '2007-9-3', '2007-9-3', '2008-3-13'],
+['3', '1', '4', '2006-5-30', '2007-9-3', '2007-9-3', '2008-2-18', '2008-2-18', '2008-6-19'],
+['4', '1', '4', '2006-7-18', '2008-2-18', '2008-2-18', '2008-5-26', '2008-5-26', '2009-3-5']]"
+2-18963715-1.html.csv,neil labute was nominated for best play in 2009,1,reasons to be pretty,"year | award_ceremony | category | nominee | result
+2009 | tony award | best play | neil labute | nominated
+2009 | tony award | best performance by a leading actor in a play | thomas sadoski | nominated
+2009 | tony award | best performance by a featured actress in a play | marin ireland | nominated
+2009 | drama desk award | outstanding play | outstanding play | nominated
+2009 | drama desk award | outstanding actor in a play | thomas sadoski | nominated
+2009 | drama desk award | outstanding director of a play | terry kinney | nominated
+2009 | theatre world award | theatre world award | marin ireland | won","normalized_table = [['year', 'award_ceremony', 'category', 'nominee', 'result'],
+['2009', 'tony award', 'best play', 'neil labute', 'nominated'],
+['2009', 'tony award', 'best performance by a leading actor in a play', 'thomas sadoski', 'nominated'],
+['2009', 'tony award', 'best performance by a featured actress in a play', 'marin ireland', 'nominated'],
+['2009', 'drama desk award', 'outstanding play', 'outstanding play', 'nominated'],
+['2009', 'drama desk award', 'outstanding actor in a play', 'thomas sadoski', 'nominated'],
+['2009', 'drama desk award', 'outstanding director of a play', 'terry kinney', 'nominated'],
+['2009', 'theatre world award', 'theatre world award', 'marin ireland', 'won']]"
+2-11650849-7.html.csv,"on sunday , september 30 , the chicago bears beat the green bay packers 31 - 20",1,bears - packers rivalry,"year | date | winner | result | loser | attendance | location
+1950 | sunday , october 1 | green bay packers | 31 - 21 | chicago bears | 24893 | green bay
+1950 | sunday , october 15 | chicago bears | 28 - 14 | green bay packers | 51065 | chicago
+1951 | sunday , september 30 | chicago bears | 31 - 20 | green bay packers | 24666 | green bay
+1951 | sunday , november 18 | chicago bears | 24 - 13 | green bay packers | 36771 | chicago
+1952 | sunday , september 28 | chicago bears | 24 - 14 | green bay packers | 24656 | green bay
+1952 | sunday , november 9 | green bay packers | 41 - 28 | chicago bears | 41751 | chicago
+1953 | sunday , october 4 | chicago bears | 17 - 13 | green bay packers | 24835 | green bay
+1953 | sunday , november 8 | chicago bears | 21 - 21 | green bay packers | 39889 | chicago
+1954 | sunday , october 3 | chicago bears | 10 - 3 | green bay packers | 24414 | green bay
+1954 | sunday , november 7 | chicago bears | 28 - 23 | green bay packers | 47038 | chicago
+1955 | sunday , october 2 | green bay packers | 24 - 3 | chicago bears | 24662 | green bay
+1955 | sunday , november 6 | chicago bears | 52 - 31 | green bay packers | 48890 | chicago
+1956 | sunday , october 7 | chicago bears | 37 - 21 | green bay packers | 24668 | green bay
+1956 | sunday , november 11 | chicago bears | 38 - 14 | green bay packers | 49172 | chicago
+1957 | sunday , september 29 | green bay packers | 21 - 17 | chicago bears | 32132 | green bay
+1957 | sunday , november 10 | chicago bears | 21 - 14 | green bay packers | 47153 | chicago
+1958 | sunday , september 28 | chicago bears | 34 - 20 | green bay packers | 32150 | green bay
+1958 | sunday , november 9 | chicago bears | 24 - 10 | green bay packers | 48424 | chicago
+1959 | sunday , september 27 | green bay packers | 9 - 6 | chicago bears | 32150 | green bay
+1959 | sunday , november 8 | chicago bears | 28 - 17 | green bay packers | 46205 | chicago","normalized_table = [['year', 'date', 'winner', 'winner_score', 'loser', 'loser_score', 'attendance', 'location'],
+['1950', '1950-10-01', 'Green Bay Packers', '31', 'Chicago Bears', '21', '24893', 'Green Bay'],
+['1950', '1950-10-15', 'Chicago Bears', '28', 'Green Bay Packers', '14', '51065', 'Chicago'],
+['1951', '1951-09-30', 'Chicago Bears', '31', 'Green Bay Packers', '20', '24666', 'Green Bay'],
+['1951', '1951-11-18', 'Chicago Bears', '24', 'Green Bay Packers', '13', '36771', 'Chicago'],
+['1952', '1952-09-28', 'Chicago Bears', '24', 'Green Bay Packers', '14', '24656', 'Green Bay'],
+['1952', '1952-11-09', 'Green Bay Packers', '41', 'Chicago Bears', '28', '41751', 'Chicago'],
+['1953', '1953-10-04', 'Chicago Bears', '17', 'Green Bay Packers', '13', '24835', 'Green Bay'],
+['1953', '1953-11-08', 'Chicago Bears', '21', 'Green Bay Packers', '21', '39889', 'Chicago'],
+['1954', '1954-10-03', 'Chicago Bears', '10', 'Green Bay Packers', '3', '24414', 'Green Bay'],
+['1954', '1954-11-07', 'Chicago Bears', '28', 'Green Bay Packers', '23', '47038', 'Chicago'],
+['1955', '1955-10-02', 'Green Bay Packers', '24', 'Chicago Bears', '3', '24662', 'Green Bay'],
+['1955', '1955-11-06', 'Chicago Bears', '52', 'Green Bay Packers', '31', '48890', 'Chicago'],
+['1956', '1956-10-07', 'Chicago Bears', '37', 'Green Bay Packers', '21', '24668', 'Green Bay'],
+['1956', '1956-11-11', 'Chicago Bears', '38', 'Green Bay Packers', '14', '49172', 'Chicago'],
+['1957', '1957-09-29', 'Green Bay Packers', '21', 'Chicago Bears', '17', '32132', 'Green Bay'],
+['1957', '1957-11-10', 'Chicago Bears', '21', 'Green Bay Packers', '14', '47153', 'Chicago'],
+['1958', '1958-09-28', 'Chicago Bears', '34', 'Green Bay Packers', '20', '32150', 'Green Bay'],
+['1958', '1958-11-09', 'Chicago Bears', '24', 'Green Bay Packers', '10', '48424', 'Chicago'],
+['1959', '1959-09-27', 'Green Bay Packers', '9', 'Chicago Bears', '6', '32150', 'Green Bay'],
+['1959', '1959-11-08', 'Chicago Bears', '28', 'Green Bay Packers', '17', '46205', 'Chicago']]"
+2-11051845-5.html.csv,irregular galaxy is the object type having 2.1 more apparent magnitude than spiral galaxy,1,list of ngc objects (5001 - 6000),"ngc_number | object_type | constellation | right_ascension__j2000_ | declination__j2000_ | apparent_magnitude
+5408 | irregular galaxy | centaurus | 14h03 m21.0s | degree22′44″ | 14.0
+5457 | spiral galaxy | ursa major | 14h03 m12.5s | degree20′53″ | 8.7
+5466 | globular cluster | boötes | 14h05 m27.4s | degree32′4″ | 10.5
+5474 | spiral galaxy | ursa major | 14h05 m01.5s | degree39′45″ | 11.9
+5477 | irregular galaxy | ursa major | 14h05 m33.1s | degree27′40″ | 14.5","normalized_table = [
+    [""ngc_number"", ""object_type"", ""constellation"", ""right_ascension_j2000"", ""declination_j2000"", ""apparent_magnitude""],
+    [5408, ""irregular galaxy"", ""centaurus"", ""14h03m21.0s"", ""22°44′"", 14.0],
+    [5457, ""spiral galaxy"", ""ursa major"", ""14h03m12.5s"", ""20°53′"", 8.7],
+    [5466, ""globular cluster"", ""boötes"", ""14h05m27.4s"", ""32°4′"", 10.5],
+    [5474, ""spiral galaxy"", ""ursa major"", ""14h05m01.5s"", ""39°45′"", 11.9],
+    [5477, ""irregular galaxy"", ""ursa major"", ""14h05m33.1s"", ""27°40′"", 14.5]
+]"
+1-12834315-2.html.csv,the ar - 15a3 competition hbar has a barrel length of 16 in,1,none,"colt_model_no | name | stock | fire_control | rear_sight | forward_assist | case_deflector | barrel_length | barrel_profile | barrel_twist | hand_guards | bayonet_lug | muzzle_device
+r6000 | ar -15 sporter (sp1) | a1 | s -1 | a1 | no | no | 20 in | a1 | 1:12 | triangular | yes | type 2 duckbill or a1
+r6001 | ar -15 sporter carbine (sp1 carbine) | 2nd generation | s -1 | a1 | no | no | 16 in | a1 | 1:12 | short ribbed | yes | a1
+r6002 | ar -15 sporter (sp1 , bundled with 3x scope) | a1 | s -1 | a1 | no | no | 20 in | a1 | 1:12 | triangular | yes | a1
+r6420 | ar - 15a2 sporter ii carbine | 3rd generation | s -1 | a1 | yes | no & yes | 16 in | a1 | 1:7 | short ribbed | yes | a2
+r6430 | sporter lightweight (9 mm) | a2 | s -1 | a1 | no | removable | 16 in | a1 | 1:10 | short ribbed | yes | a1
+r6450 | ar -15 9 mm carbine | 3rd generation | s -1 | a1 | no | no & removable | 16 in | a1 | 1:10 | short ribbed | yes | a1
+r6500 | ar - 15a2 sporter ii | a2 | s -1 | a1 | yes | no & yes | 20 in | a2 | 1:7 | ribbed | yes | a2
+r6520 | ar - 15a2 government carbine | 3rd generation | s -1 | a2 | yes | yes | 16 in | a1 | 1:7 | short ribbed | yes | a2
+r6530 | sporter lightweight 223 | 3rd generation | s -1 | a2 | yes | yes | 16 in | a1 | 1:7 | short ribbed | no | a2
+r6550 | ar - 15a2 government | a2 | s -1 | a2 | yes | yes | 20 in | a2 | 1:7 | ribbed | yes | a2
+r6550cc | ar - 15a2 government (w / factory camouflage finish) | a2 | s -1 | a2 | yes | yes | 20 in | a2 | 1:7 | ribbed | yes | a2
+r6551 | sporter target | a2 | s -1 | a2 | yes | yes | 20 in | a2 | 1:7 | ribbed | no | a2
+r6600 | ar - 15a2 hbar | a2 | s -1 | a2 | yes | yes | 20 in | hbar | 1:7 | ribbed | yes | a2
+r6601 | sporter match hbar | a2 | s -1 | a2 | yes | yes | 20 in | hbar | 1:7 | ribbed | no | a2
+r6700 | sporter competition hbar | a2 | s -1 | flattop | yes | yes | 20 in | hbar | 1:9 | ribbed | no | a2
+r6721 | ar - 15a3 tactical carbine | 4th generation | s -1 | a2 | yes | yes | 16 in | hbar | 1:9 | short ribbed | yes | a2
+r6724 | sporter competition hbar | a2 | s -1 | flattop | yes | yes | 24 in | hbar | 1:9 | ribbed | no | a2
+r6731 | ar - 15a3 competition hbar | a2 | s -1 | a2 | yes | yes | 16 in | hbar | 1:9 | short ribbed | no | a2
+r6750 | sporter competition hbar (bundled w / bipod) | a2 | s -1 | a2 | yes | yes | 20 in | super - heavy | 1:7 | ribbed | no | a2
+r6821 | sporter carbine (7.62x39 mm) | 3rd generation | s -1 | a2 | yes | yes | 16 in | hbar | 1:12 | short ribbed | no | a1","normalized_table = [
+    [""colt_model_no"", ""name"", ""stock"", ""fire_control"", ""rear_sight"", ""forward_assist"", ""case_deflector"", ""barrel_length"", ""barrel_profile"", ""barrel_twist"", ""hand_guards"", ""bayonet_lug"", ""muzzle_device""],
+    [""r6000"", ""ar -15 sporter (sp1)"", ""a1"", ""s -1"", ""a1"", ""no"", ""no"", ""20 in"", ""a1"", ""1:12"", ""triangular"", ""yes"", ""type 2 duckbill or a1""],
+    [""r6001"", ""ar -15 sporter carbine (sp1 carbine)"", ""2nd generation"", ""s -1"", ""a1"", ""no"", ""no"", ""16 in"", ""a1"", ""1:12"", ""short ribbed"", ""yes"", ""a1""],
+    [""r6002"", ""ar -15 sporter (sp1 , bundled with 3x scope)"", ""a1"", ""s -1"", ""a1"", ""no"", ""no"", ""20 in"", ""a1"", ""1:12"", ""triangular"", ""yes"", ""a1""],
+    [""r6420"", ""ar - 15a2 sporter ii carbine"", ""3rd generation"", ""s -1"", ""a1"", ""yes"", ""no & yes"", ""16 in"", ""a1"", ""1:7"", ""short ribbed"", ""yes"", ""a2""],
+    [""r6430"", ""sporter lightweight (9 mm)"", ""a2"", ""s -1"", ""a1"", ""no"", ""removable"", ""16 in"", ""a1"", ""1:10"", ""short ribbed"", ""yes"", ""a1""],
+    [""r6450"", ""ar -15 9 mm carbine"", ""3rd generation"", ""s -1"", ""a1"", ""no"", ""no & removable"", ""16 in"", ""a1"", ""1:10"", ""short ribbed"", ""yes"", ""a1""],
+    [""r6500"", ""ar - 15a2 sporter ii"", ""a2"", ""s -1"", ""a1"", ""yes"", ""no & yes"", ""20 in"", ""a2"", ""1:7"", ""ribbed"", ""yes"", ""a2""],
+    [""r6520"", ""ar - 15a2 government carbine"", ""3rd generation"", ""s -1"", ""a2"", ""yes"", ""yes"", ""16 in"", ""a1"", ""1:7"", ""short ribbed"", ""yes"", ""a2""],
+    [""r6530"", ""sporter lightweight 223"", ""3rd generation"", ""s -1"", ""a2"", ""yes"", ""yes"", ""16 in"", ""a1"", ""1:7"", ""short ribbed"", ""no"", ""a2""],
+    [""r6550"", ""ar - 15a2 government"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""20 in"", ""a2"", ""1:7"", ""ribbed"", ""yes"", ""a2""],
+    [""r6550cc"", ""ar - 15a2 government (w / factory camouflage finish)"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""20 in"", ""a2"", ""1:7"", ""ribbed"", ""yes"", ""a2""],
+    [""r6551"", ""sporter target"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""20 in"", ""a2"", ""1:7"", ""ribbed"", ""no"", ""a2""],
+    [""r6600"", ""ar - 15a2 hbar"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""20 in"", ""hbar"", ""1:7"", ""ribbed"", ""yes"", ""a2""],
+    [""r6601"", ""sporter match hbar"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""20 in"", ""hbar"", ""1:7"", ""ribbed"", ""no"", ""a2""],
+    [""r6700"", ""sporter competition hbar"", ""a2"", ""s -1"", ""flattop"", ""yes"", ""yes"", ""20 in"", ""hbar"", ""1:9"", ""ribbed"", ""no"", ""a2""],
+    [""r6721"", ""ar - 15a3 tactical carbine"", ""4th generation"", ""s -1"", ""a2"", ""yes"", ""yes"", ""16 in"", ""hbar"", ""1:9"", ""short ribbed"", ""yes"", ""a2""],
+    [""r6724"", ""sporter competition hbar"", ""a2"", ""s -1"", ""flattop"", ""yes"", ""yes"", ""24 in"", ""hbar"", ""1:9"", ""ribbed"", ""no"", ""a2""],
+    [""r6731"", ""ar - 15a3 competition hbar"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""16 in"", ""hbar"", ""1:9"", ""short ribbed"", ""no"", ""a2""],
+    [""r6750"", ""sporter competition hbar (bundled w / bipod)"", ""a2"", ""s -1"", ""a2"", ""yes"", ""yes"", ""20 in"", ""super - heavy"", ""1:7"", ""ribbed"", ""no"", ""a2""],
+    [""r6821"", ""sporter carbine (7.62x39 mm)"", ""3rd generation"", ""s -1"", ""a2"", ""yes"", ""yes"", ""16 in"", ""hbar"", ""1:12"", ""short ribbed"", ""no"", ""a1""]
+]"
+2-187504-13.html.csv,italy received two more gold medals than canada did but tied with the united states and west germany,1,1988 winter olympics,"rank | nation | gold | silver | bronze | total
+1 | soviet union (urs) | 11 | 9 | 9 | 29
+2 | east germany (gdr) | 9 | 10 | 6 | 25
+3 | switzerland (sui) | 5 | 5 | 5 | 15
+4 | finland (fin) | 4 | 1 | 2 | 7
+5 | sweden (swe) | 4 | 0 | 2 | 6
+6 | austria (aut) | 3 | 5 | 2 | 10
+7 | netherlands (ned) | 3 | 2 | 2 | 7
+8 | west germany (frg) | 2 | 4 | 2 | 8
+9 | united states (usa) | 2 | 1 | 3 | 6
+10 | italy (ita) | 2 | 1 | 2 | 5
+13 | canada (can) | 0 | 2 | 3 | 5","normalized_table = [['rank', 'nation', 'gold', 'silver', 'bronze', 'total'],
+ ['1', 'soviet union (urs)', '11', '9', '9', '29'],
+ ['2', 'east germany (gdr)', '9', '10', '6', '25'],
+ ['3', 'switzerland (sui)', '5', '5', '5', '15'],
+ ['4', 'finland (fin)', '4', '1', '2', '7'],
+ ['5', 'sweden (swe)', '4', '0', '2', '6'],
+ ['6', 'austria (aut)', '3', '5', '2', '10'],
+ ['7', 'netherlands (ned)', '3', '2', '2', '7'],
+ ['8', 'west germany (frg)', '2', '4', '2', '8'],
+ ['9', 'united states (usa)', '2', '1', '3', '6'],
+ ['10', 'italy (ita)', '2', '1', '2', '5'],
+ ['13', 'canada (can)', '0', '2', '3', '5']]"
+2-15272585-8.html.csv,galina voskoboeva played a total of 3 games on a hard tennis court,1,galina voskoboeva,"outcome | date | tournament | surface | opponent | score
+runner - up | 2003-1-28 | tipton | hard (i) | matea mezak | 6 - 4 , 4 - 6 , 4 - 6
+winner | 2003-6-29 | mont - de - marsan | hard (i) | oleksandra kravets | 6 - 4 , 6 - 2
+runner - up | 2003-10-3 | latina | clay | roberta vinci | 3 - 6 , 4 - 6
+runner - up | 2005-11-8 | pittsburgh | hard | lilia osterloh | 6 - 7 , 4 - 6
+winner | 2006-6-6 | cuneo , italy | clay | alice canepa | 6 - 1 , 6 - 2","normalized_table = [
+    [""outcome"", ""date"", ""tournament"", ""surface"", ""opponent"", ""score_set1"", ""score_set2"", ""score_set3""],
+    [""runner-up"", ""2003-01-28"", ""tipton"", ""hard (i)"", ""matea mezak"", 6, 4, 4],
+    [""winner"", ""2003-06-29"", ""mont-de-marsan"", ""hard (i)"", ""oleksandra kravets"", 6, 4, 2],
+    [""runner-up"", ""2003-10-03"", ""latina"", ""clay"", ""roberta vinci"", 3, 6, 4],
+    [""runner-up"", ""2005-11-08"", ""pittsburgh"", ""hard"", ""lilia osterloh"", 6, 7, 4],
+    [""winner"", ""2006-06-06"", ""cuneo, italy"", ""clay"", ""alice canepa"", 6, 1, 2]
+]"
+2-16653153-30.html.csv,south dragons won the most games in the season,1,2008 - 09 nbl season,"team | lost | last_5 | streak | home | away | __pts | __won
+south dragons | 8 | 4 - 1 | won 2 | 13 - 2 | 9 - 6 | 110.25 | 73.33
+melbourne tigers | 10 | 3 - 2 | lost 1 | 11 - 4 | 9 - 6 | 106.47 | 66.67
+new zealand breakers | 12 | 2 - 3 | won 2 | 10 - 5 | 8 - 7 | 106.08 | 60.0
+perth wildcats | 13 | 4 - 1 | won 2 | 11 - 4 | 6 - 9 | 102.06 | 56.67
+townsville crocodiles | 13 | 4 - 1 | lost 1 | 12 - 3 | 5 - 10 | 99.26 | 56.67
+adelaide 36ers | 15 | 3 - 2 | lost 1 | 12 - 3 | 3 - 12 | 100.92 | 50.0
+wollongong hawks | 19 | 2 - 3 | lost 1 | 9 - 6 | 2 - 13 | 95.03 | 36.67
+sydney spirit | 19 | 0 - 5 | lost 8 | 9 - 6 | 2 - 13 | 94.51 | 36.67
+cairns taipans | 19 | 1 - 4 | lost 3 | 5 - 10 | 6 - 9 | 93.57 | 36.67
+gold coast blaze | 22 | 3 - 2 | won 3 | 6 - 9 | 2 - 13 | 93.45 | 26.67","normalized_table = [['team', 'lost', 'last_5_wins', 'last_5_losses', 'streak_result', 'home_wins', 'home_losses', 'away_wins', 'away_losses', 'pts', 'won'],
+['south dragons', 8, 4, 1, 'won', 13, 2, 9, 6, 110.25, 73.33],
+['melbourne tigers', 10, 3, 2, 'lost', 11, 4, 9, 6, 106.47, 66.67],
+['new zealand breakers', 12, 2, 3, 'won', 10, 5, 8, 7, 106.08, 60.0],
+['perth wildcats', 13, 4, 1, 'won', 11, 4, 6, 9, 102.06, 56.67],
+['townsville crocodiles', 13, 4, 1, 'lost', 12, 3, 5, 10, 99.26, 56.67],
+['adelaide 36ers', 15, 3, 2, 'lost', 12, 3, 3, 12, 100.92, 50.0],
+['wollongong hawks', 19, 2, 3, 'lost', 9, 6, 2, 13, 95.03, 36.67],
+['sydney spirit', 19, 0, 5, 'lost', 9, 6, 2, 13, 94.51, 36.67],
+['cairns taipans', 19, 1, 4, 'lost', 5, 10, 6, 9, 93.57, 36.67],
+['gold coast blaze', 22, 3, 2, 'won', 6, 9, 2, 13, 93.45, 26.67]]"
+2-12206617-3.html.csv,the toronto blue jays played in 8 games with an attendance greater than 5000 in may of the 1991 season,1,1991 toronto blue jays season,"date | opponent | score | loss | attendance | record
+may 1 | rangers | 3 - 0 | key (4 - 1) | 33439 | 12 - 10
+may 2 | royals | 3 - 1 | appier (1 - 4) | 22896 | 13 - 10
+may 3 | royals | 5 - 1 | davis (2 - 2) | 20809 | 14 - 10
+may 4 | royals | 6 - 5 | boucher (0 - 2) | 22628 | 14 - 11
+may 5 | royals | 3 - 0 | gordon (1 - 2) | 22588 | 15 - 11
+may 7 | rangers | 3 - 2 | key (4 - 2) | 44622 | 15 - 12
+may 8 | rangers | 4 - 2 | ryan (3 - 3) | 43211 | 16 - 12
+may 9 | white sox | 2 - 0 | pãrez (1 - 2) | 47236 | 17 - 12
+may 10 | white sox | 5 - 3 (12) | fraser (0 - 1) | 50198 | 17 - 13
+may 11 | white sox | 5 - 2 | hough (0 - 2) | 50206 | 18 - 13
+may 12 | white sox | 4 - 2 | hibbard (2 - 1) | 50108 | 19 - 13
+may 13 | royals | 4 - 2 | davis (2 - 4) | 44275 | 20 - 13
+may 14 | royals | 4 - 1 | gubicza (0 - 1) | 43357 | 21 - 13
+may 15 | royals | 6 - 4 | boucher (0 - 3) | 50113 | 21 - 14
+may 17 | white sox | 5 - 3 | timlin (3 - 1) | 30095 | 21 - 15
+may 18 | white sox | 9 - 2 | hibbard (2 - 2) | 34861 | 22 - 15
+may 19 | white sox | 5 - 4 | timlin (3 - 2) | 41015 | 22 - 16
+may 20 | athletics | 1 - 0 | welch (4 - 3) | 24631 | 23 - 16
+may 21 | athletics | 11 - 7 | dressendorfer (3 - 3) | 22738 | 24 - 16
+may 22 | athletics | 2 - 1 | stieb (4 - 3) | 34028 | 24 - 17
+may 24 | angels | 3 - 2 | finley (7 - 2) | 26408 | 25 - 17
+may 25 | angels | 5 - 0 | stottlemyre (5 - 1) | 36732 | 25 - 18
+may 26 | angels | 6 - 2 | wells (5 - 4) | 45307 | 25 - 19
+may 28 | athletics | 8 - 4 | acker (1 - 2) | 50299 | 25 - 20
+may 29 | athletics | 8 - 3 | slusarski (1 - 2) | 50262 | 26 - 20
+may 30 | athletics | 8 - 6 | ward (0 - 2) | 50271 | 26 - 21
+may 31 | angels | 5 - 1 | langston (6 - 2) | 50252 | 27 - 21","normalized_table = [['date', 'opponent', 'score', 'loss', 'attendance', 'record'],
+['may 1', 'rangers', '3 - 0', 'key', 33439, '4 - 1'],
+['may 2', 'royals', '3 - 1', 'appier', 22896, '1 - 4'],
+['may 3', 'royals', '5 - 1', 'davis', 20809, '2 - 2'],
+['may 4', 'royals', '6 - 5', 'boucher', 22628, '0 - 2'],
+['may 5', 'royals', '3 - 0', 'gordon', 22588, '1 - 2'],
+['may 7', 'rangers', '3 - 2', 'key', 44622, '4 - 2'],
+['may 8', 'rangers', '4 - 2', 'ryan', 43211, '3 - 3'],
+['may 9', 'white sox', '2 - 0', 'pãrez', 47236, '1 - 2'],
+['may 10', 'white sox', '5 - 3 (12)', 'fraser', 50198, '0 - 1'],
+['may 11', 'white sox', '5 - 2', 'hough', 50206, '0 - 2'],
+['may 12', 'white sox', '4 - 2', 'hibbard', 50108, '2 - 1'],
+['may 13', 'royals', '4 - 2', 'davis', 44275, '2 - 4'],
+['may 14', 'royals', '4 - 1', 'gubicza', 43357, '0 - 1'],
+['may 15', 'royals', '6 - 4', 'boucher', 50113, '0 - 3'],
+['may 17', 'white sox', '5 - 3', 'timlin', 30095, '3 - 1'],
+['may 18', 'white sox', '9 - 2', 'hibbard', 34861, '2 - 2'],
+['may 19', 'white sox', '5 - 4', 'timlin', 41015, '3 - 2'],
+['may 20', 'athletics', '1 - 0', 'welch', 24631, '4 - 3'],
+['may 21', 'athletics', '11 - 7', 'dressendorfer', 22738, '3 - 3'],
+['may 22', 'athletics', '2 - 1', 'stieb', 34028, '4 - 3'],
+['may 24', 'angels', '3 - 2', 'finley', 26408, '7 - 2'],
+['may 25', 'angels', '5 - 0', 'stottlemyre', 36732, '5 - 1'],
+['may 26', 'angels', '6 - 2', 'wells', 45307, '5 - 4'],
+['may 28', 'athletics', '8 - 4', 'acker', 50299, '1 - 2'],
+['may 29', 'athletics', '8 - 3', 'slusarski', 50262, '1 - 2'],
+['may 30', 'athletics', '8 - 6', 'ward', 50271, '0 - 2'],
+['may 31', 'angels', '5 - 1', 'langston', 50252, '6 - 2']]"
+2-17933602-1.html.csv,rio ave 's head coach was carlos brito and club sporting cp has josé peseiro,1,2004 - 05 primeira liga,"club | head_coach | city | stadium | 2003___2004_season
+académica de coimbra | joão carlos pereira | coimbra | estádio cidade de coimbra | 13th in the liga
+belenenses | carlos carvalhal | lisbon | estádio do restelo | 15th in the liga
+benfica | giovanni trapattoni | lisbon | estádio da luz | 2nd in the liga
+boavista | jaime pacheco | porto | estádio do bessa - século xxi | 8th in the liga
+braga | jesualdo ferreira | braga | estádio municipal de braga - axa | 5th in the liga
+estoril - praia | litos | estoril | estádio antónio coimbra da mota | 1st in the liga de honra
+gil vicente | luís campos | barcelos | estádio cidade de barcelos | 12th in the liga
+união de leiria | vítor pontes | leiria | estádio dr magalhães pessoa | 10th in the liga
+penafiel | manuel fernandes | penafiel | estádio municipal 25 de abril | 3rd in the liga de honra
+marítimo | manuel cajuda | funchal | estádio dos barreiros | 6th in the liga
+nacional | casemiro mior | funchal | estádio da madeira | 4th in the liga
+beira - mar | mick wadsworth | aveiro | estádio municipal de aveiro | 11th in the liga
+moreirense | vítor oliveira | guimarães | estádio do moreirense | 9th in the liga
+porto | luigi delneri | porto | estádio do dragão | 1st in the liga
+sporting cp | josé peseiro | lisbon | estádio josé alvalade - século xxi | 3rd in the liga
+rio ave | carlos brito | vila do conde | estádio dos arcos | 7th in the liga
+vitória de guimarães | manuel machado | guimarães | estádio d afonso henriques | 14th in the liga
+vitória de setúbal | josé couceiro | setúbal | estádio do bonfim | 2nd in the liga de honra","normalized_table = [
+    [""club"", ""head_coach"", ""city"", ""stadium"", ""season_rank""],
+    [""académica de coimbra"", ""joão carlos pereira"", ""coimbra"", ""estádio cidade de coimbra"", ""13""],
+    [""belenenses"", ""carlos carvalhal"", ""lisbon"", ""estádio do restelo"", ""15""],
+    [""benfica"", ""giovanni trapattoni"", ""lisbon"", ""estádio da luz"", ""2""],
+    [""boavista"", ""jaime pacheco"", ""porto"", ""estádio do bessa - século xxi"", ""8""],
+    [""braga"", ""jesualdo ferreira"", ""braga"", ""estádio municipal de braga - axa"", ""5""],
+    [""estoril - praia"", ""litos"", ""estoril"", ""estádio antónio coimbra da mota"", ""1""],
+    [""gil vicente"", ""luís campos"", ""barcelos"", ""estádio cidade de barcelos"", ""12""],
+    [""união de leiria"", ""vítor pontes"", ""leiria"", ""estádio dr magalhães pessoa"", ""10""],
+    [""penafiel"", ""manuel fernandes"", ""penafiel"", ""estádio municipal 25 de abril"", ""3""],
+    [""marítimo"", ""manuel cajuda"", ""funchal"", ""estádio dos barreiros"", ""6""],
+    [""nacional"", ""casemiro mior"", ""funchal"", ""estádio da madeira"", ""4""],
+    [""beira - mar"", ""mick wadsworth"", ""aveiro"", ""estádio municipal de aveiro"", ""11""],
+    [""moreirense"", ""vítor oliveira"", ""guimarães"", ""estádio do moreirense"", ""9""],
+    [""porto"", ""luigi delneri"", ""porto"", ""estádio do dragão"", ""1""],
+    [""sporting cp"", ""josé peseiro"", ""lisbon"", ""estádio josé alvalade - século xxi"", ""3""],
+    [""rio ave"", ""carlos brito"", ""vila do conde"", ""estádio dos arcos"", ""7""],
+    [""vitória de guimarães"", ""manuel machado"", ""guimarães"", ""estádio d afonso henriques"", ""14""],
+    [""vitória de setúbal"", ""josé couceiro"", ""setúbal"", ""estádio do bonfim"", ""2""]
+]"
+2-10814487-4.html.csv,the score on 15 / 04 / 07 in super league xii was 52 - 22,1,2007 bradford bulls season,"date | home_team | score | away_team | goals | attendance | competition
+2007-11-2 | bradford | 18 - 14 | huddersfield giants | deacon 3 / 4 | 12130 | super league xii
+2007-2-18 | warrington wolves | 20 - 36 | bradford | deacon 6 / 7 | 12607 | super league xii
+2007-2-24 | bradford | 32 - 28 | wigan warriors | deacon 6 / 6 | 12798 | super league xii
+2007-2-3 | st helens | 34 - 22 | bradford | deacon 3 / 4 | 11793 | super league xii
+2007-11-3 | bradford | 56 - 18 | salford city reds | deacon 8 / 10 | 10640 | super league xii
+2007-3-17 | harlequins rl | 22 - 36 | bradford | deacon 6 / 6 | 4011 | super league xii
+2007-3-25 | bradford | 22 - 29 | catalans dragons | deacon 3 / 4 | 11298 | super league xii
+2007-3-30 | bradford | 24 - 16 | castleford tigers | deacon 4 / 4 | 6748 | rugby league challenge cup
+2007-5-4 | bradford | 14 - 18 | leeds rhinos | deacon 3 / 5 | 16706 | super league xii
+2007-9-4 | wakefield trinity wildcats | 24 - 36 | bradford | deacon 6 / 7 | 9106 | super league xii
+2007-4-15 | bradford | 52 - 22 | hull kr | deacon 8 / 9 | 10881 | super league xii
+2007-4-20 | hull fc | 22 - 32 | bradford | deacon 4 / 6 | 12767 | super league xii
+2007-4-29 | bradford | 36 - 24 | warrington wolves | deacon 3 / 3 , i harris 3 / 5 , | 11200 | super league xii
+2007-6-5 | bradford | 38 - 42 | leeds rhinos | deacon 7 / 7 | 26667 | super league xii
+2007-5-13 | wakefield trinity wildcats | 4 - 14 | bradford | deacon 1 / 3 | 3568 | rugby league challenge cup
+2007-5-18 | huddersfield giants | 36 - 12 | bradford | i harris 2 / 2 | 8667 | super league xii
+2007-5-27 | bradford | 44 - 18 | harlequins rl | deacon 6 / 8 | 10418 | super league xii
+2007-2-6 | catalans dragons | 20 - 28 | bradford | deacon 4 / 5 | 7555 | super league xii
+2007-10-6 | bradford | 52 - 20 | huddersfield giants | deacon 8 / 10 | 7811 | rugby league challenge cup
+2007-6-17 | bradford | 34 - 8 | hull fc | deacon 4 / 6 , vainikolo 1 / 1 | 11557 | super league xii
+2007-6-29 | leeds rhinos | 14 - 38 | bradford | deacon 7 / 7 | 22000 | super league xii
+2007-6-7 | wigan warriors | 25 - 18 | bradford | deacon 5 / 5 | 15107 | super league xii
+2007-7-13 | bradford | 10 - 4 | st helens | deacon 3 / 3 | 11217 | super league xii
+2007-7-21 | salford city reds | 14 - 10 | bradford | deacon 1 / 2 | 3438 | super league xii
+2007-7-28 | bradford | 16 - 35 | st helens | deacon 1 / 3 | 14316 | rugby league challenge cup
+2007-5-8 | bradford | 38 - 24 | wakefield trinity wildcats | burgess 5 / 8 | 10701 | super league xii
+2007-12-8 | hull kr | 10 - 28 | bradford | i harris 4 / 5 | 6695 | super league xii
+2007-8-19 | huddersfield giants | 26 - 22 | bradford | harris 5 / 5 | 6824 | super league xii
+2007-2-9 | bradford | 16 - 16 | leeds rhinos | deacon 2 / 4 | 18000 | super league xii
+2007-9-9 | bradford | 40 - 8 | catalans dragons | iestyn harris (6 / 7) | 9350 | super league xii
+2007-9-14 | hull fc | 20 - 10 | bradford | i harris (1 / 2) | 14409 | super league xii
+2007-9-21 | bradford | 30 - 31 | wigan warriors | i harris (5 / 6) | 9000 | super league xii","normalized_table = [
+    [""date"", ""home_team"", ""home_score"", ""away_team"", ""away_score"", ""home_goals"", ""away_goals"", ""attendance"", ""competition""],
+    [""2007-11-02"", ""bradford"", 18, ""huddersfield giants"", 14, 3, 4, 12130, ""super league xii""],
+    [""2007-02-18"", ""warrington wolves"", 20, ""bradford"", 36, 6, 7, 12607, ""super league xii""],
+    [""2007-02-24"", ""bradford"", 32, ""wigan warriors"", 28, 6, 6, 12798, ""super league xii""],
+    [""2007-02-03"", ""st helens"", 34, ""bradford"", 22, 3, 4, 11793, ""super league xii""],
+    [""2007-11-03"", ""bradford"", 56, ""salford city reds"", 18, 8, 10, 10640, ""super league xii""],
+    [""2007-03-17"", ""harlequins rl"", 22, ""bradford"", 36, 6, 6, 4011, ""super league xii""],
+    [""2007-03-25"", ""bradford"", 22, ""catalans dragons"", 29, 3, 4, 11298, ""super league xii""],
+    [""2007-03-30"", ""bradford"", 24, ""castleford tigers"", 16, 4, 4, 6748, ""rugby league challenge cup""],
+    [""2007-05-04"", ""bradford"", 14, ""leeds rhinos"", 18, 3, 5, 16706, ""super league xii""],
+    [""2007-09-04"", ""wakefield trinity wildcats"", 24, ""bradford"", 36, 6, 7, 9106, ""super league xii""],
+    [""2007-04-15"", ""bradford"", 52, ""hull kr"", 22, 8, 9, 10881, ""super league xii""],
+    [""2007-04-20"", ""hull fc"", 22, ""bradford"", 32, 4, 6, 12767, ""super league xii""],
+    [""2007-04-29"", ""bradford"", 36, ""warrington wolves"", 24, 3, 3, 11200, ""super league xii""],
+    [""2007-06-05"", ""bradford"", 38, ""leeds rhinos"", 42, 7, 7, 26667, ""super league xii""],
+    [""2007-05-13"", ""wakefield trinity wildcats"", 4, ""bradford"", 14, 1, 3, 3568, ""rugby league challenge cup""],
+    [""2007-05-18"", ""huddersfield giants"", 36, ""bradford"", 12, 2, 2, 8667, ""super league xii""],
+    [""2007-05-27"", ""bradford"", 44, ""harlequins rl"", 18, 6, 8, 10418, ""super league xii""],
+    [""2007-02-06"", ""catalans dragons"", 20, ""bradford"", 28, 4, 5, 7555, ""super league xii""],
+    [""2007-10-06"", ""bradford"", 52, ""huddersfield giants"", 20, 8, 10, 7811, ""rugby league challenge cup""],
+    [""2007-06-17"", ""bradford"", 34, ""hull fc"", 8, 4, 6, 11557, ""super league xii""],
+    [""2007-06-29"", ""leeds rhinos"", 14, ""bradford"", 38, 7, 7, 22000, ""super league xii""],
+    [""2007-06-07"", ""wigan warriors"", 25, ""bradford"", 18, 5, 5, 15107, ""super league xii""],
+    [""2007-07-13"", ""bradford"", 10, ""st helens"", 4, 3, 3, 11217, ""super league xii""],
+    [""2007-07-21"", ""salford city reds"", 14, ""bradford"", 10, 1, 2, 3438, ""super league xii""],
+    [""2007-07-28"", ""bradford"", 16, ""st helens"", 35, 1, 3, 14316, ""rugby league challenge cup""],
+    [""2007-05-08"", ""bradford"", 38, ""wakefield trinity wildcats"", 24, 5, 8, 10701, ""super league xii""],
+    [""2007-12-08"", ""hull kr"", 10, ""bradford"", 28, 4, 5, 6695, ""super league xii""],
+    [""2007-08-19"", ""huddersfield giants"", 26, ""bradford"", 22, 5, 5, 6824, ""super league xii""],
+    [""2007-02-09"", ""bradford"", 16, ""leeds rhinos"", 16, 2, 4, 18000, ""super league xii""],
+    [""2007-09-09"", ""bradford"", 40, ""catalans dragons"", 8, 6, 7, 9350, ""super league xii""],
+    [""2007-09-14"", ""hull fc"", 20, ""bradford"", 10, 1, 2, 14409, ""super league xii""],
+    [""2007-09-21"", ""bradford"", 30, ""wigan warriors"", 31, 5, 6, 9000, ""super league xii""]
+]"
+2-16623894-37.html.csv,the first leg score was 1 - 3 for the match with a team 1 of panathinaikos,1,2009 - 10 uefa europa league,"team_1 | agg | team_2 | 1st_leg | 2nd_leg
+hamburg | 6 - 5 | anderlecht | 3 - 1 | 3 - 4
+rubin kazan | 2 - 3 | wolfsburg | 1 - 1 | 1 - 2 ( aet )
+atlético madrid | 2 - 2 ( a ) | sporting cp | 0 - 0 | 2 - 2
+benfica | 3 - 2 | marseille | 1 - 1 | 2 - 1
+panathinaikos | 1 - 4 | standard liège | 1 - 3 | 0 - 1
+lille | 1 - 3 | liverpool | 1 - 0 | 0 - 3
+juventus | 4 - 5 | fulham | 3 - 1 | 1 - 4
+valencia | 5 - 5 ( a ) | werder bremen | 1 - 1 | 4 - 4","normalized_table = [['team_1', 'agg_team_1', 'team_2', 'agg_team_2', '1st_leg_team_1', '1st_leg_team_2', '2nd_leg_team_1', '2nd_leg_team_2'],
+['hamburg', '6', 'anderlecht', '5', '3', '1', '3', '4'],
+['rubin kazan', '2', 'wolfsburg', '3', '1', '1', '1', '2'],
+['atlético madrid', '2', 'sporting cp', '2', '0', '0', '2', '2'],
+['benfica', '3', 'marseille', '2', '1', '1', '2', '1'],
+['panathinaikos', '1', 'standard liège', '4', '1', '3', '0', '1'],
+['lille', '1', 'liverpool', '3', '1', '0', '0', '3'],
+['juventus', '4', 'fulham', '5', '3', '1', '1', '4'],
+['valencia', '5', 'werder bremen', '5', '1', '1', '4', '4']]"
+2-17751797-4.html.csv,the score was 1 - 0 when the away team was bolton wanderers,1,1990 - 91 fa cup,"tie_no | home_team | score | away_team | date
+1 | liverpool | 2 - 2 | brighton & hove albion | 1991-1-26
+replay | brighton & hove albion | 2 - 3 | liverpool | 1991-1-30
+2 | notts county | 2 - 0 | oldham athletic | 1991-1-26
+3 | crewe alexandra | 1 - 0 | rotherham united | 1991-1-26
+4 | luton town | 1 - 1 | west ham united | 1991-1-26
+replay | west ham united | 5 - 0 | luton town | 1991-1-30
+5 | woking | 0 - 1 | everton | 1991-1-27
+6 | shrewsbury town | 1 - 0 | wimbledon | 1991-1-26
+7 | newcastle united | 2 - 2 | nottingham forest | 1991-2-13
+replay | nottingham forest | 3 - 0 | newcastle united | 1991-2-18
+8 | tottenham hotspur | 4 - 2 | oxford united | 1991-1-26
+9 | coventry city | 1 - 1 | southampton | 1991-1-26
+replay | southampton | 2 - 0 | coventry city | 1991-1-29
+10 | portsmouth | 5 - 1 | bournemouth | 1991-1-26
+11 | manchester united | 1 - 0 | bolton wanderers | 1991-1-26
+12 | norwich city | 3 - 1 | swindon town | 1991-1-26
+13 | millwall | 4 - 4 | sheffield wednesday | 1991-1-26
+replay | sheffield wednesday | 2 - 0 | millwall | 1991-1-30
+14 | port vale | 1 - 2 | manchester city | 1991-1-26
+15 | arsenal | 0 - 0 | leeds united | 1991-1-27
+replay | leeds united | 1 - 1 | arsenal | 1991-1-30
+replay | arsenal | 0 - 0 | leeds united | 1991-2-13
+replay | leeds united | 1 - 2 | arsenal | 1991-2-16
+16 | cambridge united | 2 - 0 | middlesbrough | 1991-1-26","normalized_table = [['tie_no', 'home_team', 'home_score', 'away_team', 'away_score', 'date'],
+['1', 'liverpool', '2', 'brighton & hove albion', '2', '1991-01-26'],
+['1', 'brighton & hove albion', '2', 'liverpool', '3', '1991-01-30'],
+['2', 'notts county', '2', 'oldham athletic', '0', '1991-01-26'],
+['3', 'crewe alexandra', '1', 'rotherham united', '0', '1991-01-26'],
+['4', 'luton town', '1', 'west ham united', '1', '1991-01-26'],
+['4', 'west ham united', '5', 'luton town', '0', '1991-01-30'],
+['5', 'woking', '0', 'everton', '1', '1991-01-27'],
+['6', 'shrewsbury town', '1', 'wimbledon', '0', '1991-01-26'],
+['7', 'newcastle united', '2', 'nottingham forest', '2', '1991-02-13'],
+['7', 'nottingham forest', '3', 'newcastle united', '0', '1991-02-18'],
+['8', 'tottenham hotspur', '4', 'oxford united', '2', '1991-01-26'],
+['9', 'coventry city', '1', 'southampton', '1', '1991-01-26'],
+['9', 'southampton', '2', 'coventry city', '0', '1991-01-29'],
+['10', 'portsmouth', '5', 'bournemouth', '1', '1991-01-26'],
+['11', 'manchester united', '1', 'bolton wanderers', '0', '1991-01-26'],
+['12', 'norwich city', '3', 'swindon town', '1', '1991-01-26'],
+['13', 'millwall', '4', 'sheffield wednesday', '4', '1991-01-26'],
+['13', 'sheffield wednesday', '2', 'millwall', '0', '1991-01-30'],
+['14', 'port vale', '1', 'manchester city', '2', '1991-01-26'],
+['15', 'arsenal', '0', 'leeds united', '0', '1991-01-27'],
+['15', 'leeds united', '1', 'arsenal', '1', '1991-01-30'],
+['15', 'arsenal', '0', 'leeds united', '0', '1991-02-13'],
+['15', 'leeds united', '1', 'arsenal', '2', '1991-02-16'],
+['16', 'cambridge united', '2', 'middlesbrough', '0', '1991-01-26']]"
+2-11545282-4.html.csv,the jazz had two players with the last name dawkins but their time on the team did not overlap,1,utah jazz all - time roster,"player | nationality | position | years_for_jazz | school___club_team
+adrian dantley | united states | guard - forward | 1979 - 86 | notre dame
+brad davis | united states | guard | 1979 - 80 | maryland
+darryl dawkins | united states | center | 1987 - 88 | maynard evans hs
+paul dawkins | united states | guard | 1979 - 80 | northern illinois
+greg deane | united states | guard | 1979 - 80 | utah
+james donaldson | united states | center | 1993 , 1994 - 95 | washington state
+john drew | united states | guard - forward | 1982 - 85 | gardner - webb
+john duren | united states | guard | 1980 - 82 | georgetown","normalized_table = [
+    [""player"", ""nationality"", ""position"", ""start_year"", ""end_year"", ""school___club_team""],
+    [""adrian dantley"", ""united states"", ""guard - forward"", 1979, 1986, ""notre dame""],
+    [""brad davis"", ""united states"", ""guard"", 1979, 1980, ""maryland""],
+    [""darryl dawkins"", ""united states"", ""center"", 1987, 1988, ""maynard evans hs""],
+    [""paul dawkins"", ""united states"", ""guard"", 1979, 1980, ""northern illinois""],
+    [""greg deane"", ""united states"", ""guard"", 1979, 1980, ""utah""],
+    [""james donaldson"", ""united states"", ""center"", 1993, 1995, ""washington state""],
+    [""john drew"", ""united states"", ""guard - forward"", 1982, 1985, ""gardner - webb""],
+    [""john duren"", ""united states"", ""guard"", 1980, 1982, ""georgetown""]
+]"
+1-1341522-41.html.csv,pennsylvania17 is the only district that had someone first elected in the 1980s,1,"united states house of representatives elections , 1994","district | incumbent | party | first_elected | status | opponent
+pennsylvania4 | ron klink | democratic | 1992 | re - elected | ron klink (d) 64.2% ed peglow (r) 35.8%
+pennsylvania5 | william f clinger , jr | republican | 1978 | re - elected | william f clinger , jr (r) unopposed
+pennsylvania7 | curt weldon | republican | 1986 | re - elected | curt weldon (r) 69.7% sara r nichols (d) 30.3%
+pennsylvania9 | bud shuster | republican | 1972 | re - elected | bud shuster (r) unopposed
+pennsylvania12 | john murtha | democratic | 1974 | re - elected | john murtha (d) 68.9% bill choby (r) 31.1%
+pennsylvania17 | george gekas | republican | 1982 | re - elected | george gekas (r) unopposed
+pennsylvania18 | rick santorum | republican | 1990 | retired to run for us senate democratic gain | michael f doyle (d) 54.8% john mccarty (r) 45.2%
+pennsylvania19 | william f goodling | republican | 1974 | re - elected | william f goodling (r) unopposed","normalized_table = [['district', 'incumbent', 'party', 'first_elected', 'status', 'opponent_name', 'opponent_party', 'opponent_vote_percentage'],
+['pennsylvania4', 'ron klink', 'democratic', '1992', 're-elected', 'ron klink', 'd', '64.2'],
+['pennsylvania5', 'william f clinger , jr', 'republican', '1978', 're-elected', 'william f clinger , jr', 'r', 'unopposed'],
+['pennsylvania7', 'curt weldon', 'republican', '1986', 're-elected', 'curt weldon', 'r', '69.7'],
+['pennsylvania9', 'bud shuster', 'republican', '1972', 're-elected', 'bud shuster', 'r', 'unopposed'],
+['pennsylvania12', 'john murtha', 'democratic', '1974', 're-elected', 'john murtha', 'd', '68.9'],
+['pennsylvania17', 'george gekas', 'republican', '1982', 're-elected', 'george gekas', 'r', 'unopposed'],
+['pennsylvania18', 'rick santorum', 'republican', '1990', 'retired to run for us senate democratic gain', 'michael f doyle', 'd', '54.8'],
+['pennsylvania19', 'william f goodling', 'republican', '1974', 're-elected', 'william f goodling', 'r', 'unopposed']]"
+2-16409445-1.html.csv,the new orleans saints were the opponents for the first time in the 11th week,1,1997 oakland raiders season,"week | date | opponent | result | tv_time | attendance
+1 | 1997-8-31 | tennessee oilers | l 24 - 21 | nbc t10:0 | 30171
+2 | 1997-9-8 | kansas city chiefs | l 28 - 27 | abc t18:0 | 61523
+3 | 1997-9-14 | atlanta falcons | w 36 - 31 | nbc t10:0 | 47922
+4 | 1997-9-21 | new york jets | l 23 - 22 | nbc t10:0 | 72586
+5 | 1997-9-28 | st louis rams | w 35 - 17 | fox t13:15 | 42506
+6 | 1997-10-5 | san diego chargers | l 25 - 10 | nbc t13:15 | 43648
+8 | 1997-10-19 | denver broncos | w 28 - 25 | nbc t13:15 | 57006
+9 | 1997-10-26 | seattle seahawks | l 45 - 34 | nbc t13:15 | 66264
+10 | 1997-11-2 | carolina panthers | l 38 - 14 | nbc t10:0 | 71064
+11 | 1997-11-9 | new orleans saints | l 13 - 10 | fox t13:15 | 40091
+12 | 1997-11-16 | san diego chargers | w 38 - 13 | nbc t13:15 | 65714
+13 | 1997-11-24 | denver broncos | l 31 - 3 | abc t18:0 | 75307
+14 | 1997-11-30 | miami dolphins | l 34 - 16 | nbc t13:15 | 50569
+15 | 1997-12-7 | kansas city chiefs | l 30 - 0 | nbc t10:0 | 76379
+16 | 1997-12-14 | seattle seahawks | l 22 - 21 | nbc t13:15 | 40124
+17 | 1997-12-21 | jacksonville jaguars | l 20 - 9 | nbc t13:15 | 40032","normalized_table = [['week', 'date', 'opponent', 'result', 'tv_time', 'attendance'],
+['1', '1997-08-31', 'tennessee oilers', 'l 24 - 21', 'nbc t10:0', '30171'],
+['2', '1997-09-08', 'kansas city chiefs', 'l 28 - 27', 'abc t18:0', '61523'],
+['3', '1997-09-14', 'atlanta falcons', 'w 36 - 31', 'nbc t10:0', '47922'],
+['4', '1997-09-21', 'new york jets', 'l 23 - 22', 'nbc t10:0', '72586'],
+['5', '1997-09-28', 'st louis rams', 'w 35 - 17', 'fox t13:15', '42506'],
+['6', '1997-10-05', 'san diego chargers', 'l 25 - 10', 'nbc t13:15', '43648'],
+['8', '1997-10-19', 'denver broncos', 'w 28 - 25', 'nbc t13:15', '57006'],
+['9', '1997-10-26', 'seattle seahawks', 'l 45 - 34', 'nbc t13:15', '66264'],
+['10', '1997-11-02', 'carolina panthers', 'l 38 - 14', 'nbc t10:0', '71064'],
+['11', '1997-11-09', 'new orleans saints', 'l 13 - 10', 'fox t13:15', '40091'],
+['12', '1997-11-16', 'san diego chargers', 'w 38 - 13', 'nbc t13:15', '65714'],
+['13', '1997-11-24', 'denver broncos', 'l 31 - 3', 'abc t18:0', '75307'],
+['14', '1997-11-30', 'miami dolphins', 'l 34 - 16', 'nbc t13:15', '50569'],
+['15', '1997-12-07', 'kansas city chiefs', 'l 30 - 0', 'nbc t10:0', '76379'],
+['16', '1997-12-14', 'seattle seahawks', 'l 22 - 21', 'nbc t13:15', '40124'],
+['17', '1997-12-21', 'jacksonville jaguars', 'l 20 - 9', 'nbc t13:15', '40032']]"
+2-18622227-6.html.csv,the australian open and the french open had the same results in 1996 and 1990,0,katrina adams,"tournament | _1986 | _1988 | _1989 | _1990 | _1991 | _1992 | _1993 | _1994 | _1995 | _1996 | _1997 | _1998 | _1999
+grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments | grand slam tournaments
+australian open | a | 3r | 3r | 3r | a | qf | 3r | 2r | 1r | a | 2r | 1r | 1r
+french open | a | qf | qf | 3r | 3r | qf | qf | 1r | qf | qf | 2r | 3r | 1r
+wimbledon | a | sf | qf | 3r | qf | 3r | 1r | 2r | 3r | qf | 3r | 3r | 1r
+us open | 1r | 2r | 3r | 3r | qf | a | 3r | qf | 3r | 2r | 3r | 2r | 1r","normalized_table = [['tournament', 'year', 'result'],
+ ['australian open', '1986', 'a'],
+ ['australian open', '1988', '3r'],
+ ['australian open', '1989', '3r'],
+ ['australian open', '1990', '3r'],
+ ['australian open', '1991', 'a'],
+ ['australian open', '1992', 'qf'],
+ ['australian open', '1993', '3r'],
+ ['australian open', '1994', '2r'],
+ ['australian open', '1995', '1r'],
+ ['australian open', '1996', 'a'],
+ ['australian open', '1997', '2r'],
+ ['australian open', '1998', '1r'],
+ ['australian open', '1999', '1r'],
+ ['french open', '1986', 'a'],
+ ['french open', '1988', 'qf'],
+ ['french open', '1989', 'qf'],
+ ['french open', '1990', '3r'],
+ ['french open', '1991', '3r'],
+ ['french open', '1992', 'qf'],
+ ['french open', '1993', 'qf'],
+ ['french open', '1994', '1r'],
+ ['french open', '1995', 'qf'],
+ ['french open', '1996', 'qf'],
+ ['french open', '1997', '2r'],
+ ['french open', '1998', '3r'],
+ ['french open', '1999', '1r'],
+ ['wimbledon', '1986', 'a'],
+ ['wimbledon', '1988', 'sf'],
+ ['wimbledon', '1989', 'qf'],
+ ['wimbledon', '1990', '3r'],
+ ['wimbledon', '1991', 'qf'],
+ ['wimbledon', '1992', '3r'],
+ ['wimbledon', '1993', '1r'],
+ ['wimbledon', '1994', '2r'],
+ ['wimbledon', '1995', '3r'],
+ ['wimbledon', '1996', 'qf'],
+ ['wimbledon', '1997', '3r'],
+ ['wimbledon', '1998', '3r'],
+ ['wimbledon', '1999', '1r'],
+ ['us open', '1986', '1r'],
+ ['us open', '1988', '2r'],
+ ['us open', '1989', '3r'],
+ ['us open', '1990', '3r'],
+ ['us open', '1991', 'qf'],
+ ['us open', '1992', 'a'],
+ ['us open', '1993', '3r'],
+ ['us open', '1994', 'qf'],
+ ['us open', '1995', '3r'],
+ ['us open', '1996', '2r'],
+ ['us open', '1997', '3r'],
+ ['us open', '1998', '2r'],
+ ['us open', '1999', '1r']]"
+2-17340355-10.html.csv,three of the games at the us airways center had the same attendance,1,2008 - 09 phoenix suns season,"game | date | team | location_attendance | record
+75 | april 1 | houston | us airways center 18422 | 41 - 34
+76 | april 3 | sacramento | us airways center 18422 | 42 - 34
+77 | april 5 | dallas | american airlines center 20301 | 42 - 35
+78 | april 8 | new orleans | new orleans arena 17781 | 43 - 35
+79 | april 10 | memphis | fedexforum 15908 | 43 - 36
+80 | april 11 | minnesota | target center 18478 | 44 - 36
+81 | april 13 | memphis | us airways center 18422 | 45 - 36
+82 | april 15 | golden state | us airways center | 46 - 36","normalized_table = [['game', 'date', 'team', 'location', 'attendance', 'record'],
+['75', 'April 1', 'Houston', 'US Airways Center', '18422', '41', '34'],
+['76', 'April 3', 'Sacramento', 'US Airways Center', '18422', '42', '34'],
+['77', 'April 5', 'Dallas', 'American Airlines Center', '20301', '42', '35'],
+['78', 'April 8', 'New Orleans', 'New Orleans Arena', '17781', '43', '35'],
+['79', 'April 10', 'Memphis', 'FedExForum', '15908', '43', '36'],
+['80', 'April 11', 'Minnesota', 'Target Center', '18478', '44', '36'],
+['81', 'April 13', 'Memphis', 'US Airways Center', '18422', '45', '36'],
+['82', 'April 15', 'Golden State', 'US Airways Center', '18422', '46', '36']]"
+2-17338083-13.html.csv,"from 830 bc , the state is song",1,list of state leaders in 820s bc,"state | type | name | title | royal_house | from
+cai | sovereign | yi | marquis | ji | 837 bc
+cao | sovereign | you | count | none | 835 bc
+cao | sovereign | dai | count | none | 826 bc
+chen | sovereign | li | duke | none | 831 bc
+chu | sovereign | xiong yan the younger | viscount | mi | 837 bc
+chu | sovereign | xiong shuang | viscount | mi | 827 bc
+chu | sovereign | xiong xun | viscount | mi | 821 bc
+jin | sovereign | xi | marquis | ji | 840 bc
+jin | sovereign | xian | marquis | ji | 822 bc
+lu | sovereign | shen | duke | ji | 854 bc
+lu | sovereign | wu | duke | ji | 825 bc
+qi | sovereign | wu | duke | jiang | 850 bc
+qi | sovereign | li | duke | jiang | 824 bc
+qin | sovereign | qin zhong | ruler | ying | 845 bc
+qin | sovereign | zhuang | duke | ying | 822 bc
+song | sovereign | hui | duke | none | 830 bc
+wey | sovereign | li | marquis | none | 855 bc
+yan | sovereign | hui | marquis | none | 864 bc
+yan | sovereign | li | marquis | none | 826 bc","normalized_table = [['state', 'type', 'name', 'title', 'royal_house', 'from'],
+['cai', 'sovereign', 'yi', 'marquis', 'ji', '837 bc'],
+['cao', 'sovereign', 'you', 'count', 'none', '835 bc'],
+['cao', 'sovereign', 'dai', 'count', 'none', '826 bc'],
+['chen', 'sovereign', 'li', 'duke', 'none', '831 bc'],
+['chu', 'sovereign', 'xiong yan the younger', 'viscount', 'mi', '837 bc'],
+['chu', 'sovereign', 'xiong shuang', 'viscount', 'mi', '827 bc'],
+['chu', 'sovereign', 'xiong xun', 'viscount', 'mi', '821 bc'],
+['jin', 'sovereign', 'xi', 'marquis', 'ji', '840 bc'],
+['jin', 'sovereign', 'xian', 'marquis', 'ji', '822 bc'],
+['lu', 'sovereign', 'shen', 'duke', 'ji', '854 bc'],
+['lu', 'sovereign', 'wu', 'duke', 'ji', '825 bc'],
+['qi', 'sovereign', 'wu', 'duke', 'jiang', '850 bc'],
+['qi', 'sovereign', 'li', 'duke', 'jiang', '824 bc'],
+['qin', 'sovereign', 'qin zhong', 'ruler', 'ying', '845 bc'],
+['qin', 'sovereign', 'zhuang', 'duke', 'ying', '822 bc'],
+['song', 'sovereign', 'hui', 'duke', 'none', '830 bc'],
+['wey', 'sovereign', 'li', 'marquis', 'none', '855 bc'],
+['yan', 'sovereign', 'hui', 'marquis', 'none', '864 bc'],
+['yan', 'sovereign', 'li', 'marquis', 'none', '826 bc']]"
+2-11821711-13.html.csv,"players in rounds higher than 4 , were from either canada or the united states",1,2007 - 08 los angeles kings season,"round | player | nationality | nhl_team | college___junior___club_team_league
+1 | thomas hickey (d) | canada | los angeles kings | seattle thunderbirds ( whl )
+2 | oscar moller (c) | sweden | los angeles kings | chilliwack bruins ( whl )
+2 | wayne simmonds (rw) | canada | los angeles kings | owen sound attack ( whl )
+3 | bryan cameron (c) | canada | los angeles kings | belleville bulls ( ohl )
+4 | alec martinez (d) | united states | los angeles kings | miami university ( ncaa )
+4 | dwight king (c) | canada | los angeles kings | lethbridge hurricanes ( whl )
+5 | linden rowat (g) | canada | los angeles kings | regina pats ( whl )
+5 | joshua turnbull (c) | united states | los angeles kings | waterloo black hawks ( ushl )
+7 | josh kidd (d) | canada | los angeles kings | erie otters ( ohl )
+7 | matt fillier (lw) | canada | los angeles kings | st john 's fog devils ( qmjhl )","normalized_table = [['round', 'player', 'nationality', 'nhl_team', 'college_junior_club_team_league'],
+['1', 'thomas hickey (d)', 'canada', 'los angeles kings', 'seattle thunderbirds ( whl )'],
+['2', 'oscar moller (c)', 'sweden', 'los angeles kings', 'chilliwack bruins ( whl )'],
+['2', 'wayne simmonds (rw)', 'canada', 'los angeles kings', 'owen sound attack ( whl )'],
+['3', 'bryan cameron (c)', 'canada', 'los angeles kings', 'belleville bulls ( ohl )'],
+['4', 'alec martinez (d)', 'united states', 'los angeles kings', 'miami university ( ncaa )'],
+['4', 'dwight king (c)', 'canada', 'los angeles kings', 'lethbridge hurricanes ( whl )'],
+['5', 'linden rowat (g)', 'canada', 'los angeles kings', 'regina pats ( whl )'],
+['5', 'joshua turnbull (c)', 'united states', 'los angeles kings', 'waterloo black hawks ( ushl )'],
+['7', 'josh kidd (d)', 'canada', 'los angeles kings', 'erie otters ( ohl )'],
+['7', 'matt fillier (lw)', 'canada', 'los angeles kings', 'st john \'s fog devils ( qmjhl )']]"
+1-18600760-10.html.csv,"joliette has 0.771 square miles of water , and can be found with geo id 3806741020",1,list of townships in north dakota,"township | county | pop_2010 | land__sqmi_ | water_sqmi | latitude | longitude | geo_id | ansi_code
+jackson | sargent | 33 | 35.809 | 0.0 | 46.066276 | -97.94553 | 3808140460 | 1036797
+james hill | mountrail | 32 | 31.82 | 4.243 | 48.423125 | -102.429934 | 3806140500 | 1037048
+james river valley | dickey | 40 | 28.597 | 0.0 | 46.246641 | -98.188329 | 3802140540 | 1036767
+janke | logan | 28 | 35.995 | 0.163 | 46.415512 | -99.131701 | 3804740620 | 1037193
+jefferson | pierce | 45 | 35.069 | 1.125 | 48.232149 | -100.18237 | 3806940700 | 1759556
+jim river valley | stutsman | 38 | 34.134 | 1.746 | 47.112388 | -98.778478 | 3809340780 | 1036484
+johnson | wells | 36 | 35.299 | 0.908 | 47.377745 | -99.458677 | 3810340820 | 1037137
+johnstown | grand forks | 79 | 36.199 | 0.0 | 48.151362 | -97.449033 | 3803540940 | 1036624
+joliette | pembina | 67 | 70.044 | 0.771 | 48.796545 | -97.217227 | 3806741020 | 1036723","normalized_table = [
+    [""township"", ""county"", ""pop_2010"", ""land_sqmi"", ""water_sqmi"", ""latitude"", ""longitude"", ""geo_id"", ""ansi_code""],
+    [""jackson"", ""sargent"", 33, 35.809, 0.0, 46.066276, -97.94553, 3808140460, 1036797],
+    [""james hill"", ""mountrail"", 32, 31.82, 4.243, 48.423125, -102.429934, 3806140500, 1037048],
+    [""james river valley"", ""dickey"", 40, 28.597, 0.0, 46.246641, -98.188329, 3802140540, 1036767],
+    [""janke"", ""logan"", 28, 35.995, 0.163, 46.415512, -99.131701, 3804740620, 1037193],
+    [""jefferson"", ""pierce"", 45, 35.069, 1.125, 48.232149, -100.18237, 3806940700, 1759556],
+    [""jim river valley"", ""stutsman"", 38, 34.134, 1.746, 47.112388, -98.778478, 3809340780, 1036484],
+    [""johnson"", ""wells"", 36, 35.299, 0.908, 47.377745, -99.458677, 3810340820, 1037137],
+    [""johnstown"", ""grand forks"", 79, 36.199, 0.0, 48.151362, -97.449033, 3803540940, 1036624],
+    [""joliette"", ""pembina"", 67, 70.044, 0.771, 48.796545, -97.217227, 3806741020, 1036723]
+]"

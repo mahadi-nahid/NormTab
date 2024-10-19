@@ -1,0 +1,283 @@
+id,table title,original_tab,norm_table_markdown,norm_table,columns
+1-24560733-1.html.csv,1947 kentucky wildcats football team,"|   game | date    | opponent       | result   |   wildcats_points |   opponents | record     |
+|-------:|:--------|:---------------|:---------|------------------:|------------:|:-----------|
+|      1 | sept 20 | ole miss       | loss     |                 7 |          14 | 0 - 1      |
+|      2 | sept 27 | cincinnati     | win      |                20 |           0 | 1 - 1      |
+|      3 | oct 4   | xavier         | win      |                20 |           7 | 2 - 1      |
+|      4 | oct 11  | 9 georgia      | win      |                26 |           0 | 3 - 1 , 20 |
+|      5 | oct 18  | 10 vanderbilt  | win      |                14 |           0 | 4 - 1 , 14 |
+|      6 | oct 25  | michigan state | win      |                 7 |           6 | 5 - 1 , 13 |
+|      7 | nov 1   | 18 alabama     | loss     |                 0 |          13 | 5 - 2      |
+|      8 | nov 8   | west virginia  | win      |                15 |           6 | 6 - 2      |
+|      9 | nov 15  | evansville     | win      |                36 |           0 | 7 - 2      |
+|     10 | nov 22  | tennessee      | loss     |                 6 |          13 | 7 - 3      |","|   game | opponent       | result   |   wildcats_points |   opponents | date       |   record_wins |   record_losses |   record_margin |
+|-------:|:---------------|:---------|------------------:|------------:|:-----------|--------------:|----------------:|----------------:|
+|      1 | ole miss       | loss     |                 7 |          14 | 1947-09-20 |             0 |               1 |             nan |
+|      2 | cincinnati     | win      |                20 |           0 | 1947-09-27 |             1 |               1 |             nan |
+|      3 | xavier         | win      |                20 |           7 | 1947-10-04 |             2 |               1 |             nan |
+|      4 | 9 georgia      | win      |                26 |           0 | 1947-10-11 |             3 |               1 |              20 |
+|      5 | 10 vanderbilt  | win      |                14 |           0 | 1947-10-18 |             4 |               1 |              14 |
+|      6 | michigan state | win      |                 7 |           6 | 1947-10-25 |             5 |               1 |              13 |
+|      7 | 18 alabama     | loss     |                 0 |          13 | 1947-11-01 |             5 |               2 |             nan |
+|      8 | west virginia  | win      |                15 |           6 | 1947-11-08 |             6 |               2 |             nan |
+|      9 | evansville     | win      |                36 |           0 | 1947-11-15 |             7 |               2 |             nan |
+|     10 | tennessee      | loss     |                 6 |          13 | 1947-11-22 |             7 |               3 |             nan |","[['game', 'opponent', 'result', 'wildcats_points', 'opponents', 'date', 'record_wins', 'record_losses', 'record_margin'], ['1', 'ole miss', 'loss', '7', '14', '1947-09-20', 0, 1, nan], ['2', 'cincinnati', 'win', '20', '0', '1947-09-27', 1, 1, nan], ['3', 'xavier', 'win', '20', '7', '1947-10-04', 2, 1, nan], ['4', '9 georgia', 'win', '26', '0', '1947-10-11', 3, 1, 20.0], ['5', '10 vanderbilt', 'win', '14', '0', '1947-10-18', 4, 1, 14.0], ['6', 'michigan state', 'win', '7', '6', '1947-10-25', 5, 1, 13.0], ['7', '18 alabama', 'loss', '0', '13', '1947-11-01', 5, 2, nan], ['8', 'west virginia', 'win', '15', '6', '1947-11-08', 6, 2, nan], ['9', 'evansville', 'win', '36', '0', '1947-11-15', 7, 2, nan], ['10', 'tennessee', 'loss', '6', '13', '1947-11-22', 7, 3, nan]]"," ['date', 'record']"
+1-25557880-1.html.csv,césar ramos,"|   season | series                                    | team                |   races |   wins |   poles |   f___laps |   podiums | points   | position   |
+|---------:|:------------------------------------------|:--------------------|--------:|-------:|--------:|-----------:|----------:|:---------|:-----------|
+|     2007 | formula renault 2.0 italy                 | bvm minardi team    |      14 |      0 |       0 |          0 |         1 | 106      | 14th       |
+|     2007 | eurocup formula renault 2.0               | bvm minardi team    |       6 |      0 |       0 |          0 |         0 | n / a    | nc         |
+|     2007 | formula renault 2.0 italy - winter series | bvm minardi team    |       4 |      4 |       4 |          4 |         4 | 144      | 1st        |
+|     2008 | formula renault 2.0 italy                 | bvm minardi team    |      14 |      0 |       1 |          2 |         4 | 216      | 6th        |
+|     2008 | eurocup formula renault 2.0               | bvm minardi team    |      14 |      0 |       0 |          0 |         1 | 38       | 7th        |
+|     2009 | formula 3 euro series                     | manor motorsport    |      16 |      0 |       0 |          0 |         0 | 0        | 25th       |
+|     2009 | masters of formula 3                      | manor motorsport    |       1 |      0 |       0 |          0 |         0 | n / a    | 28th       |
+|     2010 | italian formula three championship        | bvm - target racing |      16 |      3 |       2 |          7 |         8 | 161      | 1st        |
+|     2011 | formula renault 3.5 series                | s fortec motorsport |      17 |      0 |       2 |          0 |         0 | 47       | 11th       |","|   season | series                                    | team                |   races |   wins |   poles |   f___laps |   podiums | points   | position   |
+|---------:|:------------------------------------------|:--------------------|--------:|-------:|--------:|-----------:|----------:|:---------|:-----------|
+|     2007 | formula renault 2.0 italy                 | bvm minardi team    |      14 |      0 |       0 |          0 |         1 | 106      | 14         |
+|     2007 | eurocup formula renault 2.0               | bvm minardi team    |       6 |      0 |       0 |          0 |         0 |          |            |
+|     2007 | formula renault 2.0 italy - winter series | bvm minardi team    |       4 |      4 |       4 |          4 |         4 | 144      | 1          |
+|     2008 | formula renault 2.0 italy                 | bvm minardi team    |      14 |      0 |       1 |          2 |         4 | 216      | 6          |
+|     2008 | eurocup formula renault 2.0               | bvm minardi team    |      14 |      0 |       0 |          0 |         1 | 38       | 7          |
+|     2009 | formula 3 euro series                     | manor motorsport    |      16 |      0 |       0 |          0 |         0 | 0        | 25         |
+|     2009 | masters of formula 3                      | manor motorsport    |       1 |      0 |       0 |          0 |         0 |          | 28         |
+|     2010 | italian formula three championship        | bvm - target racing |      16 |      3 |       2 |          7 |         8 | 161      | 1          |
+|     2011 | formula renault 3.5 series                | s fortec motorsport |      17 |      0 |       2 |          0 |         0 | 47       | 11         |","[['season', 'series', 'team', 'races', 'wins', 'poles', 'f___laps', 'podiums', 'points', 'position'], ['2007', 'formula renault 2.0 italy', 'bvm minardi team', '14', '0', '0', '0', '1', '106', '14'], ['2007', 'eurocup formula renault 2.0', 'bvm minardi team', '6', '0', '0', '0', '0', '', ''], ['2007', 'formula renault 2.0 italy - winter series', 'bvm minardi team', '4', '4', '4', '4', '4', '144', '1'], ['2008', 'formula renault 2.0 italy', 'bvm minardi team', '14', '0', '1', '2', '4', '216', '6'], ['2008', 'eurocup formula renault 2.0', 'bvm minardi team', '14', '0', '0', '0', '1', '38', '7'], ['2009', 'formula 3 euro series', 'manor motorsport', '16', '0', '0', '0', '0', '0', '25'], ['2009', 'masters of formula 3', 'manor motorsport', '1', '0', '0', '0', '0', '', '28'], ['2010', 'italian formula three championship', 'bvm - target racing', '16', '3', '2', '7', '8', '161', '1'], ['2011', 'formula renault 3.5 series', 's fortec motorsport', '17', '0', '2', '0', '0', '47', '11']]"," ['points', 'position']"
+2-16776506-2.html.csv,leanne baker,"| outcome     | date              | location                 | surface   | opponent_in_final   | score                     |
+|:------------|:------------------|:-------------------------|:----------|:--------------------|:--------------------------|
+| winner      | 2 may 1999        | coatzacoalcos , mexico   | hard      | candice jairala     | 3 - 6 6 - 3 7 - 5         |
+| winner      | 11 july 1999      | felixstowe , england     | grass     | karen nugent        | 6 - 4 6 - 4               |
+| runner - up | 6 february 2000   | wellington , new zealand | hard      | mirielle dittmann   | 6 - 7 (5) 6 - 1 6 - 7 (5) |
+| runner - up | 28 may 2000       | el paso , texas , usa    | hard      | erin burdette       | 1 - 6 3 - 6               |
+| runner - up | 14 september 2003 | spoleto , italy          | clay      | lenka snajdrova     | 4 - 6 3 - 6               |
+| winner      | 6 february 2005   | wellington , new zealand | hard      | mirielle dittmann   | 2 - 6 6 - 1 6 - 1         |
+| winner      | 28 august 2005    | jesi , italy             | hard      | vanessa pinto       | 6 - 2 7 - 6 (6)           |
+| winner      | 5 february 2006   | taupo , new zealand      | hard      | natsumi hamamura    | 6 - 1 6 - 2               |
+| winner      | 12 february 2006  | wellington , new zealand | hard      | katerina kramperová | 6 - 4 1 - 6 6 - 0         |
+| winner      | 20 april 2008     | mazatlán , mexico        | hard      | anna lubinsky       | 6 - 2 6 - 1               |","| outcome     | location                 | surface   | opponent_in_final   | date       | score_1_set   | score_2_set   | score_3_set   |
+|:------------|:-------------------------|:----------|:--------------------|:-----------|:--------------|:--------------|:--------------|
+| winner      | coatzacoalcos , mexico   | hard      | candice jairala     | 1999-05-02 | 3 - 6         | 6 - 3         | 7 - 5         |
+| winner      | felixstowe , england     | grass     | karen nugent        | 1999-07-11 | 6 - 4         | 6 - 4         |               |
+| runner - up | wellington , new zealand | hard      | mirielle dittmann   | 2000-02-06 | 6 - 7 (5)     | 6 - 1         | 6 - 7 (5)     |
+| runner - up | el paso , texas , usa    | hard      | erin burdette       | 2000-05-28 | 1 - 6         | 3 - 6         |               |
+| runner - up | spoleto , italy          | clay      | lenka snajdrova     | 2003-09-14 | 4 - 6         | 3 - 6         |               |
+| winner      | wellington , new zealand | hard      | mirielle dittmann   | 2005-02-06 | 2 - 6         | 6 - 1         | 6 - 1         |
+| winner      | jesi , italy             | hard      | vanessa pinto       | 2005-08-28 | 6 - 2         | 7 - 6 (6)     |               |
+| winner      | taupo , new zealand      | hard      | natsumi hamamura    | 2006-02-05 | 6 - 1         | 6 - 2         |               |
+| winner      | wellington , new zealand | hard      | katerina kramperová | 2006-02-12 | 6 - 4         | 1 - 6         | 6 - 0         |
+| winner      | mazatlán , mexico        | hard      | anna lubinsky       | 2008-04-20 | 6 - 2         | 6 - 1         |               |","[['outcome', 'location', 'surface', 'opponent_in_final', 'date', 'score_1_set', 'score_2_set', 'score_3_set'], ['winner', 'coatzacoalcos , mexico', 'hard', 'candice jairala', '1999-05-02', '3 - 6', '6 - 3', '7 - 5'], ['winner', 'felixstowe , england', 'grass', 'karen nugent', '1999-07-11', '6 - 4', '6 - 4', None], ['runner - up', 'wellington , new zealand', 'hard', 'mirielle dittmann', '2000-02-06', '6 - 7 (5)', '6 - 1', '6 - 7 (5)'], ['runner - up', 'el paso , texas , usa', 'hard', 'erin burdette', '2000-05-28', '1 - 6', '3 - 6', None], ['runner - up', 'spoleto , italy', 'clay', 'lenka snajdrova', '2003-09-14', '4 - 6', '3 - 6', None], ['winner', 'wellington , new zealand', 'hard', 'mirielle dittmann', '2005-02-06', '2 - 6', '6 - 1', '6 - 1'], ['winner', 'jesi , italy', 'hard', 'vanessa pinto', '2005-08-28', '6 - 2', '7 - 6 (6)', None], ['winner', 'taupo , new zealand', 'hard', 'natsumi hamamura', '2006-02-05', '6 - 1', '6 - 2', None], ['winner', 'wellington , new zealand', 'hard', 'katerina kramperová', '2006-02-12', '6 - 4', '1 - 6', '6 - 0'], ['winner', 'mazatlán , mexico', 'hard', 'anna lubinsky', '2008-04-20', '6 - 2', '6 - 1', None]]"," ['date', 'score']"
+2-14175075-5.html.csv,iowa corn cy - hawk series,"| date                | site         | sport           | winning_team   | series            |
+|:--------------------|:-------------|:----------------|:---------------|:------------------|
+| september 4 , 2007  | cedar rapids | m golf          | iowa state     | iowa state 2 - 0  |
+| september 8 , 2007  | des moines   | volleyball      | iowa state     | iowa state 4 - 0  |
+| september 9 , 2007  | iowa city    | w soccer        | tie            | iowa state 5 - 1  |
+| september 15 , 2007 | ames         | football        | iowa state     | iowa state 8 - 1  |
+| november 10 , 2007  | peoria       | m cross country | iowa state     | iowa state 10 - 1 |
+| november 10 , 2007  | peoria       | w cross country | iowa           | iowa state 10 - 3 |
+| december 5 , 2007   | ames         | w basketball    | iowa state     | iowa state 12 - 3 |
+| december 7 , 2007   | ames         | w swimming      | iowa state     | iowa state 14 - 3 |
+| december 8 , 2007   | ames         | m basketball    | iowa state     | iowa state 16 - 3 |
+| december 9 , 2007   | ames         | wrestling       | iowa           | iowa state 16 - 5 |
+| february 22 , 2008  | ames         | w gymnastics    | iowa state     | iowa state 18 - 5 |
+| march 7 , 2008      | iowa city    | w gymnastics    | iowa           | iowa state 18 - 7 |
+| april 1 , 2008      | ames         | softball        | iowa           | iowa state 18 - 9 |","| date                | site         | sport           | winning_team   | team       |   score1 |   score2 |
+|:--------------------|:-------------|:----------------|:---------------|:-----------|---------:|---------:|
+| september 4 , 2007  | cedar rapids | m golf          | iowa state     | iowa state |        2 |        0 |
+| september 8 , 2007  | des moines   | volleyball      | iowa state     | iowa state |        4 |        0 |
+| september 9 , 2007  | iowa city    | w soccer        | tie            | iowa state |        5 |        1 |
+| september 15 , 2007 | ames         | football        | iowa state     | iowa state |        8 |        1 |
+| november 10 , 2007  | peoria       | m cross country | iowa state     | iowa state |       10 |        1 |
+| november 10 , 2007  | peoria       | w cross country | iowa           | iowa state |       10 |        3 |
+| december 5 , 2007   | ames         | w basketball    | iowa state     | iowa state |       12 |        3 |
+| december 7 , 2007   | ames         | w swimming      | iowa state     | iowa state |       14 |        3 |
+| december 8 , 2007   | ames         | m basketball    | iowa state     | iowa state |       16 |        3 |
+| december 9 , 2007   | ames         | wrestling       | iowa           | iowa state |       16 |        5 |
+| february 22 , 2008  | ames         | w gymnastics    | iowa state     | iowa state |       18 |        5 |
+| march 7 , 2008      | iowa city    | w gymnastics    | iowa           | iowa state |       18 |        7 |
+| april 1 , 2008      | ames         | softball        | iowa           | iowa state |       18 |        9 |","[['date', 'site', 'sport', 'winning_team', 'team', 'score1', 'score2'], ['september 4 , 2007', 'cedar rapids', 'm golf', 'iowa state', 'iowa state', 2, 0], ['september 8 , 2007', 'des moines', 'volleyball', 'iowa state', 'iowa state', 4, 0], ['september 9 , 2007', 'iowa city', 'w soccer', 'tie', 'iowa state', 5, 1], ['september 15 , 2007', 'ames', 'football', 'iowa state', 'iowa state', 8, 1], ['november 10 , 2007', 'peoria', 'm cross country', 'iowa state', 'iowa state', 10, 1], ['november 10 , 2007', 'peoria', 'w cross country', 'iowa', 'iowa state', 10, 3], ['december 5 , 2007', 'ames', 'w basketball', 'iowa state', 'iowa state', 12, 3], ['december 7 , 2007', 'ames', 'w swimming', 'iowa state', 'iowa state', 14, 3], ['december 8 , 2007', 'ames', 'm basketball', 'iowa state', 'iowa state', 16, 3], ['december 9 , 2007', 'ames', 'wrestling', 'iowa', 'iowa state', 16, 5], ['february 22 , 2008', 'ames', 'w gymnastics', 'iowa state', 'iowa state', 18, 5], ['march 7 , 2008', 'iowa city', 'w gymnastics', 'iowa', 'iowa state', 18, 7], ['april 1 , 2008', 'ames', 'softball', 'iowa', 'iowa state', 18, 9]]", ['series']
+2-11512626-6.html.csv,1997 colorado rockies season,"| date      | opponent   | score   | loss               |   attendance | record   |
+|:----------|:-----------|:--------|:-------------------|-------------:|:---------|
+| august 1  | pirates    | 7 - 6   | rincón (4 - 5)     |        22657 | 52 - 58  |
+| august 2  | pirates    | 6 - 5   | swift (4 - 5)      |        32388 | 52 - 59  |
+| august 3  | pirates    | 8 - 4   | reed (3 - 5)       |        24989 | 52 - 60  |
+| august 4  | phillies   | 7 - 3   | castillo (8 - 10)  |        15230 | 52 - 61  |
+| august 5  | phillies   | 4 - 2   | bottalico (2 - 4)  |        16428 | 53 - 61  |
+| august 6  | mets       | 4 - 0   | mlicki (5 - 8)     |        26633 | 54 - 61  |
+| august 7  | mets       | 12 - 4  | swift (4 - 6)      |        29536 | 54 - 62  |
+| august 8  | pirates    | 5 - 3   | lieber (6 - 12)    |        48262 | 55 - 62  |
+| august 9  | pirates    | 8 - 7   | rincón (4 - 6)     |        48323 | 56 - 62  |
+| august 10 | pirates    | 8 - 7   | wilkins (7 - 3)    |        48018 | 57 - 62  |
+| august 12 | phillies   | 5 - 0   | thomson (4 - 7)    |        48228 | 57 - 63  |
+| august 13 | phillies   | 12 - 8  | wright (6 - 8)     |        48491 | 57 - 64  |
+| august 15 | mets       | 6 - 2   | reed (10 - 6)      |        48308 | 58 - 64  |
+| august 16 | mets       | 7 - 5   | mcmichael (7 - 10) |        48311 | 59 - 64  |
+| august 17 | mets       | 6 - 4   | mlicki (5 - 10)    |        48440 | 60 - 64  |
+| august 19 | reds       | 6 - 5   | wright (6 - 9)     |        31722 | 60 - 65  |
+| august 20 | reds       | 5 - 3   | white (1 - 1)      |        21968 | 61 - 65  |
+| august 21 | astros     | 10 - 4  | bailey (9 - 9)     |        22962 | 61 - 66  |
+| august 22 | astros     | 9 - 1   | thomson (5 - 8)    |        33061 | 61 - 67  |
+| august 23 | astros     | 6 - 3   | hudek (0 - 2)      |        32374 | 62 - 67  |
+| august 24 | astros     | 3 - 1   | wright (6 - 10)    |        28918 | 62 - 68  |
+| august 25 | reds       | 7 - 6   | castillo (10 - 11) |        48143 | 62 - 69  |
+| august 25 | reds       | 6 - 4   | hutton (3 - 2)     |        48081 | 62 - 70  |
+| august 26 | reds       | 9 - 5   | martínez (1 - 1)   |        48063 | 63 - 70  |
+| august 27 | reds       | 7 - 5   | remlinger (6 - 6)  |        48032 | 64 - 70  |
+| august 28 | mariners   | 9 - 5   | olivares (6 - 9)   |        48422 | 65 - 70  |
+| august 29 | mariners   | 6 - 5   | timlin (3 - 3)     |        48178 | 66 - 70  |
+| august 30 | athletics  | 4 - 3   | mohler (1 - 10)    |        48308 | 67 - 70  |
+| august 31 | athletics  | 10 - 4  | oquist (2 - 5)     |        48041 | 68 - 70  |","| opponent   | date       | team_score   | opponent_loss   |   attendance |   team_wins |   team_losses |
+|:-----------|:-----------|:-------------|:----------------|-------------:|------------:|--------------:|
+| pirates    | 1997-08-01 | 7 - 6        | rincón          |        22657 |          52 |            58 |
+| pirates    | 1997-08-02 | 6 - 5        | swift           |        32388 |          52 |            59 |
+| pirates    | 1997-08-03 | 8 - 4        | reed            |        24989 |          52 |            60 |
+| phillies   | 1997-08-04 | 7 - 3        | castillo        |        15230 |          52 |            61 |
+| phillies   | 1997-08-05 | 4 - 2        | bottalico       |        16428 |          53 |            61 |
+| mets       | 1997-08-06 | 4 - 0        | mlicki          |        26633 |          54 |            61 |
+| mets       | 1997-08-07 | 12 - 4       | swift           |        29536 |          54 |            62 |
+| pirates    | 1997-08-08 | 5 - 3        | lieber          |        48262 |          55 |            62 |
+| pirates    | 1997-08-09 | 8 - 7        | rincón          |        48323 |          56 |            62 |
+| pirates    | 1997-08-10 | 8 - 7        | wilkins         |        48018 |          57 |            62 |
+| phillies   | 1997-08-12 | 5 - 0        | thomson         |        48228 |          57 |            63 |
+| phillies   | 1997-08-13 | 12 - 8       | wright          |        48491 |          57 |            64 |
+| mets       | 1997-08-15 | 6 - 2        | reed            |        48308 |          58 |            64 |
+| mets       | 1997-08-16 | 7 - 5        | mcmichael       |        48311 |          59 |            64 |
+| mets       | 1997-08-17 | 6 - 4        | mlicki          |        48440 |          60 |            64 |
+| reds       | 1997-08-19 | 6 - 5        | wright          |        31722 |          60 |            65 |
+| reds       | 1997-08-20 | 5 - 3        | white           |        21968 |          61 |            65 |
+| astros     | 1997-08-21 | 10 - 4       | bailey          |        22962 |          61 |            66 |
+| astros     | 1997-08-22 | 9 - 1        | thomson         |        33061 |          61 |            67 |
+| astros     | 1997-08-23 | 6 - 3        | hudek           |        32374 |          62 |            67 |
+| astros     | 1997-08-24 | 3 - 1        | wright          |        28918 |          62 |            68 |
+| reds       | 1997-08-25 | 7 - 6        | castillo        |        48143 |          62 |            69 |
+| reds       | 1997-08-25 | 6 - 4        | hutton          |        48081 |          62 |            70 |
+| reds       | 1997-08-26 | 9 - 5        | martínez        |        48063 |          63 |            70 |
+| reds       | 1997-08-27 | 7 - 5        | remlinger       |        48032 |          64 |            70 |
+| mariners   | 1997-08-28 | 9 - 5        | olivares        |        48422 |          65 |            70 |
+| mariners   | 1997-08-29 | 6 - 5        | timlin          |        48178 |          66 |            70 |
+| athletics  | 1997-08-30 | 4 - 3        | mohler          |        48308 |          67 |            70 |
+| athletics  | 1997-08-31 | 10 - 4       | oquist          |        48041 |          68 |            70 |","[['opponent', 'date', 'team_score', 'opponent_loss', 'attendance', 'team_wins', 'team_losses'], ['pirates', '1997-08-01', '7 - 6', 'rincón', 22657, 52, 58], ['pirates', '1997-08-02', '6 - 5', 'swift', 32388, 52, 59], ['pirates', '1997-08-03', '8 - 4', 'reed', 24989, 52, 60], ['phillies', '1997-08-04', '7 - 3', 'castillo', 15230, 52, 61], ['phillies', '1997-08-05', '4 - 2', 'bottalico', 16428, 53, 61], ['mets', '1997-08-06', '4 - 0', 'mlicki', 26633, 54, 61], ['mets', '1997-08-07', '12 - 4', 'swift', 29536, 54, 62], ['pirates', '1997-08-08', '5 - 3', 'lieber', 48262, 55, 62], ['pirates', '1997-08-09', '8 - 7', 'rincón', 48323, 56, 62], ['pirates', '1997-08-10', '8 - 7', 'wilkins', 48018, 57, 62], ['phillies', '1997-08-12', '5 - 0', 'thomson', 48228, 57, 63], ['phillies', '1997-08-13', '12 - 8', 'wright', 48491, 57, 64], ['mets', '1997-08-15', '6 - 2', 'reed', 48308, 58, 64], ['mets', '1997-08-16', '7 - 5', 'mcmichael', 48311, 59, 64], ['mets', '1997-08-17', '6 - 4', 'mlicki', 48440, 60, 64], ['reds', '1997-08-19', '6 - 5', 'wright', 31722, 60, 65], ['reds', '1997-08-20', '5 - 3', 'white', 21968, 61, 65], ['astros', '1997-08-21', '10 - 4', 'bailey', 22962, 61, 66], ['astros', '1997-08-22', '9 - 1', 'thomson', 33061, 61, 67], ['astros', '1997-08-23', '6 - 3', 'hudek', 32374, 62, 67], ['astros', '1997-08-24', '3 - 1', 'wright', 28918, 62, 68], ['reds', '1997-08-25', '7 - 6', 'castillo', 48143, 62, 69], ['reds', '1997-08-25', '6 - 4', 'hutton', 48081, 62, 70], ['reds', '1997-08-26', '9 - 5', 'martínez', 48063, 63, 70], ['reds', '1997-08-27', '7 - 5', 'remlinger', 48032, 64, 70], ['mariners', '1997-08-28', '9 - 5', 'olivares', 48422, 65, 70], ['mariners', '1997-08-29', '6 - 5', 'timlin', 48178, 66, 70], ['athletics', '1997-08-30', '4 - 3', 'mohler', 48308, 67, 70], ['athletics', '1997-08-31', '10 - 4', 'oquist', 48041, 68, 70]]"," ['date', 'score', 'loss', 'attendance', 'record']"
+2-12523044-5.html.csv,2006 u.s. open (golf),"| place   | player             | country          | score         | to_par   |
+|:--------|:-------------------|:-----------------|:--------------|:---------|
+| 1       | steve stricker     | united states    | 70 + 69 = 139 | - 1      |
+| 2       | colin montgomerie  | scotland         | 69 + 71 = 140 | e        |
+| t3      | kenneth ferrie     | england          | 71 + 70 = 141 | + 1      |
+| t3      | geoff ogilvy       | australia        | 71 + 70 = 141 | + 1      |
+| t5      | jim furyk          | united states    | 70 + 72 = 142 | + 2      |
+| t5      | pádraig harrington | ireland          | 70 + 72 = 142 | + 2      |
+| t7      | jason dufner       | united states    | 72 + 71 = 143 | + 3      |
+| t7      | graeme mcdowell    | northern ireland | 71 + 72 = 143 | + 3      |
+| t7      | phil mickelson     | united states    | 70 + 73 = 143 | + 3      |
+| t7      | arron oberholser   | united states    | 75 + 68 = 143 | + 3      |","| place   | player             | country          |   score_1 |   score_2 |   total_score | to_par   |
+|:--------|:-------------------|:-----------------|----------:|----------:|--------------:|:---------|
+| 1       | steve stricker     | united states    |        70 |        69 |           139 | -1       |
+| 2       | colin montgomerie  | scotland         |        69 |        71 |           140 | E        |
+| t3      | kenneth ferrie     | england          |        71 |        70 |           141 | +1       |
+| t3      | geoff ogilvy       | australia        |        71 |        70 |           141 | +1       |
+| t5      | jim furyk          | united states    |        70 |        72 |           142 | +2       |
+| t5      | pádraig harrington | ireland          |        70 |        72 |           142 | +2       |
+| t7      | jason dufner       | united states    |        72 |        71 |           143 | +3       |
+| t7      | graeme mcdowell    | northern ireland |        71 |        72 |           143 | +3       |
+| t7      | phil mickelson     | united states    |        70 |        73 |           143 | +3       |","[['place', 'player', 'country', 'score_1', 'score_2', 'total_score', 'to_par'], ['1', 'steve stricker', 'united states', '70', '69', '139', '-1'], ['2', 'colin montgomerie', 'scotland', '69', '71', '140', 'E'], ['t3', 'kenneth ferrie', 'england', '71', '70', '141', '+1'], ['t3', 'geoff ogilvy', 'australia', '71', '70', '141', '+1'], ['t5', 'jim furyk', 'united states', '70', '72', '142', '+2'], ['t5', 'pádraig harrington', 'ireland', '70', '72', '142', '+2'], ['t7', 'jason dufner', 'united states', '72', '71', '143', '+3'], ['t7', 'graeme mcdowell', 'northern ireland', '71', '72', '143', '+3'], ['t7', 'phil mickelson', 'united states', '70', '73', '143', '+3']]"," ['score', 'to_par']"
+2-10301911-2.html.csv,1970 isle of man tt,"|   rank | rider          | team      | speed     | time      |
+|-------:|:---------------|:----------|:----------|:----------|
+|      1 | frank whiteway | suzuki    | 89.94 mph | 2:05.52.0 |
+|      2 | gordon pantall | triumph   | 88.90 mph | 2:07.20.0 |
+|      3 | ray knight     | triumph   | 88.89 mph | 2:07.20.4 |
+|      4 | rbaylie        | triumph   | 87.58 mph | 2:09.15.0 |
+|      5 | graham penny   | triumph   | 86.70 mph | 2:10.34.4 |
+|      6 | jwade          | suzuki    | 85.31 mph | 2:12.42.0 |
+|      7 | brian finch    | velocette | 83.86 mph | 2:14.59.0 |","|   rank | rider          | team      |   speed_mph |   speed_kph |   time_hours |   time_minutes |   time_seconds |
+|-------:|:---------------|:----------|------------:|------------:|-------------:|---------------:|---------------:|
+|      1 | frank whiteway | suzuki    |       89.94 |      144.59 |            2 |              5 |           52   |
+|      2 | gordon pantall | triumph   |       88.9  |      143.15 |            2 |              7 |           20   |
+|      3 | ray knight     | triumph   |       88.89 |      143.14 |            2 |              7 |           20.4 |
+|      4 | rbaylie        | triumph   |       87.58 |      140.85 |            2 |              9 |           15   |
+|      5 | graham penny   | triumph   |       86.7  |      139.48 |            2 |             10 |           34.4 |
+|      6 | jwade          | suzuki    |       85.31 |      137.26 |            2 |             12 |           42   |
+|      7 | brian finch    | velocette |       83.86 |      135.03 |            2 |             14 |           59   |","[['rank', 'rider', 'team', 'speed_mph', 'speed_kph', 'time_hours', 'time_minutes', 'time_seconds'], ['1', 'frank whiteway', 'suzuki', '89.94', '144.59', '2', '5', '52.0'], ['2', 'gordon pantall', 'triumph', '88.90', '143.15', '2', '7', '20.0'], ['3', 'ray knight', 'triumph', '88.89', '143.14', '2', '7', '20.4'], ['4', 'rbaylie', 'triumph', '87.58', '140.85', '2', '9', '15.0'], ['5', 'graham penny', 'triumph', '86.70', '139.48', '2', '10', '34.4'], ['6', 'jwade', 'suzuki', '85.31', '137.26', '2', '12', '42.0'], ['7', 'brian finch', 'velocette', '83.86', '135.03', '2', '14', '59.0']]"," ['speed', 'time']"
+2-15547694-1.html.csv,members of the 5th seanad,"| party            |   administrative_panel |   agricultural_panel |   cultural_and_educational_panel |   industrial_and_commercial_panel |   labour_panel |   national_university_of_ireland |   university_of_dublin |   nominated_by_the_taoiseach |   total |
+|:-----------------|-----------------------:|---------------------:|---------------------------------:|----------------------------------:|---------------:|---------------------------------:|-----------------------:|-----------------------------:|--------:|
+| fianna fáil      |                      4 |                    4 |                                2 |                                 3 |              0 |                                1 |                      0 |                            7 |      21 |
+| fine gael        |                      1 |                    3 |                                2 |                                 2 |              0 |                                1 |                      0 |                            0 |       9 |
+| labour party     |                      0 |                    0 |                                0 |                                 1 |              5 |                                0 |                      0 |                            2 |       8 |
+| clann na talmhan |                      0 |                    2 |                                0 |                                 0 |              1 |                                0 |                      0 |                            0 |       3 |
+| independent      |                      0 |                    1 |                                0 |                                 1 |              0 |                                1 |                      3 |                            3 |       9 |
+| total            |                      7 |                   11 |                                5 |                                 9 |             11 |                                3 |                      3 |                           11 |      60 |","| party            |   administrative_panel |   agricultural_panel |   cultural_and_educational_panel |   industrial_and_commercial_panel |   labour_panel |   national_university_of_ireland |   university_of_dublin |   nominated_by_the_taoiseach |   total |
+|:-----------------|-----------------------:|---------------------:|---------------------------------:|----------------------------------:|---------------:|---------------------------------:|-----------------------:|-----------------------------:|--------:|
+| fianna fáil      |                      4 |                    4 |                                2 |                                 3 |              0 |                                1 |                      0 |                            7 |      21 |
+| fine gael        |                      1 |                    3 |                                2 |                                 2 |              0 |                                1 |                      0 |                            0 |       9 |
+| labour party     |                      0 |                    0 |                                0 |                                 1 |              5 |                                0 |                      0 |                            2 |       8 |
+| clann na talmhan |                      0 |                    2 |                                0 |                                 0 |              1 |                                0 |                      0 |                            0 |       3 |
+| independent      |                      0 |                    1 |                                0 |                                 1 |              0 |                                1 |                      3 |                            3 |       9 |","[['party', 'administrative_panel', 'agricultural_panel', 'cultural_and_educational_panel', 'industrial_and_commercial_panel', 'labour_panel', 'national_university_of_ireland', 'university_of_dublin', 'nominated_by_the_taoiseach', 'total'], ['fianna fáil', '4', '4', '2', '3', '0', '1', '0', '7', '21'], ['fine gael', '1', '3', '2', '2', '0', '1', '0', '0', '9'], ['labour party', '0', '0', '0', '1', '5', '0', '0', '2', '8'], ['clann na talmhan', '0', '2', '0', '0', '1', '0', '0', '0', '3'], ['independent', '0', '1', '0', '1', '0', '1', '3', '3', '9']]", []
+2-15214004-2.html.csv,2008 mls superdraft,"|   pick | mls_team               | player                 | position   | affiliation                            |
+|-------:|:-----------------------|:-----------------------|:-----------|:---------------------------------------|
+|     15 | san jose earthquakes   | shea salinas           | m          | furman carolina dynamo                 |
+|     16 | new york red bulls     | eric brunner           | d          | ohio state michigan bucks              |
+|     17 | real salt lake         | alex nimo              | f          | generation adidas                      |
+|     18 | new england revolution | michael videira        | m          | duke cary railhawks u23 's             |
+|     19 | fc dallas              | eric avila             | m          | uc santa barbara ventura county fusion |
+|     20 | columbus crew          | george josten          | m / f      | gonzaga michigan bucks                 |
+|     21 | los angeles galaxy     | ely allen              | f / m      | washington                             |
+|     22 | columbus crew          | ricardo pierre - louis | f          | lee university cape cod crusaders      |
+|     23 | kansas city wizards    | yomby william          | d          | old dominion hampton roads piranhas    |
+|     24 | dc united              | andrew jacobson        | m          | california                             |
+|     25 | kansas city wizards    | jonathan leathers      | d          | furman atlanta silverbacks u23 's      |
+|     26 | chicago fire           | peter lowry            | m / f      | santa clara san jose frogs             |
+|     27 | new england revolution | joe germanese          | m          | duke cary railhawks u23 's             |
+|     28 | toronto fc             | brian edwards          | gk         | wake forest                            |","|   pick | mls_team               | player                 | position   | affiliation       | affiliation_2           |
+|-------:|:-----------------------|:-----------------------|:-----------|:------------------|:------------------------|
+|     15 | san jose earthquakes   | shea salinas           | m          | furman            | carolina dynamo         |
+|     16 | new york red bulls     | eric brunner           | d          | ohio state        | michigan bucks          |
+|     17 | real salt lake         | alex nimo              | f          | generation adidas |                         |
+|     18 | new england revolution | michael videira        | m          | duke              | cary railhawks u23      |
+|     19 | fc dallas              | eric avila             | m          | uc santa barbara  | ventura county fusion   |
+|     20 | columbus crew          | george josten          | m          | gonzaga           | michigan bucks          |
+|     21 | los angeles galaxy     | ely allen              | f          | washington        |                         |
+|     22 | columbus crew          | ricardo pierre - louis | f          | lee university    | cape cod crusaders      |
+|     23 | kansas city wizards    | yomby william          | d          | old dominion      | hampton roads piranhas  |
+|     24 | dc united              | andrew jacobson        | m          | california        |                         |
+|     25 | kansas city wizards    | jonathan leathers      | d          | furman            | atlanta silverbacks u23 |
+|     26 | chicago fire           | peter lowry            | m          | santa clara       | san jose frogs          |
+|     27 | new england revolution | joe germanese          | m          | duke              | cary railhawks u23      |
+|     28 | toronto fc             | brian edwards          | gk         | wake forest       |                         |","[['pick', 'mls_team', 'player', 'position', 'affiliation', 'affiliation_2'], ['15', 'san jose earthquakes', 'shea salinas', 'm', 'furman', 'carolina dynamo'], ['16', 'new york red bulls', 'eric brunner', 'd', 'ohio state', 'michigan bucks'], ['17', 'real salt lake', 'alex nimo', 'f', 'generation adidas', ''], ['18', 'new england revolution', 'michael videira', 'm', 'duke', 'cary railhawks u23'], ['19', 'fc dallas', 'eric avila', 'm', 'uc santa barbara', 'ventura county fusion'], ['20', 'columbus crew', 'george josten', 'm', 'gonzaga', 'michigan bucks'], ['21', 'los angeles galaxy', 'ely allen', 'f', 'washington', ''], ['22', 'columbus crew', 'ricardo pierre - louis', 'f', 'lee university', 'cape cod crusaders'], ['23', 'kansas city wizards', 'yomby william', 'd', 'old dominion', 'hampton roads piranhas'], ['24', 'dc united', 'andrew jacobson', 'm', 'california', ''], ['25', 'kansas city wizards', 'jonathan leathers', 'd', 'furman', 'atlanta silverbacks u23'], ['26', 'chicago fire', 'peter lowry', 'm', 'santa clara', 'san jose frogs'], ['27', 'new england revolution', 'joe germanese', 'm', 'duke', 'cary railhawks u23'], ['28', 'toronto fc', 'brian edwards', 'gk', 'wake forest', '']]"," ['position', 'affiliation']"
+1-25277363-2.html.csv,full house (season 7),"|   no_in_series |   no_in_season | title                             | directed_by   | written_by                                        | original_air_date   |
+|---------------:|---------------:|:----------------------------------|:--------------|:--------------------------------------------------|:--------------------|
+|            145 |              1 | it was a dark and stormy night    | john tracy    | marc warren & dennis rinsler                      | september 14 , 1993 |
+|            146 |              2 | the apartment                     | john tracy    | tom burkhard                                      | september 21 , 1993 |
+|            147 |              3 | wrong - way tanner                | john tracy    | jamie tatham & chuck tatham                       | september 28 , 1993 |
+|            148 |              4 | tough love                        | joel zwick    | ellen guylas                                      | october 5 , 1993    |
+|            149 |              5 | fast friends                      | john tracy    | bob sand                                          | october 12 , 1993   |
+|            150 |              6 | smash club : the next generation  | john tracy    | carolyn omine                                     | october 19 , 1993   |
+|            151 |              7 | high anxiety                      | john tracy    | tom amundsen                                      | october 26 , 1993   |
+|            152 |              8 | another opening , another no show | joel zwick    | story by : elias davis teleplay by : tom burkhard | november 2 , 1993   |
+|            153 |              9 | the day of the rhino              | james o'keefe | adam i lapidus                                    | november 9 , 1993   |
+|            154 |             10 | the prying game                   | john tracy    | ellen guylas                                      | november 16 , 1993  |
+|            155 |             11 | the bicycle thief                 | john tracy    | chuck tatham & jamie tatham                       | november 23 , 1993  |
+|            156 |             12 | support your local parents        | james o'keefe | bob sand                                          | november 30 , 1993  |
+|            157 |             13 | the perfect couple                | john tracy    | marc warren & dennis rinsler                      | december 14 , 1993  |
+|            158 |             14 | is it true about stephanie        | joel zwick    | carolyn omine                                     | january 4 , 1994    |
+|            159 |             15 | the test                          | john tracy    | dan chasin & linda lane                           | january 11 , 1994   |
+|            160 |             16 | joey 's funny valentine           | john tracy    | adam i lapidus                                    | january 25 , 1994   |
+|            161 |             17 | the last dance                    | john tracy    | tom amundsen                                      | february 8 , 1994   |
+|            162 |             18 | kissing cousins                   | john tracy    | tom burkhard                                      | february 15 , 1994  |
+|            163 |             19 | love on the rocks                 | tom rickard   | ellen guylas                                      | march 1 , 1994      |","|   no_in_series |   no_in_season | title                             | directed_by   | written_by                                        | original_air_date   |
+|---------------:|---------------:|:----------------------------------|:--------------|:--------------------------------------------------|:--------------------|
+|            145 |              1 | it was a dark and stormy night    | john tracy    | marc warren & dennis rinsler                      | 1993-09-14          |
+|            146 |              2 | the apartment                     | john tracy    | tom burkhard                                      | 1993-09-21          |
+|            147 |              3 | wrong - way tanner                | john tracy    | jamie tatham & chuck tatham                       | 1993-09-28          |
+|            148 |              4 | tough love                        | joel zwick    | ellen guylas                                      | 1993-10-05          |
+|            149 |              5 | fast friends                      | john tracy    | bob sand                                          | 1993-10-12          |
+|            150 |              6 | smash club : the next generation  | john tracy    | carolyn omine                                     | 1993-10-19          |
+|            151 |              7 | high anxiety                      | john tracy    | tom amundsen                                      | 1993-10-26          |
+|            152 |              8 | another opening , another no show | joel zwick    | story by : elias davis teleplay by : tom burkhard | 1993-11-02          |
+|            153 |              9 | the day of the rhino              | james o'keefe | adam i lapidus                                    | 1993-11-09          |
+|            154 |             10 | the prying game                   | john tracy    | ellen guylas                                      | 1993-11-16          |
+|            155 |             11 | the bicycle thief                 | john tracy    | chuck tatham & jamie tatham                       | 1993-11-23          |
+|            156 |             12 | support your local parents        | james o'keefe | bob sand                                          | 1993-11-30          |
+|            157 |             13 | the perfect couple                | john tracy    | marc warren & dennis rinsler                      | 1993-12-14          |
+|            158 |             14 | is it true about stephanie        | joel zwick    | carolyn omine                                     | 1994-01-04          |
+|            159 |             15 | the test                          | john tracy    | dan chasin & linda lane                           | 1994-01-11          |
+|            160 |             16 | joey 's funny valentine           | john tracy    | adam i lapidus                                    | 1994-01-25          |
+|            161 |             17 | the last dance                    | john tracy    | tom amundsen                                      | 1994-02-08          |
+|            162 |             18 | kissing cousins                   | john tracy    | tom burkhard                                      | 1994-02-15          |
+|            163 |             19 | love on the rocks                 | tom rickard   | ellen guylas                                      | 1994-03-01          |","[['no_in_series', 'no_in_season', 'title', 'directed_by', 'written_by', 'original_air_date'], ['145', '1', 'it was a dark and stormy night', 'john tracy', 'marc warren & dennis rinsler', '1993-09-14'], ['146', '2', 'the apartment', 'john tracy', 'tom burkhard', '1993-09-21'], ['147', '3', 'wrong - way tanner', 'john tracy', 'jamie tatham & chuck tatham', '1993-09-28'], ['148', '4', 'tough love', 'joel zwick', 'ellen guylas', '1993-10-05'], ['149', '5', 'fast friends', 'john tracy', 'bob sand', '1993-10-12'], ['150', '6', 'smash club : the next generation', 'john tracy', 'carolyn omine', '1993-10-19'], ['151', '7', 'high anxiety', 'john tracy', 'tom amundsen', '1993-10-26'], ['152', '8', 'another opening , another no show', 'joel zwick', 'story by : elias davis teleplay by : tom burkhard', '1993-11-02'], ['153', '9', 'the day of the rhino', ""james o'keefe"", 'adam i lapidus', '1993-11-09'], ['154', '10', 'the prying game', 'john tracy', 'ellen guylas', '1993-11-16'], ['155', '11', 'the bicycle thief', 'john tracy', 'chuck tatham & jamie tatham', '1993-11-23'], ['156', '12', 'support your local parents', ""james o'keefe"", 'bob sand', '1993-11-30'], ['157', '13', 'the perfect couple', 'john tracy', 'marc warren & dennis rinsler', '1993-12-14'], ['158', '14', 'is it true about stephanie', 'joel zwick', 'carolyn omine', '1994-01-04'], ['159', '15', 'the test', 'john tracy', 'dan chasin & linda lane', '1994-01-11'], ['160', '16', ""joey 's funny valentine"", 'john tracy', 'adam i lapidus', '1994-01-25'], ['161', '17', 'the last dance', 'john tracy', 'tom amundsen', '1994-02-08'], ['162', '18', 'kissing cousins', 'john tracy', 'tom burkhard', '1994-02-15'], ['163', '19', 'love on the rocks', 'tom rickard', 'ellen guylas', '1994-03-01']]", ['original_air_date']
