@@ -15,6 +15,9 @@ reasoning performance of LLMs by normalizing web tables. We study table normaliz
 
 Install requirements 
 
+Update API Key in utils/llm_agent.py 
+
+
 > for wikitq: run_normtab_wtq.py
 
 > for tf: run_normtab_tf.py
