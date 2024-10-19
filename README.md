@@ -13,7 +13,15 @@ reasoning performance of LLMs by normalizing web tables. We study table normaliz
 
 ## Code 
 
-Coming soon.
+Install requirements 
+
+> for wikitq: run_normtab_wtq.py
+
+> for tf: run_normtab_tf.py
+
+> for eval wikitq: normtab_wtq_eval.py
+
+> for eval tf: normtab_tf_eval.py
 
 ## Citation
 
