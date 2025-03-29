@@ -1,5 +1,5 @@
 # NormTab: Improving Symbolic Reasoning in LLMs Through Tabular Data Normalization [EMNLP 2024]
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/normtab-improving-symbolic-reasoning-in-llms/table-based-fact-verification-on-tabfact)](https://paperswithcode.com/sota/table-based-fact-verification-on-tabfact?p=normtab-improving-symbolic-reasoning-in-llms)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/normtab-improving-symbolic-reasoning-in-llms/semantic-parsing-on-wikitablequestions)](https://paperswithcode.com/sota/semantic-parsing-on-wikitablequestions?p=normtab-improving-symbolic-reasoning-in-llms)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/normtab-improving-symbolic-reasoning-in-llms/table-based-fact-verification-on-tabfact)](https://paperswithcode.com/sota/table-based-fact-verification-on-tabfact?p=normtab-improving-symbolic-reasoning-in-llms) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/normtab-improving-symbolic-reasoning-in-llms/semantic-parsing-on-wikitablequestions)](https://paperswithcode.com/sota/semantic-parsing-on-wikitablequestions?p=normtab-improving-symbolic-reasoning-in-llms)
 ## Method Overview 
 
 <image src="/NormTab.jpg"/>
